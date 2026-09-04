@@ -1,0 +1,124 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//unl-events-demo//fetch_events.py//EN
+X-WR-CALNAME:UNL Campus Events — English
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:engage-12664416@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260909T230000Z
+DTEND:20260910T000000Z
+SUMMARY:General Creative Writing Club Meeting
+LOCATION:Bailey Library\, 2nd floor of Andrews Hall
+DESCRIPTION:We meet every Wednesday from 6 -7 PM in the Bailey Library on 
+ the second floor of Andrews Hall to socialize and write together! We'd lo
+ ve for you to join us!
+URL:https://unl.campuslabs.com/engage/event/12664416
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-200962@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260920T190000Z
+DTEND:20260920T210000Z
+SUMMARY:Family Day at Sheldon Museum of Art
+LOCATION:Sheldon Museum of Art Room
+DESCRIPTION:Bring the whole family to Sheldon for a day of art\, words\, a
+ nd creativity with former State Poet of Nebraska Matt Mason. Inspired by 
+ Grace Hartigan: The Gift of Attention\, Mason will lead interactive poetr
+ y activities that transform looking into writing. Discover how visual art
+  can spark imagination and…
+URL:http://events.unl.edu/2026/09/20/200962/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201759@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260922T220000Z
+DTEND:20260922T220000Z
+SUMMARY:Poetry reading by Jan Beatty
+LOCATION:Andrews Hall Room Bailey Library\, Andrews 228
+DESCRIPTION:Jan Beatty's most recent book\, DRAGSTRIPPING\, takes us to th
+ e literal dragstrip\, the strip club\, and the dragstrip of the body wher
+ e the ecstatic is rescripted\, where women disappear/reappear in the cros
+ scut of gender. This transgression into and out of form leads to a tighte
+ r\, more leaping poem that delivers the…
+URL:http://events.unl.edu/2026/09/22/201759/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201230@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260922T223000Z
+DTEND:20260922T234500Z
+SUMMARY:Nakba Newspaper Circle
+LOCATION:Memorial Plaza Room
+DESCRIPTION:At the plaza near the fountain\, we are forming a reading circ
+ le to read literature on the Nakba and other related topics. We will refl
+ ect and discuss the literature read\, hoping to enjoy the warm fall weath
+ er!
+URL:http://events.unl.edu/2026/09/22/201230/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201157@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260927T193000Z
+DTEND:20260927T210000Z
+SUMMARY:Curated Chapters Book Club at Sheldon Museum of Art
+LOCATION:Sheldon Museum of Art Room
+DESCRIPTION:Join Sheldon Museum of Art for an engaging discussion that bri
+ ngs literature and visual art together. Curated Chapters invites readers 
+ and art lovers to explore how literature can create connections with work
+ s of art. This program begins with a 60-minute discussion in Sheldon's bo
+ ardroom where readers will reflect on…
+URL:http://events.unl.edu/2026/09/27/201157/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-199876@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20261001T223000Z
+DTEND:20261001T223000Z
+SUMMARY:Kazim Ali
+LOCATION:Sheldon Museum of Art Room Auditorium
+DESCRIPTION:Kazim Ali reads from THE MAN IN 119\, his new collection of po
+ etry. The book explores loss and absence alongside the human body and the
+  natural world. Here\, the tongue becomes a collaboration between human a
+ nd glacial current-the self\, a "tectonic topography of god." Grappling w
+ ith questions of mortality in the wake of…
+URL:http://events.unl.edu/2026/10/01/199876/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201242@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20261001T223000Z
+DTEND:20261002T000000Z
+SUMMARY:Kazim Ali Poetry Reading
+LOCATION:Sheldon Museum of Art Room
+DESCRIPTION:Kazim Ali reads from "The Man in 119\," his new collection of 
+ poetry. Grappling with questions of mortality in the wake of his mother's
+  passing\, Ali asks where we go when we leave this world: "earth or sky o
+ r memory only." With musicality\, these poems build a space for contempla
+ tion\, offering vignettes of various…
+URL:http://events.unl.edu/2026/10/01/201242/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201725@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20261025T193000Z
+DTEND:20261025T210000Z
+SUMMARY:Curated Chapters Book Club
+LOCATION:Sheldon Museum of Art Room
+DESCRIPTION:Join Sheldon Museum of Art for an engaging discussion that bri
+ ngs literature and visual art together. Curated Chapters invites readers 
+ and art lovers to explore how literature can create connections with work
+ s of art. This program begins with a 60-minute discussion in Sheldon's bo
+ ardroom where readers will reflect on…
+URL:http://events.unl.edu/2026/10/25/201725/
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,878 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//unl-events-demo//fetch_events.py//EN
+X-WR-CALNAME:UNL Campus Events — Biological Sciences / Pre-Health
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:unl-195882-975812@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260904T170000Z
+DTEND:20260904T180000Z
+SUMMARY:Natural Chicken Compost for Sale (by appointment only)
+DESCRIPTION:The poultry group in the Department of Animal Science has natu
+ ral chicken compost for sale. Sold in 15 lb. bags for $5/bag. Payments mu
+ st be via check or cash (must be exact change).\n \nPick up on Fridays by
+  appointment only. Please contact Megan Carman (mcarman3@unl.edu)\, Poult
+ ry Research Technician\, to place an order…
+URL:http://events.unl.edu/2026/09/04/195882/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201763@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260908T151500Z
+DTEND:20260908T161500Z
+SUMMARY:Leadership Presentation
+LOCATION:Nebraska Union Room Chimney Rock Room
+DESCRIPTION:Alex Mason\, professor\, CYFS and UNL's Department of Child\, 
+ Youth and Family Studies\, will give a leadership presentation.\n\nThe ev
+ ent is free and open to the public.\n\nIn the presentation\, titled "Adap
+ t-Advance-Advocate: A Vision for the Future of CYFS\," Mason will discuss
+  his leadership experience as a research center…
+URL:http://events.unl.edu/2026/09/08/201763/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201144@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260908T210000Z
+DTEND:20260908T220000Z
+SUMMARY:Department of Biochemistry and Redox Biology Center Seminar Series
+LOCATION:Beadle Center Room E103
+DESCRIPTION:Dr. Xingshui Sun : The long-term goal of my laboratory is to d
+ efine how vascular endothelial dysfunction drives cardiometabolic conditi
+ ons\, translating these insights into actionable therapies. We utilize cu
+ tting-edge techniques\, murine disease models\, and advanced bioinformati
+ cs to map signaling and regulatory…
+URL:http://events.unl.edu/2026/09/08/201144/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:engage-12581289@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260908T220000Z
+DTEND:20260909T010000Z
+SUMMARY:Sigma Carnival
+LOCATION:Sigma Chi Fraternity House
+DESCRIPTION:Sigma Carnival is a philanthropy fundraising event organized b
+ y our organization to raise money for the Huntsman Cancer Institute and s
+ upport its mission of advancing cancer research\, patient care\, and canc
+ er-related programs. The event will feature a variety of fun and interact
+ ive activities as well as treats\,…
+URL:https://unl.campuslabs.com/engage/event/12581289
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201282@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260909T140000Z
+DTEND:20260909T150000Z
+SUMMARY:R&I Internal Funding Opportunities Office Hour
+LOCATION:Prem S. Paul Research Center at Whittier School Room 152
+DESCRIPTION:Join the Office of Research and Innovation for virtual office 
+ hours covering internal funding opportunities available through R&I. This
+  session will include a brief overview of internal funding programs and a
+ mple time for open discussion and questions. \n\nSeptember 9\, 2026\, 9-1
+ 0 am\, WHIT 152. Register here:…
+URL:http://events.unl.edu/2026/09/09/201282/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201712@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260909T180000Z
+DTEND:20260909T190000Z
+SUMMARY:Research Presentation
+LOCATION:Nebraska Union Room Chimney Rock Room
+DESCRIPTION:Alex Mason\, professor of child\, youth and family studies and
+  CYFS\, will give a research presentation.\n\nIn his presentation\, title
+ d "New Directions in the Science and Practice of Adolescent Behavioral He
+ alth\," Mason will review his background and describe his funded research
+  agenda\, addressing both the developmental…
+URL:http://events.unl.edu/2026/09/09/201712/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-202342@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260909T193000Z
+DTEND:20260909T210000Z
+SUMMARY:Navigating the Current Federal Funding Landscape Information Sessi
+ on
+LOCATION:Zoom (https://uidaho.zoom.us/meeting/register/HFMdw8qAT-6Cx_Nmol1
+ jrg)
+DESCRIPTION:The Office of Research and Innovation (R&I) is offering a virt
+ ual information session focused on navigating the current federal funding
+  landscape on Wed.\, Sept. 9\, 2026\, 2:30-4 p.m. Registration is require
+ d to receive the Zoom link: https://uidaho.zoom.us/meeting/register/HFMdw
+ 8qAT-6Cx_Nmol1jrg.\n\nHosted by the…
+URL:http://events.unl.edu/2026/09/09/202342/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-202154@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260909T210000Z
+DTEND:20260909T210000Z
+SUMMARY:2026 Nebraska Sorghum Field Day
+LOCATION:Indianola\, Nebraska Room
+DESCRIPTION:Join Nebraska Sorghum for the 2026 Nebraska Sorghum Field Day\
+ , hosted by Tracy Zink in partnership with Nebraska Extension.\n\nSpend t
+ he day in the field exploring the latest sorghum research\, comparing var
+ iety performance\, and hearing from specialists and industry experts abou
+ t the management practices shaping today's…
+URL:http://events.unl.edu/2026/09/09/202154/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-200090@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260909T210000Z
+DTEND:20260909T220000Z
+SUMMARY:Fall 2026 Pre-Health Orientation
+LOCATION:Nebraska Union Regency Suite Room
+DESCRIPTION:Geared toward new UNL pre-health students\, this session will 
+ provide an overview of what it means to be a pre-health student and discu
+ ss questions like: How do I find out what courses I need to take for my p
+ re-health area and how do I plan when to take them? How do I explore diff
+ erent areas of pre-health? How can my…
+URL:http://events.unl.edu/2026/09/09/200090/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201642@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260909T210000Z
+DTEND:20260909T220000Z
+SUMMARY:Pre-Health Orientation 2
+LOCATION:Nebraska Union Room Regency Suite
+DESCRIPTION:Are you interested in a career in healthcare? Whether you're c
+ onsidering medicine\, dentistry\, physical therapy\, or another health pr
+ ofession - we're excited to help you get started!\n\nJoin us for Pre-Heal
+ th Orientation and learn what it means to be a pre-health student at UNL.
+  We will offer two dates\, and you can…
+URL:http://events.unl.edu/2026/09/09/201642/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:engage-12489580@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260909T210000Z
+DTEND:20260909T220000Z
+SUMMARY:Pre-Health Orientation #2
+LOCATION:Union Regency Suite
+DESCRIPTION:Geared toward new UNL pre-health students\, this session will 
+ provide an overview of what it means to be a pre-health student and discu
+ ss questions like: How do I find out what courses I need to take for my p
+ re-health area and how do I plan when to take them? How do I explore diff
+ erent areas of pre-health? How can my…
+URL:https://unl.campuslabs.com/engage/event/12489580
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-196085@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260910T173000Z
+DTEND:20260910T183000Z
+SUMMARY:Career Fair Prep for International Students
+LOCATION:Louise Pound Hall Room 105
+DESCRIPTION:Navigating a U.S. career fair can feel exciting and a little o
+ verwhelming - especially if it's your first one. Don't worry - we've got 
+ you covered!\n\nJoin us for an interactive workshop designed just for int
+ ernational students. You'll learn how to:\n\n- Research companies and tai
+ lor your resume\n- Introduce yourself with…
+URL:http://events.unl.edu/2026/09/10/196085/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-200091@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260910T210000Z
+DTEND:20260910T220000Z
+SUMMARY:Pre-Law Orientation
+LOCATION:Love Library South Room Room 221
+DESCRIPTION:This workshop is designed for any student considering applying
+  to law school in the future. Freshmen through senior will learn what it 
+ means to be a pre-law student\, how to best plan your undergraduate educa
+ tion for law school success\, and what makes a competitive applicant. We 
+ will discuss specific timelines…
+URL:http://events.unl.edu/2026/09/10/200091/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-202335-980678@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260911T153000Z
+DTEND:20260911T173000Z
+SUMMARY:Pre-Health Drop-In Advising
+LOCATION:Louise Pound Hall Room Atrium - First Floor
+DESCRIPTION:Are you a pre-health student looking to go abroad? This is mea
+ nt for you. Meet with Rebecca and discuss program options and first steps
+ . Each Friday in LPH 130.
+URL:http://events.unl.edu/2026/09/11/202335/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-197504-975308@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260914T130000Z
+DTEND:20260914T220000Z
+SUMMARY:Research Integrity Week
+DESCRIPTION:Integrity in all we do. Research Integrity week focuses on bui
+ lding awareness and enhancing knowledge about integrity and responsibilit
+ y in our research efforts. The week will highlight key resources on the U
+ NL campus and ways to access them to get questions answered around compli
+ ance\, protocols and security. The week…
+URL:http://events.unl.edu/2026/09/14/197504/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201375@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260914T210000Z
+DTEND:20260914T210000Z
+SUMMARY:SVMBS Seminar: Kush K. Pandey
+LOCATION:Veterinary Medicine and Biomedical Sciences Hall Room 145
+DESCRIPTION:Kush K. Pandey\, graduate student in the School of Veterinary 
+ Medicine and Biomedical Sciences (SVMBS)\, will present as part of the se
+ minar series hosted by SVMBS.\n\nThe presentation is free and open to the
+  public.
+URL:http://events.unl.edu/2026/09/14/201375/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-200583@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260915T170000Z
+DTEND:20260915T210000Z
+SUMMARY:Global Experiences Fair
+LOCATION:Nebraska Union Room
+DESCRIPTION:Enhance your experience at Nebraska by participating in an int
+ ernational study\, internship\, research\, or service learning program! W
+ ith many unique programs in over 70 countries\, you can find the perfect 
+ fit for your academic\, personal\, and professional goals\, as well as yo
+ ur budget.
+URL:http://events.unl.edu/2026/09/15/200583/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-200100@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260915T200000Z
+DTEND:20260915T210000Z
+SUMMARY:Chancellor's University Safety Committee (CUSC)
+LOCATION:Warehouse 1 Room 134 EHS Training Room
+DESCRIPTION:The Chancellor's University Safety Committee (CUSC) meets ever
+ y two months to review potential safety and health concerns as well as pr
+ ogress toward the CUSC annual goal and offers an Open Forum on Campus Saf
+ ety twice a year to which the campus community is invited. This is an opp
+ ortunity for faculty\, staff or…
+URL:http://events.unl.edu/2026/09/15/200100/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201283@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260915T200000Z
+DTEND:20260915T210000Z
+SUMMARY:R&I Internal Funding Opportunities Office Hour
+LOCATION:Zoom (https://research.unl.edu/events/event_nuramp.php?EMSEventUU
+ ID=dbfec49a-e23f-4480-b61c-5d498afcd867)
+DESCRIPTION:Join the Office of Research and Innovation for virtual office 
+ hours covering internal funding opportunities available through R&I. This
+  session will include a brief overview of internal funding programs and a
+ mple time for open discussion and questions. \n\nSeptember 15\, 2026\, 3-
+ 4 pm\, Virtual\, Register here:…
+URL:http://events.unl.edu/2026/09/15/201283/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-202544@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260915T200000Z
+DTEND:20260915T210000Z
+SUMMARY:RCIS Office Hours
+LOCATION:Zoom (https://unl.zoom.us/j/95868472930)
+DESCRIPTION:Those with questions about research compliance requirements ar
+ e invited to take advantage of office hours hosted by the Research Compli
+ ance\, Integrity and Security (RCIS) team. During office hours\, the Husk
+ er research community can connect directly with compliance professionals 
+ to address research-related questions.…
+URL:http://events.unl.edu/2026/09/15/202544/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-200673@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260916T170000Z
+DTEND:20260916T180000Z
+SUMMARY:UNL Libraries' Research Data Services
+LOCATION:Online workshop (https://unl.libcal.com/calendar/workshops/resear
+ ch-data-services)
+DESCRIPTION:We will introduce you to the Libraries' range of services\, in
+ cluding review of data management plans\, consultation with research prog
+ rams about best practices\, online instruction of grad students in best p
+ ractices\, and curation and publication of data sets via UNL's data repos
+ itory\, SANDY. A Zoom link will be sent to…
+URL:http://events.unl.edu/2026/09/16/200673/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201447@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260916T190000Z
+DTEND:20260916T200000Z
+SUMMARY:Nebraska Extension Regional Food System Initiative Speaker Series
+LOCATION:Zoom (https://unl.zoom.us/j/92673575909)
+DESCRIPTION:Nebraska Extension's Regional Food System Initiative (NERFSI) 
+ invites you to the 2026-2027 Food System Speaker Series! Please join us o
+ n the third Wednesday\, September - May\, from 2-3pm CST to learn about e
+ xciting research and education happening at the University of Nebraska an
+ d partner organizations making an impact…
+URL:http://events.unl.edu/2026/09/16/201447/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:engage-12568116@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260916T210000Z
+DTEND:20260916T220000Z
+SUMMARY:Demystifying the LSAT: Blueprinting Your Way to a Top Score
+LOCATION:Love Library South 221
+DESCRIPTION:Thinking about law school but not sure where to begin with the
+  LSAT? Whether you're planning to take the LSAT in the next year or simpl
+ y want to understand what lies ahead\, this workshop will help you build 
+ a solid foundation and create a plan for success. Whether you're just exp
+ loring law school or actively planning…
+URL:https://unl.campuslabs.com/engage/event/12568116
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201284@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260917T203000Z
+DTEND:20260917T213000Z
+SUMMARY:R&I Internal Funding Opportunities Office Hour
+LOCATION:Prem S. Paul Research Center at Whittier School Room 152
+DESCRIPTION:Join the Office of Research and Innovation for virtual office 
+ hours covering internal funding opportunities available through R&I. This
+  session will include a brief overview of internal funding programs and a
+ mple time for open discussion and questions. \n\nSeptember 17\, 2026\, 3:
+ 30-4:30 pm\, WHIT 152. Register here:…
+URL:http://events.unl.edu/2026/09/17/201284/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201514@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260917T223000Z
+DTEND:20260917T223000Z
+SUMMARY:Hixson-Lied Visiting Artist Lecture: Zanna Gilbert
+LOCATION:Sheldon Museum of Art Room Ethel S. Abbott Auditorium
+DESCRIPTION:Researcher Zanna Gilbert presents the Hixson-Lied Visiting Sch
+ olar Lecture on Thursday\, Sept. 17 at 5:30 p.m. in Sheldon Museum of Art
+ 's Ethel S. Abbott Auditorium. The lecture is free and open to the public
+ . \n\nGilbert is the senior research specialist at the Getty Research Ins
+ titute in Los Angeles. At the Getty\, she…
+URL:http://events.unl.edu/2026/09/17/201514/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-200849@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260917T223000Z
+DTEND:20260918T000000Z
+SUMMARY:Zanna Gilbert Lecture
+LOCATION:Sheldon Museum of Art Room
+DESCRIPTION:Zanna Gilbert\, senior research specialist at the Getty Resear
+ ch Institute in Los Angeles\, presents on her exhibition "How to Be a Gue
+ rrilla Girl" and explores how archival and curatorial research illuminate
+ s the histories of feminist\, conceptual and activist art practices. \n\n
+ About Dr. Zanna Gilbert \nDr. Zanna…
+URL:http://events.unl.edu/2026/09/17/200849/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201713@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260922T140000Z
+DTEND:20260922T150000Z
+SUMMARY:Research Presentation
+LOCATION:Nebraska Union Room Chimney Rock Room
+DESCRIPTION:Lisa Knoche\, director of the Nebraska Academy for Early Child
+ hood Research\, will conduct a research presentation.\n\nMore details com
+ ing soon.\n\nThe presentation is free and open to the public.\n\nLearn mo
+ re:
+URL:http://events.unl.edu/2026/09/22/201713/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201459@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260922T173000Z
+DTEND:20260922T183000Z
+SUMMARY:State of the Agency
+LOCATION:Nebraska Union Room Swanson Auditorium
+DESCRIPTION:Rob Jeffreys is a nationally recognized expert in criminal jus
+ tice\, renowned for leading transformative reforms that enhance prison sa
+ fety and improve reentry outcomes. He is a staunch advocate for using res
+ earch and data to inform decision-making\, increase efficiency\, and driv
+ e measurable improvements in correctional…
+URL:http://events.unl.edu/2026/09/22/201459/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201764@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260922T190000Z
+DTEND:20260922T200000Z
+SUMMARY:Leadership Presentation
+LOCATION:Nebraska Union Room Chimney Rock Room
+DESCRIPTION:Lisa Knoche\, director of the Nebraska Academy for Early Child
+ hood Research\, will conduct a leadership presentation.\n\nMore details c
+ oming soon.\n\nThe presentation is free and open to the public.\n\nLearn 
+ more:
+URL:http://events.unl.edu/2026/09/22/201764/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201643@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260922T210000Z
+DTEND:20260922T220000Z
+SUMMARY:The MCAT Demystified: From 'Where Do I Start?' to Test Day
+LOCATION:Love Library South Room 221
+DESCRIPTION:Thinking about taking the MCAT but not sure where to begin?\n\
+ nWhether you're planning to apply to medical school in the next year or a
+ re just starting to explore your timeline\, this workshop will help you u
+ nderstand what the MCAT is\, how to prepare effectively\, and what steps 
+ you can take now to set yourself up for…
+URL:http://events.unl.edu/2026/09/22/201643/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:engage-12567911@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260922T210000Z
+DTEND:20260922T220000Z
+SUMMARY:The MCAT Demystified: From "Where Do I Start?" to Test Day
+LOCATION:Love Library South 221
+DESCRIPTION:hinking about taking the MCAT but not sure where to begin? Whe
+ ther you're planning to apply to medical school in the next year or are j
+ ust starting to explore your timeline\, this workshop will help you under
+ stand what the MCAT is\, how to prepare effectively\, and what steps you 
+ can take now to set yourself up for…
+URL:https://unl.campuslabs.com/engage/event/12567911
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-202036@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260924T160000Z
+DTEND:20260924T160000Z
+SUMMARY:Agronomy and Horticulture Special Seminar
+LOCATION:Keim Hall Room 150
+DESCRIPTION:In Recognition of the Ray and Jolene Ward Professorship of Soi
+ l Health Science\n\nAchieving sustainable agricultural systems requires s
+ tronger integration among scientific knowledge\, industry and stakeholder
+  engagement\, and societal priorities. This presentation will provide a s
+ ystems-based framework that links…
+URL:http://events.unl.edu/2026/09/24/202036/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201107@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260926T150000Z
+DTEND:20260926T170000Z
+SUMMARY:Homecoming 5K Fun Run
+LOCATION:Nebraska Union Room Plaza
+DESCRIPTION:Celebrate homecoming week with this FREE untimed 5k event. Whe
+ ther you choose to run\, jog\, or walk participants of all fitness and ex
+ perience levels are welcome. This event is designed to promote health\, c
+ ommunity\, and an enjoyable outdoor experience.\n\nRegister online starti
+ ng August 17th\, 2026.
+URL:http://events.unl.edu/2026/09/26/201107/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-202410@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260928T180000Z
+DTEND:20260928T210000Z
+SUMMARY:Husker Pantry Drive
+LOCATION:University Health Center Room Big Red Resilience and Well Being O
+ ffice - 127
+DESCRIPTION:Show your Husker pride this Homecoming by supporting the Huske
+ r Pantry! Food and other essential items can be taken to the University H
+ ealth Center north entrance near the Husker Pantry. Those who prefer a co
+ ntactless donation may purchase items via the pantry's Amazon wishlist an
+ d have them delivered directly to the…
+URL:http://events.unl.edu/2026/09/28/202410/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-202108@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260928T210000Z
+DTEND:20260928T210000Z
+SUMMARY:SVMBS Seminar: Aiden E. Quinn
+LOCATION:Veterinary Medicine and Biomedical Sciences Hall Room 145
+DESCRIPTION:Aiden E. Quinn\, senior evaluation project manager at the Meth
+ odology and Evaluation Research Core Facility\, will present a seminar ti
+ tled "Introduction to the Methodology and Evaluation Research Core Facili
+ ty." The seminar is part of a series hosted by the School of Veterinary M
+ edicine and Biomedical Sciences…
+URL:http://events.unl.edu/2026/09/28/202108/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201657@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260929T210000Z
+DTEND:20260929T220000Z
+SUMMARY:Constructing Your Case: How to Build a Standout Pre-Law Profile
+LOCATION:Love Library South Room 221
+DESCRIPTION:A strong law school application is built long before you submi
+ t your materials-it's developed through intentional choices\, meaningful 
+ experiences\, and a clear understanding of what law schools are looking f
+ or.\n\nJoin the Explore Center for an engaging workshop designed to help 
+ you begin building a competitive and…
+URL:http://events.unl.edu/2026/09/29/201657/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201489@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260930T190000Z
+DTEND:20260930T195000Z
+SUMMARY:SUP Yoga
+LOCATION:Recreation and Wellness Center Room Pool
+DESCRIPTION:Celebrate National Women's Health & Fitness Day by attending S
+ tand Up Paddleboard Yoga. Take your practice of Yoga to a new level: on t
+ he water in the CREC Pool! This class uses paddleboards to create a new t
+ wist to Yoga poses. Improve your strength\, flexibility\, and balance in 
+ this SUP Yoga class.
+URL:http://events.unl.edu/2026/09/30/201489/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201689@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260930T203000Z
+DTEND:20260930T213000Z
+SUMMARY:School of Natural Resources Seminar: Sara Baer
+LOCATION:Hardin Hall Room 107 South (Platte River Auditorium)\, and online
+  at View SNR Seminars in Zoom (https://go.unl.edu/viewsnrseminars)
+DESCRIPTION:Dr. Baer primary research interest is the application of ecolo
+ gical theory to restoring ecosystems\, particularly grassland. The Baer L
+ ab studies above- and below-ground changes in structure and function duri
+ ng ecological restoration in response to environmental heterogeneity\, in
+ terannual variability in climate\, and…
+URL:http://events.unl.edu/2026/09/30/201689/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201644@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20261001T210000Z
+DTEND:20261001T220000Z
+SUMMARY:So ... How Do I Start Shadowing?
+LOCATION:Love Library South Room 221
+DESCRIPTION:If you're new to pre-health\, you've probably heard that shado
+ wing\, volunteering\, and clinical experience are important-but figuring 
+ out how to get started can feel overwhelming. \n\nDesigned especially for
+  first- and second-year students (or anyone new to pre-health)\, this ses
+ sion will help you understand the different…
+URL:http://events.unl.edu/2026/10/01/201644/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:engage-12567940@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20261001T210000Z
+DTEND:20261001T220000Z
+SUMMARY:So...How Do I Start Shadowing? Starting Strong with Shadowing\, Vo
+ lunteering\, and Clinical Experience
+LOCATION:Love Library South 221
+DESCRIPTION:If you're new to pre-health\, you've probably heard that shado
+ wing\, volunteering\, and clinical experience are important—but figuring 
+ out how to get started can feel overwhelming. Designed especially for fir
+ st- and second-year students (or anyone new to pre-health)\, this session
+  will help you understand the different…
+URL:https://unl.campuslabs.com/engage/event/12567940
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-198176@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20261002T045500Z
+DTEND:20261002T045500Z
+SUMMARY:Peace Corps Prep Application Deadline
+DESCRIPTION:Integrating UNL coursework\, hands-on experience\, and profess
+ ional development\, Nebraska's Peace Corps Prep program prepares undergra
+ duates for volunteer service globally\, potentially with the Peace Corps\
+ , by building the following four core competencies:\n1) Sector-specific s
+ kills (in Education\, Health\, Environment\,…
+URL:http://events.unl.edu/2026/10/01/198176/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201645@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20261006T210000Z
+DTEND:20261006T220000Z
+SUMMARY:Designing Your DAT Plan: Scores\, Sections and Timelines
+LOCATION:Love Library South Room 221
+DESCRIPTION:Thinking about dental school and wondering when-or how-to star
+ t preparing for the DAT?\n\nWhether you're planning to take the DAT in th
+ e next year or two or simply want to understand how the exam fits into yo
+ ur dental school timeline\, this workshop will help you build a strategy 
+ for success. \n\nThis workshop is…
+URL:http://events.unl.edu/2026/10/06/201645/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-202343@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20261007T193000Z
+DTEND:20261007T203000Z
+SUMMARY:National Institutes of Health S10 Instrumentation Grant Program In
+ formation Session
+LOCATION:Zoom (https://uidaho.zoom.us/meeting/register/lWmVOZgGRRODbODLiLc
+ tOg)
+DESCRIPTION:The Office of Research and Innovation (R&I) is offering an inf
+ ormation session focused on the National Institutes of Health (NIH) S10 I
+ nstrumentation Grant Program: https://www.orip.nih.gov/division-construct
+ ion-instruments/s10-instrumentation-programs/pre-application/frequently-a
+ sked-questions. UNL faculty interested…
+URL:http://events.unl.edu/2026/10/07/202343/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201658@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20261013T210000Z
+DTEND:20261013T220000Z
+SUMMARY:From Nervous to Noticed: Ace Your Professional School Interviews
+LOCATION:Love Library South Room 221
+DESCRIPTION:This interactive workshop will help you prepare for profession
+ al school interviews by covering common interview formats\, strategies fo
+ r answering challenging questions\, tips for presenting yourself professi
+ onally\, and ways to stand out as a strong candidate. Whether you have an
+  interview scheduled or are expecting…
+URL:http://events.unl.edu/2026/10/13/201658/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-197928@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20261015T170000Z
+DTEND:20261015T183000Z
+SUMMARY:Health Equity Grand Rounds: Ciera Kirkpatrick
+LOCATION:Zoom (https://unl.zoom.us/webinar/register/WN_MefhgDCBSey4eFd_f4h
+ 6sg#/registration)
+DESCRIPTION:Join us for our October Grand Rounds to hear from Ciera Kirkpa
+ trick\, PhD\, about "Scrolling Through Motherhood: How Social Media Shape
+ s Maternal Mental Health." The event is FREE and open to the public. Regi
+ ster for the Zoom link: https://unl.zoom.us/webinar/register/WN_MefhgDCBS
+ ey4eFd_f4h6sg#/registration \n\nToday's…
+URL:http://events.unl.edu/2026/10/15/197928/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201646@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20261015T210000Z
+DTEND:20261015T220000Z
+SUMMARY:Primaries\, Secondaries and Success: Navigating the Application Ma
+ ze
+LOCATION:Love Library South Room 221
+DESCRIPTION:Have questions about how the health professions application pr
+ ocess actually works-from primary applications to secondaries and everyth
+ ing in between?\n\nWhether you are planning to apply soon or just beginni
+ ng to explore the process\, understanding the application timeline early 
+ can help you feel more confident and…
+URL:http://events.unl.edu/2026/10/15/201646/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-202491@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20261020T170000Z
+DTEND:20261020T220000Z
+SUMMARY:Applied Data Cleaning Workshop
+LOCATION:Prem S. Paul Research Center at Whittier School Room 152
+DESCRIPTION:Logistics: \n*	Date: October 20th\, 2026\n*	Time: Noon - 5:00p
+ m \n*	Location: 152 Prem S Paul Research Center at Whittier School (in-pe
+ rson only)\n*	Registration required - space limited \n*	Bring your own la
+ ptop (or check out one from HuskerTech)\n\nSummary: Do you have data that
+  is not ready for analysis? Are you unsure…
+URL:http://events.unl.edu/2026/10/20/202491/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-200684@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20261020T170000Z
+DTEND:20261020T180000Z
+SUMMARY:Understanding Federal Requirements for Open-Access Publishing and 
+ Research Data Sharing
+LOCATION:Online workshop (https://unl.libcal.com/calendar/workshops/open-p
+ ublishing-data-sharing-1)
+DESCRIPTION:We will review the most recent federal guidance to assist you 
+ in making choices that comply with the requirements of federal funders. A
+  Zoom link will be sent to registrants.
+URL:http://events.unl.edu/2026/10/20/200684/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-195612@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20261021T150000Z
+DTEND:20261021T160000Z
+SUMMARY:Staff Senate District 7: Research District-Wide Meeting
+LOCATION:Whittier Room
+DESCRIPTION:Staff members are invited to attend the upcoming District 7 St
+ aff Senate district-wide meeting!\n\nThis is a vital opportunity to conne
+ ct directly with your Staff Senators\, receive updates on current campus 
+ initiatives\, and contribute your voice to important discussions that aff
+ ect the UNL staff community.\n\nDistrict 7…
+URL:http://events.unl.edu/2026/10/21/195612/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-202334@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20261021T160000Z
+DTEND:20261021T170000Z
+SUMMARY:The Cost of Knowledge in the Classroom
+LOCATION:Virtual - Zoom (https://unl.libcal.com/calendar/workshops/oer)
+DESCRIPTION:Open Access Week invites us to consider The Cost of Knowledge-
+ not only the cost of accessing research\, but also the cost of learning. 
+ Join us for an interactive introduction to Open Educational Resources (OE
+ R). We'll explore what OER are\, how they can benefit students and instru
+ ctors\, and support available at UNL.…
+URL:http://events.unl.edu/2026/10/21/202334/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201244@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20261021T170000Z
+DTEND:20261021T181500Z
+SUMMARY:Living Up to Openness
+LOCATION:Love Library South Room 224 Witt Room
+DESCRIPTION:As researchers face growing pressure to demonstrate the impact
+  of their work amid the increasing metrification of research assessment\,
+  developing metrics literacy is essential not only as a form of self-prot
+ ection but also as a means of empower researchers to advocate for the res
+ ponsible use of metrics within and…
+URL:http://events.unl.edu/2026/10/21/201244/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201693@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20261021T203000Z
+DTEND:20261021T213000Z
+SUMMARY:School of Natural Resources Seminar: Jakub Holua
+LOCATION:Hardin Hall Room 107 South (Platte River Auditorium)\, and online
+  at View SNR Seminars in Zoom (https://go.unl.edu/viewsnrseminars)
+DESCRIPTION:More information to come\n\nJakub holds a PhD in Physical Geog
+ raphy from Masaryk University in Brno\, Czech Republic. His research prim
+ arily focuses on cold-climate aeolian dunes and their (palaeo-)environmen
+ tal reconstruction in both past (Czech Republic\, Slovakia) and present-d
+ ay (Iceland\, Antarctica) periglacial…
+URL:http://events.unl.edu/2026/10/21/201693/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-202340@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20261022T170000Z
+DTEND:20261022T180000Z
+SUMMARY:How to Publish Open Access for Little to No Cost
+LOCATION:Zoom -- please register (https://unl.libcal.com/event/17543355)
+DESCRIPTION:Increase the visibility and impact of your research without pa
+ ying high publication fees. \n\nOpen access publishing helps your scholar
+ ship reach readers around the world\, but article processing charges (APC
+ s) can be costly. The University Libraries can help you take advantage of
+  publisher agreements and other resources…
+URL:http://events.unl.edu/2026/10/22/202340/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201648@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20261022T210000Z
+DTEND:20261022T220000Z
+SUMMARY:The NursingCAS Playbook: Getting Started on Your UNMC Application
+LOCATION:Love Library South Room 221
+DESCRIPTION:Planning to apply to the UNMC College of Nursing this year?\n\
+ nJoin Leslie Gonzalez\, Student Success Coordinator at UNMC Nursing Linco
+ ln\, for a hands-on workshop designed to help you get started with the UN
+ MC nursing application process through NursingCAS. \n\nTo get the most ou
+ t of the session\, we strongly encourage you…
+URL:http://events.unl.edu/2026/10/22/201648/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201376@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20261026T210000Z
+DTEND:20261026T210000Z
+SUMMARY:SVMBS Seminar: Hung Luong
+LOCATION:Veterinary Medicine and Biomedical Sciences Hall Room 145
+DESCRIPTION:Hung Luong\, graduate student in the School of Veterinary Medi
+ cine and Biomedical Sciences will present as part of the school's seminar
+  series. \n\nThe seminar is free and open to the public.
+URL:http://events.unl.edu/2026/10/26/201376/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-202547-980857@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20261026T220000Z
+DTEND:20261026T220000Z
+SUMMARY:NUFlex Annual Enrollment
+LOCATION:Firefly (https://firefly.nebraska.edu/)
+DESCRIPTION:our benefits selection from the prior year will automatically 
+ roll over\, with the exception of flexible spending accounts. You only ne
+ ed to change what you want to be different\, or add new benefits. The hea
+ lth risk assessment and tobacco/nicotine designation need to be completed
+  on a yearly basis.\n\nWhen you add or…
+URL:http://events.unl.edu/2026/10/26/202547/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-202547-980863@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20261101T230000Z
+DTEND:20261101T230000Z
+SUMMARY:NUFlex Annual Enrollment
+LOCATION:Firefly (https://firefly.nebraska.edu/)
+DESCRIPTION:our benefits selection from the prior year will automatically 
+ roll over\, with the exception of flexible spending accounts. You only ne
+ ed to change what you want to be different\, or add new benefits. The hea
+ lth risk assessment and tobacco/nicotine designation need to be completed
+  on a yearly basis.\n\nWhen you add or…
+URL:http://events.unl.edu/2026/11/01/202547/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201377@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20261102T220000Z
+DTEND:20261102T220000Z
+SUMMARY:SVMBS Seminar: Lindsey Crawford
+LOCATION:Veterinary Medicine and Biomedical Sciences Hall Room 145
+DESCRIPTION:Lindsey Crawford\, assistant professor in biochemistry at the 
+ University of Nebraska-Lincoln\, will present as part of the School of Ve
+ terinary Medicine and Biomedical Sciences' seminar series.\n\nThe present
+ ation is free and open to the public.
+URL:http://events.unl.edu/2026/11/02/201377/
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

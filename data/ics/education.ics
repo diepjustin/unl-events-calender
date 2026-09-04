@@ -1,0 +1,168 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//unl-events-demo//fetch_events.py//EN
+X-WR-CALNAME:UNL Campus Events — Education and Human Sciences
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:engage-12432941@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260908T224500Z
+DTEND:20260909T003000Z
+SUMMARY:Shotokan Ohshima Karate-do & Self-Defense
+LOCATION:Nebraska Union
+DESCRIPTION:Please see our website and Google calendar for the most up-to-
+ date practice schedule: https://unl.ska.org/karate-class-schedule/ Shotok
+ an Ohshima is a very traditional style and differs from many martial arts
+  schools. Comprehensive\, challenging exercise is only one of the many be
+ nefits of karate practice. Teaching…
+URL:https://unl.campuslabs.com/engage/event/12432941
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-200091@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260910T210000Z
+DTEND:20260910T220000Z
+SUMMARY:Pre-Law Orientation
+LOCATION:Love Library South Room Room 221
+DESCRIPTION:This workshop is designed for any student considering applying
+  to law school in the future. Freshmen through senior will learn what it 
+ means to be a pre-law student\, how to best plan your undergraduate educa
+ tion for law school success\, and what makes a competitive applicant. We 
+ will discuss specific timelines…
+URL:http://events.unl.edu/2026/09/10/200091/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201543@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260915T173000Z
+DTEND:20260915T183000Z
+SUMMARY:Boosting Engagement in High-Enrollment Courses
+LOCATION:Century Club Fall 2026 (https://unl.zoom.us/j/99152759615)
+DESCRIPTION:Teaching high-enrollment (HE) courses offers opportunities for
+  rich learning experiences\, but it also presents challenges in fostering
+  meaningful student engagement. \n\nThe first Century Club session of the
+  Fall 2026 semester is designed for instructors seeking practical\, evide
+ nce-based strategies to increase…
+URL:http://events.unl.edu/2026/09/15/201543/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-200760@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260915T180000Z
+DTEND:20260915T200000Z
+SUMMARY:Education Career Fair
+LOCATION:Nebraska Union Room Centennial
+DESCRIPTION:Education Career Fair is a great chance to connect with school
+  districts and educational organizations looking for future teachers\, st
+ udent teachers\, interns and education professionals. Whether you have ju
+ st been admitted or are getting ready to start interviewing\, come explor
+ e opportunities in pre-K\, K-12\, corporate…
+URL:http://events.unl.edu/2026/09/15/200760/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201447@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260916T190000Z
+DTEND:20260916T200000Z
+SUMMARY:Nebraska Extension Regional Food System Initiative Speaker Series
+LOCATION:Zoom (https://unl.zoom.us/j/92673575909)
+DESCRIPTION:Nebraska Extension's Regional Food System Initiative (NERFSI) 
+ invites you to the 2026-2027 Food System Speaker Series! Please join us o
+ n the third Wednesday\, September - May\, from 2-3pm CST to learn about e
+ xciting research and education happening at the University of Nebraska an
+ d partner organizations making an impact…
+URL:http://events.unl.edu/2026/09/16/201447/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-202431@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260917T045500Z
+DTEND:20260917T045500Z
+SUMMARY:CookWell Registration Deadline
+DESCRIPTION:Join the Nutrition Education team for an interactive cooking c
+ lass to make Nebraska Runzas\, Sweet Corn Salad\, and Spiced Apple Crisp.
+  Register here: https://crec.unl.edu/cookwell/
+URL:http://events.unl.edu/2026/09/16/202431/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201533@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260922T173000Z
+DTEND:20260922T183000Z
+SUMMARY:Every Interaction Matters: Cultural Intelligence in the Classroom
+LOCATION:Zoom ISSO Fall 2026 (https://unl.zoom.us/s/96102170899)
+DESCRIPTION:The session will explore inclusive communication practices tha
+ t encourage engagement\, build trust\, and create welcoming classroom env
+ ironments where every person and every interaction matters. Through discu
+ ssion and real-world examples\, participants will learn to recognize how 
+ cultural assumptions can affect teaching…
+URL:http://events.unl.edu/2026/09/22/201533/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-202354@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20261001T180000Z
+DTEND:20261001T190000Z
+SUMMARY:Educational Psychology Colloquium
+LOCATION:Carolyn Pope Edwards Hall Room 227
+DESCRIPTION:You are invited to a Department of Educational Psychology coll
+ oquium featuring Jon Goodwin\, associate professor of teaching in the Dep
+ artment of Counseling\, Clinical and School Psychology at the University 
+ of California\, Santa Barbara.\n\nGoodwin will provide a practical overvi
+ ew of how school personnel and parents can…
+URL:http://events.unl.edu/2026/10/01/202354/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-199672-977180@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20261002T000000Z
+DTEND:20261002T010000Z
+SUMMARY:UNL Aspiring Educators Monthly Meeting
+LOCATION:Carolyn Pope Edwards Hall Room 130
+DESCRIPTION:Aspiring Educators is a pre-professional club whose mission is
+  to equip education majors with connections within the UNL and Lincoln co
+ mmunities. Any students who are education majors are invited to join the 
+ monthly meetings where the group provides students with tools and discuss
+ es topics relevant to the teaching…
+URL:http://events.unl.edu/2026/10/01/199672/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-198176@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20261002T045500Z
+DTEND:20261002T045500Z
+SUMMARY:Peace Corps Prep Application Deadline
+DESCRIPTION:Integrating UNL coursework\, hands-on experience\, and profess
+ ional development\, Nebraska's Peace Corps Prep program prepares undergra
+ duates for volunteer service globally\, potentially with the Peace Corps\
+ , by building the following four core competencies:\n1) Sector-specific s
+ kills (in Education\, Health\, Environment\,…
+URL:http://events.unl.edu/2026/10/01/198176/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201269-979004@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20261016T170000Z
+DTEND:20261016T170000Z
+SUMMARY:Fall Break South Dakota National Parks Hiking Tour
+LOCATION:Outdoor Adventures Center Room
+DESCRIPTION:Required Pre-Trip Meetings: 7:00-9:00pm Wednesdays\, Oct. 7 & 
+ Oct. 14\n\nJoin us for a four-day Fall Break adventure exploring the brea
+ thtaking landscapes and rich cultural history of South Dakota's National 
+ Parks through the lens of place-based education! We will spend our days o
+ n scenic trails\, taking in prairie views\,…
+URL:http://events.unl.edu/2026/10/16/201269/
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

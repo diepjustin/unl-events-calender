@@ -1,0 +1,195 @@
+{
+  "journalism": {
+    "label": "Journalism",
+    "org_contains": [
+      "College of Journalism and Mass Communications",
+      "CoJMC",
+      "Daily Nebraskan"
+    ],
+    "tags": [
+      "journalism",
+      "media",
+      "reporting",
+      "broadcasting",
+      "storytelling"
+    ]
+  },
+  "computer-science": {
+    "label": "Computer Science",
+    "org_contains": [
+      "School of Computing",
+      "Holland Computing Center",
+      "ACM"
+    ],
+    "tags": [
+      "computing",
+      "coding",
+      "software",
+      "technology",
+      "hackathon"
+    ]
+  },
+  "business": {
+    "label": "Business Administration",
+    "org_contains": [
+      "College of Business",
+      "Center for Entrepreneurship"
+    ],
+    "tags": [
+      "business",
+      "entrepreneurship",
+      "finance",
+      "marketing",
+      "career fair"
+    ]
+  },
+  "biological-sciences": {
+    "label": "Biological Sciences / Pre-Health",
+    "org_contains": [
+      "School of Biological Sciences",
+      "Explore Center"
+    ],
+    "tags": [
+      "pre-health",
+      "biology",
+      "health",
+      "medicine",
+      "research"
+    ]
+  },
+  "mathematics": {
+    "label": "Mathematics",
+    "org_contains": [
+      "Department of Mathematics"
+    ],
+    "tags": [
+      "math",
+      "mathematics",
+      "statistics"
+    ]
+  },
+  "international-studies": {
+    "label": "International Studies / Global Studies",
+    "org_contains": [
+      "Global Experiences Office",
+      "ISSO"
+    ],
+    "tags": [
+      "international",
+      "study abroad",
+      "global",
+      "culture"
+    ]
+  },
+  "art-and-design": {
+    "label": "Art, Art History and Design",
+    "org_contains": [
+      "Hixson-Lied College of Fine and Performing Arts",
+      "Sheldon Museum of Art",
+      "Great Plains Art Museum"
+    ],
+    "tags": [
+      "art",
+      "exhibition",
+      "design",
+      "gallery"
+    ]
+  },
+  "law": {
+    "label": "Pre-Law / Law",
+    "org_contains": [
+      "College of Law"
+    ],
+    "tags": [
+      "law",
+      "legal",
+      "pre-law",
+      "moot court"
+    ]
+  },
+  "engineering": {
+    "label": "Engineering",
+    "org_contains": [
+      "College of Engineering"
+    ],
+    "tags": [
+      "engineering",
+      "robotics",
+      "design competition"
+    ]
+  },
+  "music": {
+    "label": "Music",
+    "org_contains": [
+      "School of Music",
+      "Hixson-Lied College of Fine and Performing Arts"
+    ],
+    "tags": [
+      "music",
+      "recital",
+      "concert",
+      "orchestra",
+      "choir"
+    ]
+  },
+  "agricultural-and-natural-resources": {
+    "label": "Agricultural and Natural Resources Sciences",
+    "org_contains": [
+      "PlantNebraska",
+      "Nebraska Statewide Arboretum",
+      "CASNR"
+    ],
+    "tags": [
+      "agriculture",
+      "natural resources",
+      "sustainability",
+      "plant science"
+    ]
+  },
+  "psychology": {
+    "label": "Psychology",
+    "org_contains": [
+      "Department of Psychology"
+    ],
+    "tags": [
+      "psychology",
+      "mental health",
+      "research study"
+    ]
+  },
+  "english": {
+    "label": "English",
+    "org_contains": [
+      "Department of English"
+    ],
+    "tags": [
+      "english",
+      "literature",
+      "creative writing",
+      "poetry"
+    ]
+  },
+  "education": {
+    "label": "Education and Human Sciences",
+    "org_contains": [
+      "College of Education and Human Sciences"
+    ],
+    "tags": [
+      "education",
+      "teaching",
+      "human sciences"
+    ]
+  },
+  "undeclared": {
+    "label": "Undeclared / Exploratory Studies",
+    "org_contains": [
+      "Explore Center",
+      "Career Services"
+    ],
+    "tags": [
+      "career",
+      "advising",
+      "major exploration"
+    ]
+  }
+}

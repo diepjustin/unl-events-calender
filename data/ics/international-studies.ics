@@ -1,0 +1,332 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//unl-events-demo//fetch_events.py//EN
+X-WR-CALNAME:UNL Campus Events — International Studies / Global Studies
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:unl-201923-980265@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260904T190000Z
+DTEND:20260904T193000Z
+SUMMARY:Huskers Abroad 101
+LOCATION:Louise Pound Hall Room LPH 141
+DESCRIPTION:Join Global Experiences for a 30-minute interactive workshop t
+ o help you start planning your global experience. During the workshop\, w
+ e'll discuss global experience types\, funding\, the timeline for plannin
+ g your experience\, and thinking through your goals to go abroad. Just sh
+ ow up\, no registration is needed\, and both…
+URL:http://events.unl.edu/2026/09/04/201923/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:engage-12697051@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260906T150000Z
+DTEND:20260907T000000Z
+SUMMARY:From Around the World to Nebraska: Cultural Ambassadors at Nebrask
+ a State Fair
+LOCATION:Fonner Park
+DESCRIPTION:From Around the World to Nebraska is an interactive cultural e
+ ngagement experience at the Nebraska State Fair that brings international
+  students from UNL together with Nebraska communities through storytellin
+ g\, cultural displays\, performances\, and conversation. Serving as Cultu
+ ral Ambassadors \, participants will…
+URL:https://unl.campuslabs.com/engage/event/12697051
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-172335@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260909T133000Z
+DTEND:20260909T170000Z
+SUMMARY:New Employee Orientation
+LOCATION:Willa Cather Dining Complex Room Red Cloud A
+DESCRIPTION:You will receive valuable insights and resources during your o
+ rientation.\n* Get acquainted with the vibrant community and inclusive cu
+ lture at the university.\n* Connect with fellow new employees from variou
+ s departments across campus and engage in meaningful conversations.\n* Di
+ ve into our strategic plan and explore…
+URL:http://events.unl.edu/2026/09/09/172335/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-199568@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260909T210000Z
+DTEND:20260909T210000Z
+SUMMARY:Deadline for Environmental Leadership Program
+LOCATION:Online (https://asun.unl.edu/elections/)
+DESCRIPTION:First-year and second-year UNL students enrolled for the 2026 
+ Fall Semester are eligible to apply.\n\nEnvironmental Leadership Program 
+ (ELP) is a passionate group of students who work year-round to create sus
+ tainable change on campus.\n\nEach year\, members plan and organize event
+ s that promote a culture of life-long…
+URL:http://events.unl.edu/2026/09/09/199568/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:engage-12494509@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260909T233000Z
+DTEND:20260910T003000Z
+SUMMARY:ASU General Body Meeting
+LOCATION:City Campus
+DESCRIPTION:Asian Student Union General Body Meeting. We meet every other 
+ Wednesday from 6:30 - 7:30 pm. During these meetings we play games\, lear
+ n about aspects of Asian culture and provide an opportunity for students 
+ to meet others and relax.
+URL:https://unl.campuslabs.com/engage/event/12494509
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-202241-980485@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260910T160000Z
+DTEND:20260910T180000Z
+SUMMARY:Study Abroad Virtual Drop-In Advising
+LOCATION:Virtual Drop-In Zoom Room Link (https://unl.zoom.us/j/7736199019)
+DESCRIPTION:Curious about studying abroad? Drop into a virtual advising se
+ ssion and chat with our expert Global Experiences Coordinators about prog
+ rams\, destinations\, scholarships\, finances\, or anything else you're w
+ ondering about. It's completely informal\, so come with questions and lea
+ ve with answers\, no commitment required.
+URL:http://events.unl.edu/2026/09/10/202241/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-196085@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260910T173000Z
+DTEND:20260910T183000Z
+SUMMARY:Career Fair Prep for International Students
+LOCATION:Louise Pound Hall Room 105
+DESCRIPTION:Navigating a U.S. career fair can feel exciting and a little o
+ verwhelming - especially if it's your first one. Don't worry - we've got 
+ you covered!\n\nJoin us for an interactive workshop designed just for int
+ ernational students. You'll learn how to:\n\n- Research companies and tai
+ lor your resume\n- Introduce yourself with…
+URL:http://events.unl.edu/2026/09/10/196085/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:engage-12575460@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260910T233000Z
+DTEND:20260911T010000Z
+SUMMARY:The Nerdy Bunch General Meeting
+LOCATION:UNL Union
+DESCRIPTION:Come join us for a fun night with fellow nerds! We're happy to
+  talk all things pop culture while we play games\, do trivia\, and have o
+ ther fun activities!
+URL:https://unl.campuslabs.com/engage/event/12575460
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-202335-980678@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260911T153000Z
+DTEND:20260911T173000Z
+SUMMARY:Pre-Health Drop-In Advising
+LOCATION:Louise Pound Hall Room Atrium - First Floor
+DESCRIPTION:Are you a pre-health student looking to go abroad? This is mea
+ nt for you. Meet with Rebecca and discuss program options and first steps
+ . Each Friday in LPH 130.
+URL:http://events.unl.edu/2026/09/11/202335/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:engage-12680830@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260914T173000Z
+DTEND:20260914T183000Z
+SUMMARY:Monthly Monday Munch
+LOCATION:Oasis Lounge
+DESCRIPTION:Spend your lunch with SJP every second Monday of the month! Gr
+ ab a bite\, relax in the Oasis Lounge\, and enjoy a discussion with SJP a
+ nd community members on topics related to politics\, university culture\,
+  and more. We will feature and consume short material (like films\, etc) 
+ and debrief\, reflect\, and chat on different…
+URL:https://unl.campuslabs.com/engage/event/12680830
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-200583@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260915T170000Z
+DTEND:20260915T210000Z
+SUMMARY:Global Experiences Fair
+LOCATION:Nebraska Union Room
+DESCRIPTION:Enhance your experience at Nebraska by participating in an int
+ ernational study\, internship\, research\, or service learning program! W
+ ith many unique programs in over 70 countries\, you can find the perfect 
+ fit for your academic\, personal\, and professional goals\, as well as yo
+ ur budget.
+URL:http://events.unl.edu/2026/09/15/200583/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-202126@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260916T090000Z
+DTEND:20260916T220000Z
+SUMMARY:Nebraska in Mexico City: Program Kick Off
+LOCATION:Louise Pound Hall Room Atrium - First Floor
+DESCRIPTION:Meet students from the Summer 2026 and the leaders of the Summ
+ er 2027 program! \n\nCelebrate Mexican Independence Day with us!
+URL:http://events.unl.edu/2026/09/16/202126/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201687@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260916T203000Z
+DTEND:20260916T213000Z
+SUMMARY:School of Natural Resources Seminar: Arindam Malakar
+LOCATION:Hardin Hall Room 107 South (Platte River Auditorium)\, and online
+  at View SNR Seminars in Zoom (https://go.unl.edu/viewsnrseminars)
+DESCRIPTION:Nitrate contamination of groundwater is a global consequence o
+ f intensive agriculture. In Nebraska\, it drives some of the highest drin
+ king water violations in the United States and imposes treatment costs on
+  communities. Concentrations continue to rise even where land surface nit
+ rogen application has been reduced. The…
+URL:http://events.unl.edu/2026/09/16/201687/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:engage-12490039@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260917T200000Z
+DTEND:20260917T210000Z
+SUMMARY:Popcorn Pop-Up: Student Culture & Community
+LOCATION:Nebraska Union: The Crib
+DESCRIPTION:Popcorn Pop-Up is the best hour of the week. An afternoon soci
+ al hour with fellow Huskers. It’s free for every student\, staff\, and fa
+ culty with NCard. Snack on fresh-popped popcorn directly from the kettle.
+  Join in the activity while learning about campus organizations and depar
+ tments. Mingle with friends and new…
+URL:https://unl.campuslabs.com/engage/event/12490039
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-199865@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260924T223000Z
+DTEND:20260924T223000Z
+SUMMARY:Kurt Andersen
+LOCATION:Sheldon Museum of Art Room Auditorium
+DESCRIPTION:Originally from Omaha\, Kurt Andersen has been documenting art
+ s\, culture\, and politics in New York City for decades. In the spring 20
+ 26 issue of Prairie Schooner\, Andersen wrote about Edward Hopper's ROOM 
+ IN NEW YORK\, the iconic NYC painting by Edward Hopper in the Sheldon's p
+ ermanent collection. He will discuss the…
+URL:http://events.unl.edu/2026/09/24/199865/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-200758@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260928T210000Z
+DTEND:20260928T230000Z
+SUMMARY:Actuarial Science Career Fair
+LOCATION:Howard L. Hawks Hall Room
+DESCRIPTION:The Actuarial Science Career Fair is an excellent opportunity 
+ to connect with local\, national and global employers in insurance\, fina
+ nce and consulting. Whether you are just starting college or preparing to
+  launch your career\, this is your chance to network\, explore job opport
+ unities and learn more about the actuarial…
+URL:http://events.unl.edu/2026/09/28/200758/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-199720@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260930T003000Z
+DTEND:20260930T003000Z
+SUMMARY:Angel Stanislav Wang
+LOCATION:Lied Center for Performing Arts Room Lied Center Main Stage
+DESCRIPTION:Praised for his expressive depth\, commanding technique\, and 
+ artistic individuality\, 23-year-old rising virtuoso Angel Stanislav Wang
+  has quickly drawn international attention as a rare and compelling new p
+ ianist. His major accolades include winning First Prize at the Internatio
+ nal Rachmaninoff Piano Competition\,…
+URL:http://events.unl.edu/2026/09/29/199720/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-198176@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20261002T045500Z
+DTEND:20261002T045500Z
+SUMMARY:Peace Corps Prep Application Deadline
+DESCRIPTION:Integrating UNL coursework\, hands-on experience\, and profess
+ ional development\, Nebraska's Peace Corps Prep program prepares undergra
+ duates for volunteer service globally\, potentially with the Peace Corps\
+ , by building the following four core competencies:\n1) Sector-specific s
+ kills (in Education\, Health\, Environment\,…
+URL:http://events.unl.edu/2026/10/01/198176/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-198391@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20261007T223000Z
+DTEND:20261008T000000Z
+SUMMARY:Welcoming New Nebraskans: A Book Launch for The Lives of Immigrant
+ s and Refugees
+LOCATION:Sheldon Museum of Art Room
+DESCRIPTION:Join us for an evening of readings\, mingling\, and festivitie
+ s to celebrate the launch of The Lives of Immigrants and Refugees: Tales 
+ of Migration\, Hope\, Grief\, and Finding Home in Nebraska\, a new edited
+  collection from the University of Nebraska Press of 31 first-person essa
+ ys about the personal experience of global…
+URL:http://events.unl.edu/2026/10/07/198391/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201541@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20261015T173000Z
+DTEND:20261015T183000Z
+SUMMARY:Supporting International Students in a Changing Immigration Landsc
+ ape
+LOCATION:Zoom ISSO Fall 2026 (https://unl.zoom.us/s/96102170899)
+DESCRIPTION:Participants will explore the challenges international student
+ s may face during periods of policy uncertainty and discuss strategies fo
+ r creating supportive\, inclusive classroom environments. Through case st
+ udies and discussion\, we will provide guidance on appropriate ways to re
+ spond to student concerns\, understand…
+URL:http://events.unl.edu/2026/10/15/201541/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201462@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20261027T173000Z
+DTEND:20261027T190000Z
+SUMMARY:Nebraska Ambassadors Forum
+LOCATION:Nebraska Union Room Swanson Auditorium
+DESCRIPTION:This year's forum will examine "The Changing Nature of America
+ n Diplomacy\," exploring how the practice of diplomacy has evolved over t
+ he past 250 years while addressing today's increasingly complex global ch
+ allenges. Discussion topics will include the changing role of diplomats\,
+  technology and diplomacy\, international…
+URL:http://events.unl.edu/2026/10/27/201462/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201917-980241@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20261102T200000Z
+DTEND:20261102T203000Z
+SUMMARY:Huskers Abroad 101
+LOCATION:Louise Pound Hall Room 105
+DESCRIPTION:Join Global Experiences for a 30-minute interactive workshop t
+ o help you start planning your global experience. During the workshop\, w
+ e'll discuss global experience types\, funding\, the timeline for plannin
+ g your experience\, and thinking through your goals to go abroad. Just sh
+ ow up\, no registration is needed\, and both…
+URL:http://events.unl.edu/2026/11/02/201917/
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

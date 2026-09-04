@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UNL Campus Events — For You</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --text: #1a1a1a;
+    --muted: #5a5a5a;
+    --border: #d8d8d8;
+    --accent: #c00000; /* Husker red, roughly */
+    --accent-text: #ffffff;
+    --chip-bg: #f2f2f2;
+    --chip-org: #fdeaea;
+    --chip-org-text: #8a1414;
+    --chip-tag: #eaf2fd;
+    --chip-tag-text: #17457a;
+    --chip-interest: #eafdf0;
+    --chip-interest-text: #146a2e;
+    --chip-neutral: #f0f0f0;
+    --chip-neutral-text: #555555;
+    --focus: #1a5cff;
+    --error-bg: #fff4f4;
+    --error-border: #c00000;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+  }
+
+  a { color: var(--accent); }
+
+  main {
+    max-width: 840px;
+    margin: 0 auto;
+    padding: 1.25rem 1rem 4rem;
+  }
+
+  header.page-header {
+    padding: 1.5rem 1rem 1rem;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 1.5rem;
+  }
+
+  header.page-header h1 {
+    font-size: 1.5rem;
+    margin: 0 0 0.35rem;
+  }
+
+  header.page-header p {
+    margin: 0.25rem 0 0;
+    color: var(--muted);
+    font-size: 0.95rem;
+    max-width: 60ch;
+  }
+
+  .independent-note {
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin-top: 0.6rem;
+  }
+
+  .controls {
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .field label,
+  fieldset legend {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.35rem;
+    font-size: 0.95rem;
+  }
+
+  .combobox-wrap {
+    position: relative;
+    max-width: 26rem;
+  }
+
+  #major-input {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.5rem 0.65rem;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: var(--bg);
+    color: var(--text);
+  }
+
+  #major-input:focus-visible,
+  button:focus-visible,
+  input:focus-visible,
+  [role="option"]:focus-visible {
+    outline: 3px solid var(--focus);
+    outline-offset: 2px;
+  }
+
+  #major-listbox {
+    list-style: none;
+    margin: 0.25rem 0 0;
+    padding: 0.25rem;
+    position: absolute;
+    z-index: 10;
+    top: 100%;
+    left: 0;
+    right: 0;
+    max-height: 16rem;
+    overflow-y: auto;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+  }
+
+  #major-listbox[hidden] { display: none; }
+
+  #major-listbox li {
+    padding: 0.45rem 0.6rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.95rem;
+  }
+
+  #major-listbox li[aria-selected="true"] {
+    background: var(--accent);
+    color: var(--accent-text);
+  }
+
+  .clear-major {
+    margin-top: 0.4rem;
+    font-size: 0.85rem;
+    background: none;
+    border: none;
+    color: var(--accent);
+    cursor: pointer;
+    padding: 0.2rem 0;
+  }
+
+  .clear-major[hidden] { display: none; }
+
+  .chip-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .chip-toggle {
+    font: inherit;
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: var(--bg);
+    color: var(--text);
+    cursor: pointer;
+  }
+
+  .chip-toggle[aria-pressed="true"] {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: var(--accent-text);
+  }
+
+  .checkbox-field {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .checkbox-field label { font-weight: 400; margin: 0; }
+
+  .status-line {
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin-bottom: 1rem;
+  }
+
+  .banner {
+    border: 1px solid var(--border);
+    background: var(--chip-bg);
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+  }
+
+  .banner.error {
+    background: var(--error-bg);
+    border-color: var(--error-border);
+  }
+
+  .banner.suppressed summary {
+    cursor: pointer;
+    font-weight: 600;
+  }
+
+  .banner.suppressed ul {
+    margin: 0.5rem 0 0;
+    padding-left: 1.2rem;
+  }
+
+  ul.event-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .event-card {
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem 1.1rem;
+  }
+
+  .event-card h3 {
+    margin: 0 0 0.3rem;
+    font-size: 1.05rem;
+  }
+
+  .event-card h3 a {
+    color: var(--text);
+    text-decoration: none;
+  }
+
+  .event-card h3 a:hover,
+  .event-card h3 a:focus-visible {
+    text-decoration: underline;
+    color: var(--accent);
+  }
+
+  .event-meta {
+    font-size: 0.88rem;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+
+  .event-meta span + span::before {
+    content: " · ";
+  }
+
+  .event-desc {
+    font-size: 0.92rem;
+    margin: 0.5rem 0;
+  }
+
+  .reason-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-top: 0.6rem;
+  }
+
+  .reason-chip {
+    font-size: 0.78rem;
+    padding: 0.2rem 0.55rem;
+    border-radius: 999px;
+    background: var(--chip-neutral);
+    color: var(--chip-neutral-text);
+  }
+
+  .reason-chip.org { background: var(--chip-org); color: var(--chip-org-text); }
+  .reason-chip.tag { background: var(--chip-tag); color: var(--chip-tag-text); }
+  .reason-chip.interest { background: var(--chip-interest); color: var(--chip-interest-text); }
+
+  .occurrence-note {
+    font-size: 0.82rem;
+    color: var(--muted);
+    margin-top: 0.4rem;
+  }
+
+  .empty-state {
+    text-align: left;
+    padding: 2rem 0;
+    color: var(--muted);
+  }
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px; height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    #major-listbox { transition: opacity 0.1s ease; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header class="page-header">
+    <h1>UNL Campus Events — For You</h1>
+    <p>Enter your major and a few interests to get a ranked list of upcoming campus events, with a visible reason attached to every one. Nothing you type is stored — your choices live only in this page's URL.</p>
+    <p class="independent-note">An independent, editorially-driven student project. Not an official University of Nebraska–Lincoln page.</p>
+  </header>
+
+  <form class="controls" id="controls" autocomplete="off">
+    <div class="field combobox-wrap">
+      <label for="major-input">Your major</label>
+      <input
+        type="text"
+        id="major-input"
+        role="combobox"
+        aria-haspopup="listbox"
+        aria-expanded="false"
+        aria-controls="major-listbox"
+        aria-autocomplete="list"
+        aria-describedby="major-help"
+        placeholder="Start typing, e.g. Journalism">
+      <ul id="major-listbox" role="listbox" aria-label="Major suggestions" hidden></ul>
+      <button type="button" class="clear-major" id="clear-major" hidden>Clear major</button>
+      <p id="major-help" class="visually-hidden">Use the up and down arrow keys to browse suggestions, then press Enter to select one.</p>
+    </div>
+
+    <fieldset class="field" style="border:none; padding:0; margin:0;">
+      <legend>Interests (pick any that apply)</legend>
+      <div class="chip-group" id="interest-chips" role="group" aria-label="Interests"></div>
+    </fieldset>
+
+    <div class="checkbox-field">
+      <input type="checkbox" id="dept-only">
+      <label for="dept-only">Only show events from my department</label>
+    </div>
+  </form>
+
+  <p id="subscribe-line" class="status-line"></p>
+
+  <h2 class="visually-hidden">Events</h2>
+  <div id="status-line" class="status-line" aria-live="polite"></div>
+  <div id="banners"></div>
+  <div id="results"></div>
+</main>
+
+<script>
+(function () {
+  "use strict";
+
+  var state = {
+    majorKey: "",
+    interests: [],
+    deptOnly: false
+  };
+
+  var majorsData = null;
+  var eventsPayload = null;
+  var loadFailed = false;
+
+  var INTERESTS = [
+    "career", "food", "arts", "wellness", "athletics",
+    "technology", "international", "community service",
+    "fundraising", "spirituality"
+  ];
+
+  var majorInput = document.getElementById("major-input");
+  var majorListbox = document.getElementById("major-listbox");
+  var clearMajorBtn = document.getElementById("clear-major");
+  var interestChipsEl = document.getElementById("interest-chips");
+  var deptOnlyEl = document.getElementById("dept-only");
+  var statusLine = document.getElementById("status-line");
+  var bannersEl = document.getElementById("banners");
+  var resultsEl = document.getElementById("results");
+  var subscribeLine = document.getElementById("subscribe-line");
+
+  var STALE_THRESHOLD_HOURS = 36; // fetch job runs nightly; two missed runs is a real problem, not a fluke
+
+  // ---------------------------------------------------------------------
+  // URL hash <-> state (no localStorage, no cookies, no accounts)
+  // ---------------------------------------------------------------------
+
+  function readStateFromHash() {
+    var hash = window.location.hash.replace(/^#/, "");
+    var params = new URLSearchParams(hash);
+    state.majorKey = params.get("major") || "";
+    var interestsParam = params.get("interests") || "";
+    state.interests = interestsParam ? interestsParam.split(",").filter(Boolean) : [];
+    state.deptOnly = params.get("dept") === "1";
+  }
+
+  function writeStateToHash() {
+    var params = new URLSearchParams();
+    if (state.majorKey) params.set("major", state.majorKey);
+    if (state.interests.length) params.set("interests", state.interests.join(","));
+    if (state.deptOnly) params.set("dept", "1");
+    var newHash = params.toString();
+    history.replaceState(null, "", newHash ? "#" + newHash : window.location.pathname + window.location.search);
+  }
+
+  // ---------------------------------------------------------------------
+  // Data loading -- fail loud, never serve stale silently
+  // ---------------------------------------------------------------------
+
+  function loadData() {
+    return Promise.all([
+      fetch("data/events.json").then(function (r) {
+        if (!r.ok) throw new Error("events.json HTTP " + r.status);
+        return r.json();
+      }),
+      fetch("data/majors.json").then(function (r) {
+        if (!r.ok) throw new Error("majors.json HTTP " + r.status);
+        return r.json();
+      })
+    ]).then(function (results) {
+      eventsPayload = results[0];
+      majorsData = results[1];
+    }).catch(function (err) {
+      loadFailed = true;
+      console.error("Failed to load event data:", err);
+    });
+  }
+
+  function renderFailure() {
+    bannersEl.innerHTML = "";
+    var banner = document.createElement("div");
+    banner.className = "banner error";
+    banner.setAttribute("role", "alert");
+    banner.textContent = "This page couldn't load fresh event data just now (checked " +
+      new Date().toLocaleString() + "). Nothing is being shown rather than risk showing " +
+      "you stale or wrong information. Try reloading in a bit.";
+    bannersEl.appendChild(banner);
+    resultsEl.innerHTML = "";
+    statusLine.textContent = "";
+  }
+
+  // ---------------------------------------------------------------------
+  // Combobox (major picker) -- real listbox semantics
+  // ---------------------------------------------------------------------
+
+  var majorKeys = [];
+  var activeIndex = -1;
+
+  function initMajorKeys() {
+    majorKeys = Object.keys(majorsData || {});
+  }
+
+  function majorLabel(key) {
+    return majorsData && majorsData[key] ? majorsData[key].label : key;
+  }
+
+  function filteredMajorKeys(query) {
+    var q = query.trim().toLowerCase();
+    if (!q) return majorKeys;
+    return majorKeys.filter(function (k) {
+      return majorLabel(k).toLowerCase().indexOf(q) !== -1;
+    });
+  }
+
+  function openListbox(keys) {
+    majorListbox.innerHTML = "";
+    activeIndex = -1;
+    if (!keys.length) {
+      closeListbox();
+      return;
+    }
+    keys.forEach(function (key, i) {
+      var li = document.createElement("li");
+      li.id = "major-opt-" + i;
+      li.setAttribute("role", "option");
+      li.setAttribute("aria-selected", key === state.majorKey ? "true" : "false");
+      li.dataset.majorKey = key;
+      li.textContent = majorLabel(key);
+      li.addEventListener("mousedown", function (e) {
+        e.preventDefault();
+        selectMajor(key);
+      });
+      majorListbox.appendChild(li);
+    });
+    majorListbox.hidden = false;
+    majorInput.setAttribute("aria-expanded", "true");
+  }
+
+  function closeListbox() {
+    majorListbox.hidden = true;
+    majorInput.setAttribute("aria-expanded", "false");
+    majorInput.removeAttribute("aria-activedescendant");
+    activeIndex = -1;
+  }
+
+  function moveActive(delta, keys) {
+    if (!keys.length) return;
+    activeIndex = (activeIndex + delta + keys.length) % keys.length;
+    var options = majorListbox.querySelectorAll("[role='option']");
+    options.forEach(function (opt) { opt.removeAttribute("data-active"); });
+    var active = options[activeIndex];
+    if (active) {
+      active.setAttribute("data-active", "true");
+      active.scrollIntoView({ block: "nearest" });
+      majorInput.setAttribute("aria-activedescendant", active.id);
+      options.forEach(function (opt, i) {
+        opt.style.background = i === activeIndex ? "var(--chip-bg)" : "";
+      });
+    }
+  }
+
+  function selectMajor(key) {
+    state.majorKey = key;
+    majorInput.value = majorLabel(key);
+    clearMajorBtn.hidden = false;
+    closeListbox();
+    writeStateToHash();
+    render();
+  }
+
+  function clearMajor() {
+    state.majorKey = "";
+    majorInput.value = "";
+    clearMajorBtn.hidden = true;
+    writeStateToHash();
+    render();
+    majorInput.focus();
+  }
+
+  majorInput.addEventListener("input", function () {
+    if (majorInput.value.trim() === "" && state.majorKey) {
+      state.majorKey = "";
+      clearMajorBtn.hidden = true;
+      writeStateToHash();
+      render();
+    }
+    openListbox(filteredMajorKeys(majorInput.value));
+  });
+
+  majorInput.addEventListener("focus", function () {
+    openListbox(filteredMajorKeys(majorInput.value));
+  });
+
+  majorInput.addEventListener("keydown", function (e) {
+    var keys = filteredMajorKeys(majorInput.value);
+    if (e.key === "ArrowDown") {
+      e.preventDefault();
+      if (majorListbox.hidden) openListbox(keys);
+      else moveActive(1, keys);
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault();
+      if (majorListbox.hidden) openListbox(keys);
+      else moveActive(-1, keys);
+    } else if (e.key === "Enter") {
+      if (!majorListbox.hidden && activeIndex >= 0 && keys[activeIndex]) {
+        e.preventDefault();
+        selectMajor(keys[activeIndex]);
+      }
+    } else if (e.key === "Escape") {
+      closeListbox();
+    }
+  });
+
+  document.addEventListener("click", function (e) {
+    if (!e.target.closest(".combobox-wrap")) closeListbox();
+  });
+
+  clearMajorBtn.addEventListener("click", clearMajor);
+
+  // ---------------------------------------------------------------------
+  // Interest chips
+  // ---------------------------------------------------------------------
+
+  function renderInterestChips() {
+    interestChipsEl.innerHTML = "";
+    INTERESTS.forEach(function (interest) {
+      var btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "chip-toggle";
+      btn.textContent = interest;
+      var pressed = state.interests.indexOf(interest) !== -1;
+      btn.setAttribute("aria-pressed", pressed ? "true" : "false");
+      btn.addEventListener("click", function () {
+        var idx = state.interests.indexOf(interest);
+        if (idx === -1) state.interests.push(interest);
+        else state.interests.splice(idx, 1);
+        writeStateToHash();
+        renderInterestChips();
+        render();
+      });
+      interestChipsEl.appendChild(btn);
+    });
+  }
+
+  deptOnlyEl.addEventListener("change", function () {
+    state.deptOnly = deptOnlyEl.checked;
+    writeStateToHash();
+    render();
+  });
+
+  // ---------------------------------------------------------------------
+  // Scoring -- every point on the score has a visible, named reason.
+  // See data/majors.yaml for what feeds "org" and "tag" matches, and the
+  // handoff notes for why "audience" scoring from the original plan isn't
+  // here: neither UNL's nor Engage's public feed exposes a reliable
+  // per-event audience field without scraping each event's HTML page.
+  // ---------------------------------------------------------------------
+
+  function escapeRegExp(s) {
+    return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  }
+
+  // Word-boundary match, not plain substring: a bare substring check would
+  // let the tag "math" match inside a comedian named "Matt Mathews", or
+  // "art" match inside "start" -- short tags need whole-word matching to
+  // stay meaningful.
+  function containsWord(haystack, phrase) {
+    var re = new RegExp("\\b" + escapeRegExp(phrase.toLowerCase()) + "\\b");
+    return re.test(haystack);
+  }
+
+  function scoreEvent(ev, majorKey, interests) {
+    var score = 0;
+    var reasons = [];
+    var org = (ev.org || "").toLowerCase();
+    var haystack = [ev.category, ev.title, ev.description].filter(Boolean).join(" ").toLowerCase();
+
+    if (majorKey && majorsData[majorKey]) {
+      var major = majorsData[majorKey];
+      var orgHit = (major.org_contains || []).some(function (s) {
+        return org.indexOf(s.toLowerCase()) !== -1;
+      });
+      if (orgHit) {
+        score += 3;
+        reasons.push({ type: "org", text: "From " + major.label + "'s usual org list" });
+      }
+      var tagHit = (major.tags || []).some(function (t) {
+        return containsWord(haystack, t);
+      });
+      if (tagHit) {
+        score += 2;
+        reasons.push({ type: "tag", text: "Common for " + major.label + " students" });
+      }
+    }
+
+    interests.forEach(function (interest) {
+      if (containsWord(haystack, interest)) {
+        score += 2;
+        reasons.push({ type: "interest", text: 'You picked "' + interest + '"' });
+      }
+    });
+
+    if (reasons.length === 0) {
+      reasons.push({ type: "neutral", text: "On UNL's public calendar" });
+    }
+
+    return { score: score, reasons: reasons, orgMatch: reasons.some(function(r){return r.type==="org";}) };
+  }
+
+  function isToday(iso) {
+    var d = new Date(iso);
+    var now = new Date();
+    return d.getFullYear() === now.getFullYear() &&
+      d.getMonth() === now.getMonth() &&
+      d.getDate() === now.getDate();
+  }
+
+  function formatDateTime(iso) {
+    var d = new Date(iso);
+    return d.toLocaleDateString(undefined, { weekday: "short", month: "short", day: "numeric" }) +
+      ", " + d.toLocaleTimeString(undefined, { hour: "numeric", minute: "2-digit" });
+  }
+
+  var MAX_RESULTS = 60;
+
+  function updateSubscribeLine() {
+    subscribeLine.innerHTML = "";
+    var allLink = document.createElement("a");
+    allLink.href = "data/ics/all-events.ics";
+    allLink.textContent = "Subscribe to all campus events (.ics)";
+    subscribeLine.appendChild(allLink);
+
+    if (state.majorKey && majorsData[state.majorKey]) {
+      subscribeLine.appendChild(document.createTextNode(" · "));
+      var majorLink = document.createElement("a");
+      majorLink.href = "data/ics/" + encodeURIComponent(state.majorKey) + ".ics";
+      majorLink.textContent = "Subscribe to " + majorLabel(state.majorKey) + " events (.ics)";
+      subscribeLine.appendChild(majorLink);
+    }
+  }
+
+  function render() {
+    if (loadFailed) { renderFailure(); return; }
+    if (!eventsPayload) return;
+
+    bannersEl.innerHTML = "";
+    resultsEl.innerHTML = "";
+
+    updateSubscribeLine();
+
+    var generatedAt = new Date(eventsPayload.generated_at);
+    var ageHours = (Date.now() - generatedAt.getTime()) / 3600000;
+    if (ageHours > STALE_THRESHOLD_HOURS) {
+      var staleBanner = document.createElement("div");
+      staleBanner.className = "banner error";
+      staleBanner.setAttribute("role", "alert");
+      staleBanner.textContent = "This event list hasn't refreshed since " +
+        generatedAt.toLocaleString() + " (" + Math.round(ageHours) + " hours ago). " +
+        "The nightly update job may be failing -- what's shown below is genuinely that old, not a display glitch.";
+      bannersEl.appendChild(staleBanner);
+    }
+
+    if (eventsPayload.suppressed && eventsPayload.suppressed.length) {
+      var supBanner = document.createElement("details");
+      supBanner.className = "banner suppressed";
+      var summary = document.createElement("summary");
+      summary.textContent = eventsPayload.suppressed.length + " event" +
+        (eventsPayload.suppressed.length === 1 ? " was" : "s were") +
+        " intentionally left out of these rankings";
+      supBanner.appendChild(summary);
+      var ul = document.createElement("ul");
+      eventsPayload.suppressed.forEach(function (s) {
+        var li = document.createElement("li");
+        li.textContent = s.reason;
+        ul.appendChild(li);
+      });
+      supBanner.appendChild(ul);
+      bannersEl.appendChild(supBanner);
+    }
+
+    var coldStart = !state.majorKey && state.interests.length === 0;
+    var pool = eventsPayload.events;
+    var scored = pool.map(function (ev) {
+      var s = scoreEvent(ev, state.majorKey, state.interests);
+      return { ev: ev, score: s.score, reasons: s.reasons, orgMatch: s.orgMatch };
+    });
+
+    var widened = false;
+    var list;
+
+    if (coldStart) {
+      list = scored.filter(function (row) { return isToday(row.ev.start); });
+      list.sort(function (a, b) { return new Date(a.ev.start) - new Date(b.ev.start); });
+      statusLine.textContent = "Nothing entered yet — showing today's events campus-wide. Enter a major or pick interests above to get a ranked, personalized list.";
+    } else {
+      if (state.deptOnly && state.majorKey) {
+        list = scored.filter(function (row) { return row.orgMatch; });
+        if (list.length === 0) {
+          widened = true;
+          list = scored.slice();
+        }
+      } else {
+        list = scored.slice();
+      }
+      list.sort(function (a, b) {
+        if (b.score !== a.score) return b.score - a.score;
+        return new Date(a.ev.start) - new Date(b.ev.start);
+      });
+      var shown = Math.min(list.length, MAX_RESULTS);
+      statusLine.textContent = "Showing " + shown + " of " + list.length + " upcoming events" +
+        (eventsPayload.window_days ? " over the next " + eventsPayload.window_days + " days" : "") + ".";
+    }
+
+    if (widened) {
+      var widenBanner = document.createElement("div");
+      widenBanner.className = "banner";
+      widenBanner.setAttribute("role", "status");
+      widenBanner.textContent = "No upcoming events matched only your department right now, so this is showing all campus events instead.";
+      bannersEl.appendChild(widenBanner);
+    }
+
+    if (list.length === 0) {
+      var empty = document.createElement("div");
+      empty.className = "empty-state";
+      empty.textContent = "No events found in the next " + (eventsPayload.window_days || "few") +
+        " days. Check back soon, or widen your search by clearing filters above.";
+      resultsEl.appendChild(empty);
+      return;
+    }
+
+    var ul2 = document.createElement("ul");
+    ul2.className = "event-list";
+    list.slice(0, MAX_RESULTS).forEach(function (row) {
+      ul2.appendChild(renderEventCard(row));
+    });
+    resultsEl.appendChild(ul2);
+  }
+
+  function renderEventCard(row) {
+    var ev = row.ev;
+    var li = document.createElement("li");
+    li.className = "event-card";
+
+    var h3 = document.createElement("h3");
+    var a = document.createElement("a");
+    a.href = ev.url || "#";
+    a.target = "_blank";
+    a.rel = "noopener noreferrer";
+    a.textContent = ev.title || "Untitled event";
+    var newTabHint = document.createElement("span");
+    newTabHint.className = "visually-hidden";
+    newTabHint.textContent = " (opens in a new tab)";
+    a.appendChild(newTabHint);
+    h3.appendChild(a);
+    li.appendChild(h3);
+
+    var meta = document.createElement("div");
+    meta.className = "event-meta";
+    var parts = [formatDateTime(ev.start)];
+    if (ev.location) parts.push(ev.location);
+    if (ev.org) parts.push(ev.org);
+    parts.forEach(function (text) {
+      var span = document.createElement("span");
+      span.textContent = text;
+      meta.appendChild(span);
+    });
+    li.appendChild(meta);
+
+    if (ev.description) {
+      var desc = document.createElement("p");
+      desc.className = "event-desc";
+      desc.textContent = ev.description;
+      li.appendChild(desc);
+    }
+
+    var chips = document.createElement("div");
+    chips.className = "reason-chips";
+    row.reasons.forEach(function (r) {
+      var chip = document.createElement("span");
+      chip.className = "reason-chip " + r.type;
+      chip.textContent = r.text;
+      chips.appendChild(chip);
+    });
+    li.appendChild(chips);
+
+    if (ev.occurrence_count > 1) {
+      var note = document.createElement("p");
+      note.className = "occurrence-note";
+      note.textContent = "+" + (ev.occurrence_count - 1) + " more showing" +
+        (ev.occurrence_count - 1 === 1 ? "" : "s") + " over the next few weeks.";
+      li.appendChild(note);
+    }
+
+    return li;
+  }
+
+  // ---------------------------------------------------------------------
+  // Boot
+  // ---------------------------------------------------------------------
+
+  readStateFromHash();
+  loadData().then(function () {
+    if (loadFailed) { renderFailure(); return; }
+    initMajorKeys();
+    if (state.majorKey && majorsData[state.majorKey]) {
+      majorInput.value = majorLabel(state.majorKey);
+      clearMajorBtn.hidden = false;
+    }
+    deptOnlyEl.checked = state.deptOnly;
+    renderInterestChips();
+    render();
+  });
+
+  window.addEventListener("hashchange", function () {
+    readStateFromHash();
+    if (majorsData) {
+      majorInput.value = state.majorKey ? majorLabel(state.majorKey) : "";
+      clearMajorBtn.hidden = !state.majorKey;
+      deptOnlyEl.checked = state.deptOnly;
+      renderInterestChips();
+      render();
+    }
+  });
+})();
+</script>
+</body>
+</html>

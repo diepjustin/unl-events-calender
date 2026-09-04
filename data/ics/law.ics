@@ -1,0 +1,81 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//unl-events-demo//fetch_events.py//EN
+X-WR-CALNAME:UNL Campus Events — Pre-Law / Law
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:unl-200091@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260910T210000Z
+DTEND:20260910T220000Z
+SUMMARY:Pre-Law Orientation
+LOCATION:Love Library South Room Room 221
+DESCRIPTION:This workshop is designed for any student considering applying
+  to law school in the future. Freshmen through senior will learn what it 
+ means to be a pre-law student\, how to best plan your undergraduate educa
+ tion for law school success\, and what makes a competitive applicant. We 
+ will discuss specific timelines…
+URL:http://events.unl.edu/2026/09/10/200091/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:engage-12568116@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260916T210000Z
+DTEND:20260916T220000Z
+SUMMARY:Demystifying the LSAT: Blueprinting Your Way to a Top Score
+LOCATION:Love Library South 221
+DESCRIPTION:Thinking about law school but not sure where to begin with the
+  LSAT? Whether you're planning to take the LSAT in the next year or simpl
+ y want to understand what lies ahead\, this workshop will help you build 
+ a solid foundation and create a plan for success. Whether you're just exp
+ loring law school or actively planning…
+URL:https://unl.campuslabs.com/engage/event/12568116
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:engage-12667807@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260918T230000Z
+DTEND:20260919T010000Z
+SUMMARY:FossJam
+LOCATION:KH A445
+DESCRIPTION:Have you ever thought about coding for public benefit? You may
+  be interested in FossJam: a hackathon where participants contribute to F
+ ree and Open Source Software\, or FOSS. FOSS is software that gives contr
+ ol back to the user\, by allowing them the legal freedom to run\, study\,
+  modify\, and redistribute the software for…
+URL:https://unl.campuslabs.com/engage/event/12667807
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-202162@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260928T153000Z
+DTEND:20260928T162000Z
+SUMMARY:The Forgotten History of Chinese Life Under American Racial Law
+LOCATION:Zoom (http://go.unl.edu/lawandracewebinar)
+DESCRIPTION:Join Dr. Donna Anderson's HIST 115: And Justice For All class 
+ for a discussion with Dr. Beth Lew-Williams (Princeton University) on her
+  recent book\, John Doe Chinaman: A Forgotten History of Chinese Life und
+ er American Racial Law.
+URL:http://events.unl.edu/2026/09/28/202162/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201657@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260929T210000Z
+DTEND:20260929T220000Z
+SUMMARY:Constructing Your Case: How to Build a Standout Pre-Law Profile
+LOCATION:Love Library South Room 221
+DESCRIPTION:A strong law school application is built long before you submi
+ t your materials-it's developed through intentional choices\, meaningful 
+ experiences\, and a clear understanding of what law schools are looking f
+ or.\n\nJoin the Explore Center for an engaging workshop designed to help 
+ you begin building a competitive and…
+URL:http://events.unl.edu/2026/09/29/201657/
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

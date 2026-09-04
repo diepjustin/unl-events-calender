@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//unl-events-demo//fetch_events.py//EN
+X-WR-CALNAME:UNL Campus Events — Psychology
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:unl-201765@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20261001T140000Z
+DTEND:20261001T150000Z
+SUMMARY:Leadership Presentation
+LOCATION:Jackie Gaughan Multicultural Center Room Ubuntu Room\, 202
+DESCRIPTION:Andy Garbacz\, professor and co-area chair of the school psych
+ ology program within the Department of Educational Psychology at the Univ
+ ersity of Wisconsin-Madison\, will give a leadership presentation.\n\nMor
+ e details coming soon.\n\nThe presentation is free and open to the public
+ .\n\nLearn more:
+URL:http://events.unl.edu/2026/10/01/201765/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-202354@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20261001T180000Z
+DTEND:20261001T190000Z
+SUMMARY:Educational Psychology Colloquium
+LOCATION:Carolyn Pope Edwards Hall Room 227
+DESCRIPTION:You are invited to a Department of Educational Psychology coll
+ oquium featuring Jon Goodwin\, associate professor of teaching in the Dep
+ artment of Counseling\, Clinical and School Psychology at the University 
+ of California\, Santa Barbara.\n\nGoodwin will provide a practical overvi
+ ew of how school personnel and parents can…
+URL:http://events.unl.edu/2026/10/01/202354/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-197928@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20261015T170000Z
+DTEND:20261015T183000Z
+SUMMARY:Health Equity Grand Rounds: Ciera Kirkpatrick
+LOCATION:Zoom (https://unl.zoom.us/webinar/register/WN_MefhgDCBSey4eFd_f4h
+ 6sg#/registration)
+DESCRIPTION:Join us for our October Grand Rounds to hear from Ciera Kirkpa
+ trick\, PhD\, about "Scrolling Through Motherhood: How Social Media Shape
+ s Maternal Mental Health." The event is FREE and open to the public. Regi
+ ster for the Zoom link: https://unl.zoom.us/webinar/register/WN_MefhgDCBS
+ ey4eFd_f4h6sg#/registration \n\nToday's…
+URL:http://events.unl.edu/2026/10/15/197928/
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,206 @@
+# Major -> org/tag mapping used to score and rank events for a student.
+# This is the file an editor (not a programmer) should be editing.
+#
+# HOW SCORING USES THIS FILE (see index.html's `scoreEvent`):
+#   - org_contains: if an event's organizer/host name contains any of these
+#     strings (case-insensitive), the event gets +3 with the reason
+#     "From {label}'s usual org list" -- this is the strongest signal.
+#   - tags: if any of these words show up in the event's category, title,
+#     or description, the event gets +2 with the reason "Common for
+#     {label} students".
+#
+# HOW TO ADD A MAJOR:
+#   1. Copy a block below, change the key (kebab-case) and the label.
+#   2. For org_contains: browse events.unl.edu, find a few events actually
+#      run by that department, and copy the organizer name shown on the
+#      event page's "Contact" line. Exact department names work best --
+#      "Department of Mathematics", not "Math".
+#   3. For tags: a handful of words a student in that major would recognize.
+#      Keep them lowercase. These also get matched against event
+#      descriptions, so avoid very common words that would over-match
+#      (e.g. don't add "students" as a tag -- it's in almost every event).
+#   4. Run `python3 scripts/fetch_events.py` and check whether events you
+#      recognize as relevant to that major are showing up ranked higher.
+#
+# HOW TO REMOVE A MAJOR: delete its block.
+#
+# STARTING COVERAGE: this file has a starter set (~15) of majors, not the
+# full ~150 UNL offers. The org_contains values below marked "observed" were
+# confirmed against a live pull of events.unl.edu's feed; the rest are
+# UNL's official department names but haven't been checked against real
+# events yet and may need adjusting once you see how they perform.
+#
+# A STRONGER SIGNAL THAN ORGANIZER NAME, NOT YET WIRED UP: events.unl.edu is
+# federated -- each college/department also has its own calendar at
+# events.unl.edu/<slug>/ (e.g. /law/, /engineering/, /casnr/, /cba/, /music/
+# all confirmed live). That's a cleaner, more stable signal than the
+# ORGANIZER field (which is often an individual person's name, not a
+# department, and changes every time a new student runs the event). Right
+# now fetch_events.py only pulls the single site-wide feed and matches on
+# ORGANIZER text; teaching it to also pull specific unit feeds and tag
+# events with which unit they came from would let majors.yaml match on a
+# `unit_slugs` list instead of guessing at organizer names. That's real
+# follow-up work, not done yet.
+
+journalism:
+  label: "Journalism"
+  org_contains:
+    - "College of Journalism and Mass Communications"
+    - "CoJMC"
+    - "Daily Nebraskan"
+  tags:
+    - journalism
+    - media
+    - reporting
+    - broadcasting
+    - storytelling
+
+computer-science:
+  label: "Computer Science"
+  org_contains:
+    - "School of Computing"        # UNL's CS department is now "School of Computing"
+    - "Holland Computing Center"   # observed
+    - "ACM"
+  tags:
+    - computing
+    - coding
+    - software
+    - technology
+    - hackathon
+
+business:
+  label: "Business Administration"
+  org_contains:
+    - "College of Business"
+    - "Center for Entrepreneurship"  # observed
+  tags:
+    - business
+    - entrepreneurship
+    - finance
+    - marketing
+    - career fair
+
+biological-sciences:
+  label: "Biological Sciences / Pre-Health"
+  org_contains:
+    - "School of Biological Sciences"
+    - "Explore Center"  # observed -- catches pre-health advising sessions
+  tags:
+    - pre-health
+    - biology
+    - health
+    - medicine
+    - research
+
+mathematics:
+  label: "Mathematics"
+  org_contains:
+    - "Department of Mathematics"  # observed
+  tags:
+    - math
+    - mathematics
+    - statistics
+
+international-studies:
+  label: "International Studies / Global Studies"
+  org_contains:
+    - "Global Experiences Office"  # observed
+    - "ISSO"                       # observed -- International Student & Scholar Office
+  tags:
+    - international
+    - study abroad
+    - global
+    - culture
+
+art-and-design:
+  label: "Art, Art History and Design"
+  org_contains:
+    - "Hixson-Lied College of Fine and Performing Arts"  # observed
+    - "Sheldon Museum of Art"
+    - "Great Plains Art Museum"
+  tags:
+    - art
+    - exhibition
+    - design
+    - gallery
+
+law:
+  label: "Pre-Law / Law"
+  org_contains:
+    - "College of Law"  # UNL's official name -- not yet confirmed against a live event, check before relying on it
+  tags:
+    - law
+    - legal
+    - pre-law
+    - moot court
+
+engineering:
+  label: "Engineering"
+  org_contains:
+    - "College of Engineering"  # official name -- not yet confirmed against a live event
+  tags:
+    - engineering
+    - robotics
+    - design competition
+
+music:
+  label: "Music"
+  org_contains:
+    - "School of Music"  # official name -- not yet confirmed against a live event
+    - "Hixson-Lied College of Fine and Performing Arts"  # observed
+  tags:
+    - music
+    - recital
+    - concert
+    - orchestra
+    - choir
+
+agricultural-and-natural-resources:
+  label: "Agricultural and Natural Resources Sciences"
+  org_contains:
+    - "PlantNebraska"                    # observed
+    - "Nebraska Statewide Arboretum"     # observed
+    - "CASNR"
+  tags:
+    - agriculture
+    - natural resources
+    - sustainability
+    - plant science
+
+psychology:
+  label: "Psychology"
+  org_contains:
+    - "Department of Psychology"  # official name -- not yet confirmed against a live event
+  tags:
+    - psychology
+    - mental health
+    - research study
+
+english:
+  label: "English"
+  org_contains:
+    - "Department of English"  # official name -- not yet confirmed against a live event
+  tags:
+    - english
+    - literature
+    - creative writing
+    - poetry
+
+education:
+  label: "Education and Human Sciences"
+  org_contains:
+    - "College of Education and Human Sciences"  # official name -- not yet confirmed against a live event
+  tags:
+    - education
+    - teaching
+    - human sciences
+
+undeclared:
+  label: "Undeclared / Exploratory Studies"
+  org_contains:
+    - "Explore Center"  # observed
+    - "Career Services"  # observed
+  tags:
+    - career
+    - advising
+    - major exploration

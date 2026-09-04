@@ -1,0 +1,30 @@
+# Events that are publicly listed on UNL's or Engage's calendars but should
+# NOT be pushed through algorithmic ranking -- support groups, recovery
+# meetings, identity-based org meetings. A recommendation engine changes who
+# sees an event and who notices who's interested in it; some events don't
+# want that.
+#
+# Suppressing an event here does not hide it from the page silently. The
+# fetch job pulls it out of the ranked list and puts a short note in its
+# place (see the "suppressed" section of data/events.json and how the page
+# renders it) so nobody thinks we just missed it.
+#
+# To add one: give it an id (anything unique, kebab-case), a reason (shown
+# to readers, so write it like you'd explain it to them), and a "match".
+# Match on whatever combination of source/title_contains/org_contains
+# reliably identifies the event -- UIDs are NOT stable across a recurring
+# series (see MAINTAINING.md), so don't match on those.
+#
+# To remove one: delete its block. To temporarily pause suppression without
+# losing the reasoning, comment the block out with a leading "#" on each line.
+
+- id: caps-well-being-discussions
+  reason: >
+    This is a support-group-style drop-in space run by Counseling and
+    Psychological Services. Surfacing it through a personalized ranking
+    algorithm could reveal who's dealing with what, and change who shows
+    up. It's still on UNL's public calendar -- we just don't rank it.
+  match:
+    source: unl
+    title_contains: "Well-Being Discussions"
+    org_contains: "Counseling and Psychological Services"

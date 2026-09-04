@@ -1,0 +1,54 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//unl-events-demo//fetch_events.py//EN
+X-WR-CALNAME:UNL Campus Events — Journalism
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:engage-12697051@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260906T150000Z
+DTEND:20260907T000000Z
+SUMMARY:From Around the World to Nebraska: Cultural Ambassadors at Nebrask
+ a State Fair
+LOCATION:Fonner Park
+DESCRIPTION:From Around the World to Nebraska is an interactive cultural e
+ ngagement experience at the Nebraska State Fair that brings international
+  students from UNL together with Nebraska communities through storytellin
+ g\, cultural displays\, performances\, and conversation. Serving as Cultu
+ ral Ambassadors \, participants will…
+URL:https://unl.campuslabs.com/engage/event/12697051
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-197644@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20260916T220000Z
+DTEND:20260916T233000Z
+SUMMARY:2026 Hoagland Lecture
+LOCATION:Sheldon Museum of Art Room Ethel S. Abbott Auditorium
+DESCRIPTION:The 2026 Peter J. Hoagland Integrity in Public Service Lecture
+  brings together experts from political communications\, investigative re
+ porting\, political consulting\, and academia to present a panel discussi
+ on about the 2026 midterm elections. Come and join the conversation about
+  the forces shaping the 2026 midterm…
+URL:http://events.unl.edu/2026/09/16/197644/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-197928@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T153327Z
+DTSTART:20261015T170000Z
+DTEND:20261015T183000Z
+SUMMARY:Health Equity Grand Rounds: Ciera Kirkpatrick
+LOCATION:Zoom (https://unl.zoom.us/webinar/register/WN_MefhgDCBSey4eFd_f4h
+ 6sg#/registration)
+DESCRIPTION:Join us for our October Grand Rounds to hear from Ciera Kirkpa
+ trick\, PhD\, about "Scrolling Through Motherhood: How Social Media Shape
+ s Maternal Mental Health." The event is FREE and open to the public. Regi
+ ster for the Zoom link: https://unl.zoom.us/webinar/register/WN_MefhgDCBS
+ ey4eFd_f4h6sg#/registration \n\nToday's…
+URL:http://events.unl.edu/2026/10/15/197928/
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
