@@ -1,0 +1,41 @@
+# Events that are real, legitimate calendar entries but aren't things a
+# student would browse this page looking for -- staff HR administration,
+# attendance-tracking placeholders, that kind of internal noise. Unlike
+# data/suppression.yaml, this does NOT remove an event from ranking; it
+# subtracts points from its score and shows a grey "why this ranked low"
+# chip explaining the subtraction, so the effect is visible and auditable
+# like every other scoring signal (see the project's original design
+# principle: no opaque ranking).
+#
+# This is deliberately conservative and grounded in events actually seen
+# in this project's live data, not guessed keyword patterns -- an
+# overly broad title/category match here would quietly bury real student
+# events that happen to share a word with a noise pattern (this bit the
+# major/tag matching earlier in the project: a plain substring match on
+# "math" caught a comedian named "Matt Mathews"). Match narrowly.
+#
+# To add one: id (kebab-case), reason (shown on the card, plain language),
+# penalty (points subtracted -- 2 or 3 is typical, matching the scale of a
+# positive org/tag match so it can meaningfully outweigh one), and match
+# (source/title_contains/org_contains, same rules as suppression.yaml).
+# An event can match more than one rule; penalties stack.
+#
+# To remove one: delete its block.
+
+- id: staff-hr-orientation
+  reason: "Internal HR onboarding for new employees, not a student event"
+  penalty: 3
+  match:
+    org_contains: "Office of Human Resources"
+
+- id: staff-benefits-enrollment
+  reason: "Internal staff benefits administration, not a student event"
+  penalty: 3
+  match:
+    org_contains: "Benefits Office"
+
+- id: attendance-placeholder
+  reason: "A QR-code attendance placeholder, not a real event listing"
+  penalty: 3
+  match:
+    title_contains: "MRC Attendance"

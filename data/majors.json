@@ -6,6 +6,9 @@
       "Business Career Center",
       "Center for Entrepreneurship"
     ],
+    "unit_slugs": [
+      "cba"
+    ],
     "tags": [
       "agribusiness"
     ]
@@ -19,6 +22,9 @@
       "PlantNebraska",
       "Nebraska Statewide Arboretum"
     ],
+    "unit_slugs": [
+      "casnr"
+    ],
     "tags": [
       "agribusiness"
     ]
@@ -31,6 +37,10 @@
       "CASNR",
       "PlantNebraska",
       "Nebraska Statewide Arboretum"
+    ],
+    "unit_slugs": [
+      "casnr",
+      "agecon"
     ],
     "tags": [
       "agricultural economics",
@@ -47,6 +57,10 @@
       "Nebraska Statewide Arboretum",
       "College of Engineering"
     ],
+    "unit_slugs": [
+      "casnr",
+      "engineering"
+    ],
     "tags": [
       "agricultural engineering",
       "agriculture"
@@ -60,6 +74,9 @@
       "CASNR",
       "PlantNebraska",
       "Nebraska Statewide Arboretum"
+    ],
+    "unit_slugs": [
+      "casnr"
     ],
     "tags": [
       "agricultural leadership",
@@ -76,6 +93,9 @@
       "PlantNebraska",
       "Nebraska Statewide Arboretum"
     ],
+    "unit_slugs": [
+      "casnr"
+    ],
     "tags": [
       "agricultural systems",
       "agricultural technology"
@@ -90,6 +110,9 @@
       "PlantNebraska",
       "Nebraska Statewide Arboretum"
     ],
+    "unit_slugs": [
+      "casnr"
+    ],
     "tags": [
       "agronomy"
     ]
@@ -102,6 +125,9 @@
       "CASNR",
       "PlantNebraska",
       "Nebraska Statewide Arboretum"
+    ],
+    "unit_slugs": [
+      "casnr"
     ],
     "tags": [
       "animal science"
@@ -116,6 +142,9 @@
       "PlantNebraska",
       "Nebraska Statewide Arboretum"
     ],
+    "unit_slugs": [
+      "casnr"
+    ],
     "tags": [
       "biochemistry"
     ]
@@ -128,6 +157,9 @@
       "CASNR",
       "PlantNebraska",
       "Nebraska Statewide Arboretum"
+    ],
+    "unit_slugs": [
+      "casnr"
     ],
     "tags": [
       "environmental science",
@@ -143,6 +175,9 @@
       "PlantNebraska",
       "Nebraska Statewide Arboretum"
     ],
+    "unit_slugs": [
+      "casnr"
+    ],
     "tags": [
       "environmental studies",
       "sustainability"
@@ -156,6 +191,9 @@
       "CASNR",
       "PlantNebraska",
       "Nebraska Statewide Arboretum"
+    ],
+    "unit_slugs": [
+      "casnr"
     ],
     "tags": [
       "fisheries",
@@ -171,6 +209,9 @@
       "PlantNebraska",
       "Nebraska Statewide Arboretum"
     ],
+    "unit_slugs": [
+      "casnr"
+    ],
     "tags": [
       "food science"
     ]
@@ -183,6 +224,9 @@
       "CASNR",
       "PlantNebraska",
       "Nebraska Statewide Arboretum"
+    ],
+    "unit_slugs": [
+      "casnr"
     ],
     "tags": [
       "forensic science",
@@ -198,6 +242,9 @@
       "PlantNebraska",
       "Nebraska Statewide Arboretum"
     ],
+    "unit_slugs": [
+      "casnr"
+    ],
     "tags": [
       "grassland"
     ]
@@ -210,6 +257,9 @@
       "CASNR",
       "PlantNebraska",
       "Nebraska Statewide Arboretum"
+    ],
+    "unit_slugs": [
+      "casnr"
     ],
     "tags": [
       "integrated science"
@@ -224,6 +274,9 @@
       "PlantNebraska",
       "Nebraska Statewide Arboretum"
     ],
+    "unit_slugs": [
+      "casnr"
+    ],
     "tags": [
       "microbiology"
     ]
@@ -236,6 +289,9 @@
       "CASNR",
       "PlantNebraska",
       "Nebraska Statewide Arboretum"
+    ],
+    "unit_slugs": [
+      "casnr"
     ],
     "tags": [
       "golf management",
@@ -251,6 +307,9 @@
       "PlantNebraska",
       "Nebraska Statewide Arboretum"
     ],
+    "unit_slugs": [
+      "casnr"
+    ],
     "tags": [
       "plant systems",
       "landscape"
@@ -265,6 +324,9 @@
       "PlantNebraska",
       "Nebraska Statewide Arboretum"
     ],
+    "unit_slugs": [
+      "casnr"
+    ],
     "tags": [
       "plant biology"
     ]
@@ -277,6 +339,9 @@
       "CASNR",
       "PlantNebraska",
       "Nebraska Statewide Arboretum"
+    ],
+    "unit_slugs": [
+      "casnr"
     ],
     "tags": [
       "veterinary",
@@ -292,6 +357,9 @@
       "PlantNebraska",
       "Nebraska Statewide Arboretum"
     ],
+    "unit_slugs": [
+      "casnr"
+    ],
     "tags": [
       "forestry"
     ]
@@ -305,6 +373,9 @@
       "PlantNebraska",
       "Nebraska Statewide Arboretum"
     ],
+    "unit_slugs": [
+      "casnr"
+    ],
     "tags": [
       "veterinary science",
       "veterinary"
@@ -316,6 +387,10 @@
       "College of Engineering",
       "College of Architecture"
     ],
+    "unit_slugs": [
+      "architecture",
+      "engineering"
+    ],
     "tags": [
       "architectural engineering"
     ]
@@ -324,6 +399,9 @@
     "label": "Architectural Studies",
     "org_contains": [
       "College of Architecture"
+    ],
+    "unit_slugs": [
+      "architecture"
     ],
     "tags": [
       "architecture",
@@ -335,6 +413,9 @@
     "org_contains": [
       "College of Architecture"
     ],
+    "unit_slugs": [
+      "architecture"
+    ],
     "tags": [
       "interior design"
     ]
@@ -343,6 +424,9 @@
     "label": "Landscape Architecture",
     "org_contains": [
       "College of Architecture"
+    ],
+    "unit_slugs": [
+      "architecture"
     ],
     "tags": [
       "landscape architecture"
@@ -354,6 +438,7 @@
       "College of Arts & Sciences",
       "College of Arts and Sciences"
     ],
+    "unit_slugs": [],
     "tags": [
       "actuarial science",
       "actuary"
@@ -365,6 +450,7 @@
       "College of Arts & Sciences",
       "College of Arts and Sciences"
     ],
+    "unit_slugs": [],
     "tags": [
       "anthropology"
     ]
@@ -375,6 +461,7 @@
       "College of Arts & Sciences",
       "College of Arts and Sciences"
     ],
+    "unit_slugs": [],
     "tags": [
       "biochemistry"
     ]
@@ -385,6 +472,7 @@
       "College of Arts & Sciences",
       "College of Arts and Sciences"
     ],
+    "unit_slugs": [],
     "tags": [
       "biology",
       "biological sciences"
@@ -396,6 +484,9 @@
       "College of Arts & Sciences",
       "College of Arts and Sciences"
     ],
+    "unit_slugs": [
+      "chemistry"
+    ],
     "tags": [
       "chemistry"
     ]
@@ -406,6 +497,7 @@
       "College of Arts & Sciences",
       "College of Arts and Sciences"
     ],
+    "unit_slugs": [],
     "tags": [
       "classics",
       "religious studies"
@@ -417,6 +509,7 @@
       "College of Arts & Sciences",
       "College of Arts and Sciences"
     ],
+    "unit_slugs": [],
     "tags": [
       "communication studies",
       "communication"
@@ -428,6 +521,7 @@
       "College of Arts & Sciences",
       "College of Arts and Sciences"
     ],
+    "unit_slugs": [],
     "tags": [
       "data science"
     ]
@@ -437,6 +531,9 @@
     "org_contains": [
       "College of Arts & Sciences",
       "College of Arts and Sciences"
+    ],
+    "unit_slugs": [
+      "economics"
     ],
     "tags": [
       "economics"
@@ -448,6 +545,9 @@
       "College of Arts & Sciences",
       "College of Arts and Sciences",
       "Department of English"
+    ],
+    "unit_slugs": [
+      "english"
     ],
     "tags": [
       "english",
@@ -462,6 +562,7 @@
       "College of Arts & Sciences",
       "College of Arts and Sciences"
     ],
+    "unit_slugs": [],
     "tags": [
       "environmental studies",
       "sustainability"
@@ -473,6 +574,7 @@
       "College of Arts & Sciences",
       "College of Arts and Sciences"
     ],
+    "unit_slugs": [],
     "tags": [
       "film studies",
       "film"
@@ -484,6 +586,7 @@
       "College of Arts & Sciences",
       "College of Arts and Sciences"
     ],
+    "unit_slugs": [],
     "tags": [
       "geography"
     ]
@@ -496,6 +599,7 @@
       "Global Experiences Office",
       "ISSO"
     ],
+    "unit_slugs": [],
     "tags": [
       "global studies",
       "international",
@@ -509,6 +613,9 @@
       "College of Arts & Sciences",
       "College of Arts and Sciences"
     ],
+    "unit_slugs": [
+      "history"
+    ],
     "tags": [
       "history"
     ]
@@ -519,6 +626,7 @@
       "College of Arts & Sciences",
       "College of Arts and Sciences"
     ],
+    "unit_slugs": [],
     "tags": [
       "individualized studies"
     ]
@@ -529,6 +637,9 @@
       "College of Arts & Sciences",
       "College of Arts and Sciences",
       "Department of Mathematics"
+    ],
+    "unit_slugs": [
+      "math"
     ],
     "tags": [
       "math",
@@ -542,6 +653,7 @@
       "College of Arts & Sciences",
       "College of Arts and Sciences"
     ],
+    "unit_slugs": [],
     "tags": [
       "microbiology"
     ]
@@ -552,6 +664,7 @@
       "College of Arts & Sciences",
       "College of Arts and Sciences"
     ],
+    "unit_slugs": [],
     "tags": [
       "modern languages",
       "language"
@@ -563,6 +676,7 @@
       "College of Arts & Sciences",
       "College of Arts and Sciences"
     ],
+    "unit_slugs": [],
     "tags": [
       "multidisciplinary studies"
     ]
@@ -573,6 +687,9 @@
       "College of Arts & Sciences",
       "College of Arts and Sciences"
     ],
+    "unit_slugs": [
+      "philosophy"
+    ],
     "tags": [
       "philosophy"
     ]
@@ -581,7 +698,11 @@
     "label": "Physics",
     "org_contains": [
       "College of Arts & Sciences",
-      "College of Arts and Sciences"
+      "College of Arts and Sciences",
+      "Physics Department"
+    ],
+    "unit_slugs": [
+      "physics"
     ],
     "tags": [
       "physics"
@@ -592,6 +713,9 @@
     "org_contains": [
       "College of Arts & Sciences",
       "College of Arts and Sciences"
+    ],
+    "unit_slugs": [
+      "polisci"
     ],
     "tags": [
       "political science",
@@ -605,6 +729,9 @@
       "College of Arts and Sciences",
       "Department of Psychology"
     ],
+    "unit_slugs": [
+      "psychology"
+    ],
     "tags": [
       "psychology",
       "mental health"
@@ -616,6 +743,9 @@
       "College of Arts & Sciences",
       "College of Arts and Sciences"
     ],
+    "unit_slugs": [
+      "sociology"
+    ],
     "tags": [
       "sociology"
     ]
@@ -626,6 +756,7 @@
       "College of Arts & Sciences",
       "College of Arts and Sciences"
     ],
+    "unit_slugs": [],
     "tags": [
       "spanish"
     ]
@@ -636,6 +767,7 @@
       "College of Arts & Sciences",
       "College of Arts and Sciences"
     ],
+    "unit_slugs": [],
     "tags": [
       "women's studies",
       "gender studies"
@@ -648,6 +780,9 @@
       "Business Career Center",
       "Center for Entrepreneurship"
     ],
+    "unit_slugs": [
+      "cba"
+    ],
     "tags": [
       "accounting"
     ]
@@ -658,6 +793,9 @@
       "College of Business",
       "Business Career Center",
       "Center for Entrepreneurship"
+    ],
+    "unit_slugs": [
+      "cba"
     ],
     "tags": [
       "actuarial science",
@@ -671,6 +809,9 @@
       "Business Career Center",
       "Center for Entrepreneurship"
     ],
+    "unit_slugs": [
+      "cba"
+    ],
     "tags": [
       "business"
     ]
@@ -682,6 +823,9 @@
       "Business Career Center",
       "Center for Entrepreneurship"
     ],
+    "unit_slugs": [
+      "cba"
+    ],
     "tags": [
       "business law"
     ]
@@ -692,6 +836,9 @@
       "College of Business",
       "Business Career Center",
       "Center for Entrepreneurship"
+    ],
+    "unit_slugs": [
+      "cba"
     ],
     "tags": [
       "business analytics",
@@ -705,6 +852,10 @@
       "Business Career Center",
       "Center for Entrepreneurship"
     ],
+    "unit_slugs": [
+      "cba",
+      "economics"
+    ],
     "tags": [
       "economics"
     ]
@@ -715,6 +866,10 @@
       "College of Business",
       "Business Career Center",
       "Center for Entrepreneurship"
+    ],
+    "unit_slugs": [
+      "cba",
+      "finance"
     ],
     "tags": [
       "finance"
@@ -727,6 +882,9 @@
       "Business Career Center",
       "Center for Entrepreneurship"
     ],
+    "unit_slugs": [
+      "cba"
+    ],
     "tags": [
       "international business"
     ]
@@ -737,6 +895,10 @@
       "College of Business",
       "Business Career Center",
       "Center for Entrepreneurship"
+    ],
+    "unit_slugs": [
+      "cba",
+      "management"
     ],
     "tags": [
       "management"
@@ -749,6 +911,10 @@
       "Business Career Center",
       "Center for Entrepreneurship"
     ],
+    "unit_slugs": [
+      "cba",
+      "marketing"
+    ],
     "tags": [
       "marketing"
     ]
@@ -760,6 +926,9 @@
       "Business Career Center",
       "Center for Entrepreneurship"
     ],
+    "unit_slugs": [
+      "cba"
+    ],
     "tags": [
       "supply chain"
     ]
@@ -769,6 +938,9 @@
     "org_contains": [
       "College of Education & Human Sciences",
       "College of Education and Human Sciences"
+    ],
+    "unit_slugs": [
+      "cehs"
     ],
     "tags": [
       "communication disorders",
@@ -781,6 +953,9 @@
       "College of Education & Human Sciences",
       "College of Education and Human Sciences"
     ],
+    "unit_slugs": [
+      "cehs"
+    ],
     "tags": [
       "early childhood education"
     ]
@@ -791,6 +966,9 @@
       "College of Education & Human Sciences",
       "College of Education and Human Sciences"
     ],
+    "unit_slugs": [
+      "cehs"
+    ],
     "tags": [
       "family and consumer sciences"
     ]
@@ -800,6 +978,9 @@
     "org_contains": [
       "College of Education & Human Sciences",
       "College of Education and Human Sciences"
+    ],
+    "unit_slugs": [
+      "cehs"
     ],
     "tags": [
       "human development",
@@ -812,6 +993,9 @@
       "College of Education & Human Sciences",
       "College of Education and Human Sciences"
     ],
+    "unit_slugs": [
+      "cehs"
+    ],
     "tags": [
       "early childhood education",
       "inclusive education"
@@ -822,6 +1006,9 @@
     "org_contains": [
       "College of Education & Human Sciences",
       "College of Education and Human Sciences"
+    ],
+    "unit_slugs": [
+      "cehs"
     ],
     "tags": [
       "elementary education",
@@ -834,6 +1021,9 @@
       "College of Education & Human Sciences",
       "College of Education and Human Sciences"
     ],
+    "unit_slugs": [
+      "cehs"
+    ],
     "tags": [
       "elementary education"
     ]
@@ -843,6 +1033,9 @@
     "org_contains": [
       "College of Education & Human Sciences",
       "College of Education and Human Sciences"
+    ],
+    "unit_slugs": [
+      "cehs"
     ],
     "tags": [
       "elementary education",
@@ -855,6 +1048,9 @@
       "College of Education & Human Sciences",
       "College of Education and Human Sciences"
     ],
+    "unit_slugs": [
+      "cehs"
+    ],
     "tags": [
       "hospitality",
       "tourism management"
@@ -865,6 +1061,9 @@
     "org_contains": [
       "College of Education & Human Sciences",
       "College of Education and Human Sciences"
+    ],
+    "unit_slugs": [
+      "cehs"
     ],
     "tags": [
       "nutrition",
@@ -877,6 +1076,9 @@
       "College of Education & Human Sciences",
       "College of Education and Human Sciences"
     ],
+    "unit_slugs": [
+      "cehs"
+    ],
     "tags": [
       "nutrition",
       "biomedical sciences"
@@ -887,6 +1089,9 @@
     "org_contains": [
       "College of Education & Human Sciences",
       "College of Education and Human Sciences"
+    ],
+    "unit_slugs": [
+      "cehs"
     ],
     "tags": [
       "nutrition",
@@ -899,6 +1104,9 @@
       "College of Education & Human Sciences",
       "College of Education and Human Sciences"
     ],
+    "unit_slugs": [
+      "cehs"
+    ],
     "tags": [
       "secondary education",
       "arabic"
@@ -909,6 +1117,9 @@
     "org_contains": [
       "College of Education & Human Sciences",
       "College of Education and Human Sciences"
+    ],
+    "unit_slugs": [
+      "cehs"
     ],
     "tags": [
       "secondary education",
@@ -921,6 +1132,9 @@
       "College of Education & Human Sciences",
       "College of Education and Human Sciences"
     ],
+    "unit_slugs": [
+      "cehs"
+    ],
     "tags": [
       "secondary education",
       "business education"
@@ -931,6 +1145,9 @@
     "org_contains": [
       "College of Education & Human Sciences",
       "College of Education and Human Sciences"
+    ],
+    "unit_slugs": [
+      "cehs"
     ],
     "tags": [
       "secondary education",
@@ -943,6 +1160,9 @@
       "College of Education & Human Sciences",
       "College of Education and Human Sciences"
     ],
+    "unit_slugs": [
+      "cehs"
+    ],
     "tags": [
       "secondary education",
       "chinese"
@@ -953,6 +1173,9 @@
     "org_contains": [
       "College of Education & Human Sciences",
       "College of Education and Human Sciences"
+    ],
+    "unit_slugs": [
+      "cehs"
     ],
     "tags": [
       "secondary education",
@@ -965,6 +1188,9 @@
       "College of Education & Human Sciences",
       "College of Education and Human Sciences"
     ],
+    "unit_slugs": [
+      "cehs"
+    ],
     "tags": [
       "secondary education",
       "french"
@@ -975,6 +1201,9 @@
     "org_contains": [
       "College of Education & Human Sciences",
       "College of Education and Human Sciences"
+    ],
+    "unit_slugs": [
+      "cehs"
     ],
     "tags": [
       "secondary education",
@@ -987,6 +1216,9 @@
       "College of Education & Human Sciences",
       "College of Education and Human Sciences"
     ],
+    "unit_slugs": [
+      "cehs"
+    ],
     "tags": [
       "secondary education",
       "japanese"
@@ -997,6 +1229,9 @@
     "org_contains": [
       "College of Education & Human Sciences",
       "College of Education and Human Sciences"
+    ],
+    "unit_slugs": [
+      "cehs"
     ],
     "tags": [
       "secondary education",
@@ -1009,6 +1244,9 @@
       "College of Education & Human Sciences",
       "College of Education and Human Sciences"
     ],
+    "unit_slugs": [
+      "cehs"
+    ],
     "tags": [
       "secondary education",
       "math education"
@@ -1019,6 +1257,9 @@
     "org_contains": [
       "College of Education & Human Sciences",
       "College of Education and Human Sciences"
+    ],
+    "unit_slugs": [
+      "cehs"
     ],
     "tags": [
       "secondary education",
@@ -1031,6 +1272,9 @@
       "College of Education & Human Sciences",
       "College of Education and Human Sciences"
     ],
+    "unit_slugs": [
+      "cehs"
+    ],
     "tags": [
       "secondary education",
       "science education"
@@ -1041,6 +1285,9 @@
     "org_contains": [
       "College of Education & Human Sciences",
       "College of Education and Human Sciences"
+    ],
+    "unit_slugs": [
+      "cehs"
     ],
     "tags": [
       "secondary education",
@@ -1053,6 +1300,9 @@
       "College of Education & Human Sciences",
       "College of Education and Human Sciences"
     ],
+    "unit_slugs": [
+      "cehs"
+    ],
     "tags": [
       "secondary education",
       "social studies"
@@ -1063,6 +1313,9 @@
     "org_contains": [
       "College of Education & Human Sciences",
       "College of Education and Human Sciences"
+    ],
+    "unit_slugs": [
+      "cehs"
     ],
     "tags": [
       "secondary education",
@@ -1075,6 +1328,9 @@
       "College of Education & Human Sciences",
       "College of Education and Human Sciences"
     ],
+    "unit_slugs": [
+      "cehs"
+    ],
     "tags": [
       "special education"
     ]
@@ -1085,6 +1341,9 @@
       "College of Education & Human Sciences",
       "College of Education and Human Sciences"
     ],
+    "unit_slugs": [
+      "cehs"
+    ],
     "tags": [
       "special education"
     ]
@@ -1093,6 +1352,9 @@
     "label": "Biological Systems Engineering",
     "org_contains": [
       "College of Engineering"
+    ],
+    "unit_slugs": [
+      "engineering"
     ],
     "tags": [
       "biological systems engineering"
@@ -1103,6 +1365,9 @@
     "org_contains": [
       "College of Engineering"
     ],
+    "unit_slugs": [
+      "engineering"
+    ],
     "tags": [
       "chemical engineering"
     ]
@@ -1112,6 +1377,9 @@
     "org_contains": [
       "College of Engineering"
     ],
+    "unit_slugs": [
+      "engineering"
+    ],
     "tags": [
       "civil engineering"
     ]
@@ -1120,6 +1388,9 @@
     "label": "Computer Engineering",
     "org_contains": [
       "College of Engineering"
+    ],
+    "unit_slugs": [
+      "engineering"
     ],
     "tags": [
       "computer engineering"
@@ -1132,6 +1403,9 @@
       "School of Computing",
       "Holland Computing Center",
       "ACM"
+    ],
+    "unit_slugs": [
+      "engineering"
     ],
     "tags": [
       "computer science",
@@ -1146,6 +1420,9 @@
     "org_contains": [
       "College of Engineering"
     ],
+    "unit_slugs": [
+      "engineering"
+    ],
     "tags": [
       "construction engineering"
     ]
@@ -1154,6 +1431,9 @@
     "label": "Construction Management",
     "org_contains": [
       "College of Engineering"
+    ],
+    "unit_slugs": [
+      "engineering"
     ],
     "tags": [
       "construction management"
@@ -1164,6 +1444,9 @@
     "org_contains": [
       "College of Engineering"
     ],
+    "unit_slugs": [
+      "engineering"
+    ],
     "tags": [
       "data science"
     ]
@@ -1172,6 +1455,9 @@
     "label": "Electrical Engineering",
     "org_contains": [
       "College of Engineering"
+    ],
+    "unit_slugs": [
+      "engineering"
     ],
     "tags": [
       "electrical engineering"
@@ -1182,6 +1468,9 @@
     "org_contains": [
       "College of Engineering"
     ],
+    "unit_slugs": [
+      "engineering"
+    ],
     "tags": [
       "environmental engineering"
     ]
@@ -1190,6 +1479,9 @@
     "label": "Mechanical Engineering",
     "org_contains": [
       "College of Engineering"
+    ],
+    "unit_slugs": [
+      "engineering"
     ],
     "tags": [
       "mechanical engineering"
@@ -1200,6 +1492,9 @@
     "org_contains": [
       "College of Engineering"
     ],
+    "unit_slugs": [
+      "engineering"
+    ],
     "tags": [
       "robotics"
     ]
@@ -1208,6 +1503,9 @@
     "label": "Software Engineering",
     "org_contains": [
       "College of Engineering"
+    ],
+    "unit_slugs": [
+      "engineering"
     ],
     "tags": [
       "software engineering",
@@ -1222,6 +1520,7 @@
       "Sheldon Museum of Art",
       "Great Plains Art Museum"
     ],
+    "unit_slugs": [],
     "tags": [
       "acting",
       "theatre"
@@ -1233,7 +1532,11 @@
       "Hixson-Lied College of Fine & Performing Arts",
       "Hixson-Lied College of Fine and Performing Arts",
       "Sheldon Museum of Art",
-      "Great Plains Art Museum"
+      "Great Plains Art Museum",
+      "School of Art, Art History & Design"
+    ],
+    "unit_slugs": [
+      "art"
     ],
     "tags": [
       "art"
@@ -1245,7 +1548,11 @@
       "Hixson-Lied College of Fine & Performing Arts",
       "Hixson-Lied College of Fine and Performing Arts",
       "Sheldon Museum of Art",
-      "Great Plains Art Museum"
+      "Great Plains Art Museum",
+      "School of Art, Art History & Design"
+    ],
+    "unit_slugs": [
+      "art"
     ],
     "tags": [
       "art history"
@@ -1259,6 +1566,7 @@
       "Sheldon Museum of Art",
       "Great Plains Art Museum"
     ],
+    "unit_slugs": [],
     "tags": [
       "dance"
     ]
@@ -1271,6 +1579,7 @@
       "Sheldon Museum of Art",
       "Great Plains Art Museum"
     ],
+    "unit_slugs": [],
     "tags": [
       "emerging media arts",
       "media arts"
@@ -1284,6 +1593,7 @@
       "Sheldon Museum of Art",
       "Great Plains Art Museum"
     ],
+    "unit_slugs": [],
     "tags": [
       "entertainment design",
       "production design"
@@ -1297,6 +1607,7 @@
       "Sheldon Museum of Art",
       "Great Plains Art Museum"
     ],
+    "unit_slugs": [],
     "tags": [
       "graphic arts"
     ]
@@ -1309,6 +1620,7 @@
       "Sheldon Museum of Art",
       "Great Plains Art Museum"
     ],
+    "unit_slugs": [],
     "tags": [
       "graphic design"
     ]
@@ -1321,6 +1633,7 @@
       "Sheldon Museum of Art",
       "Great Plains Art Museum"
     ],
+    "unit_slugs": [],
     "tags": [
       "interdisciplinary studies"
     ]
@@ -1333,6 +1646,9 @@
       "Sheldon Museum of Art",
       "Great Plains Art Museum",
       "School of Music"
+    ],
+    "unit_slugs": [
+      "music"
     ],
     "tags": [
       "music",
@@ -1350,6 +1666,9 @@
       "Sheldon Museum of Art",
       "Great Plains Art Museum"
     ],
+    "unit_slugs": [
+      "music"
+    ],
     "tags": [
       "music education"
     ]
@@ -1362,6 +1681,7 @@
       "Sheldon Museum of Art",
       "Great Plains Art Museum"
     ],
+    "unit_slugs": [],
     "tags": [
       "theatre",
       "theater"
@@ -1374,6 +1694,9 @@
       "College of Journalism and Mass Communications",
       "CoJMC",
       "Daily Nebraskan"
+    ],
+    "unit_slugs": [
+      "cojmc"
     ],
     "tags": [
       "advertising",
@@ -1388,6 +1711,9 @@
       "CoJMC",
       "Daily Nebraskan"
     ],
+    "unit_slugs": [
+      "cojmc"
+    ],
     "tags": [
       "broadcasting"
     ]
@@ -1399,6 +1725,9 @@
       "College of Journalism and Mass Communications",
       "CoJMC",
       "Daily Nebraskan"
+    ],
+    "unit_slugs": [
+      "cojmc"
     ],
     "tags": [
       "journalism",
@@ -1415,6 +1744,9 @@
       "CoJMC",
       "Daily Nebraskan"
     ],
+    "unit_slugs": [
+      "cojmc"
+    ],
     "tags": [
       "sports media"
     ]
@@ -1424,6 +1756,7 @@
     "org_contains": [
       "College of Public Affairs & Community Service"
     ],
+    "unit_slugs": [],
     "tags": [
       "criminology",
       "criminal justice"
@@ -1435,6 +1768,7 @@
       "Explore Center",
       "Career Services"
     ],
+    "unit_slugs": [],
     "tags": [
       "career",
       "advising",
@@ -1447,6 +1781,9 @@
       "College of Law",
       "Explore Center",
       "Career Services"
+    ],
+    "unit_slugs": [
+      "law"
     ],
     "tags": [
       "law",
@@ -1461,6 +1798,7 @@
       "Explore Center",
       "Career Services"
     ],
+    "unit_slugs": [],
     "tags": [
       "pre-health",
       "health",

@@ -315,6 +315,7 @@
   .reason-chip.org { background: var(--chip-org); color: var(--chip-org-text); }
   .reason-chip.tag { background: var(--chip-tag); color: var(--chip-tag-text); }
   .reason-chip.interest { background: var(--chip-interest); color: var(--chip-interest-text); }
+  .reason-chip.noise { background: var(--chip-neutral); color: var(--chip-neutral-text); font-style: italic; }
 
   .occurrence-note {
     font-size: 0.82rem;
@@ -342,7 +343,7 @@
 </style>
 </head>
 <body>
-<div class="nameplate"><div class="nameplate-inner">UNL Campus Events</div></div>
+<header class="nameplate"><div class="nameplate-inner">UNL Campus Events</div></header>
 <main>
   <header class="page-header">
     <h1>UNL Campus Events — For You</h1>
@@ -662,12 +663,25 @@
 
     if (majorKey && majorsData[majorKey]) {
       var major = majorsData[majorKey];
-      var orgHit = (major.org_contains || []).some(function (s) {
-        return org.indexOf(s.toLowerCase()) !== -1;
+      // unit_slugs (which federated calendar this event was posted under)
+      // is checked first: it's a department/college's own calendar, not an
+      // individual person's name, so it's more reliable than org_contains.
+      // Only fall back to org_contains if no unit matched, so the same
+      // "this event belongs to this department" signal doesn't score twice.
+      var unitHit = (major.unit_slugs || []).some(function (slug) {
+        return (ev.units || []).indexOf(slug) !== -1;
       });
-      if (orgHit) {
+      if (unitHit) {
         score += 3;
-        reasons.push({ type: "org", text: "From " + major.label + "'s usual org list" });
+        reasons.push({ type: "org", text: "Posted under " + major.label + "'s calendar" });
+      } else {
+        var orgHit = (major.org_contains || []).some(function (s) {
+          return org.indexOf(s.toLowerCase()) !== -1;
+        });
+        if (orgHit) {
+          score += 3;
+          reasons.push({ type: "org", text: "From " + major.label + "'s usual org list" });
+        }
       }
       var tagHit = (major.tags || []).some(function (t) {
         return containsWord(haystack, t);
@@ -684,6 +698,11 @@
         reasons.push({ type: "interest", text: 'You picked "' + interest + '"' });
       }
     });
+
+    if (ev.noise_penalty) {
+      score -= ev.noise_penalty;
+      reasons.push({ type: "noise", text: ev.noise_reason + " (−" + ev.noise_penalty + ")" });
+    }
 
     if (reasons.length === 0) {
       reasons.push({ type: "neutral", text: "On UNL's public calendar" });
