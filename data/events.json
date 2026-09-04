@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-04T15:33:19.981068+00:00",
+  "generated_at": "2026-09-04T15:44:05.421239+00:00",
   "window_days": 60,
   "sources": {
     "unl": {
-      "raw_count": 1223
+      "raw_count": 1228
     },
     "engage": {
       "raw_count": 400
@@ -2259,6 +2259,22 @@
       "other_dates": []
     },
     {
+      "id": "unl:202576@events.unl.edu",
+      "source": "unl",
+      "title": "University Program Council Application Workshop",
+      "start": "2026-09-10T17:00:00+00:00",
+      "end": "2026-09-10T20:00:00+00:00",
+      "location": "Nebraska Union Room 134",
+      "org": "UPC Nebraska",
+      "category": null,
+      "url": "http://events.unl.edu/2026/09/10/202576/",
+      "description": "Welcome to the University Program Council office! For all that are interested in joining UPC Nebraska this fall, we are hosting an application workshop and open house. Come take a look at the UPC office and ask our current members questions about your application and/or anything else you're curious about regarding our…",
+      "occurrence_count": 2,
+      "other_dates": [
+        "2026-09-11T17:00:00+00:00"
+      ]
+    },
+    {
       "id": "unl:196085@events.unl.edu",
       "source": "unl",
       "title": "Career Fair Prep for International Students",
@@ -4441,6 +4457,20 @@
       ]
     },
     {
+      "id": "unl:202573@events.unl.edu",
+      "source": "unl",
+      "title": "Block and Bridle Club Steak Fry",
+      "start": "2026-09-18T22:00:00+00:00",
+      "end": "2026-09-19T00:00:00+00:00",
+      "location": "Animal Science Complex Room",
+      "org": "Nebraska Block & Bridle Club",
+      "category": null,
+      "url": "http://events.unl.edu/2026/09/18/202573/",
+      "description": "The University of Nebraska-Lincoln Block and Bridle Club will host its annual Steak Fry event on Friday, September 18.\n\nThe event will be held at the Animal Science Complex on Nebraska's East Campus from 5-7 p.m. Presale meal tickets can be purchased for $12 on UNL Marketplace or can be purchased at the door for $15.…",
+      "occurrence_count": 1,
+      "other_dates": []
+    },
+    {
       "id": "engage:12667807",
       "source": "engage",
       "title": "FossJam",
@@ -5734,6 +5764,20 @@
       "other_dates": []
     },
     {
+      "id": "unl:202585@events.unl.edu",
+      "source": "unl",
+      "title": "Ceramics: Illuminated Witch Hat - Beginner Workshop",
+      "start": "2026-09-29T22:00:00+00:00",
+      "end": "2026-09-30T00:00:00+00:00",
+      "location": "Nebraska Innovation Studio Room",
+      "org": "Nebraska Innovation Studio",
+      "category": null,
+      "url": "http://events.unl.edu/2026/09/29/202585/",
+      "description": "Create your own magical hand-built ceramic witch hat lantern in this beginner-friendly, two-part workshop with ceramic artist Tara Hinkley of Creative Lotus Shop.\n\nPart One - Tuesday, September 29 | 5:00-7:00 PM\nStudents will learn the basics of hand-building with clay, including how to use a slab roller and templates…",
+      "occurrence_count": 1,
+      "other_dates": []
+    },
+    {
       "id": "unl:202351@events.unl.edu",
       "source": "unl",
       "title": "Quill and Ink",
@@ -6573,6 +6617,20 @@
       "category": null,
       "url": "http://events.unl.edu/2026/10/06/201645/",
       "description": "Thinking about dental school and wondering when-or how-to start preparing for the DAT?\n\nWhether you're planning to take the DAT in the next year or two or simply want to understand how the exam fits into your dental school timeline, this workshop will help you build a strategy for success. \n\nThis workshop is…",
+      "occurrence_count": 1,
+      "other_dates": []
+    },
+    {
+      "id": "unl:202586@events.unl.edu",
+      "source": "unl",
+      "title": "Two-Part Ceramic Workshop",
+      "start": "2026-10-06T22:00:00+00:00",
+      "end": "2026-10-06T23:30:00+00:00",
+      "location": "Nebraska Innovation Studio Room",
+      "org": "Nebraska Innovation Studio",
+      "category": null,
+      "url": "http://events.unl.edu/2026/10/06/202586/",
+      "description": "Create your own magical hand-built ceramic witch hat lantern in this beginner-friendly, two-part workshop with ceramic artist Tara Hinkley of Creative Lotus Shop.\n\nPart One - Tuesday, September 29 | 5:00-7:00 PM\nStudents will learn the basics of hand-building with clay, including how to use a slab roller and templates…",
       "occurrence_count": 1,
       "other_dates": []
     },
@@ -7675,7 +7733,7 @@
       "other_dates": []
     },
     {
-      "id": "unl:202250@events.unl.edu",
+      "id": "unl:202254@events.unl.edu",
       "source": "unl",
       "title": "State of the Agency Lecture",
       "start": "2026-10-29T17:30:00+00:00",
@@ -7683,7 +7741,7 @@
       "location": "Nebraska Union Room Swanson Auditorium",
       "org": "Trisha Rhodes",
       "category": null,
-      "url": "http://events.unl.edu/2026/10/29/202250/",
+      "url": "http://events.unl.edu/2026/10/29/202254/",
       "description": "Lecture",
       "occurrence_count": 1,
       "other_dates": []

@@ -6,7 +6,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:unl-200958@events.unl.edu@unl-events-demo
-DTSTAMP:20260904T153327Z
+DTSTAMP:20260904T154412Z
 DTSTART:20260908T150000Z
 DTEND:20260908T200000Z
 SUMMARY:HCC Fall Kickstart
@@ -22,7 +22,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:engage-12680476@unl-events-demo
-DTSTAMP:20260904T153327Z
+DTSTAMP:20260904T154412Z
 DTSTART:20260909T210000Z
 DTEND:20260909T230000Z
 SUMMARY:Student Involvement Fair
@@ -36,7 +36,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:engage-12647972@unl-events-demo
-DTSTAMP:20260904T153327Z
+DTSTAMP:20260904T154412Z
 DTSTART:20260909T233000Z
 DTEND:20260910T003000Z
 SUMMARY:Resume  & Career Prep Night
@@ -51,7 +51,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:unl-201884@events.unl.edu@unl-events-demo
-DTSTAMP:20260904T153327Z
+DTSTAMP:20260904T154412Z
 DTSTART:20260916T140000Z
 DTEND:20260916T200000Z
 SUMMARY:Parallel Computing with MATLAB(R)
@@ -66,7 +66,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:engage-12667807@unl-events-demo
-DTSTAMP:20260904T153327Z
+DTSTAMP:20260904T154412Z
 DTSTART:20260918T230000Z
 DTEND:20260919T010000Z
 SUMMARY:FossJam
@@ -81,7 +81,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:unl-201478@events.unl.edu@unl-events-demo
-DTSTAMP:20260904T153327Z
+DTSTAMP:20260904T154412Z
 DTSTART:20261001T150000Z
 DTEND:20261001T213000Z
 SUMMARY:Introduction to Artificial Intelligence and Machine Learning Using
@@ -93,36 +93,6 @@ DESCRIPTION:This workshop will give participants a hands-on introduction t
  ize GPU resources on NRP and utilize PyTorch to create and train a simple
   model. The participants will be…
 URL:http://events.unl.edu/2026/10/01/201478/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:unl-199724@events.unl.edu@unl-events-demo
-DTSTAMP:20260904T153327Z
-DTSTART:20261017T003000Z
-DTEND:20261017T003000Z
-SUMMARY:Lumia
-LOCATION:Lied Center for Performing Arts Room Lied Center Main Stage
-DESCRIPTION:Step Into the Future with LUMIA: An Electrifying Theatrical Sp
- ectacle. Enter a dazzling world where the boundaries between technology a
- nd live performance vanish. LUMIA is a groundbreaking theatrical spectacl
- e that blends award-winning acrobats\, daring stunts\, a pulse-pounding s
- oundtrack\, andcutting-edgevisual effects…
-URL:http://events.unl.edu/2026/10/16/199724/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:unl-201462@events.unl.edu@unl-events-demo
-DTSTAMP:20260904T153327Z
-DTSTART:20261027T173000Z
-DTEND:20261027T190000Z
-SUMMARY:Nebraska Ambassadors Forum
-LOCATION:Nebraska Union Room Swanson Auditorium
-DESCRIPTION:This year's forum will examine "The Changing Nature of America
- n Diplomacy\," exploring how the practice of diplomacy has evolved over t
- he past 250 years while addressing today's increasingly complex global ch
- allenges. Discussion topics will include the changing role of diplomats\,
-  technology and diplomacy\, international…
-URL:http://events.unl.edu/2026/10/27/201462/
 STATUS:CONFIRMED
 END:VEVENT
 END:VCALENDAR

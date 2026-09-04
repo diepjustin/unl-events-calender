@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//unl-events-demo//fetch_events.py//EN
+X-WR-CALNAME:UNL Campus Events — Secondary Education: Chinese
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:unl-202162@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T154412Z
+DTSTART:20260928T153000Z
+DTEND:20260928T162000Z
+SUMMARY:The Forgotten History of Chinese Life Under American Racial Law
+LOCATION:Zoom (http://go.unl.edu/lawandracewebinar)
+DESCRIPTION:Join Dr. Donna Anderson's HIST 115: And Justice For All class 
+ for a discussion with Dr. Beth Lew-Williams (Princeton University) on her
+  recent book\, John Doe Chinaman: A Forgotten History of Chinese Life und
+ er American Racial Law.
+URL:http://events.unl.edu/2026/09/28/202162/
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,7 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//unl-events-demo//fetch_events.py//EN
+X-WR-CALNAME:UNL Campus Events — Biological Systems Engineering
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+END:VCALENDAR

@@ -1,165 +1,452 @@
 {
-  "journalism": {
-    "label": "Journalism",
-    "org_contains": [
-      "College of Journalism and Mass Communications",
-      "CoJMC",
-      "Daily Nebraskan"
-    ],
-    "tags": [
-      "journalism",
-      "media",
-      "reporting",
-      "broadcasting",
-      "storytelling"
-    ]
-  },
-  "computer-science": {
-    "label": "Computer Science",
-    "org_contains": [
-      "School of Computing",
-      "Holland Computing Center",
-      "ACM"
-    ],
-    "tags": [
-      "computing",
-      "coding",
-      "software",
-      "technology",
-      "hackathon"
-    ]
-  },
-  "business": {
-    "label": "Business Administration",
+  "agribusiness-business": {
+    "label": "Agribusiness (Business)",
     "org_contains": [
       "College of Business",
+      "Business Career Center",
       "Center for Entrepreneurship"
     ],
     "tags": [
-      "business",
-      "entrepreneurship",
-      "finance",
-      "marketing",
-      "career fair"
+      "agribusiness"
     ]
   },
-  "biological-sciences": {
-    "label": "Biological Sciences / Pre-Health",
+  "agribusiness-casnr": {
+    "label": "Agribusiness (CASNR)",
     "org_contains": [
-      "School of Biological Sciences",
-      "Explore Center"
+      "College of Agricultural Sciences & Natural Resources",
+      "College of Agricultural Sciences and Natural Resources",
+      "CASNR",
+      "PlantNebraska",
+      "Nebraska Statewide Arboretum"
     ],
     "tags": [
-      "pre-health",
-      "biology",
-      "health",
-      "medicine",
-      "research"
+      "agribusiness"
     ]
   },
-  "mathematics": {
-    "label": "Mathematics",
+  "agricultural-economics": {
+    "label": "Agricultural Economics",
     "org_contains": [
-      "Department of Mathematics"
+      "College of Agricultural Sciences & Natural Resources",
+      "College of Agricultural Sciences and Natural Resources",
+      "CASNR",
+      "PlantNebraska",
+      "Nebraska Statewide Arboretum"
     ],
     "tags": [
-      "math",
-      "mathematics",
-      "statistics"
+      "agricultural economics",
+      "agriculture"
     ]
   },
-  "international-studies": {
-    "label": "International Studies / Global Studies",
+  "agricultural-engineering": {
+    "label": "Agricultural Engineering",
     "org_contains": [
-      "Global Experiences Office",
-      "ISSO"
-    ],
-    "tags": [
-      "international",
-      "study abroad",
-      "global",
-      "culture"
-    ]
-  },
-  "art-and-design": {
-    "label": "Art, Art History and Design",
-    "org_contains": [
-      "Hixson-Lied College of Fine and Performing Arts",
-      "Sheldon Museum of Art",
-      "Great Plains Art Museum"
-    ],
-    "tags": [
-      "art",
-      "exhibition",
-      "design",
-      "gallery"
-    ]
-  },
-  "law": {
-    "label": "Pre-Law / Law",
-    "org_contains": [
-      "College of Law"
-    ],
-    "tags": [
-      "law",
-      "legal",
-      "pre-law",
-      "moot court"
-    ]
-  },
-  "engineering": {
-    "label": "Engineering",
-    "org_contains": [
+      "College of Agricultural Sciences & Natural Resources",
+      "College of Agricultural Sciences and Natural Resources",
+      "CASNR",
+      "PlantNebraska",
+      "Nebraska Statewide Arboretum",
       "College of Engineering"
     ],
     "tags": [
-      "engineering",
-      "robotics",
-      "design competition"
+      "agricultural engineering",
+      "agriculture"
     ]
   },
-  "music": {
-    "label": "Music",
+  "agricultural-leadership-education-communication": {
+    "label": "Agricultural Leadership, Education and Communication",
     "org_contains": [
-      "School of Music",
-      "Hixson-Lied College of Fine and Performing Arts"
-    ],
-    "tags": [
-      "music",
-      "recital",
-      "concert",
-      "orchestra",
-      "choir"
-    ]
-  },
-  "agricultural-and-natural-resources": {
-    "label": "Agricultural and Natural Resources Sciences",
-    "org_contains": [
+      "College of Agricultural Sciences & Natural Resources",
+      "College of Agricultural Sciences and Natural Resources",
+      "CASNR",
       "PlantNebraska",
-      "Nebraska Statewide Arboretum",
-      "CASNR"
+      "Nebraska Statewide Arboretum"
     ],
     "tags": [
-      "agriculture",
-      "natural resources",
-      "sustainability",
-      "plant science"
+      "agricultural leadership",
+      "agricultural education",
+      "agricultural communication"
     ]
   },
-  "psychology": {
-    "label": "Psychology",
+  "agricultural-systems-technology": {
+    "label": "Agricultural Systems Technology",
     "org_contains": [
-      "Department of Psychology"
+      "College of Agricultural Sciences & Natural Resources",
+      "College of Agricultural Sciences and Natural Resources",
+      "CASNR",
+      "PlantNebraska",
+      "Nebraska Statewide Arboretum"
     ],
     "tags": [
-      "psychology",
-      "mental health",
-      "research study"
+      "agricultural systems",
+      "agricultural technology"
+    ]
+  },
+  "agronomy": {
+    "label": "Agronomy",
+    "org_contains": [
+      "College of Agricultural Sciences & Natural Resources",
+      "College of Agricultural Sciences and Natural Resources",
+      "CASNR",
+      "PlantNebraska",
+      "Nebraska Statewide Arboretum"
+    ],
+    "tags": [
+      "agronomy"
+    ]
+  },
+  "animal-science": {
+    "label": "Animal Science",
+    "org_contains": [
+      "College of Agricultural Sciences & Natural Resources",
+      "College of Agricultural Sciences and Natural Resources",
+      "CASNR",
+      "PlantNebraska",
+      "Nebraska Statewide Arboretum"
+    ],
+    "tags": [
+      "animal science"
+    ]
+  },
+  "biochemistry-casnr": {
+    "label": "Biochemistry (CASNR)",
+    "org_contains": [
+      "College of Agricultural Sciences & Natural Resources",
+      "College of Agricultural Sciences and Natural Resources",
+      "CASNR",
+      "PlantNebraska",
+      "Nebraska Statewide Arboretum"
+    ],
+    "tags": [
+      "biochemistry"
+    ]
+  },
+  "environmental-science": {
+    "label": "Environmental Science",
+    "org_contains": [
+      "College of Agricultural Sciences & Natural Resources",
+      "College of Agricultural Sciences and Natural Resources",
+      "CASNR",
+      "PlantNebraska",
+      "Nebraska Statewide Arboretum"
+    ],
+    "tags": [
+      "environmental science",
+      "environment"
+    ]
+  },
+  "environmental-sustainability-studies-casnr": {
+    "label": "Environmental & Sustainability Studies (CASNR)",
+    "org_contains": [
+      "College of Agricultural Sciences & Natural Resources",
+      "College of Agricultural Sciences and Natural Resources",
+      "CASNR",
+      "PlantNebraska",
+      "Nebraska Statewide Arboretum"
+    ],
+    "tags": [
+      "environmental studies",
+      "sustainability"
+    ]
+  },
+  "fisheries-wildlife": {
+    "label": "Fisheries & Wildlife",
+    "org_contains": [
+      "College of Agricultural Sciences & Natural Resources",
+      "College of Agricultural Sciences and Natural Resources",
+      "CASNR",
+      "PlantNebraska",
+      "Nebraska Statewide Arboretum"
+    ],
+    "tags": [
+      "fisheries",
+      "wildlife"
+    ]
+  },
+  "food-science-technology": {
+    "label": "Food Science & Technology",
+    "org_contains": [
+      "College of Agricultural Sciences & Natural Resources",
+      "College of Agricultural Sciences and Natural Resources",
+      "CASNR",
+      "PlantNebraska",
+      "Nebraska Statewide Arboretum"
+    ],
+    "tags": [
+      "food science"
+    ]
+  },
+  "forensic-science": {
+    "label": "Forensic Science",
+    "org_contains": [
+      "College of Agricultural Sciences & Natural Resources",
+      "College of Agricultural Sciences and Natural Resources",
+      "CASNR",
+      "PlantNebraska",
+      "Nebraska Statewide Arboretum"
+    ],
+    "tags": [
+      "forensic science",
+      "forensics"
+    ]
+  },
+  "grassland-systems": {
+    "label": "Grassland Systems",
+    "org_contains": [
+      "College of Agricultural Sciences & Natural Resources",
+      "College of Agricultural Sciences and Natural Resources",
+      "CASNR",
+      "PlantNebraska",
+      "Nebraska Statewide Arboretum"
+    ],
+    "tags": [
+      "grassland"
+    ]
+  },
+  "integrated-science": {
+    "label": "Integrated Science",
+    "org_contains": [
+      "College of Agricultural Sciences & Natural Resources",
+      "College of Agricultural Sciences and Natural Resources",
+      "CASNR",
+      "PlantNebraska",
+      "Nebraska Statewide Arboretum"
+    ],
+    "tags": [
+      "integrated science"
+    ]
+  },
+  "microbiology-casnr": {
+    "label": "Microbiology (CASNR)",
+    "org_contains": [
+      "College of Agricultural Sciences & Natural Resources",
+      "College of Agricultural Sciences and Natural Resources",
+      "CASNR",
+      "PlantNebraska",
+      "Nebraska Statewide Arboretum"
+    ],
+    "tags": [
+      "microbiology"
+    ]
+  },
+  "pga-golf-management": {
+    "label": "PGA Golf Management",
+    "org_contains": [
+      "College of Agricultural Sciences & Natural Resources",
+      "College of Agricultural Sciences and Natural Resources",
+      "CASNR",
+      "PlantNebraska",
+      "Nebraska Statewide Arboretum"
+    ],
+    "tags": [
+      "golf management",
+      "golf"
+    ]
+  },
+  "plant-landscape-systems": {
+    "label": "Plant & Landscape Systems",
+    "org_contains": [
+      "College of Agricultural Sciences & Natural Resources",
+      "College of Agricultural Sciences and Natural Resources",
+      "CASNR",
+      "PlantNebraska",
+      "Nebraska Statewide Arboretum"
+    ],
+    "tags": [
+      "plant systems",
+      "landscape"
+    ]
+  },
+  "plant-biology": {
+    "label": "Plant Biology",
+    "org_contains": [
+      "College of Agricultural Sciences & Natural Resources",
+      "College of Agricultural Sciences and Natural Resources",
+      "CASNR",
+      "PlantNebraska",
+      "Nebraska Statewide Arboretum"
+    ],
+    "tags": [
+      "plant biology"
+    ]
+  },
+  "pre-veterinary-medicine": {
+    "label": "Pre-Veterinary Medicine",
+    "org_contains": [
+      "College of Agricultural Sciences & Natural Resources",
+      "College of Agricultural Sciences and Natural Resources",
+      "CASNR",
+      "PlantNebraska",
+      "Nebraska Statewide Arboretum"
+    ],
+    "tags": [
+      "veterinary",
+      "pre-vet"
+    ]
+  },
+  "regional-community-forestry": {
+    "label": "Regional and Community Forestry",
+    "org_contains": [
+      "College of Agricultural Sciences & Natural Resources",
+      "College of Agricultural Sciences and Natural Resources",
+      "CASNR",
+      "PlantNebraska",
+      "Nebraska Statewide Arboretum"
+    ],
+    "tags": [
+      "forestry"
+    ]
+  },
+  "veterinary-science": {
+    "label": "Veterinary Science",
+    "org_contains": [
+      "College of Agricultural Sciences & Natural Resources",
+      "College of Agricultural Sciences and Natural Resources",
+      "CASNR",
+      "PlantNebraska",
+      "Nebraska Statewide Arboretum"
+    ],
+    "tags": [
+      "veterinary science",
+      "veterinary"
+    ]
+  },
+  "architectural-engineering-omaha": {
+    "label": "Architectural Engineering (Omaha)",
+    "org_contains": [
+      "College of Engineering",
+      "College of Architecture"
+    ],
+    "tags": [
+      "architectural engineering"
+    ]
+  },
+  "architectural-studies": {
+    "label": "Architectural Studies",
+    "org_contains": [
+      "College of Architecture"
+    ],
+    "tags": [
+      "architecture",
+      "architectural studies"
+    ]
+  },
+  "interior-design": {
+    "label": "Interior Design",
+    "org_contains": [
+      "College of Architecture"
+    ],
+    "tags": [
+      "interior design"
+    ]
+  },
+  "landscape-architecture": {
+    "label": "Landscape Architecture",
+    "org_contains": [
+      "College of Architecture"
+    ],
+    "tags": [
+      "landscape architecture"
+    ]
+  },
+  "actuarial-science-cas": {
+    "label": "Actuarial Science (CAS)",
+    "org_contains": [
+      "College of Arts & Sciences",
+      "College of Arts and Sciences"
+    ],
+    "tags": [
+      "actuarial science",
+      "actuary"
+    ]
+  },
+  "anthropology": {
+    "label": "Anthropology",
+    "org_contains": [
+      "College of Arts & Sciences",
+      "College of Arts and Sciences"
+    ],
+    "tags": [
+      "anthropology"
+    ]
+  },
+  "biochemistry-cas": {
+    "label": "Biochemistry (CAS)",
+    "org_contains": [
+      "College of Arts & Sciences",
+      "College of Arts and Sciences"
+    ],
+    "tags": [
+      "biochemistry"
+    ]
+  },
+  "biological-sciences": {
+    "label": "Biological Sciences",
+    "org_contains": [
+      "College of Arts & Sciences",
+      "College of Arts and Sciences"
+    ],
+    "tags": [
+      "biology",
+      "biological sciences"
+    ]
+  },
+  "chemistry": {
+    "label": "Chemistry",
+    "org_contains": [
+      "College of Arts & Sciences",
+      "College of Arts and Sciences"
+    ],
+    "tags": [
+      "chemistry"
+    ]
+  },
+  "classics-religious-studies": {
+    "label": "Classics & Religious Studies",
+    "org_contains": [
+      "College of Arts & Sciences",
+      "College of Arts and Sciences"
+    ],
+    "tags": [
+      "classics",
+      "religious studies"
+    ]
+  },
+  "communication-studies": {
+    "label": "Communication Studies",
+    "org_contains": [
+      "College of Arts & Sciences",
+      "College of Arts and Sciences"
+    ],
+    "tags": [
+      "communication studies",
+      "communication"
+    ]
+  },
+  "data-science-cas": {
+    "label": "Data Science (CAS)",
+    "org_contains": [
+      "College of Arts & Sciences",
+      "College of Arts and Sciences"
+    ],
+    "tags": [
+      "data science"
+    ]
+  },
+  "economics-cas": {
+    "label": "Economics (CAS)",
+    "org_contains": [
+      "College of Arts & Sciences",
+      "College of Arts and Sciences"
+    ],
+    "tags": [
+      "economics"
     ]
   },
   "english": {
     "label": "English",
     "org_contains": [
+      "College of Arts & Sciences",
+      "College of Arts and Sciences",
       "Department of English"
     ],
     "tags": [
@@ -169,19 +456,981 @@
       "poetry"
     ]
   },
-  "education": {
-    "label": "Education and Human Sciences",
+  "environmental-sustainability-studies-cas": {
+    "label": "Environmental & Sustainability Studies (CAS)",
     "org_contains": [
+      "College of Arts & Sciences",
+      "College of Arts and Sciences"
+    ],
+    "tags": [
+      "environmental studies",
+      "sustainability"
+    ]
+  },
+  "film-studies": {
+    "label": "Film Studies",
+    "org_contains": [
+      "College of Arts & Sciences",
+      "College of Arts and Sciences"
+    ],
+    "tags": [
+      "film studies",
+      "film"
+    ]
+  },
+  "geography": {
+    "label": "Geography",
+    "org_contains": [
+      "College of Arts & Sciences",
+      "College of Arts and Sciences"
+    ],
+    "tags": [
+      "geography"
+    ]
+  },
+  "global-studies": {
+    "label": "Global Studies",
+    "org_contains": [
+      "College of Arts & Sciences",
+      "College of Arts and Sciences",
+      "Global Experiences Office",
+      "ISSO"
+    ],
+    "tags": [
+      "global studies",
+      "international",
+      "study abroad",
+      "culture"
+    ]
+  },
+  "history": {
+    "label": "History",
+    "org_contains": [
+      "College of Arts & Sciences",
+      "College of Arts and Sciences"
+    ],
+    "tags": [
+      "history"
+    ]
+  },
+  "individualized-program-of-studies": {
+    "label": "Individualized Program of Studies",
+    "org_contains": [
+      "College of Arts & Sciences",
+      "College of Arts and Sciences"
+    ],
+    "tags": [
+      "individualized studies"
+    ]
+  },
+  "mathematics": {
+    "label": "Mathematics",
+    "org_contains": [
+      "College of Arts & Sciences",
+      "College of Arts and Sciences",
+      "Department of Mathematics"
+    ],
+    "tags": [
+      "math",
+      "mathematics",
+      "statistics"
+    ]
+  },
+  "microbiology-cas": {
+    "label": "Microbiology (CAS)",
+    "org_contains": [
+      "College of Arts & Sciences",
+      "College of Arts and Sciences"
+    ],
+    "tags": [
+      "microbiology"
+    ]
+  },
+  "modern-languages": {
+    "label": "Modern Languages",
+    "org_contains": [
+      "College of Arts & Sciences",
+      "College of Arts and Sciences"
+    ],
+    "tags": [
+      "modern languages",
+      "language"
+    ]
+  },
+  "multidisciplinary-studies": {
+    "label": "Multidisciplinary Studies",
+    "org_contains": [
+      "College of Arts & Sciences",
+      "College of Arts and Sciences"
+    ],
+    "tags": [
+      "multidisciplinary studies"
+    ]
+  },
+  "philosophy": {
+    "label": "Philosophy",
+    "org_contains": [
+      "College of Arts & Sciences",
+      "College of Arts and Sciences"
+    ],
+    "tags": [
+      "philosophy"
+    ]
+  },
+  "physics": {
+    "label": "Physics",
+    "org_contains": [
+      "College of Arts & Sciences",
+      "College of Arts and Sciences"
+    ],
+    "tags": [
+      "physics"
+    ]
+  },
+  "political-science": {
+    "label": "Political Science",
+    "org_contains": [
+      "College of Arts & Sciences",
+      "College of Arts and Sciences"
+    ],
+    "tags": [
+      "political science",
+      "politics"
+    ]
+  },
+  "psychology": {
+    "label": "Psychology",
+    "org_contains": [
+      "College of Arts & Sciences",
+      "College of Arts and Sciences",
+      "Department of Psychology"
+    ],
+    "tags": [
+      "psychology",
+      "mental health"
+    ]
+  },
+  "sociology": {
+    "label": "Sociology",
+    "org_contains": [
+      "College of Arts & Sciences",
+      "College of Arts and Sciences"
+    ],
+    "tags": [
+      "sociology"
+    ]
+  },
+  "spanish-cas": {
+    "label": "Spanish (CAS)",
+    "org_contains": [
+      "College of Arts & Sciences",
+      "College of Arts and Sciences"
+    ],
+    "tags": [
+      "spanish"
+    ]
+  },
+  "womens-gender-studies": {
+    "label": "Women's & Gender Studies",
+    "org_contains": [
+      "College of Arts & Sciences",
+      "College of Arts and Sciences"
+    ],
+    "tags": [
+      "women's studies",
+      "gender studies"
+    ]
+  },
+  "accounting": {
+    "label": "Accounting",
+    "org_contains": [
+      "College of Business",
+      "Business Career Center",
+      "Center for Entrepreneurship"
+    ],
+    "tags": [
+      "accounting"
+    ]
+  },
+  "actuarial-science-business": {
+    "label": "Actuarial Science (Business)",
+    "org_contains": [
+      "College of Business",
+      "Business Career Center",
+      "Center for Entrepreneurship"
+    ],
+    "tags": [
+      "actuarial science",
+      "actuary"
+    ]
+  },
+  "business-administration": {
+    "label": "Business Administration",
+    "org_contains": [
+      "College of Business",
+      "Business Career Center",
+      "Center for Entrepreneurship"
+    ],
+    "tags": [
+      "business"
+    ]
+  },
+  "business-law": {
+    "label": "Business & Law",
+    "org_contains": [
+      "College of Business",
+      "Business Career Center",
+      "Center for Entrepreneurship"
+    ],
+    "tags": [
+      "business law"
+    ]
+  },
+  "business-analytics": {
+    "label": "Business Analytics",
+    "org_contains": [
+      "College of Business",
+      "Business Career Center",
+      "Center for Entrepreneurship"
+    ],
+    "tags": [
+      "business analytics",
+      "analytics"
+    ]
+  },
+  "economics-business": {
+    "label": "Economics (Business)",
+    "org_contains": [
+      "College of Business",
+      "Business Career Center",
+      "Center for Entrepreneurship"
+    ],
+    "tags": [
+      "economics"
+    ]
+  },
+  "finance": {
+    "label": "Finance",
+    "org_contains": [
+      "College of Business",
+      "Business Career Center",
+      "Center for Entrepreneurship"
+    ],
+    "tags": [
+      "finance"
+    ]
+  },
+  "international-business": {
+    "label": "International Business",
+    "org_contains": [
+      "College of Business",
+      "Business Career Center",
+      "Center for Entrepreneurship"
+    ],
+    "tags": [
+      "international business"
+    ]
+  },
+  "management": {
+    "label": "Management",
+    "org_contains": [
+      "College of Business",
+      "Business Career Center",
+      "Center for Entrepreneurship"
+    ],
+    "tags": [
+      "management"
+    ]
+  },
+  "marketing": {
+    "label": "Marketing",
+    "org_contains": [
+      "College of Business",
+      "Business Career Center",
+      "Center for Entrepreneurship"
+    ],
+    "tags": [
+      "marketing"
+    ]
+  },
+  "supply-chain-management": {
+    "label": "Supply Chain Management",
+    "org_contains": [
+      "College of Business",
+      "Business Career Center",
+      "Center for Entrepreneurship"
+    ],
+    "tags": [
+      "supply chain"
+    ]
+  },
+  "communication-sciences-disorders": {
+    "label": "Communication Sciences & Disorders",
+    "org_contains": [
+      "College of Education & Human Sciences",
       "College of Education and Human Sciences"
     ],
     "tags": [
-      "education",
-      "teaching",
-      "human sciences"
+      "communication disorders",
+      "speech-language"
+    ]
+  },
+  "cyaf-early-childhood-mobile-society": {
+    "label": "CYAF: Early Childhood Education in a Mobile Society",
+    "org_contains": [
+      "College of Education & Human Sciences",
+      "College of Education and Human Sciences"
+    ],
+    "tags": [
+      "early childhood education"
+    ]
+  },
+  "cyaf-family-consumer-sciences-occupational": {
+    "label": "CYAF: Family & Consumer Sciences Occupational (Grades 6-12)",
+    "org_contains": [
+      "College of Education & Human Sciences",
+      "College of Education and Human Sciences"
+    ],
+    "tags": [
+      "family and consumer sciences"
+    ]
+  },
+  "cyaf-human-development-family-science": {
+    "label": "CYAF: Human Development and Family Science",
+    "org_contains": [
+      "College of Education & Human Sciences",
+      "College of Education and Human Sciences"
+    ],
+    "tags": [
+      "human development",
+      "family science"
+    ]
+  },
+  "cyaf-inclusive-early-childhood-education": {
+    "label": "CYAF: Inclusive Early Childhood Education (Birth-Grade 3)",
+    "org_contains": [
+      "College of Education & Human Sciences",
+      "College of Education and Human Sciences"
+    ],
+    "tags": [
+      "early childhood education",
+      "inclusive education"
+    ]
+  },
+  "elementary-education-special-education": {
+    "label": "Elementary Education & Special Education (K-6)",
+    "org_contains": [
+      "College of Education & Human Sciences",
+      "College of Education and Human Sciences"
+    ],
+    "tags": [
+      "elementary education",
+      "special education"
+    ]
+  },
+  "elementary-education": {
+    "label": "Elementary Education (K-6)",
+    "org_contains": [
+      "College of Education & Human Sciences",
+      "College of Education and Human Sciences"
+    ],
+    "tags": [
+      "elementary education"
+    ]
+  },
+  "elementary-early-childhood-education": {
+    "label": "Elementary Education (K-6) & Early Childhood Education (Age 3-Grade 3)",
+    "org_contains": [
+      "College of Education & Human Sciences",
+      "College of Education and Human Sciences"
+    ],
+    "tags": [
+      "elementary education",
+      "early childhood education"
+    ]
+  },
+  "hospitality-restaurant-tourism-management": {
+    "label": "Hospitality, Restaurant & Tourism Management",
+    "org_contains": [
+      "College of Education & Human Sciences",
+      "College of Education and Human Sciences"
+    ],
+    "tags": [
+      "hospitality",
+      "tourism management"
+    ]
+  },
+  "nutrition-community-health-wellness": {
+    "label": "Nutrition & Health Sciences: Community Health and Wellness Option",
+    "org_contains": [
+      "College of Education & Human Sciences",
+      "College of Education and Human Sciences"
+    ],
+    "tags": [
+      "nutrition",
+      "community health"
+    ]
+  },
+  "nutrition-biomedical-sciences": {
+    "label": "Nutrition & Health Sciences: Nutrition & Biomedical Sciences Option",
+    "org_contains": [
+      "College of Education & Human Sciences",
+      "College of Education and Human Sciences"
+    ],
+    "tags": [
+      "nutrition",
+      "biomedical sciences"
+    ]
+  },
+  "nutrition-exercise-health-science": {
+    "label": "Nutrition & Health Sciences: Nutrition, Exercise & Health Science Option",
+    "org_contains": [
+      "College of Education & Human Sciences",
+      "College of Education and Human Sciences"
+    ],
+    "tags": [
+      "nutrition",
+      "exercise science"
+    ]
+  },
+  "secondary-education-arabic": {
+    "label": "Secondary Education: Arabic",
+    "org_contains": [
+      "College of Education & Human Sciences",
+      "College of Education and Human Sciences"
+    ],
+    "tags": [
+      "secondary education",
+      "arabic"
+    ]
+  },
+  "secondary-education-biology": {
+    "label": "Secondary Education: Biology",
+    "org_contains": [
+      "College of Education & Human Sciences",
+      "College of Education and Human Sciences"
+    ],
+    "tags": [
+      "secondary education",
+      "biology education"
+    ]
+  },
+  "secondary-education-business-marketing-it": {
+    "label": "Secondary Education: Business, Marketing & Information Technology",
+    "org_contains": [
+      "College of Education & Human Sciences",
+      "College of Education and Human Sciences"
+    ],
+    "tags": [
+      "secondary education",
+      "business education"
+    ]
+  },
+  "secondary-education-chemistry": {
+    "label": "Secondary Education: Chemistry",
+    "org_contains": [
+      "College of Education & Human Sciences",
+      "College of Education and Human Sciences"
+    ],
+    "tags": [
+      "secondary education",
+      "chemistry education"
+    ]
+  },
+  "secondary-education-chinese": {
+    "label": "Secondary Education: Chinese",
+    "org_contains": [
+      "College of Education & Human Sciences",
+      "College of Education and Human Sciences"
+    ],
+    "tags": [
+      "secondary education",
+      "chinese"
+    ]
+  },
+  "secondary-education-english-language-arts": {
+    "label": "Secondary Education: English Language Arts",
+    "org_contains": [
+      "College of Education & Human Sciences",
+      "College of Education and Human Sciences"
+    ],
+    "tags": [
+      "secondary education",
+      "english education"
+    ]
+  },
+  "secondary-education-french": {
+    "label": "Secondary Education: French",
+    "org_contains": [
+      "College of Education & Human Sciences",
+      "College of Education and Human Sciences"
+    ],
+    "tags": [
+      "secondary education",
+      "french"
+    ]
+  },
+  "secondary-education-german": {
+    "label": "Secondary Education: German",
+    "org_contains": [
+      "College of Education & Human Sciences",
+      "College of Education and Human Sciences"
+    ],
+    "tags": [
+      "secondary education",
+      "german"
+    ]
+  },
+  "secondary-education-japanese": {
+    "label": "Secondary Education: Japanese",
+    "org_contains": [
+      "College of Education & Human Sciences",
+      "College of Education and Human Sciences"
+    ],
+    "tags": [
+      "secondary education",
+      "japanese"
+    ]
+  },
+  "secondary-education-latin": {
+    "label": "Secondary Education: Latin",
+    "org_contains": [
+      "College of Education & Human Sciences",
+      "College of Education and Human Sciences"
+    ],
+    "tags": [
+      "secondary education",
+      "latin"
+    ]
+  },
+  "secondary-education-mathematics": {
+    "label": "Secondary Education: Mathematics",
+    "org_contains": [
+      "College of Education & Human Sciences",
+      "College of Education and Human Sciences"
+    ],
+    "tags": [
+      "secondary education",
+      "math education"
+    ]
+  },
+  "secondary-education-physics": {
+    "label": "Secondary Education: Physics",
+    "org_contains": [
+      "College of Education & Human Sciences",
+      "College of Education and Human Sciences"
+    ],
+    "tags": [
+      "secondary education",
+      "physics education"
+    ]
+  },
+  "secondary-education-science": {
+    "label": "Secondary Education: Science",
+    "org_contains": [
+      "College of Education & Human Sciences",
+      "College of Education and Human Sciences"
+    ],
+    "tags": [
+      "secondary education",
+      "science education"
+    ]
+  },
+  "secondary-education-secondary-english": {
+    "label": "Secondary Education: Secondary English",
+    "org_contains": [
+      "College of Education & Human Sciences",
+      "College of Education and Human Sciences"
+    ],
+    "tags": [
+      "secondary education",
+      "english education"
+    ]
+  },
+  "secondary-education-social-studies": {
+    "label": "Secondary Education: Social Studies",
+    "org_contains": [
+      "College of Education & Human Sciences",
+      "College of Education and Human Sciences"
+    ],
+    "tags": [
+      "secondary education",
+      "social studies"
+    ]
+  },
+  "secondary-education-spanish": {
+    "label": "Secondary Education: Spanish",
+    "org_contains": [
+      "College of Education & Human Sciences",
+      "College of Education and Human Sciences"
+    ],
+    "tags": [
+      "secondary education",
+      "spanish"
+    ]
+  },
+  "special-education-7-12": {
+    "label": "Special Education (7-12)",
+    "org_contains": [
+      "College of Education & Human Sciences",
+      "College of Education and Human Sciences"
+    ],
+    "tags": [
+      "special education"
+    ]
+  },
+  "special-education-k-6": {
+    "label": "Special Education (K-6)",
+    "org_contains": [
+      "College of Education & Human Sciences",
+      "College of Education and Human Sciences"
+    ],
+    "tags": [
+      "special education"
+    ]
+  },
+  "biological-systems-engineering": {
+    "label": "Biological Systems Engineering",
+    "org_contains": [
+      "College of Engineering"
+    ],
+    "tags": [
+      "biological systems engineering"
+    ]
+  },
+  "chemical-engineering": {
+    "label": "Chemical Engineering",
+    "org_contains": [
+      "College of Engineering"
+    ],
+    "tags": [
+      "chemical engineering"
+    ]
+  },
+  "civil-engineering": {
+    "label": "Civil Engineering",
+    "org_contains": [
+      "College of Engineering"
+    ],
+    "tags": [
+      "civil engineering"
+    ]
+  },
+  "computer-engineering": {
+    "label": "Computer Engineering",
+    "org_contains": [
+      "College of Engineering"
+    ],
+    "tags": [
+      "computer engineering"
+    ]
+  },
+  "computer-science": {
+    "label": "Computer Science",
+    "org_contains": [
+      "College of Engineering",
+      "School of Computing",
+      "Holland Computing Center",
+      "ACM"
+    ],
+    "tags": [
+      "computer science",
+      "computing",
+      "coding",
+      "software",
+      "hackathon"
+    ]
+  },
+  "construction-engineering": {
+    "label": "Construction Engineering",
+    "org_contains": [
+      "College of Engineering"
+    ],
+    "tags": [
+      "construction engineering"
+    ]
+  },
+  "construction-management": {
+    "label": "Construction Management",
+    "org_contains": [
+      "College of Engineering"
+    ],
+    "tags": [
+      "construction management"
+    ]
+  },
+  "data-science-engr": {
+    "label": "Data Science (ENGR)",
+    "org_contains": [
+      "College of Engineering"
+    ],
+    "tags": [
+      "data science"
+    ]
+  },
+  "electrical-engineering": {
+    "label": "Electrical Engineering",
+    "org_contains": [
+      "College of Engineering"
+    ],
+    "tags": [
+      "electrical engineering"
+    ]
+  },
+  "environmental-engineering": {
+    "label": "Environmental Engineering",
+    "org_contains": [
+      "College of Engineering"
+    ],
+    "tags": [
+      "environmental engineering"
+    ]
+  },
+  "mechanical-engineering": {
+    "label": "Mechanical Engineering",
+    "org_contains": [
+      "College of Engineering"
+    ],
+    "tags": [
+      "mechanical engineering"
+    ]
+  },
+  "robotics-engineering": {
+    "label": "Robotics Engineering",
+    "org_contains": [
+      "College of Engineering"
+    ],
+    "tags": [
+      "robotics"
+    ]
+  },
+  "software-engineering": {
+    "label": "Software Engineering",
+    "org_contains": [
+      "College of Engineering"
+    ],
+    "tags": [
+      "software engineering",
+      "software"
+    ]
+  },
+  "acting": {
+    "label": "Acting",
+    "org_contains": [
+      "Hixson-Lied College of Fine & Performing Arts",
+      "Hixson-Lied College of Fine and Performing Arts",
+      "Sheldon Museum of Art",
+      "Great Plains Art Museum"
+    ],
+    "tags": [
+      "acting",
+      "theatre"
+    ]
+  },
+  "art": {
+    "label": "Art",
+    "org_contains": [
+      "Hixson-Lied College of Fine & Performing Arts",
+      "Hixson-Lied College of Fine and Performing Arts",
+      "Sheldon Museum of Art",
+      "Great Plains Art Museum"
+    ],
+    "tags": [
+      "art"
+    ]
+  },
+  "art-history-criticism": {
+    "label": "Art History and Criticism",
+    "org_contains": [
+      "Hixson-Lied College of Fine & Performing Arts",
+      "Hixson-Lied College of Fine and Performing Arts",
+      "Sheldon Museum of Art",
+      "Great Plains Art Museum"
+    ],
+    "tags": [
+      "art history"
+    ]
+  },
+  "dance": {
+    "label": "Dance",
+    "org_contains": [
+      "Hixson-Lied College of Fine & Performing Arts",
+      "Hixson-Lied College of Fine and Performing Arts",
+      "Sheldon Museum of Art",
+      "Great Plains Art Museum"
+    ],
+    "tags": [
+      "dance"
+    ]
+  },
+  "emerging-media-arts": {
+    "label": "Emerging Media Arts",
+    "org_contains": [
+      "Hixson-Lied College of Fine & Performing Arts",
+      "Hixson-Lied College of Fine and Performing Arts",
+      "Sheldon Museum of Art",
+      "Great Plains Art Museum"
+    ],
+    "tags": [
+      "emerging media arts",
+      "media arts"
+    ]
+  },
+  "entertainment-design-production": {
+    "label": "Entertainment Design and Production",
+    "org_contains": [
+      "Hixson-Lied College of Fine & Performing Arts",
+      "Hixson-Lied College of Fine and Performing Arts",
+      "Sheldon Museum of Art",
+      "Great Plains Art Museum"
+    ],
+    "tags": [
+      "entertainment design",
+      "production design"
+    ]
+  },
+  "graphic-arts": {
+    "label": "Graphic Arts",
+    "org_contains": [
+      "Hixson-Lied College of Fine & Performing Arts",
+      "Hixson-Lied College of Fine and Performing Arts",
+      "Sheldon Museum of Art",
+      "Great Plains Art Museum"
+    ],
+    "tags": [
+      "graphic arts"
+    ]
+  },
+  "graphic-design": {
+    "label": "Graphic Design",
+    "org_contains": [
+      "Hixson-Lied College of Fine & Performing Arts",
+      "Hixson-Lied College of Fine and Performing Arts",
+      "Sheldon Museum of Art",
+      "Great Plains Art Museum"
+    ],
+    "tags": [
+      "graphic design"
+    ]
+  },
+  "interdisciplinary-studies": {
+    "label": "Interdisciplinary Studies",
+    "org_contains": [
+      "Hixson-Lied College of Fine & Performing Arts",
+      "Hixson-Lied College of Fine and Performing Arts",
+      "Sheldon Museum of Art",
+      "Great Plains Art Museum"
+    ],
+    "tags": [
+      "interdisciplinary studies"
+    ]
+  },
+  "music": {
+    "label": "Music",
+    "org_contains": [
+      "Hixson-Lied College of Fine & Performing Arts",
+      "Hixson-Lied College of Fine and Performing Arts",
+      "Sheldon Museum of Art",
+      "Great Plains Art Museum",
+      "School of Music"
+    ],
+    "tags": [
+      "music",
+      "recital",
+      "concert",
+      "orchestra",
+      "choir"
+    ]
+  },
+  "music-education": {
+    "label": "Music Education",
+    "org_contains": [
+      "Hixson-Lied College of Fine & Performing Arts",
+      "Hixson-Lied College of Fine and Performing Arts",
+      "Sheldon Museum of Art",
+      "Great Plains Art Museum"
+    ],
+    "tags": [
+      "music education"
+    ]
+  },
+  "theatre": {
+    "label": "Theatre",
+    "org_contains": [
+      "Hixson-Lied College of Fine & Performing Arts",
+      "Hixson-Lied College of Fine and Performing Arts",
+      "Sheldon Museum of Art",
+      "Great Plains Art Museum"
+    ],
+    "tags": [
+      "theatre",
+      "theater"
+    ]
+  },
+  "advertising-public-relations": {
+    "label": "Advertising & Public Relations",
+    "org_contains": [
+      "College of Journalism & Mass Communications",
+      "College of Journalism and Mass Communications",
+      "CoJMC",
+      "Daily Nebraskan"
+    ],
+    "tags": [
+      "advertising",
+      "public relations"
+    ]
+  },
+  "broadcasting": {
+    "label": "Broadcasting",
+    "org_contains": [
+      "College of Journalism & Mass Communications",
+      "College of Journalism and Mass Communications",
+      "CoJMC",
+      "Daily Nebraskan"
+    ],
+    "tags": [
+      "broadcasting"
+    ]
+  },
+  "journalism": {
+    "label": "Journalism",
+    "org_contains": [
+      "College of Journalism & Mass Communications",
+      "College of Journalism and Mass Communications",
+      "CoJMC",
+      "Daily Nebraskan"
+    ],
+    "tags": [
+      "journalism",
+      "media",
+      "reporting",
+      "storytelling"
+    ]
+  },
+  "sports-media-communication": {
+    "label": "Sports Media & Communication",
+    "org_contains": [
+      "College of Journalism & Mass Communications",
+      "College of Journalism and Mass Communications",
+      "CoJMC",
+      "Daily Nebraskan"
+    ],
+    "tags": [
+      "sports media"
+    ]
+  },
+  "criminology-criminal-justice": {
+    "label": "Criminology & Criminal Justice",
+    "org_contains": [
+      "College of Public Affairs & Community Service"
+    ],
+    "tags": [
+      "criminology",
+      "criminal justice"
     ]
   },
   "undeclared": {
-    "label": "Undeclared / Exploratory Studies",
+    "label": "Undeclared (Non-Degree)",
     "org_contains": [
       "Explore Center",
       "Career Services"
@@ -190,6 +1439,32 @@
       "career",
       "advising",
       "major exploration"
+    ]
+  },
+  "pre-law": {
+    "label": "Pre-Law (Non-Degree)",
+    "org_contains": [
+      "College of Law",
+      "Explore Center",
+      "Career Services"
+    ],
+    "tags": [
+      "law",
+      "legal",
+      "pre-law",
+      "moot court"
+    ]
+  },
+  "pre-health": {
+    "label": "Pre-Health (Non-Degree)",
+    "org_contains": [
+      "Explore Center",
+      "Career Services"
+    ],
+    "tags": [
+      "pre-health",
+      "health",
+      "medicine"
     ]
   }
 }

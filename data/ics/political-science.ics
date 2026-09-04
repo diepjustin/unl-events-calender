@@ -1,0 +1,80 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//unl-events-demo//fetch_events.py//EN
+X-WR-CALNAME:UNL Campus Events — Political Science
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:engage-12554789@unl-events-demo
+DTSTAMP:20260904T154412Z
+DTSTART:20260908T220000Z
+DTEND:20260908T230000Z
+SUMMARY:CAS Inquire: What Happens to Those Who Lived a “Good Life”?
+LOCATION:Jackie Gaughan Multicultural Center: Ubuntu Room 202
+DESCRIPTION:What happens when people who lived a good life die\, especiall
+ y if their deaths are seen as unjust or underserved? This question has an
+ imated and perplexed religious and philosophical thinkers for millennia. 
+ In this talk\, we will explore the development of afterlife in Jewish rel
+ igious thought and the legacy of this…
+URL:https://unl.campuslabs.com/engage/event/12554789
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:engage-12680830@unl-events-demo
+DTSTAMP:20260904T154412Z
+DTSTART:20260914T173000Z
+DTEND:20260914T183000Z
+SUMMARY:Monthly Monday Munch
+LOCATION:Oasis Lounge
+DESCRIPTION:Spend your lunch with SJP every second Monday of the month! Gr
+ ab a bite\, relax in the Oasis Lounge\, and enjoy a discussion with SJP a
+ nd community members on topics related to politics\, university culture\,
+  and more. We will feature and consume short material (like films\, etc) 
+ and debrief\, reflect\, and chat on different…
+URL:https://unl.campuslabs.com/engage/event/12680830
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-197644@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T154412Z
+DTSTART:20260916T220000Z
+DTEND:20260916T233000Z
+SUMMARY:2026 Hoagland Lecture
+LOCATION:Sheldon Museum of Art Room Ethel S. Abbott Auditorium
+DESCRIPTION:The 2026 Peter J. Hoagland Integrity in Public Service Lecture
+  brings together experts from political communications\, investigative re
+ porting\, political consulting\, and academia to present a panel discussi
+ on about the 2026 midterm elections. Come and join the conversation about
+  the forces shaping the 2026 midterm…
+URL:http://events.unl.edu/2026/09/16/197644/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:engage-12655060@unl-events-demo
+DTSTAMP:20260904T154412Z
+DTSTART:20260917T230000Z
+DTEND:20260918T000000Z
+SUMMARY:Husker Dems Meetings
+LOCATION:Union
+DESCRIPTION:Husker Democrats Meetings\, where we will bring in new friends
+ \, encourage people to participate in political discourse\, and learn mor
+ e about Democratic Politics in the State of Nebraska.
+URL:https://unl.campuslabs.com/engage/event/12655060
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-199865@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T154412Z
+DTSTART:20260924T223000Z
+DTEND:20260924T223000Z
+SUMMARY:Kurt Andersen
+LOCATION:Sheldon Museum of Art Room Auditorium
+DESCRIPTION:Originally from Omaha\, Kurt Andersen has been documenting art
+ s\, culture\, and politics in New York City for decades. In the spring 20
+ 26 issue of Prairie Schooner\, Andersen wrote about Edward Hopper's ROOM 
+ IN NEW YORK\, the iconic NYC painting by Edward Hopper in the Sheldon's p
+ ermanent collection. He will discuss the…
+URL:http://events.unl.edu/2026/09/24/199865/
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

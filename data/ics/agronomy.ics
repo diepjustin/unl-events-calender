@@ -1,0 +1,98 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//unl-events-demo//fetch_events.py//EN
+X-WR-CALNAME:UNL Campus Events — Agronomy
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:unl-201298@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T154411Z
+DTSTART:20260904T173000Z
+DTEND:20260904T213000Z
+SUMMARY:PlantNebraska Plant Sale
+LOCATION:Nebraska Statewide Arboretum Greenhouse Room
+DESCRIPTION:PlantNebraska will host a fall plant sale on Friday\, Septembe
+ r 4\, from 12:30 to 4:30 p.m. at its greenhouses on UNL's East Campus (21
+ 50 N. 38th St.). Native and well-adapted plants suited to Nebraska's clim
+ ate and growing conditions will be available for purchase\, including tre
+ es\, shrubs\, perennial flowers\, grasses…
+URL:http://events.unl.edu/2026/09/04/201298/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201308@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T154411Z
+DTSTART:20260905T140000Z
+DTEND:20260905T170000Z
+SUMMARY:PlantNebraska Fall Plant Sale
+LOCATION:Nebraska Statewide Arboretum Greenhouse Room
+DESCRIPTION:PlantNebraska will host a fall plant sale on Saturday\, Septem
+ ber 5\, from 9 a.m. to 12 noon at its greenhouses on UNL's East Campus (2
+ 150 N. 38th St.). Native and well-adapted plants suited to Nebraska's cli
+ mate and growing conditions will be available for purchase\, including tr
+ ees\, shrubs\, perennial flowers\, grasses…
+URL:http://events.unl.edu/2026/09/05/201308/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:engage-12702365@unl-events-demo
+DTSTAMP:20260904T154411Z
+DTSTART:20260908T230000Z
+DTEND:20260909T000000Z
+SUMMARY:Agronomy Club Resume Lab
+LOCATION:PLAS 199
+DESCRIPTION:The Agronomy Club's Resume Lab serves as a great way for membe
+ rs to strengthen their resumes and learn more about what employers are lo
+ oking at on those resumes. It is also serves as a great way to connect wi
+ th other students who are also trying to build their resume and stand out
+  at the career fair and in job…
+URL:https://unl.campuslabs.com/engage/event/12702365
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-202035@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T154411Z
+DTSTART:20260910T160000Z
+DTEND:20260910T160000Z
+SUMMARY:Agronomy and Horticulture Seminar
+LOCATION:Keim Hall Room 150\, and online at Join seminar via Zoom (https:/
+ /go.unl.edu/agrohortseminar)
+DESCRIPTION:Jason Norsworthy - Distinguished Professor and Elms Farming Ch
+ air of Weed Science\, University of Arkansas Division of Agriculture.\n\n
+ Palmer amaranth with resistance to multiple herbicide sites of action is 
+ increasingly common across U.S. cropping systems\, often outpacing the co
+ mmercialization of new and effective…
+URL:http://events.unl.edu/2026/09/10/202035/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201303@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T154411Z
+DTSTART:20260918T173000Z
+DTEND:20260918T213000Z
+SUMMARY:PlantNebraska Fall Plant Sale
+LOCATION:Nebraska Statewide Arboretum Greenhouse Room
+DESCRIPTION:PlantNebraska will host a fall plant sale on Friday\, Septembe
+ r 18\, from 12:30 to 4:30 p.m. at its greenhouses on UNL's East Campus (2
+ 150 N. 38th St.). Native and well-adapted plants suited to Nebraska's cli
+ mate and growing conditions will be available for purchase\, including tr
+ ees\, shrubs\, perennial flowers\, grasses…
+URL:http://events.unl.edu/2026/09/18/201303/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-202036@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T154411Z
+DTSTART:20260924T160000Z
+DTEND:20260924T160000Z
+SUMMARY:Agronomy and Horticulture Special Seminar
+LOCATION:Keim Hall Room 150
+DESCRIPTION:In Recognition of the Ray and Jolene Ward Professorship of Soi
+ l Health Science\n\nAchieving sustainable agricultural systems requires s
+ tronger integration among scientific knowledge\, industry and stakeholder
+  engagement\, and societal priorities. This presentation will provide a s
+ ystems-based framework that links…
+URL:http://events.unl.edu/2026/09/24/202036/
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

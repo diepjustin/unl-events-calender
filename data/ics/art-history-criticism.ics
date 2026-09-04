@@ -1,0 +1,65 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//unl-events-demo//fetch_events.py//EN
+X-WR-CALNAME:UNL Campus Events — Art History and Criticism
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:unl-200134@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T154412Z
+DTSTART:20261001T210000Z
+DTEND:20261001T210000Z
+SUMMARY:Westbrook Music Building Dedication
+LOCATION:Westbrook Music Building Room Atrium
+DESCRIPTION:The new Westbrook Music Building will be formally dedicated on
+  Thursday\, Oct. 1 at 4 p.m. in the atrium. A reception will follow the f
+ ormal program.
+URL:http://events.unl.edu/2026/10/01/200134/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201243@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T154412Z
+DTSTART:20261002T220000Z
+DTEND:20261003T000000Z
+SUMMARY:October First Friday at Sheldon
+LOCATION:Sheldon Museum of Art Room
+DESCRIPTION:Sheldon stays open late every first Friday of the month. Octob
+ er's First Friday features a gallery talk by the student curators of the 
+ exhibition "New Horizons" (5 PM)\, and an immersive tour of the exhibitio
+ n "Remembering Modern Art" (5:30 PM). \n \nFirst Fridays are always free 
+ and open to everyone.
+URL:http://events.unl.edu/2026/10/02/201243/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201292@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T154412Z
+DTSTART:20261010T190000Z
+DTEND:20261010T190000Z
+SUMMARY:Drop-In Tour at Sheldon Museum of Art
+LOCATION:Sheldon Museum of Art Room
+DESCRIPTION:Join a Sheldon educator for this special tour highlighting inf
+ luential women artists whose works are currently on view at Sheldon Museu
+ m of Art. Explore powerful stories\, bold ideas\, and enduring contributi
+ ons that continue to shape the course of art history. \nTours at Sheldon 
+ are free\, but space is limited. Advanced…
+URL:http://events.unl.edu/2026/10/10/201292/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201461@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T154412Z
+DTSTART:20261012T223000Z
+DTEND:20261013T003000Z
+SUMMARY:Bernard Rosenberg Lecture: Juliet Sperling
+LOCATION:Sheldon Museum of Art Room
+DESCRIPTION:Art historian Juliet Sperling's Bernard Rosenberg Lecture expl
+ ores the surprising visual strategies of nineteenth-century medical textb
+ ooks\, from layered anatomical illustrations to interactive paper bodies.
+  Examining intersections of gender\, touch\, and representation\, this le
+ cture offers perspectives on how knowledge…
+URL:http://events.unl.edu/2026/10/12/201461/
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

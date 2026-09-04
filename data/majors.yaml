@@ -11,24 +11,39 @@
 #
 # HOW TO ADD A MAJOR:
 #   1. Copy a block below, change the key (kebab-case) and the label.
-#   2. For org_contains: browse events.unl.edu, find a few events actually
-#      run by that department, and copy the organizer name shown on the
-#      event page's "Contact" line. Exact department names work best --
-#      "Department of Mathematics", not "Math".
+#   2. For org_contains: either reuse a college anchor (see "COLLEGE
+#      ANCHORS" below -- most majors do this) or, if you've found a more
+#      specific organizer name for that exact major on events.unl.edu, add
+#      it directly as its own string. Exact names work best -- "Department
+#      of Mathematics", not "Math".
 #   3. For tags: a handful of words a student in that major would recognize.
 #      Keep them lowercase. These also get matched against event
-#      descriptions, so avoid very common words that would over-match
+#      descriptions, so avoid very common single words that would over-match
 #      (e.g. don't add "students" as a tag -- it's in almost every event).
 #   4. Run `python3 scripts/fetch_events.py` and check whether events you
 #      recognize as relevant to that major are showing up ranked higher.
 #
 # HOW TO REMOVE A MAJOR: delete its block.
 #
-# STARTING COVERAGE: this file has a starter set (~15) of majors, not the
-# full ~150 UNL offers. The org_contains values below marked "observed" were
-# confirmed against a live pull of events.unl.edu's feed; the rest are
-# UNL's official department names but haven't been checked against real
-# events yet and may need adjusting once you see how they perform.
+# COLLEGE ANCHORS: UNL has ~140 undergraduate majors (source: UNL's own
+# catalog, catalog.unl.edu/undergraduate/majors/, checked 2026-09-04 --
+# excludes minors and certificates, which aren't majors) and most of them
+# share a college. Retyping "College of Engineering" fifteen times would
+# make this file unmaintainable, so each college's org_contains list is
+# defined ONCE below under `_colleges`, tagged with a `&name` (an "anchor"),
+# and each major re-uses it with `*name` (an "alias") plus its own
+# major-specific extras. You do NOT need to understand this to add an
+# ordinary major -- just copy an existing block, including its `<<: *xxx`
+# line, and change the alias to whichever college fits. The `_colleges` key
+# itself is not a major -- fetch_events.py skips any top-level key starting
+# with `_` when building majors.json, so it never shows up as a selectable
+# major on the page.
+#
+# CONFIDENCE LEVELS: entries marked "observed" were confirmed against a live
+# pull of events.unl.edu's or Engage's feed during this project's build.
+# Everything else uses UNL's official college/department names but hasn't
+# been checked against a real event yet -- expect to retune tags and
+# org_contains as you see how each major actually performs.
 #
 # A STRONGER SIGNAL THAN ORGANIZER NAME, NOT YET WIRED UP: events.unl.edu is
 # federated -- each college/department also has its own calendar at
@@ -42,165 +57,719 @@
 # `unit_slugs` list instead of guessing at organizer names. That's real
 # follow-up work, not done yet.
 
-journalism:
-  label: "Journalism"
-  org_contains:
+_colleges:
+  casnr: &casnr_org
+    - "College of Agricultural Sciences & Natural Resources"
+    - "College of Agricultural Sciences and Natural Resources"
+    - "CASNR"
+    - "PlantNebraska"                # observed
+    - "Nebraska Statewide Arboretum" # observed
+  architecture: &architecture_org
+    - "College of Architecture"
+  cas: &cas_org
+    - "College of Arts & Sciences"
+    - "College of Arts and Sciences"
+  business: &business_org
+    - "College of Business"
+    - "Business Career Center"       # observed
+    - "Center for Entrepreneurship"  # observed
+  cehs: &cehs_org
+    - "College of Education & Human Sciences"
+    - "College of Education and Human Sciences"
+  engineering: &engineering_org
+    - "College of Engineering"
+  fpa: &fpa_org
+    - "Hixson-Lied College of Fine & Performing Arts"
+    - "Hixson-Lied College of Fine and Performing Arts"  # observed (site uses "and" in practice)
+    - "Sheldon Museum of Art"        # observed
+    - "Great Plains Art Museum"      # observed
+  cojmc: &cojmc_org
+    - "College of Journalism & Mass Communications"
     - "College of Journalism and Mass Communications"
     - "CoJMC"
     - "Daily Nebraskan"
-  tags:
-    - journalism
-    - media
-    - reporting
-    - broadcasting
-    - storytelling
+  pacs: &pacs_org
+    - "College of Public Affairs & Community Service"
+  law: &law_org
+    - "College of Law"
+  explore: &explore_org
+    - "Explore Center"    # observed
+    - "Career Services"   # observed
 
-computer-science:
-  label: "Computer Science"
-  org_contains:
-    - "School of Computing"        # UNL's CS department is now "School of Computing"
-    - "Holland Computing Center"   # observed
-    - "ACM"
-  tags:
-    - computing
-    - coding
-    - software
-    - technology
-    - hackathon
+# --- Agricultural Sciences & Natural Resources -----------------------------
 
-business:
-  label: "Business Administration"
-  org_contains:
-    - "College of Business"
-    - "Center for Entrepreneurship"  # observed
-  tags:
-    - business
-    - entrepreneurship
-    - finance
-    - marketing
-    - career fair
+agribusiness-business:
+  label: "Agribusiness (Business)"
+  org_contains: *business_org
+  tags: [agribusiness]
+
+agribusiness-casnr:
+  label: "Agribusiness (CASNR)"
+  org_contains: *casnr_org
+  tags: [agribusiness]
+
+agricultural-economics:
+  label: "Agricultural Economics"
+  org_contains: *casnr_org
+  tags: [agricultural economics, agriculture]
+
+agricultural-engineering:
+  label: "Agricultural Engineering"
+  org_contains: *casnr_org
+  extra_org_contains: *engineering_org  # joint CASNR/Engineering program
+  tags: [agricultural engineering, agriculture]
+
+agricultural-leadership-education-communication:
+  label: "Agricultural Leadership, Education and Communication"
+  org_contains: *casnr_org
+  tags: [agricultural leadership, agricultural education, agricultural communication]
+
+agricultural-systems-technology:
+  label: "Agricultural Systems Technology"
+  org_contains: *casnr_org
+  tags: [agricultural systems, agricultural technology]
+
+agronomy:
+  label: "Agronomy"
+  org_contains: *casnr_org
+  tags: [agronomy]
+
+animal-science:
+  label: "Animal Science"
+  org_contains: *casnr_org
+  tags: [animal science]
+
+biochemistry-casnr:
+  label: "Biochemistry (CASNR)"
+  org_contains: *casnr_org
+  tags: [biochemistry]
+
+environmental-science:
+  label: "Environmental Science"
+  org_contains: *casnr_org
+  tags: [environmental science, environment]
+
+environmental-sustainability-studies-casnr:
+  label: "Environmental & Sustainability Studies (CASNR)"
+  org_contains: *casnr_org
+  tags: [environmental studies, sustainability]
+
+fisheries-wildlife:
+  label: "Fisheries & Wildlife"
+  org_contains: *casnr_org
+  tags: [fisheries, wildlife]
+
+food-science-technology:
+  label: "Food Science & Technology"
+  org_contains: *casnr_org
+  tags: [food science]
+
+forensic-science:
+  label: "Forensic Science"
+  org_contains: *casnr_org
+  tags: [forensic science, forensics]
+
+grassland-systems:
+  label: "Grassland Systems"
+  org_contains: *casnr_org
+  tags: [grassland]
+
+integrated-science:
+  label: "Integrated Science"
+  org_contains: *casnr_org
+  tags: [integrated science]
+
+microbiology-casnr:
+  label: "Microbiology (CASNR)"
+  org_contains: *casnr_org
+  tags: [microbiology]
+
+pga-golf-management:
+  label: "PGA Golf Management"
+  org_contains: *casnr_org
+  tags: [golf management, golf]
+
+plant-landscape-systems:
+  label: "Plant & Landscape Systems"
+  org_contains: *casnr_org
+  tags: [plant systems, landscape]
+
+plant-biology:
+  label: "Plant Biology"
+  org_contains: *casnr_org
+  tags: [plant biology]
+
+pre-veterinary-medicine:
+  label: "Pre-Veterinary Medicine"
+  org_contains: *casnr_org
+  tags: [veterinary, pre-vet]
+
+regional-community-forestry:
+  label: "Regional and Community Forestry"
+  org_contains: *casnr_org
+  tags: [forestry]
+
+veterinary-science:
+  label: "Veterinary Science"
+  org_contains: *casnr_org
+  tags: [veterinary science, veterinary]
+
+# --- Architecture ------------------------------------------------------------
+
+architectural-engineering-omaha:
+  label: "Architectural Engineering (Omaha)"
+  org_contains: *engineering_org
+  extra_org_contains: *architecture_org
+  tags: [architectural engineering]
+
+architectural-studies:
+  label: "Architectural Studies"
+  org_contains: *architecture_org
+  tags: [architecture, architectural studies]
+
+interior-design:
+  label: "Interior Design"
+  org_contains: *architecture_org
+  tags: [interior design]
+
+landscape-architecture:
+  label: "Landscape Architecture"
+  org_contains: *architecture_org
+  tags: [landscape architecture]
+
+# --- Arts & Sciences -----------------------------------------------------
+
+actuarial-science-cas:
+  label: "Actuarial Science (CAS)"
+  org_contains: *cas_org
+  tags: [actuarial science, actuary]
+
+anthropology:
+  label: "Anthropology"
+  org_contains: *cas_org
+  tags: [anthropology]
+
+biochemistry-cas:
+  label: "Biochemistry (CAS)"
+  org_contains: *cas_org
+  tags: [biochemistry]
 
 biological-sciences:
-  label: "Biological Sciences / Pre-Health"
-  org_contains:
-    - "School of Biological Sciences"
-    - "Explore Center"  # observed -- catches pre-health advising sessions
-  tags:
-    - pre-health
-    - biology
-    - health
-    - medicine
-    - research
+  label: "Biological Sciences"
+  org_contains: *cas_org
+  tags: [biology, biological sciences]
 
-mathematics:
-  label: "Mathematics"
-  org_contains:
-    - "Department of Mathematics"  # observed
-  tags:
-    - math
-    - mathematics
-    - statistics
+chemistry:
+  label: "Chemistry"
+  org_contains: *cas_org
+  tags: [chemistry]
 
-international-studies:
-  label: "International Studies / Global Studies"
-  org_contains:
-    - "Global Experiences Office"  # observed
-    - "ISSO"                       # observed -- International Student & Scholar Office
-  tags:
-    - international
-    - study abroad
-    - global
-    - culture
+classics-religious-studies:
+  label: "Classics & Religious Studies"
+  org_contains: *cas_org
+  tags: [classics, religious studies]
 
-art-and-design:
-  label: "Art, Art History and Design"
-  org_contains:
-    - "Hixson-Lied College of Fine and Performing Arts"  # observed
-    - "Sheldon Museum of Art"
-    - "Great Plains Art Museum"
-  tags:
-    - art
-    - exhibition
-    - design
-    - gallery
+communication-studies:
+  label: "Communication Studies"
+  org_contains: *cas_org
+  tags: [communication studies, communication]
 
-law:
-  label: "Pre-Law / Law"
-  org_contains:
-    - "College of Law"  # UNL's official name -- not yet confirmed against a live event, check before relying on it
-  tags:
-    - law
-    - legal
-    - pre-law
-    - moot court
+data-science-cas:
+  label: "Data Science (CAS)"
+  org_contains: *cas_org
+  tags: [data science]
 
-engineering:
-  label: "Engineering"
-  org_contains:
-    - "College of Engineering"  # official name -- not yet confirmed against a live event
-  tags:
-    - engineering
-    - robotics
-    - design competition
-
-music:
-  label: "Music"
-  org_contains:
-    - "School of Music"  # official name -- not yet confirmed against a live event
-    - "Hixson-Lied College of Fine and Performing Arts"  # observed
-  tags:
-    - music
-    - recital
-    - concert
-    - orchestra
-    - choir
-
-agricultural-and-natural-resources:
-  label: "Agricultural and Natural Resources Sciences"
-  org_contains:
-    - "PlantNebraska"                    # observed
-    - "Nebraska Statewide Arboretum"     # observed
-    - "CASNR"
-  tags:
-    - agriculture
-    - natural resources
-    - sustainability
-    - plant science
-
-psychology:
-  label: "Psychology"
-  org_contains:
-    - "Department of Psychology"  # official name -- not yet confirmed against a live event
-  tags:
-    - psychology
-    - mental health
-    - research study
+economics-cas:
+  label: "Economics (CAS)"
+  org_contains: *cas_org
+  tags: [economics]
 
 english:
   label: "English"
-  org_contains:
+  org_contains: *cas_org
+  extra_org_contains:
     - "Department of English"  # official name -- not yet confirmed against a live event
-  tags:
-    - english
-    - literature
-    - creative writing
-    - poetry
+  tags: [english, literature, creative writing, poetry]
 
-education:
-  label: "Education and Human Sciences"
-  org_contains:
-    - "College of Education and Human Sciences"  # official name -- not yet confirmed against a live event
-  tags:
-    - education
-    - teaching
-    - human sciences
+environmental-sustainability-studies-cas:
+  label: "Environmental & Sustainability Studies (CAS)"
+  org_contains: *cas_org
+  tags: [environmental studies, sustainability]
+
+film-studies:
+  label: "Film Studies"
+  org_contains: *cas_org
+  tags: [film studies, film]
+
+geography:
+  label: "Geography"
+  org_contains: *cas_org
+  tags: [geography]
+
+global-studies:
+  label: "Global Studies"
+  org_contains: *cas_org
+  extra_org_contains:
+    - "Global Experiences Office"  # observed
+    - "ISSO"                       # observed -- International Student & Scholar Office
+  tags: [global studies, international, study abroad, culture]
+
+history:
+  label: "History"
+  org_contains: *cas_org
+  tags: [history]
+
+individualized-program-of-studies:
+  label: "Individualized Program of Studies"
+  org_contains: *cas_org
+  tags: [individualized studies]
+
+mathematics:
+  label: "Mathematics"
+  org_contains: *cas_org
+  extra_org_contains:
+    - "Department of Mathematics"  # observed
+  tags: [math, mathematics, statistics]
+
+microbiology-cas:
+  label: "Microbiology (CAS)"
+  org_contains: *cas_org
+  tags: [microbiology]
+
+modern-languages:
+  label: "Modern Languages"
+  org_contains: *cas_org
+  tags: [modern languages, language]
+
+multidisciplinary-studies:
+  label: "Multidisciplinary Studies"
+  org_contains: *cas_org
+  tags: [multidisciplinary studies]
+
+philosophy:
+  label: "Philosophy"
+  org_contains: *cas_org
+  tags: [philosophy]
+
+physics:
+  label: "Physics"
+  org_contains: *cas_org
+  tags: [physics]
+
+political-science:
+  label: "Political Science"
+  org_contains: *cas_org
+  tags: [political science, politics]
+
+psychology:
+  label: "Psychology"
+  org_contains: *cas_org
+  extra_org_contains:
+    - "Department of Psychology"  # official name -- not yet confirmed against a live event
+  tags: [psychology, mental health]
+
+sociology:
+  label: "Sociology"
+  org_contains: *cas_org
+  tags: [sociology]
+
+spanish-cas:
+  label: "Spanish (CAS)"
+  org_contains: *cas_org
+  tags: [spanish]
+
+womens-gender-studies:
+  label: "Women's & Gender Studies"
+  org_contains: *cas_org
+  tags: [women's studies, gender studies]
+
+# --- Business ----------------------------------------------------------------
+
+accounting:
+  label: "Accounting"
+  org_contains: *business_org
+  tags: [accounting]
+
+actuarial-science-business:
+  label: "Actuarial Science (Business)"
+  org_contains: *business_org
+  tags: [actuarial science, actuary]
+
+business-administration:
+  label: "Business Administration"
+  org_contains: *business_org
+  tags: [business]
+
+business-law:
+  label: "Business & Law"
+  org_contains: *business_org
+  tags: [business law]
+
+business-analytics:
+  label: "Business Analytics"
+  org_contains: *business_org
+  tags: [business analytics, analytics]
+
+economics-business:
+  label: "Economics (Business)"
+  org_contains: *business_org
+  tags: [economics]
+
+finance:
+  label: "Finance"
+  org_contains: *business_org
+  tags: [finance]
+
+international-business:
+  label: "International Business"
+  org_contains: *business_org
+  tags: [international business]
+
+management:
+  label: "Management"
+  org_contains: *business_org
+  tags: [management]
+
+marketing:
+  label: "Marketing"
+  org_contains: *business_org
+  tags: [marketing]
+
+supply-chain-management:
+  label: "Supply Chain Management"
+  org_contains: *business_org
+  tags: [supply chain]
+
+# --- Education & Human Sciences -----------------------------------------
+
+communication-sciences-disorders:
+  label: "Communication Sciences & Disorders"
+  org_contains: *cehs_org
+  tags: [communication disorders, speech-language]
+
+cyaf-early-childhood-mobile-society:
+  label: "CYAF: Early Childhood Education in a Mobile Society"
+  org_contains: *cehs_org
+  tags: [early childhood education]
+
+cyaf-family-consumer-sciences-occupational:
+  label: "CYAF: Family & Consumer Sciences Occupational (Grades 6-12)"
+  org_contains: *cehs_org
+  tags: [family and consumer sciences]
+
+cyaf-human-development-family-science:
+  label: "CYAF: Human Development and Family Science"
+  org_contains: *cehs_org
+  tags: [human development, family science]
+
+cyaf-inclusive-early-childhood-education:
+  label: "CYAF: Inclusive Early Childhood Education (Birth-Grade 3)"
+  org_contains: *cehs_org
+  tags: [early childhood education, inclusive education]
+
+elementary-education-special-education:
+  label: "Elementary Education & Special Education (K-6)"
+  org_contains: *cehs_org
+  tags: [elementary education, special education]
+
+elementary-education:
+  label: "Elementary Education (K-6)"
+  org_contains: *cehs_org
+  tags: [elementary education]
+
+elementary-early-childhood-education:
+  label: "Elementary Education (K-6) & Early Childhood Education (Age 3-Grade 3)"
+  org_contains: *cehs_org
+  tags: [elementary education, early childhood education]
+
+hospitality-restaurant-tourism-management:
+  label: "Hospitality, Restaurant & Tourism Management"
+  org_contains: *cehs_org
+  tags: [hospitality, tourism management]
+
+nutrition-community-health-wellness:
+  label: "Nutrition & Health Sciences: Community Health and Wellness Option"
+  org_contains: *cehs_org
+  tags: [nutrition, community health]
+
+nutrition-biomedical-sciences:
+  label: "Nutrition & Health Sciences: Nutrition & Biomedical Sciences Option"
+  org_contains: *cehs_org
+  tags: [nutrition, biomedical sciences]
+
+nutrition-exercise-health-science:
+  label: "Nutrition & Health Sciences: Nutrition, Exercise & Health Science Option"
+  org_contains: *cehs_org
+  tags: [nutrition, exercise science]
+
+secondary-education-arabic:
+  label: "Secondary Education: Arabic"
+  org_contains: *cehs_org
+  tags: [secondary education, arabic]
+
+secondary-education-biology:
+  label: "Secondary Education: Biology"
+  org_contains: *cehs_org
+  tags: [secondary education, biology education]
+
+secondary-education-business-marketing-it:
+  label: "Secondary Education: Business, Marketing & Information Technology"
+  org_contains: *cehs_org
+  tags: [secondary education, business education]
+
+secondary-education-chemistry:
+  label: "Secondary Education: Chemistry"
+  org_contains: *cehs_org
+  tags: [secondary education, chemistry education]
+
+secondary-education-chinese:
+  label: "Secondary Education: Chinese"
+  org_contains: *cehs_org
+  tags: [secondary education, chinese]
+
+secondary-education-english-language-arts:
+  label: "Secondary Education: English Language Arts"
+  org_contains: *cehs_org
+  tags: [secondary education, english education]
+
+secondary-education-french:
+  label: "Secondary Education: French"
+  org_contains: *cehs_org
+  tags: [secondary education, french]
+
+secondary-education-german:
+  label: "Secondary Education: German"
+  org_contains: *cehs_org
+  tags: [secondary education, german]
+
+secondary-education-japanese:
+  label: "Secondary Education: Japanese"
+  org_contains: *cehs_org
+  tags: [secondary education, japanese]
+
+secondary-education-latin:
+  label: "Secondary Education: Latin"
+  org_contains: *cehs_org
+  tags: [secondary education, latin]
+
+secondary-education-mathematics:
+  label: "Secondary Education: Mathematics"
+  org_contains: *cehs_org
+  tags: [secondary education, math education]
+
+secondary-education-physics:
+  label: "Secondary Education: Physics"
+  org_contains: *cehs_org
+  tags: [secondary education, physics education]
+
+secondary-education-science:
+  label: "Secondary Education: Science"
+  org_contains: *cehs_org
+  tags: [secondary education, science education]
+
+secondary-education-secondary-english:
+  label: "Secondary Education: Secondary English"
+  org_contains: *cehs_org
+  tags: [secondary education, english education]
+
+secondary-education-social-studies:
+  label: "Secondary Education: Social Studies"
+  org_contains: *cehs_org
+  tags: [secondary education, social studies]
+
+secondary-education-spanish:
+  label: "Secondary Education: Spanish"
+  org_contains: *cehs_org
+  tags: [secondary education, spanish]
+
+special-education-7-12:
+  label: "Special Education (7-12)"
+  org_contains: *cehs_org
+  tags: [special education]
+
+special-education-k-6:
+  label: "Special Education (K-6)"
+  org_contains: *cehs_org
+  tags: [special education]
+
+# --- Engineering ---------------------------------------------------------
+
+biological-systems-engineering:
+  label: "Biological Systems Engineering"
+  org_contains: *engineering_org
+  tags: [biological systems engineering]
+
+chemical-engineering:
+  label: "Chemical Engineering"
+  org_contains: *engineering_org
+  tags: [chemical engineering]
+
+civil-engineering:
+  label: "Civil Engineering"
+  org_contains: *engineering_org
+  tags: [civil engineering]
+
+computer-engineering:
+  label: "Computer Engineering"
+  org_contains: *engineering_org
+  tags: [computer engineering]
+
+computer-science:
+  label: "Computer Science"
+  org_contains: *engineering_org
+  extra_org_contains:
+    - "School of Computing"        # UNL's CS department is now "School of Computing"
+    - "Holland Computing Center"   # observed
+    - "ACM"
+  tags: [computer science, computing, coding, software, hackathon]
+
+construction-engineering:
+  label: "Construction Engineering"
+  org_contains: *engineering_org
+  tags: [construction engineering]
+
+construction-management:
+  label: "Construction Management"
+  org_contains: *engineering_org
+  tags: [construction management]
+
+data-science-engr:
+  label: "Data Science (ENGR)"
+  org_contains: *engineering_org
+  tags: [data science]
+
+electrical-engineering:
+  label: "Electrical Engineering"
+  org_contains: *engineering_org
+  tags: [electrical engineering]
+
+environmental-engineering:
+  label: "Environmental Engineering"
+  org_contains: *engineering_org
+  tags: [environmental engineering]
+
+mechanical-engineering:
+  label: "Mechanical Engineering"
+  org_contains: *engineering_org
+  tags: [mechanical engineering]
+
+robotics-engineering:
+  label: "Robotics Engineering"
+  org_contains: *engineering_org
+  tags: [robotics]
+
+software-engineering:
+  label: "Software Engineering"
+  org_contains: *engineering_org
+  tags: [software engineering, software]
+
+# --- Fine & Performing Arts -----------------------------------------------
+
+acting:
+  label: "Acting"
+  org_contains: *fpa_org
+  tags: [acting, theatre]
+
+art:
+  label: "Art"
+  org_contains: *fpa_org
+  tags: [art]
+
+art-history-criticism:
+  label: "Art History and Criticism"
+  org_contains: *fpa_org
+  tags: [art history]
+
+dance:
+  label: "Dance"
+  org_contains: *fpa_org
+  tags: [dance]
+
+emerging-media-arts:
+  label: "Emerging Media Arts"
+  org_contains: *fpa_org
+  tags: [emerging media arts, media arts]
+
+entertainment-design-production:
+  label: "Entertainment Design and Production"
+  org_contains: *fpa_org
+  tags: [entertainment design, production design]
+
+graphic-arts:
+  label: "Graphic Arts"
+  org_contains: *fpa_org
+  tags: [graphic arts]
+
+graphic-design:
+  label: "Graphic Design"
+  org_contains: *fpa_org
+  tags: [graphic design]
+
+interdisciplinary-studies:
+  label: "Interdisciplinary Studies"
+  org_contains: *fpa_org
+  tags: [interdisciplinary studies]
+
+music:
+  label: "Music"
+  org_contains: *fpa_org
+  extra_org_contains:
+    - "School of Music"  # official name -- not yet confirmed against a live event
+  tags: [music, recital, concert, orchestra, choir]
+
+music-education:
+  label: "Music Education"
+  org_contains: *fpa_org
+  tags: [music education]
+
+theatre:
+  label: "Theatre"
+  org_contains: *fpa_org
+  tags: [theatre, theater]
+
+# --- Journalism & Mass Communications -----------------------------------
+
+advertising-public-relations:
+  label: "Advertising & Public Relations"
+  org_contains: *cojmc_org
+  tags: [advertising, public relations]
+
+broadcasting:
+  label: "Broadcasting"
+  org_contains: *cojmc_org
+  tags: [broadcasting]
+
+journalism:
+  label: "Journalism"
+  org_contains: *cojmc_org
+  tags: [journalism, media, reporting, storytelling]
+
+sports-media-communication:
+  label: "Sports Media & Communication"
+  org_contains: *cojmc_org
+  tags: [sports media]
+
+# --- Public Affairs & Community Service ---------------------------------
+
+criminology-criminal-justice:
+  label: "Criminology & Criminal Justice"
+  org_contains: *pacs_org
+  tags: [criminology, criminal justice]
+
+# --- Exploratory / pre-professional / non-degree ------------------------
 
 undeclared:
-  label: "Undeclared / Exploratory Studies"
-  org_contains:
-    - "Explore Center"  # observed
-    - "Career Services"  # observed
-  tags:
-    - career
-    - advising
-    - major exploration
+  label: "Undeclared (Non-Degree)"
+  org_contains: *explore_org
+  tags: [career, advising, major exploration]
+
+pre-law:
+  label: "Pre-Law (Non-Degree)"
+  org_contains: *law_org
+  extra_org_contains: *explore_org
+  tags: [law, legal, pre-law, moot court]
+
+pre-health:
+  label: "Pre-Health (Non-Degree)"
+  org_contains: *explore_org
+  tags: [pre-health, health, medicine]

@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//unl-events-demo//fetch_events.py//EN
+X-WR-CALNAME:UNL Campus Events — Secondary Education: Spanish
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:engage-12646810@unl-events-demo
+DTSTAMP:20260904T154412Z
+DTSTART:20260915T223000Z
+DTEND:20260915T233000Z
+SUMMARY:Spanish Club Meeting
+LOCATION:Burnett 302
+DESCRIPTION:General Meeting for the UNL Spanish Club
+URL:https://unl.campuslabs.com/engage/event/12646810
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

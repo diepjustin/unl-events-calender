@@ -431,10 +431,36 @@ def write_ics_files(events: list[dict], majors: dict) -> None:
 
 
 def convert_majors_yaml_to_json() -> dict:
+    """Reads majors.yaml and writes the browser-facing majors.json.
+
+    Two things get normalized away here so index.html's scoreEvent() and
+    major_matches() above don't need to know about YAML-only structure:
+      - Keys starting with "_" (currently just `_colleges`) are internal
+        anchor definitions, not real majors, and are dropped.
+      - `extra_org_contains` (a major's own additions on top of its
+        college's shared org list) is merged into `org_contains` so each
+        major in the output has one flat org_contains list, same as before
+        college anchors existed.
+    """
     src = DATA_DIR / "majors.yaml"
     dst = DATA_DIR / "majors.json"
     with src.open(encoding="utf-8") as f:
-        majors = yaml.safe_load(f) or {}
+        raw = yaml.safe_load(f) or {}
+
+    majors = {}
+    for key, major in raw.items():
+        if key.startswith("_"):
+            continue
+        org_contains = list(major.get("org_contains") or [])
+        for extra in major.get("extra_org_contains") or []:
+            if extra not in org_contains:
+                org_contains.append(extra)
+        majors[key] = {
+            "label": major.get("label", key),
+            "org_contains": org_contains,
+            "tags": major.get("tags", []),
+        }
+
     with dst.open("w", encoding="utf-8") as f:
         json.dump(majors, f, indent=2, ensure_ascii=False)
         f.write("\n")

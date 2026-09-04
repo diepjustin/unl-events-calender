@@ -128,10 +128,16 @@ folder, then visiting `http://localhost:8000/`, works fine.
   slow, and edges toward exactly the kind of scraping the Engage section
   above says not to do). If UNL or Engage ever add that field to their
   feeds, it'd be a reasonable scoring signal to bring back.
-- **Only ~8 majors are mapped so far**, not UNL's full catalog of 150+.
-  Add more as you go -- see "Adding or fixing a major" above. The file
-  makes clear which entries are lightly checked vs. observed against real
-  events.
+- **All ~128 UNL undergraduate majors are in `majors.yaml`** (source: UNL's
+  own catalog at catalog.unl.edu/undergraduate/majors/, checked
+  2026-09-04 -- minors and certificates were deliberately excluded, they
+  aren't majors). Most entries share their college's org list via a YAML
+  anchor (see the "COLLEGE ANCHORS" comment at the top of the file) rather
+  than each retyping it. Only a handful of org names are marked "observed"
+  against a real event -- the rest are UNL's official college/department
+  names, unverified against live events, and will need retuning as you see
+  how they actually perform. If UNL adds or renames a major, this file
+  needs a matching update -- it won't happen automatically.
 - **The CAPS well-being group stays suppressed** (`data/suppression.yaml`).
   This was a deliberate choice made when this project started, not a bug.
   Read the reason in that file before changing it.

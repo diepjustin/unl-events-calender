@@ -1,0 +1,109 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//unl-events-demo//fetch_events.py//EN
+X-WR-CALNAME:UNL Campus Events — Animal Science
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:unl-195882-975812@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T154411Z
+DTSTART:20260904T170000Z
+DTEND:20260904T180000Z
+SUMMARY:Natural Chicken Compost for Sale (by appointment only)
+DESCRIPTION:The poultry group in the Department of Animal Science has natu
+ ral chicken compost for sale. Sold in 15 lb. bags for $5/bag. Payments mu
+ st be via check or cash (must be exact change).\n \nPick up on Fridays by
+  appointment only. Please contact Megan Carman (mcarman3@unl.edu)\, Poult
+ ry Research Technician\, to place an order…
+URL:http://events.unl.edu/2026/09/04/195882/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201298@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T154411Z
+DTSTART:20260904T173000Z
+DTEND:20260904T213000Z
+SUMMARY:PlantNebraska Plant Sale
+LOCATION:Nebraska Statewide Arboretum Greenhouse Room
+DESCRIPTION:PlantNebraska will host a fall plant sale on Friday\, Septembe
+ r 4\, from 12:30 to 4:30 p.m. at its greenhouses on UNL's East Campus (21
+ 50 N. 38th St.). Native and well-adapted plants suited to Nebraska's clim
+ ate and growing conditions will be available for purchase\, including tre
+ es\, shrubs\, perennial flowers\, grasses…
+URL:http://events.unl.edu/2026/09/04/201298/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201308@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T154411Z
+DTSTART:20260905T140000Z
+DTEND:20260905T170000Z
+SUMMARY:PlantNebraska Fall Plant Sale
+LOCATION:Nebraska Statewide Arboretum Greenhouse Room
+DESCRIPTION:PlantNebraska will host a fall plant sale on Saturday\, Septem
+ ber 5\, from 9 a.m. to 12 noon at its greenhouses on UNL's East Campus (2
+ 150 N. 38th St.). Native and well-adapted plants suited to Nebraska's cli
+ mate and growing conditions will be available for purchase\, including tr
+ ees\, shrubs\, perennial flowers\, grasses…
+URL:http://events.unl.edu/2026/09/05/201308/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-202125@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T154411Z
+DTSTART:20260909T190000Z
+DTEND:20260909T200000Z
+SUMMARY:CASNR Kernels
+LOCATION:Animal Science Complex Room Animal Science Complex Commons
+DESCRIPTION:CASNR Kernels is coming to Animal Science! Students can stop b
+ y between classes for freshly popped popcorn\, fun activities\, and a cha
+ nce to connect with the CASNR Student Success Team. It's a great opportun
+ ity to meet other students\, discover campus resources\, ask questions\, 
+ and learn about the support available to…
+URL:http://events.unl.edu/2026/09/09/202125/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201303@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T154411Z
+DTSTART:20260918T173000Z
+DTEND:20260918T213000Z
+SUMMARY:PlantNebraska Fall Plant Sale
+LOCATION:Nebraska Statewide Arboretum Greenhouse Room
+DESCRIPTION:PlantNebraska will host a fall plant sale on Friday\, Septembe
+ r 18\, from 12:30 to 4:30 p.m. at its greenhouses on UNL's East Campus (2
+ 150 N. 38th St.). Native and well-adapted plants suited to Nebraska's cli
+ mate and growing conditions will be available for purchase\, including tr
+ ees\, shrubs\, perennial flowers\, grasses…
+URL:http://events.unl.edu/2026/09/18/201303/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-202573@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T154411Z
+DTSTART:20260918T220000Z
+DTEND:20260919T000000Z
+SUMMARY:Block and Bridle Club Steak Fry
+LOCATION:Animal Science Complex Room
+DESCRIPTION:The University of Nebraska-Lincoln Block and Bridle Club will 
+ host its annual Steak Fry event on Friday\, September 18.\n\nThe event wi
+ ll be held at the Animal Science Complex on Nebraska's East Campus from 5
+ -7 p.m. Presale meal tickets can be purchased for $12 on UNL Marketplace 
+ or can be purchased at the door for $15.…
+URL:http://events.unl.edu/2026/09/18/202573/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-202109@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T154411Z
+DTSTART:20260923T170000Z
+DTEND:20260923T180000Z
+SUMMARY:Animal Science Seminar
+LOCATION:Animal Science Complex Room A222
+DESCRIPTION:Join us for a Department of Animal Science Seminar by Dr. Nico
+ le Buan\, Professor of Biochemistry at University of Nebraska-Lincoln\, o
+ n September 23\, 2026.
+URL:http://events.unl.edu/2026/09/23/202109/
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

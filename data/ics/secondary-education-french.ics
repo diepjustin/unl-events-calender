@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//unl-events-demo//fetch_events.py//EN
+X-WR-CALNAME:UNL Campus Events — Secondary Education: French
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:unl-199726@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T154412Z
+DTSTART:20261025T210000Z
+DTEND:20261025T210000Z
+SUMMARY:An Afternoon of French Romantic Chamber Music
+LOCATION:Kimball Recital Hall Room
+DESCRIPTION:An Afternoon of French Romantic Chamber Music\nAn Afternoon of
+  French Romantic Chamber Music\nPresented by Lincoln Friends of Chamber M
+ usic \n\nWith a program at home on the stages of New York and Vienna\, LF
+ CM and the Lied Center welcome proud Chicago-based artists Orion Weiss (p
+ iano)\, Rachel Barton-Pine (violin)\, and the…
+URL:http://events.unl.edu/2026/10/25/199726/
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

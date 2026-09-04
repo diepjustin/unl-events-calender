@@ -1,0 +1,91 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//unl-events-demo//fetch_events.py//EN
+X-WR-CALNAME:UNL Campus Events — Nutrition & Health Sciences: Nutrition & 
+ Biomedical Sciences Option
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:unl-201375@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T154412Z
+DTSTART:20260914T210000Z
+DTEND:20260914T210000Z
+SUMMARY:SVMBS Seminar: Kush K. Pandey
+LOCATION:Veterinary Medicine and Biomedical Sciences Hall Room 145
+DESCRIPTION:Kush K. Pandey\, graduate student in the School of Veterinary 
+ Medicine and Biomedical Sciences (SVMBS)\, will present as part of the se
+ minar series hosted by SVMBS.\n\nThe presentation is free and open to the
+  public.
+URL:http://events.unl.edu/2026/09/14/201375/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-202431@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T154412Z
+DTSTART:20260917T045500Z
+DTEND:20260917T045500Z
+SUMMARY:CookWell Registration Deadline
+DESCRIPTION:Join the Nutrition Education team for an interactive cooking c
+ lass to make Nebraska Runzas\, Sweet Corn Salad\, and Spiced Apple Crisp.
+  Register here: https://crec.unl.edu/cookwell/
+URL:http://events.unl.edu/2026/09/16/202431/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201724-980071@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T154412Z
+DTSTART:20260917T150000Z
+DTEND:20260917T180000Z
+SUMMARY:SNAP Benefits Sign-Up
+LOCATION:Louise Pound Hall Room 205
+DESCRIPTION:Struggling to afford groceries? Join us for one-on-one help si
+ gning up for SNAP benefits!\n\n**************\nSNAP (Supplemental Nutriti
+ on Assistance Program) is a federal program that helps eligible students 
+ afford groceries and food. Coordinators from the Food Bank of Lincoln wil
+ l be on campus to walk you through the…
+URL:http://events.unl.edu/2026/09/17/201724/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-202108@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T154412Z
+DTSTART:20260928T210000Z
+DTEND:20260928T210000Z
+SUMMARY:SVMBS Seminar: Aiden E. Quinn
+LOCATION:Veterinary Medicine and Biomedical Sciences Hall Room 145
+DESCRIPTION:Aiden E. Quinn\, senior evaluation project manager at the Meth
+ odology and Evaluation Research Core Facility\, will present a seminar ti
+ tled "Introduction to the Methodology and Evaluation Research Core Facili
+ ty." The seminar is part of a series hosted by the School of Veterinary M
+ edicine and Biomedical Sciences…
+URL:http://events.unl.edu/2026/09/28/202108/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201376@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T154412Z
+DTSTART:20261026T210000Z
+DTEND:20261026T210000Z
+SUMMARY:SVMBS Seminar: Hung Luong
+LOCATION:Veterinary Medicine and Biomedical Sciences Hall Room 145
+DESCRIPTION:Hung Luong\, graduate student in the School of Veterinary Medi
+ cine and Biomedical Sciences will present as part of the school's seminar
+  series. \n\nThe seminar is free and open to the public.
+URL:http://events.unl.edu/2026/10/26/201376/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201377@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T154412Z
+DTSTART:20261102T220000Z
+DTEND:20261102T220000Z
+SUMMARY:SVMBS Seminar: Lindsey Crawford
+LOCATION:Veterinary Medicine and Biomedical Sciences Hall Room 145
+DESCRIPTION:Lindsey Crawford\, assistant professor in biochemistry at the 
+ University of Nebraska-Lincoln\, will present as part of the School of Ve
+ terinary Medicine and Biomedical Sciences' seminar series.\n\nThe present
+ ation is free and open to the public.
+URL:http://events.unl.edu/2026/11/02/201377/
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

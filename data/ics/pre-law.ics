@@ -1,0 +1,278 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//unl-events-demo//fetch_events.py//EN
+X-WR-CALNAME:UNL Campus Events — Pre-Law (Non-Degree)
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:unl-201642@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T154412Z
+DTSTART:20260909T210000Z
+DTEND:20260909T220000Z
+SUMMARY:Pre-Health Orientation 2
+LOCATION:Nebraska Union Room Regency Suite
+DESCRIPTION:Are you interested in a career in healthcare? Whether you're c
+ onsidering medicine\, dentistry\, physical therapy\, or another health pr
+ ofession - we're excited to help you get started!\n\nJoin us for Pre-Heal
+ th Orientation and learn what it means to be a pre-health student at UNL.
+  We will offer two dates\, and you can…
+URL:http://events.unl.edu/2026/09/09/201642/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:engage-12489580@unl-events-demo
+DTSTAMP:20260904T154412Z
+DTSTART:20260909T210000Z
+DTEND:20260909T220000Z
+SUMMARY:Pre-Health Orientation #2
+LOCATION:Union Regency Suite
+DESCRIPTION:Geared toward new UNL pre-health students\, this session will 
+ provide an overview of what it means to be a pre-health student and discu
+ ss questions like: How do I find out what courses I need to take for my p
+ re-health area and how do I plan when to take them? How do I explore diff
+ erent areas of pre-health? How can my…
+URL:https://unl.campuslabs.com/engage/event/12489580
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-200091@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T154412Z
+DTSTART:20260910T210000Z
+DTEND:20260910T220000Z
+SUMMARY:Pre-Law Orientation
+LOCATION:Love Library South Room Room 221
+DESCRIPTION:This workshop is designed for any student considering applying
+  to law school in the future. Freshmen through senior will learn what it 
+ means to be a pre-law student\, how to best plan your undergraduate educa
+ tion for law school success\, and what makes a competitive applicant. We 
+ will discuss specific timelines…
+URL:http://events.unl.edu/2026/09/10/200091/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-200760@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T154412Z
+DTSTART:20260915T180000Z
+DTEND:20260915T200000Z
+SUMMARY:Education Career Fair
+LOCATION:Nebraska Union Room Centennial
+DESCRIPTION:Education Career Fair is a great chance to connect with school
+  districts and educational organizations looking for future teachers\, st
+ udent teachers\, interns and education professionals. Whether you have ju
+ st been admitted or are getting ready to start interviewing\, come explor
+ e opportunities in pre-K\, K-12\, corporate…
+URL:http://events.unl.edu/2026/09/15/200760/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:engage-12568116@unl-events-demo
+DTSTAMP:20260904T154412Z
+DTSTART:20260916T210000Z
+DTEND:20260916T220000Z
+SUMMARY:Demystifying the LSAT: Blueprinting Your Way to a Top Score
+LOCATION:Love Library South 221
+DESCRIPTION:Thinking about law school but not sure where to begin with the
+  LSAT? Whether you're planning to take the LSAT in the next year or simpl
+ y want to understand what lies ahead\, this workshop will help you build 
+ a solid foundation and create a plan for success. Whether you're just exp
+ loring law school or actively planning…
+URL:https://unl.campuslabs.com/engage/event/12568116
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-200761@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T154412Z
+DTSTART:20260917T160000Z
+DTEND:20260917T200000Z
+SUMMARY:University Career and Internship Fairs
+LOCATION:Nebraska East Union Room
+DESCRIPTION:The University Career + Internship Fair is the perfect opportu
+ nity to connect with employers hiring for full-time positions\, internshi
+ ps and other career opportunities. Whether you are a first-year student o
+ r an upcoming graduate\, this is your chance to build meaningful connecti
+ ons that could shape your…
+URL:http://events.unl.edu/2026/09/17/200761/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:engage-12667807@unl-events-demo
+DTSTAMP:20260904T154412Z
+DTSTART:20260918T230000Z
+DTEND:20260919T010000Z
+SUMMARY:FossJam
+LOCATION:KH A445
+DESCRIPTION:Have you ever thought about coding for public benefit? You may
+  be interested in FossJam: a hackathon where participants contribute to F
+ ree and Open Source Software\, or FOSS. FOSS is software that gives contr
+ ol back to the user\, by allowing them the legal freedom to run\, study\,
+  modify\, and redistribute the software for…
+URL:https://unl.campuslabs.com/engage/event/12667807
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201643@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T154412Z
+DTSTART:20260922T210000Z
+DTEND:20260922T220000Z
+SUMMARY:The MCAT Demystified: From 'Where Do I Start?' to Test Day
+LOCATION:Love Library South Room 221
+DESCRIPTION:Thinking about taking the MCAT but not sure where to begin?\n\
+ nWhether you're planning to apply to medical school in the next year or a
+ re just starting to explore your timeline\, this workshop will help you u
+ nderstand what the MCAT is\, how to prepare effectively\, and what steps 
+ you can take now to set yourself up for…
+URL:http://events.unl.edu/2026/09/22/201643/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:engage-12567911@unl-events-demo
+DTSTAMP:20260904T154412Z
+DTSTART:20260922T210000Z
+DTEND:20260922T220000Z
+SUMMARY:The MCAT Demystified: From "Where Do I Start?" to Test Day
+LOCATION:Love Library South 221
+DESCRIPTION:hinking about taking the MCAT but not sure where to begin? Whe
+ ther you're planning to apply to medical school in the next year or are j
+ ust starting to explore your timeline\, this workshop will help you under
+ stand what the MCAT is\, how to prepare effectively\, and what steps you 
+ can take now to set yourself up for…
+URL:https://unl.campuslabs.com/engage/event/12567911
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-202162@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T154412Z
+DTSTART:20260928T153000Z
+DTEND:20260928T162000Z
+SUMMARY:The Forgotten History of Chinese Life Under American Racial Law
+LOCATION:Zoom (http://go.unl.edu/lawandracewebinar)
+DESCRIPTION:Join Dr. Donna Anderson's HIST 115: And Justice For All class 
+ for a discussion with Dr. Beth Lew-Williams (Princeton University) on her
+  recent book\, John Doe Chinaman: A Forgotten History of Chinese Life und
+ er American Racial Law.
+URL:http://events.unl.edu/2026/09/28/202162/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-200758@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T154412Z
+DTSTART:20260928T210000Z
+DTEND:20260928T230000Z
+SUMMARY:Actuarial Science Career Fair
+LOCATION:Howard L. Hawks Hall Room
+DESCRIPTION:The Actuarial Science Career Fair is an excellent opportunity 
+ to connect with local\, national and global employers in insurance\, fina
+ nce and consulting. Whether you are just starting college or preparing to
+  launch your career\, this is your chance to network\, explore job opport
+ unities and learn more about the actuarial…
+URL:http://events.unl.edu/2026/09/28/200758/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201657@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T154412Z
+DTSTART:20260929T210000Z
+DTEND:20260929T220000Z
+SUMMARY:Constructing Your Case: How to Build a Standout Pre-Law Profile
+LOCATION:Love Library South Room 221
+DESCRIPTION:A strong law school application is built long before you submi
+ t your materials-it's developed through intentional choices\, meaningful 
+ experiences\, and a clear understanding of what law schools are looking f
+ or.\n\nJoin the Explore Center for an engaging workshop designed to help 
+ you begin building a competitive and…
+URL:http://events.unl.edu/2026/09/29/201657/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201644@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T154412Z
+DTSTART:20261001T210000Z
+DTEND:20261001T220000Z
+SUMMARY:So ... How Do I Start Shadowing?
+LOCATION:Love Library South Room 221
+DESCRIPTION:If you're new to pre-health\, you've probably heard that shado
+ wing\, volunteering\, and clinical experience are important-but figuring 
+ out how to get started can feel overwhelming. \n\nDesigned especially for
+  first- and second-year students (or anyone new to pre-health)\, this ses
+ sion will help you understand the different…
+URL:http://events.unl.edu/2026/10/01/201644/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:engage-12567940@unl-events-demo
+DTSTAMP:20260904T154412Z
+DTSTART:20261001T210000Z
+DTEND:20261001T220000Z
+SUMMARY:So...How Do I Start Shadowing? Starting Strong with Shadowing\, Vo
+ lunteering\, and Clinical Experience
+LOCATION:Love Library South 221
+DESCRIPTION:If you're new to pre-health\, you've probably heard that shado
+ wing\, volunteering\, and clinical experience are important—but figuring 
+ out how to get started can feel overwhelming. Designed especially for fir
+ st- and second-year students (or anyone new to pre-health)\, this session
+  will help you understand the different…
+URL:https://unl.campuslabs.com/engage/event/12567940
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201645@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T154412Z
+DTSTART:20261006T210000Z
+DTEND:20261006T220000Z
+SUMMARY:Designing Your DAT Plan: Scores\, Sections and Timelines
+LOCATION:Love Library South Room 221
+DESCRIPTION:Thinking about dental school and wondering when-or how-to star
+ t preparing for the DAT?\n\nWhether you're planning to take the DAT in th
+ e next year or two or simply want to understand how the exam fits into yo
+ ur dental school timeline\, this workshop will help you build a strategy 
+ for success. \n\nThis workshop is…
+URL:http://events.unl.edu/2026/10/06/201645/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201658@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T154412Z
+DTSTART:20261013T210000Z
+DTEND:20261013T220000Z
+SUMMARY:From Nervous to Noticed: Ace Your Professional School Interviews
+LOCATION:Love Library South Room 221
+DESCRIPTION:This interactive workshop will help you prepare for profession
+ al school interviews by covering common interview formats\, strategies fo
+ r answering challenging questions\, tips for presenting yourself professi
+ onally\, and ways to stand out as a strong candidate. Whether you have an
+  interview scheduled or are expecting…
+URL:http://events.unl.edu/2026/10/13/201658/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201646@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T154412Z
+DTSTART:20261015T210000Z
+DTEND:20261015T220000Z
+SUMMARY:Primaries\, Secondaries and Success: Navigating the Application Ma
+ ze
+LOCATION:Love Library South Room 221
+DESCRIPTION:Have questions about how the health professions application pr
+ ocess actually works-from primary applications to secondaries and everyth
+ ing in between?\n\nWhether you are planning to apply soon or just beginni
+ ng to explore the process\, understanding the application timeline early 
+ can help you feel more confident and…
+URL:http://events.unl.edu/2026/10/15/201646/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201648@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T154412Z
+DTSTART:20261022T210000Z
+DTEND:20261022T220000Z
+SUMMARY:The NursingCAS Playbook: Getting Started on Your UNMC Application
+LOCATION:Love Library South Room 221
+DESCRIPTION:Planning to apply to the UNMC College of Nursing this year?\n\
+ nJoin Leslie Gonzalez\, Student Success Coordinator at UNMC Nursing Linco
+ ln\, for a hands-on workshop designed to help you get started with the UN
+ MC nursing application process through NursingCAS. \n\nTo get the most ou
+ t of the session\, we strongly encourage you…
+URL:http://events.unl.edu/2026/10/22/201648/
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

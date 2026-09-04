@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//unl-events-demo//fetch_events.py//EN
+X-WR-CALNAME:UNL Campus Events — Environmental Engineering
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:engage-12659871@unl-events-demo
+DTSTAMP:20260904T154412Z
+DTSTART:20260909T220000Z
+DTEND:20260909T230000Z
+SUMMARY:Speed Networking
+LOCATION:Kiewit Hall
+DESCRIPTION:This event will allow students to connect with professionals i
+ n Environmental Engineering in a more casual manner. They will be able to
+  ask them any questions they may have about their company\, career path\,
+  or career field. Please fill out the QR code on the flyer to sign up for
+  the event!
+URL:https://unl.campuslabs.com/engage/event/12659871
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

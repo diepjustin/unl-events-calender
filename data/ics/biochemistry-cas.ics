@@ -1,0 +1,92 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//unl-events-demo//fetch_events.py//EN
+X-WR-CALNAME:UNL Campus Events — Biochemistry (CAS)
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:unl-201144@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T154412Z
+DTSTART:20260908T210000Z
+DTEND:20260908T220000Z
+SUMMARY:Department of Biochemistry and Redox Biology Center Seminar Series
+LOCATION:Beadle Center Room E103
+DESCRIPTION:Dr. Xingshui Sun : The long-term goal of my laboratory is to d
+ efine how vascular endothelial dysfunction drives cardiometabolic conditi
+ ons\, translating these insights into actionable therapies. We utilize cu
+ tting-edge techniques\, murine disease models\, and advanced bioinformati
+ cs to map signaling and regulatory…
+URL:http://events.unl.edu/2026/09/08/201144/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:engage-12554789@unl-events-demo
+DTSTAMP:20260904T154412Z
+DTSTART:20260908T220000Z
+DTEND:20260908T230000Z
+SUMMARY:CAS Inquire: What Happens to Those Who Lived a “Good Life”?
+LOCATION:Jackie Gaughan Multicultural Center: Ubuntu Room 202
+DESCRIPTION:What happens when people who lived a good life die\, especiall
+ y if their deaths are seen as unjust or underserved? This question has an
+ imated and perplexed religious and philosophical thinkers for millennia. 
+ In this talk\, we will explore the development of afterlife in Jewish rel
+ igious thought and the legacy of this…
+URL:https://unl.campuslabs.com/engage/event/12554789
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:engage-12672561@unl-events-demo
+DTSTAMP:20260904T154412Z
+DTSTART:20260908T230000Z
+DTEND:20260909T000000Z
+SUMMARY:Bryan Volunteering
+LOCATION:Beadle Center
+DESCRIPTION:Ann Bauer from Bryan Volunteering will be joining us for the m
+ eeting to share about the many areas where biochemistry students can get 
+ involved in volunteering and the process for becoming a Bryan Volunteer.
+URL:https://unl.campuslabs.com/engage/event/12672561
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-197644@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T154412Z
+DTSTART:20260916T220000Z
+DTEND:20260916T233000Z
+SUMMARY:2026 Hoagland Lecture
+LOCATION:Sheldon Museum of Art Room Ethel S. Abbott Auditorium
+DESCRIPTION:The 2026 Peter J. Hoagland Integrity in Public Service Lecture
+  brings together experts from political communications\, investigative re
+ porting\, political consulting\, and academia to present a panel discussi
+ on about the 2026 midterm elections. Come and join the conversation about
+  the forces shaping the 2026 midterm…
+URL:http://events.unl.edu/2026/09/16/197644/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-202109@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T154412Z
+DTSTART:20260923T170000Z
+DTEND:20260923T180000Z
+SUMMARY:Animal Science Seminar
+LOCATION:Animal Science Complex Room A222
+DESCRIPTION:Join us for a Department of Animal Science Seminar by Dr. Nico
+ le Buan\, Professor of Biochemistry at University of Nebraska-Lincoln\, o
+ n September 23\, 2026.
+URL:http://events.unl.edu/2026/09/23/202109/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-201377@events.unl.edu@unl-events-demo
+DTSTAMP:20260904T154412Z
+DTSTART:20261102T220000Z
+DTEND:20261102T220000Z
+SUMMARY:SVMBS Seminar: Lindsey Crawford
+LOCATION:Veterinary Medicine and Biomedical Sciences Hall Room 145
+DESCRIPTION:Lindsey Crawford\, assistant professor in biochemistry at the 
+ University of Nebraska-Lincoln\, will present as part of the School of Ve
+ terinary Medicine and Biomedical Sciences' seminar series.\n\nThe present
+ ation is free and open to the public.
+URL:http://events.unl.edu/2026/11/02/201377/
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
