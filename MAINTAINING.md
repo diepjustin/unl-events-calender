@@ -102,8 +102,8 @@ pip install -r requirements.txt
 python3 scripts/fetch_events.py
 ```
 
-That's the one command. It re-fetches both feeds fresh, rewrites
-`data/events.json`, `data/majors.json`, and every file in `data/ics/`.
+That's the one command. It re-fetches both feeds fresh and rewrites
+`data/events.json` and `data/majors.json`.
 Open `index.html` through a local server (not by double-clicking it --
 browsers block a plain file from loading `data/events.json` next to it)
 and reload the page to see the result. `python3 -m http.server` in this
@@ -116,8 +116,6 @@ folder, then visiting `http://localhost:8000/`, works fine.
 - `majors.yaml` -- human-editable. The major -> org/tag mapping. See above.
 - `majors.json` -- generated from `majors.yaml`. Don't hand-edit.
 - `suppression.yaml` -- human-editable. The suppression list. See above.
-- `ics/*.ics` -- generated. Subscribable calendar files, one per major
-  plus one for everything, linked from the page.
 
 ## Editorial judgment calls already made, and why
 
@@ -138,6 +136,10 @@ folder, then visiting `http://localhost:8000/`, works fine.
   names, unverified against live events, and will need retuning as you see
   how they actually perform. If UNL adds or renames a major, this file
   needs a matching update -- it won't happen automatically.
-- **The CAPS well-being group stays suppressed** (`data/suppression.yaml`).
-  This was a deliberate choice made when this project started, not a bug.
-  Read the reason in that file before changing it.
+- **The CAPS well-being group is no longer suppressed.** It was originally
+  excluded from ranking as a deliberate editorial choice (the reasoning is
+  preserved as a comment in `data/suppression.yaml`), then put back into
+  ranking like any other event at the project owner's explicit request on
+  2026-09-05. The suppression mechanism itself is unchanged and has no
+  active rules right now -- use it the same way if a future case calls
+  for it.

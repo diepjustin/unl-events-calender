@@ -337,99 +337,6 @@ def apply_suppression(events: list[dict], rules: list[dict]) -> tuple[list[dict]
     return kept, suppressed_notes
 
 
-# ---------------------------------------------------------------------------
-# Subscribable .ics output -- one campus-wide file, one per major.
-#
-# NOTE ON DUPLICATED LOGIC: major_matches() below re-implements the same
-# org/tag matching as scoreEvent() in index.html (word-boundary tag match,
-# substring org match), because the ranked *page* scores client-side but a
-# pre-generated .ics file has to be filtered at fetch time, server-side.
-# If you change how matching works in one place, change it in the other --
-# see MAINTAINING.md.
-# ---------------------------------------------------------------------------
-
-def major_matches(event: dict, major: dict) -> bool:
-    org = (event.get("org") or "").lower()
-    haystack = " ".join(
-        filter(None, [event.get("category"), event.get("title"), event.get("description")])
-    ).lower()
-    org_hit = any(s.lower() in org for s in major.get("org_contains", []))
-    tag_hit = any(
-        re.search(r"\b" + re.escape(t.lower()) + r"\b", haystack) for t in major.get("tags", [])
-    )
-    return org_hit or tag_hit
-
-
-def ics_escape(text: str) -> str:
-    return (
-        text.replace("\\", "\\\\")
-        .replace(";", "\\;")
-        .replace(",", "\\,")
-        .replace("\n", "\\n")
-    )
-
-
-def fold_ics_line(line: str, limit: int = 74) -> str:
-    """RFC 5545 line folding, ASCII-width approximation (fine for our text,
-    which is already plain-ASCII-safe after ics_escape)."""
-    if len(line) <= limit:
-        return line
-    parts = [line[:limit]]
-    rest = line[limit:]
-    while rest:
-        parts.append(" " + rest[: limit - 1])
-        rest = rest[limit - 1 :]
-    return "\r\n".join(parts)
-
-
-def build_ics(events: list[dict], calendar_name: str) -> str:
-    now_stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
-    lines = [
-        "BEGIN:VCALENDAR",
-        "VERSION:2.0",
-        "PRODID:-//unl-events-demo//fetch_events.py//EN",
-        fold_ics_line("X-WR-CALNAME:" + ics_escape(calendar_name)),
-        "CALSCALE:GREGORIAN",
-        "METHOD:PUBLISH",
-    ]
-    for ev in events:
-        start = datetime.fromisoformat(ev["start"]).astimezone(timezone.utc)
-        lines.append("BEGIN:VEVENT")
-        lines.append("UID:" + ev["id"].replace(":", "-").replace(" ", "_") + "@unl-events-demo")
-        lines.append("DTSTAMP:" + now_stamp)
-        lines.append("DTSTART:" + start.strftime("%Y%m%dT%H%M%SZ"))
-        if ev.get("end"):
-            end = datetime.fromisoformat(ev["end"]).astimezone(timezone.utc)
-            lines.append("DTEND:" + end.strftime("%Y%m%dT%H%M%SZ"))
-        lines.append(fold_ics_line("SUMMARY:" + ics_escape(ev["title"])))
-        if ev.get("location"):
-            lines.append(fold_ics_line("LOCATION:" + ics_escape(ev["location"])))
-        if ev.get("description"):
-            lines.append(fold_ics_line("DESCRIPTION:" + ics_escape(ev["description"])))
-        if ev.get("url"):
-            lines.append(fold_ics_line("URL:" + ev["url"]))
-        lines.append("STATUS:CONFIRMED")
-        lines.append("END:VEVENT")
-    lines.append("END:VCALENDAR")
-    return "\r\n".join(lines) + "\r\n"
-
-
-def write_ics_files(events: list[dict], majors: dict) -> None:
-    ics_dir = DATA_DIR / "ics"
-    ics_dir.mkdir(exist_ok=True)
-
-    (ics_dir / "all-events.ics").write_text(
-        build_ics(events, "UNL Campus Events — All"), encoding="utf-8"
-    )
-
-    for key, major in majors.items():
-        matching = [e for e in events if major_matches(e, major)]
-        (ics_dir / f"{key}.ics").write_text(
-            build_ics(matching, "UNL Campus Events — " + major.get("label", key)),
-            encoding="utf-8",
-        )
-
-
 def convert_majors_yaml_to_json() -> dict:
     """Reads majors.yaml and writes the browser-facing majors.json.
 
@@ -515,13 +422,11 @@ def main() -> None:
         json.dump(payload, f, indent=2, ensure_ascii=False)
         f.write("\n")
 
-    majors = convert_majors_yaml_to_json()
-    write_ics_files(kept, majors)
+    convert_majors_yaml_to_json()
 
     print(f"Wrote {len(kept)} events to data/events.json "
           f"({len(suppressed_notes)} suppressed, "
           f"{sum(1 for e in kept if e['occurrence_count'] > 1)} collapsed series)")
-    print(f"Wrote {len(majors) + 1} .ics files to data/ics/")
 
 
 if __name__ == "__main__":

@@ -1,8 +1,0 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//unl-events-demo//fetch_events.py//EN
-X-WR-CALNAME:UNL Campus Events — CYAF: Human Development and Family Scienc
- e
-CALSCALE:GREGORIAN
-METHOD:PUBLISH
-END:VCALENDAR

@@ -17,14 +17,9 @@
 #
 # To remove one: delete its block. To temporarily pause suppression without
 # losing the reasoning, comment the block out with a leading "#" on each line.
-
-- id: caps-well-being-discussions
-  reason: >
-    This is a support-group-style drop-in space run by Counseling and
-    Psychological Services. Surfacing it through a personalized ranking
-    algorithm could reveal who's dealing with what, and change who shows
-    up. It's still on UNL's public calendar -- we just don't rank it.
-  match:
-    source: unl
-    title_contains: "Well-Being Discussions"
-    org_contains: "Counseling and Psychological Services"
+#
+# No active rules right now (2026-09-05) -- the CAPS well-being group that
+# was suppressed here previously was put back into ranking at the project
+# owner's explicit request, treating it the same as every other event on
+# the calendar. The mechanism above still works; add a rule the same way
+# if a future case calls for it.

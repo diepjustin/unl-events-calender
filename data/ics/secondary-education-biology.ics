@@ -1,7 +1,0 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//unl-events-demo//fetch_events.py//EN
-X-WR-CALNAME:UNL Campus Events — Secondary Education: Biology
-CALSCALE:GREGORIAN
-METHOD:PUBLISH
-END:VCALENDAR

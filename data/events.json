@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-04T15:44:05.421239+00:00",
+  "generated_at": "2026-09-04T16:03:20.625242+00:00",
   "window_days": 60,
   "sources": {
     "unl": {
-      "raw_count": 1228
+      "raw_count": 1229
     },
     "engage": {
       "raw_count": 400
@@ -129,6 +129,26 @@
       "occurrence_count": 2,
       "other_dates": [
         "2026-10-02T20:00:00+00:00"
+      ]
+    },
+    {
+      "id": "unl:202471-980796@events.unl.edu",
+      "source": "unl",
+      "title": "Well-Being Discussions",
+      "start": "2026-09-04T20:30:00+00:00",
+      "end": "2026-09-04T21:30:00+00:00",
+      "location": "Kauffman Academic Residential Center Room 122",
+      "org": "Counseling and Psychological Services",
+      "category": null,
+      "url": "http://events.unl.edu/2026/09/04/202471/",
+      "description": "A supportive, low-intensity space for Raikes School students to explore a variety of wellbeing-related topics, pause, and reset. We engage in discussion for 20 to 30 minutes, followed by 10 to 15 minutes of guided meditation, and wrap up with 10 to 15 minutes of Q&A or additional discussion. Participants can direct…",
+      "occurrence_count": 9,
+      "other_dates": [
+        "2026-09-11T20:30:00+00:00",
+        "2026-09-18T20:30:00+00:00",
+        "2026-09-25T20:30:00+00:00",
+        "2026-10-02T20:30:00+00:00",
+        "2026-10-09T20:30:00+00:00"
       ]
     },
     {
@@ -5764,7 +5784,7 @@
       "other_dates": []
     },
     {
-      "id": "unl:202585@events.unl.edu",
+      "id": "unl:202585-980885@events.unl.edu",
       "source": "unl",
       "title": "Ceramics: Illuminated Witch Hat - Beginner Workshop",
       "start": "2026-09-29T22:00:00+00:00",
@@ -5774,8 +5794,10 @@
       "category": null,
       "url": "http://events.unl.edu/2026/09/29/202585/",
       "description": "Create your own magical hand-built ceramic witch hat lantern in this beginner-friendly, two-part workshop with ceramic artist Tara Hinkley of Creative Lotus Shop.\n\nPart One - Tuesday, September 29 | 5:00-7:00 PM\nStudents will learn the basics of hand-building with clay, including how to use a slab roller and templates…",
-      "occurrence_count": 1,
-      "other_dates": []
+      "occurrence_count": 2,
+      "other_dates": [
+        "2026-10-06T22:00:00+00:00"
+      ]
     },
     {
       "id": "unl:202351@events.unl.edu",
@@ -7878,10 +7900,5 @@
       "other_dates": []
     }
   ],
-  "suppressed": [
-    {
-      "id": "caps-well-being-discussions",
-      "reason": "This is a support-group-style drop-in space run by Counseling and Psychological Services. Surfacing it through a personalized ranking algorithm could reveal who's dealing with what, and change who shows up. It's still on UNL's public calendar -- we just don't rank it."
-    }
-  ]
+  "suppressed": []
 }

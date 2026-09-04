@@ -379,8 +379,6 @@
     </div>
   </form>
 
-  <p id="subscribe-line" class="status-line"></p>
-
   <h2 class="section-label">Events</h2>
   <div id="status-line" class="status-line" aria-live="polite"></div>
   <div id="banners"></div>
@@ -415,7 +413,6 @@
   var statusLine = document.getElementById("status-line");
   var bannersEl = document.getElementById("banners");
   var resultsEl = document.getElementById("results");
-  var subscribeLine = document.getElementById("subscribe-line");
 
   var STALE_THRESHOLD_HOURS = 36; // fetch job runs nightly; two missed runs is a real problem, not a fluke
 
@@ -711,30 +708,12 @@
 
   var MAX_RESULTS = 60;
 
-  function updateSubscribeLine() {
-    subscribeLine.innerHTML = "";
-    var allLink = document.createElement("a");
-    allLink.href = "data/ics/all-events.ics";
-    allLink.textContent = "Subscribe to all campus events (.ics)";
-    subscribeLine.appendChild(allLink);
-
-    if (state.majorKey && majorsData[state.majorKey]) {
-      subscribeLine.appendChild(document.createTextNode(" · "));
-      var majorLink = document.createElement("a");
-      majorLink.href = "data/ics/" + encodeURIComponent(state.majorKey) + ".ics";
-      majorLink.textContent = "Subscribe to " + majorLabel(state.majorKey) + " events (.ics)";
-      subscribeLine.appendChild(majorLink);
-    }
-  }
-
   function render() {
     if (loadFailed) { renderFailure(); return; }
     if (!eventsPayload) return;
 
     bannersEl.innerHTML = "";
     resultsEl.innerHTML = "";
-
-    updateSubscribeLine();
 
     var generatedAt = new Date(eventsPayload.generated_at);
     var ageHours = (Date.now() - generatedAt.getTime()) / 3600000;
