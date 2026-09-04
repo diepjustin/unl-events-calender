@@ -4,16 +4,29 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>UNL Campus Events — For You</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
+  /*
+    Palette matched to dailynebraskan.com's own site (checked 2026-09-05):
+    Open Sans throughout, #333333 charcoal nav/body text, #ba1f1f red for
+    section labels and the nameplate-style top bar. This page is not the
+    Daily Nebraskan and doesn't use their logo/wordmark -- see the
+    independent-note text in the header -- just their type and color system,
+    since this is meant as a pitch for running there.
+  */
   :root {
     --bg: #ffffff;
-    --text: #1a1a1a;
-    --muted: #5a5a5a;
-    --border: #d8d8d8;
-    --accent: #c00000; /* Husker red, roughly */
+    --text: #333333;
+    --muted: #666666;
+    --border: #dddddd;
+    --accent: #ba1f1f; /* dailynebraskan.com's red */
     --accent-text: #ffffff;
+    --nav-bg: #333333; /* dailynebraskan.com's nav/nameplate charcoal */
+    --nav-text: #ffffff;
     --chip-bg: #f2f2f2;
-    --chip-org: #fdeaea;
+    --chip-org: #fbe8e8;
     --chip-org-text: #8a1414;
     --chip-tag: #eaf2fd;
     --chip-tag-text: #17457a;
@@ -23,7 +36,7 @@
     --chip-neutral-text: #555555;
     --focus: #1a5cff;
     --error-bg: #fff4f4;
-    --error-border: #c00000;
+    --error-border: #ba1f1f;
   }
 
   * { box-sizing: border-box; }
@@ -32,11 +45,24 @@
     margin: 0;
     background: var(--bg);
     color: var(--text);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.5;
   }
 
   a { color: var(--accent); }
+
+  .nameplate {
+    background: var(--nav-bg);
+    color: var(--nav-text);
+    padding: 0.9rem 1rem;
+  }
+
+  .nameplate-inner {
+    max-width: 840px;
+    margin: 0 auto;
+    font-size: 1.35rem;
+    font-weight: 800;
+  }
 
   main {
     max-width: 840px;
@@ -45,14 +71,15 @@
   }
 
   header.page-header {
-    padding: 1.5rem 1rem 1rem;
+    padding: 1.25rem 0 1rem;
     border-bottom: 1px solid var(--border);
     margin-bottom: 1.5rem;
   }
 
   header.page-header h1 {
-    font-size: 1.5rem;
-    margin: 0 0 0.35rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 0 0 0.5rem;
   }
 
   header.page-header p {
@@ -66,6 +93,17 @@
     font-size: 0.85rem;
     color: var(--muted);
     margin-top: 0.6rem;
+  }
+
+  .section-label {
+    color: var(--accent);
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    border-bottom: 3px solid var(--accent);
+    padding-bottom: 0.35rem;
+    margin: 0 0 1rem;
   }
 
   .controls {
@@ -304,6 +342,7 @@
 </style>
 </head>
 <body>
+<div class="nameplate"><div class="nameplate-inner">UNL Campus Events</div></div>
 <main>
   <header class="page-header">
     <h1>UNL Campus Events — For You</h1>
@@ -342,7 +381,7 @@
 
   <p id="subscribe-line" class="status-line"></p>
 
-  <h2 class="visually-hidden">Events</h2>
+  <h2 class="section-label">Events</h2>
   <div id="status-line" class="status-line" aria-live="polite"></div>
   <div id="banners"></div>
   <div id="results"></div>
