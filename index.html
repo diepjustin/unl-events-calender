@@ -711,18 +711,24 @@
     return { score: score, reasons: reasons, orgMatch: reasons.some(function(r){return r.type==="org";}) };
   }
 
+  // Everything date-related is in campus time, not the viewer's. A student
+  // checking from home in another state (or a parent, or an editor on a
+  // trip) should see "3:00 PM" for a 3pm Lincoln event, and "today" should
+  // mean today in Lincoln.
+  var CAMPUS_TZ = "America/Chicago";
+
+  function campusDateKey(d) {
+    return d.toLocaleDateString("en-CA", { timeZone: CAMPUS_TZ }); // YYYY-MM-DD
+  }
+
   function isToday(iso) {
-    var d = new Date(iso);
-    var now = new Date();
-    return d.getFullYear() === now.getFullYear() &&
-      d.getMonth() === now.getMonth() &&
-      d.getDate() === now.getDate();
+    return campusDateKey(new Date(iso)) === campusDateKey(new Date());
   }
 
   function formatDateTime(iso) {
     var d = new Date(iso);
-    return d.toLocaleDateString(undefined, { weekday: "short", month: "short", day: "numeric" }) +
-      ", " + d.toLocaleTimeString(undefined, { hour: "numeric", minute: "2-digit" });
+    return d.toLocaleDateString(undefined, { weekday: "short", month: "short", day: "numeric", timeZone: CAMPUS_TZ }) +
+      ", " + d.toLocaleTimeString(undefined, { hour: "numeric", minute: "2-digit", timeZone: CAMPUS_TZ });
   }
 
   var MAX_RESULTS = 60;
@@ -774,10 +780,20 @@
     var widened = false;
     var list;
 
+    var coldStartScope = "today";
     if (coldStart) {
       list = scored.filter(function (row) { return isToday(row.ev.start); });
+      if (list.length === 0) {
+        // A quiet day (a Sunday, a break) shouldn't be a blank first
+        // impression -- widen to the coming week and say so.
+        var weekOut = Date.now() + 7 * 86400000;
+        list = scored.filter(function (row) { return new Date(row.ev.start).getTime() <= weekOut; });
+        coldStartScope = "week";
+      }
       list.sort(function (a, b) { return new Date(a.ev.start) - new Date(b.ev.start); });
-      statusLine.textContent = "Nothing entered yet — showing today's events campus-wide. Enter a major or pick interests above to get a ranked, personalized list.";
+      statusLine.textContent = coldStartScope === "today"
+        ? "Nothing entered yet — showing today's events campus-wide. Enter a major or pick interests above to get a ranked, personalized list."
+        : "Nothing entered yet, and nothing is on the calendar today — showing the next 7 days campus-wide instead. Enter a major or pick interests above to get a ranked, personalized list.";
     } else {
       if (state.deptOnly && state.majorKey) {
         list = scored.filter(function (row) { return row.orgMatch; });
@@ -808,8 +824,10 @@
     if (list.length === 0) {
       var empty = document.createElement("div");
       empty.className = "empty-state";
-      empty.textContent = "No events found in the next " + (eventsPayload.window_days || "few") +
-        " days. Check back soon, or widen your search by clearing filters above.";
+      empty.textContent = coldStart
+        ? "Nothing is on the campus calendar for the next 7 days. Check back soon."
+        : "No events found in the next " + (eventsPayload.window_days || "few") +
+          " days. Check back soon, or widen your search by clearing filters above.";
       resultsEl.appendChild(empty);
       return;
     }

@@ -1,59 +1,15 @@
 {
-  "generated_at": "2026-09-07T22:50:55.235706+00:00",
+  "generated_at": "2026-09-08T08:27:22.255822+00:00",
   "window_days": 60,
   "sources": {
     "unl": {
-      "raw_count": 1199
+      "raw_count": 1198
     },
     "engage": {
-      "raw_count": 409
+      "raw_count": 417
     }
   },
   "events": [
-    {
-      "id": "engage:12616202",
-      "source": "engage",
-      "title": "AXP General Meeting",
-      "start": "2026-09-07T23:00:00+00:00",
-      "end": "2026-09-08T01:30:00+00:00",
-      "location": "Kiewit Hall - A251",
-      "org": "Aerospace Club",
-      "category": "ThoughtfulLearning",
-      "url": "https://unl.campuslabs.com/engage/event/12616202",
-      "description": "Aerospace Experimental Payloads weekly meeting to discuss and work on the design, fabrication, and assembly of their high altitude satellite project",
-      "units": [],
-      "occurrence_count": 5,
-      "other_dates": [
-        "2026-09-14T23:00:00+00:00",
-        "2026-09-21T23:00:00+00:00",
-        "2026-09-28T23:00:00+00:00",
-        "2026-10-05T23:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12622808",
-      "source": "engage",
-      "title": "Cru Manhood Bible Study",
-      "start": "2026-09-08T01:30:00+00:00",
-      "end": "2026-12-08T03:30:00+00:00",
-      "location": "Nebraska Union",
-      "org": "Campus Crusade for Christ",
-      "category": "Spirituality",
-      "url": "https://unl.campuslabs.com/engage/event/12622808",
-      "description": "Cru will be holding a weekly manhood study to prepare young guys into men, both in character and spiritually. In a world with conflicting temptations pushing and pulling young men into struggles with sin, this study is great for guys looking to take a firm foundation in Jesus Christ.",
-      "units": [],
-      "occurrence_count": 5,
-      "other_dates": [
-        "2026-09-15T01:30:00+00:00",
-        "2026-09-22T01:30:00+00:00",
-        "2026-09-29T01:30:00+00:00",
-        "2026-10-06T01:30:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
     {
       "id": "unl:202308-980559@events.unl.edu",
       "source": "unl",
@@ -127,7 +83,7 @@
       "url": "http://events.unl.edu/2026/09/08/200835/",
       "description": "Virtual asynchronous course. Learn to read and interpret financial statements,\nread and analyze financial reports and case studies, develop foundational knowledge to prepare you for advanced courses.",
       "units": [],
-      "occurrence_count": 54,
+      "occurrence_count": 60,
       "other_dates": [
         "2026-09-09T14:00:00+00:00",
         "2026-09-10T14:00:00+00:00",
@@ -224,8 +180,10 @@
       "url": "http://events.unl.edu/2026/09/08/201356/",
       "description": "Have you heard of Zines? Do you make Zines? Interested in learning more about Zines? Attend these workshops to create and learn about Zines! Materials provided. \n\nThe libraries will be hosting recurring zine workshops where you will learn about the history and significance of Zines, as well as have an opportunity to…",
       "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
+      "occurrence_count": 2,
+      "other_dates": [
+        "2026-11-03T21:00:00+00:00"
+      ],
       "noise_penalty": 0,
       "noise_reason": null
     },
@@ -266,9 +224,10 @@
       "url": "http://events.unl.edu/2026/09/08/201506/",
       "description": "The Invention of Afterlife and Its Alternatives in Ancient Judaism and Early Christianity\n\nWhat happens when people who lived a good life die, especially if their deaths are seen as unjust or underserved? This question has animated and perplexed religious and philosophical thinkers for millennia.\n\nThis talk will…",
       "units": [],
-      "occurrence_count": 2,
+      "occurrence_count": 3,
       "other_dates": [
-        "2026-10-06T22:00:00+00:00"
+        "2026-10-06T22:00:00+00:00",
+        "2026-11-03T23:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -984,7 +943,7 @@
       "units": [
         "casnr"
       ],
-      "occurrence_count": 8,
+      "occurrence_count": 9,
       "other_dates": [
         "2026-09-16T18:00:00+00:00",
         "2026-09-23T18:00:00+00:00",
@@ -1081,7 +1040,7 @@
       "units": [
         "cehs"
       ],
-      "occurrence_count": 23,
+      "occurrence_count": 26,
       "other_dates": [
         "2026-09-11T19:00:00+00:00",
         "2026-09-14T19:00:00+00:00",
@@ -1278,10 +1237,8 @@
       "url": "http://events.unl.edu/2026/09/09/201249/",
       "description": "Don't let a minor mechanical issue end your ride. Join this clinic to learn essential bike maintenance skills, including fixing a flat tire, making common brake and derailleur adjustments, and improving bike fit. Bringing your own bike is encouraged for hands-on practice.\n\nFree for UNL students and Campus Recreation…",
       "units": [],
-      "occurrence_count": 2,
-      "other_dates": [
-        "2026-11-05T22:00:00+00:00"
-      ],
+      "occurrence_count": 1,
+      "other_dates": [],
       "noise_penalty": 0,
       "noise_reason": null
     },
@@ -1518,11 +1475,12 @@
       "url": "https://unl.campuslabs.com/engage/event/12554074",
       "description": "UNL ASCE General Meetings are held on Wednesday evenings in Kiewit Hall. A variety of events will be held such as, speakers, holiday events, and competition team meetings. Dinner will be provided at each meeting.",
       "units": [],
-      "occurrence_count": 4,
+      "occurrence_count": 5,
       "other_dates": [
         "2026-09-16T23:00:00+00:00",
         "2026-09-23T23:00:00+00:00",
-        "2026-09-30T23:00:00+00:00"
+        "2026-09-30T23:00:00+00:00",
+        "2026-10-07T23:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -1539,11 +1497,12 @@
       "url": "https://unl.campuslabs.com/engage/event/12664416",
       "description": "We meet every Wednesday from 6 -7 PM in the Bailey Library on the second floor of Andrews Hall to socialize and write together! We'd love for you to join us!",
       "units": [],
-      "occurrence_count": 4,
+      "occurrence_count": 5,
       "other_dates": [
         "2026-09-16T23:00:00+00:00",
         "2026-09-23T23:00:00+00:00",
-        "2026-09-30T23:00:00+00:00"
+        "2026-09-30T23:00:00+00:00",
+        "2026-10-07T23:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -1596,7 +1555,7 @@
       "units": [
         "casnr"
       ],
-      "occurrence_count": 8,
+      "occurrence_count": 9,
       "other_dates": [
         "2026-09-16T23:30:00+00:00",
         "2026-09-23T23:30:00+00:00",
@@ -1689,11 +1648,12 @@
       "url": "https://unl.campuslabs.com/engage/event/12436005",
       "description": "Join us for Wednesday Night Bible Talk! We begin with an icebreaker activity, then we spend some time reading scripture together as we are led into discussion and reflection. Stick around afterwards for some fellowship!",
       "units": [],
-      "occurrence_count": 4,
+      "occurrence_count": 5,
       "other_dates": [
         "2026-09-16T23:30:00+00:00",
         "2026-09-23T23:30:00+00:00",
-        "2026-09-30T23:30:00+00:00"
+        "2026-09-30T23:30:00+00:00",
+        "2026-10-07T23:30:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -1710,11 +1670,12 @@
       "url": "https://unl.campuslabs.com/engage/event/12491050",
       "description": "We are a campus ministry where all are welcomed as we serve and learn about our Lord Jesus Christ in community, where we encourage each other, listen and grow in the Truth and love of or Lord Jesus Christ!! This is a place where you can find community and learn what the Bible says about Jesus and everything! We desire…",
       "units": [],
-      "occurrence_count": 4,
+      "occurrence_count": 5,
       "other_dates": [
         "2026-09-17T00:00:00+00:00",
         "2026-09-24T00:00:00+00:00",
-        "2026-10-01T00:00:00+00:00"
+        "2026-10-01T00:00:00+00:00",
+        "2026-10-08T00:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -1748,11 +1709,12 @@
       "url": "https://unl.campuslabs.com/engage/event/12617527",
       "description": "Rocketry will have their weekly general meeting where they discuss the design, fabrication, and assembly of their competitive rocket project.",
       "units": [],
-      "occurrence_count": 4,
+      "occurrence_count": 5,
       "other_dates": [
         "2026-09-17T00:00:00+00:00",
         "2026-09-24T00:00:00+00:00",
-        "2026-10-01T00:00:00+00:00"
+        "2026-10-01T00:00:00+00:00",
+        "2026-10-08T00:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -1769,11 +1731,12 @@
       "url": "https://unl.campuslabs.com/engage/event/12619956",
       "description": "Wednesday meeting",
       "units": [],
-      "occurrence_count": 4,
+      "occurrence_count": 5,
       "other_dates": [
         "2026-09-17T00:00:00+00:00",
         "2026-09-24T00:00:00+00:00",
-        "2026-10-01T00:00:00+00:00"
+        "2026-10-01T00:00:00+00:00",
+        "2026-10-08T00:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -1790,11 +1753,12 @@
       "url": "https://unl.campuslabs.com/engage/event/12622102",
       "description": "Ratio Christi (Latin for ‘The Reason of Christ’) is an organization that equips university students to give historical, philosophical, and scientific reasons for following Jesus Christ. We provide an environment to learn, discuss, and debate difficult and sometimes controversial topics with other students. Though…",
       "units": [],
-      "occurrence_count": 4,
+      "occurrence_count": 5,
       "other_dates": [
         "2026-09-17T00:00:00+00:00",
         "2026-09-24T00:00:00+00:00",
-        "2026-10-01T00:00:00+00:00"
+        "2026-10-01T00:00:00+00:00",
+        "2026-10-08T00:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -1811,11 +1775,12 @@
       "url": "https://unl.campuslabs.com/engage/event/12463720",
       "description": "A large group service with elements of worship, community, and preaching.",
       "units": [],
-      "occurrence_count": 4,
+      "occurrence_count": 5,
       "other_dates": [
         "2026-09-17T00:30:00+00:00",
         "2026-09-24T00:30:00+00:00",
-        "2026-10-01T00:30:00+00:00"
+        "2026-10-01T00:30:00+00:00",
+        "2026-10-08T00:30:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -1832,11 +1797,12 @@
       "url": "https://unl.campuslabs.com/engage/event/12654496",
       "description": "The Nebraska Supply Chain Club (NSCC) is a student organization open to all majors that helps students explore careers, build professional connections, and gain real-world business experience through the world of supply chain. Supply chain touches nearly every area of business — including management, finance,…",
       "units": [],
-      "occurrence_count": 4,
+      "occurrence_count": 5,
       "other_dates": [
         "2026-09-17T00:30:00+00:00",
         "2026-09-24T00:30:00+00:00",
-        "2026-10-01T00:30:00+00:00"
+        "2026-10-01T00:30:00+00:00",
+        "2026-10-08T00:30:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -1870,10 +1836,11 @@
       "url": "https://unl.campuslabs.com/engage/event/12479156",
       "description": "Regular club meeting that includes learning new swing dance moves as well as line dancing and free dancing.",
       "units": [],
-      "occurrence_count": 3,
+      "occurrence_count": 4,
       "other_dates": [
         "2026-09-17T01:00:00+00:00",
-        "2026-10-01T01:00:00+00:00"
+        "2026-10-01T01:00:00+00:00",
+        "2026-10-08T01:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -1937,7 +1904,7 @@
       "units": [
         "casnr"
       ],
-      "occurrence_count": 6,
+      "occurrence_count": 7,
       "other_dates": [
         "2026-10-01T16:00:00+00:00",
         "2026-10-08T16:00:00+00:00",
@@ -2094,7 +2061,7 @@
         "finance",
         "management"
       ],
-      "occurrence_count": 8,
+      "occurrence_count": 9,
       "other_dates": [
         "2026-09-17T20:00:00+00:00",
         "2026-09-24T20:00:00+00:00",
@@ -2671,11 +2638,12 @@
       "url": "http://events.unl.edu/2026/09/11/196895/",
       "description": "This 1-day (8-hour) course prepares students to pass the FAA Part 107 Aeronautical Knowledge Exam required to receive a remote pilot certificate (aka drone license). Covers aviation topics such as regulations, airspace, radio communication, weather, aircraft performance, and other basic aviation concepts necessary to…",
       "units": [],
-      "occurrence_count": 4,
+      "occurrence_count": 5,
       "other_dates": [
         "2026-09-17T14:00:00+00:00",
         "2026-10-09T14:00:00+00:00",
-        "2026-10-22T14:00:00+00:00"
+        "2026-10-22T14:00:00+00:00",
+        "2026-11-06T15:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -2732,7 +2700,7 @@
       "url": "http://events.unl.edu/2026/09/11/202335/",
       "description": "Are you a pre-health student looking to go abroad? This is meant for you. Meet with Rebecca and discuss program options and first steps. Each Friday in LPH 130.",
       "units": [],
-      "occurrence_count": 8,
+      "occurrence_count": 9,
       "other_dates": [
         "2026-09-18T15:30:00+00:00",
         "2026-09-25T15:30:00+00:00",
@@ -2815,7 +2783,7 @@
       "url": "http://events.unl.edu/2026/09/11/202471/",
       "description": "A supportive, low-intensity space for Raikes School students to explore a variety of wellbeing-related topics, pause, and reset. We engage in discussion for 20 to 30 minutes, followed by 10 to 15 minutes of guided meditation, and wrap up with 10 to 15 minutes of Q&A or additional discussion. Participants can direct…",
       "units": [],
-      "occurrence_count": 8,
+      "occurrence_count": 9,
       "other_dates": [
         "2026-09-18T20:30:00+00:00",
         "2026-09-25T20:30:00+00:00",
@@ -3085,7 +3053,7 @@
       "url": "http://events.unl.edu/2026/09/12/201989/",
       "description": "FREE ENTRY and a new pool every week! Sign up on IM Leagues and see if you can correctly predict the winner of each selected matchup. \nEntry Fee: FREE\n\nPlay Begins: Saturday, August 29\n\nLeagues: Open",
       "units": [],
-      "occurrence_count": 8,
+      "occurrence_count": 9,
       "other_dates": [
         "2026-09-19T05:05:00+00:00",
         "2026-09-26T05:05:00+00:00",
@@ -3373,7 +3341,7 @@
       "url": "http://events.unl.edu/2026/09/14/202470/",
       "description": "This group provides students with an introduction to mindfulness meditation through a structured, experiential curriculum delivered over the academic year. Sessions are educational and skills-based, focusing on the development of present-moment awareness, attention regulation, emotional awareness, and mindful…",
       "units": [],
-      "occurrence_count": 7,
+      "occurrence_count": 8,
       "other_dates": [
         "2026-09-21T20:30:00+00:00",
         "2026-09-28T20:30:00+00:00",
@@ -3599,6 +3567,27 @@
       "noise_reason": null
     },
     {
+      "id": "engage:12616203",
+      "source": "engage",
+      "title": "AXP General Meeting",
+      "start": "2026-09-14T23:00:00+00:00",
+      "end": "2026-09-15T01:30:00+00:00",
+      "location": "Kiewit Hall - A251",
+      "org": "Aerospace Club",
+      "category": "ThoughtfulLearning",
+      "url": "https://unl.campuslabs.com/engage/event/12616203",
+      "description": "Aerospace Experimental Payloads weekly meeting to discuss and work on the design, fabrication, and assembly of their high altitude satellite project",
+      "units": [],
+      "occurrence_count": 4,
+      "other_dates": [
+        "2026-09-21T23:00:00+00:00",
+        "2026-09-28T23:00:00+00:00",
+        "2026-10-05T23:00:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
       "id": "engage:12534688",
       "source": "engage",
       "title": "Canine Good Citizen Class",
@@ -3678,6 +3667,27 @@
         "2026-09-22T00:00:00+00:00",
         "2026-09-29T00:00:00+00:00",
         "2026-10-06T00:00:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "engage:12622809",
+      "source": "engage",
+      "title": "Cru Manhood Bible Study",
+      "start": "2026-09-15T01:30:00+00:00",
+      "end": "2026-09-15T02:30:00+00:00",
+      "location": "Nebraska Union",
+      "org": "Campus Crusade for Christ",
+      "category": "Spirituality",
+      "url": "https://unl.campuslabs.com/engage/event/12622809",
+      "description": "Cru will be holding a weekly manhood study to prepare young guys into men, both in character and spiritually. In a world with conflicting temptations pushing and pulling young men into struggles with sin, this study is great for guys looking to take a firm foundation in Jesus Christ.",
+      "units": [],
+      "occurrence_count": 4,
+      "other_dates": [
+        "2026-09-22T01:30:00+00:00",
+        "2026-09-29T01:30:00+00:00",
+        "2026-10-06T01:30:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -3766,8 +3776,10 @@
       "url": "http://events.unl.edu/2026/09/15/201409/",
       "description": "PREVENT SUICIDE is a free 60-minute in-person training for University of Nebraska-Lincoln students, faculty and staff.\n\nAnyone can help. Know the risk factors and warning signs. Learn how to intervene. \n\nDuring the in-person session, you will:\n* Increase Your Knowledge: learn the warning signs associated with…",
       "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
+      "occurrence_count": 2,
+      "other_dates": [
+        "2026-11-04T18:00:00+00:00"
+      ],
       "noise_penalty": 0,
       "noise_reason": null
     },
@@ -4199,9 +4211,10 @@
       "url": "http://events.unl.edu/2026/09/16/201415/",
       "description": "PREVENT SUICIDE is a free 60-minute in-person training for University of Nebraska-Lincoln students, faculty and staff.\n\nAnyone can help. Know the risk factors and warning signs. Learn how to intervene. \n\nDuring the in-person session, you will:\n* Increase Your Knowledge: learn the warning signs associated with…",
       "units": [],
-      "occurrence_count": 2,
+      "occurrence_count": 3,
       "other_dates": [
-        "2026-10-07T21:00:00+00:00"
+        "2026-10-07T21:00:00+00:00",
+        "2026-11-03T22:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -4347,8 +4360,10 @@
       "url": "https://unl.campuslabs.com/engage/event/12494504",
       "description": "This is an ASU E-board meeting in order to plan events for students",
       "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
+      "occurrence_count": 2,
+      "other_dates": [
+        "2026-10-07T23:30:00+00:00"
+      ],
       "noise_penalty": 0,
       "noise_reason": null
     },
@@ -4436,9 +4451,10 @@
       "url": "http://events.unl.edu/2026/09/16/202431/",
       "description": "Join the Nutrition Education team for an interactive cooking class to make Nebraska Runzas, Sweet Corn Salad, and Spiced Apple Crisp. Register here: https://crec.unl.edu/cookwell/",
       "units": [],
-      "occurrence_count": 2,
+      "occurrence_count": 3,
       "other_dates": [
-        "2026-10-01T04:55:00+00:00"
+        "2026-10-01T04:55:00+00:00",
+        "2026-11-05T05:55:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -4707,9 +4723,10 @@
       "url": "http://events.unl.edu/2026/09/17/201410/",
       "description": "PREVENT SUICIDE is a free 60-minute in-person training for University of Nebraska-Lincoln students, faculty and staff.\n\nAnyone can help. Know the risk factors and warning signs. Learn how to intervene. \n\nDuring the in-person session, you will:\n* Increase Your Knowledge: learn the warning signs associated with…",
       "units": [],
-      "occurrence_count": 2,
+      "occurrence_count": 3,
       "other_dates": [
-        "2026-10-08T23:00:00+00:00"
+        "2026-10-08T23:00:00+00:00",
+        "2026-11-06T00:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -7246,8 +7263,10 @@
       "units": [
         "cehs"
       ],
-      "occurrence_count": 1,
-      "other_dates": [],
+      "occurrence_count": 2,
+      "other_dates": [
+        "2026-11-06T01:00:00+00:00"
+      ],
       "noise_penalty": 0,
       "noise_reason": null
     },
@@ -7351,8 +7370,10 @@
       "url": "http://events.unl.edu/2026/10/02/202432/",
       "description": "Step into a World in Miniature!\n\nJoin us for First Friday in the Gallery, our monthly open house at The Eloise Kruger Gallery of Miniatures. Wander through tiny worlds, discover remarkable craftsmanship, and enjoy an afternoon of big imagination in small scale. Admission is always free and open to the public. Stop by…",
       "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
+      "occurrence_count": 2,
+      "other_dates": [
+        "2026-11-06T21:00:00+00:00"
+      ],
       "noise_penalty": 0,
       "noise_reason": null
     },
@@ -7593,10 +7614,8 @@
       "url": "http://events.unl.edu/2026/10/06/201417/",
       "description": "PREVENT SUICIDE is a free 60-minute in-person training for University of Nebraska-Lincoln students, faculty and staff.\n\nAnyone can help. Know the risk factors and warning signs. Learn how to intervene. \n\nDuring the in-person session, you will:\n* Increase Your Knowledge: learn the warning signs associated with…",
       "units": [],
-      "occurrence_count": 2,
-      "other_dates": [
-        "2026-11-04T18:00:00+00:00"
-      ],
+      "occurrence_count": 1,
+      "other_dates": [],
       "noise_penalty": 0,
       "noise_reason": null
     },
@@ -7629,8 +7648,10 @@
       "url": "http://events.unl.edu/2026/10/06/201263/",
       "description": "Don't let a minor mechanical issue end your ride. Join this clinic to learn essential bike maintenance skills, including fixing a flat tire, making common brake and derailleur adjustments, and improving bike fit. Bringing your own bike is encouraged for hands-on practice.\n\nFree for UNL students and Campus Recreation…",
       "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
+      "occurrence_count": 2,
+      "other_dates": [
+        "2026-11-05T22:00:00+00:00"
+      ],
       "noise_penalty": 0,
       "noise_reason": null
     },
@@ -7849,6 +7870,23 @@
       "noise_reason": null
     },
     {
+      "id": "engage:12441573",
+      "source": "engage",
+      "title": "UPC Presents: Jordan Larson",
+      "start": "2026-10-07T23:30:00+00:00",
+      "end": "2026-10-08T00:30:00+00:00",
+      "location": "Wick Alumni Center",
+      "org": "University Program Council",
+      "category": "ThoughtfulLearning",
+      "url": "https://unl.campuslabs.com/engage/event/12441573",
+      "description": "Join us for an inspiring speaker event featuring Jordan Larson , Olympic gold medalist and standout from Nebraska Cornhuskers women's volleyball . In this engaging keynote, Larson will share insights on leadership, resilience, and her journey from collegiate standout to international champion. Drawing from her…",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
       "id": "unl:202279@events.unl.edu",
       "source": "unl",
       "title": "Friends of the Ross 45th Anniversary",
@@ -7860,8 +7898,10 @@
       "url": "http://events.unl.edu/2026/10/07/202279/",
       "description": "Join us in celebrating the 45th anniversary of Friends of The Ross with special screenings of movies released in 1981. Admission for these screenings is FREE for current Friends of The Ross members, $10 for general admission, and $5 for UNL students. Visit theross.org for tickets, showtimes, and more…",
       "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
+      "occurrence_count": 2,
+      "other_dates": [
+        "2026-11-05T01:15:00+00:00"
+      ],
       "noise_penalty": 0,
       "noise_reason": null
     },
@@ -8922,7 +8962,7 @@
       "url": "http://events.unl.edu/2026/10/26/202547/",
       "description": "our benefits selection from the prior year will automatically roll over, with the exception of flexible spending accounts. You only need to change what you want to be different, or add new benefits. The health risk assessment and tobacco/nicotine designation need to be completed on a yearly basis.\n\nWhen you add or…",
       "units": [],
-      "occurrence_count": 6,
+      "occurrence_count": 12,
       "other_dates": [
         "2026-10-27T22:00:00+00:00",
         "2026-10-28T22:00:00+00:00",
@@ -9070,8 +9110,10 @@
       "units": [
         "physics"
       ],
-      "occurrence_count": 1,
-      "other_dates": [],
+      "occurrence_count": 2,
+      "other_dates": [
+        "2026-11-05T01:00:00+00:00"
+      ],
       "noise_penalty": 0,
       "noise_reason": null
     },
@@ -9129,51 +9171,6 @@
       "noise_reason": null
     },
     {
-      "id": "unl:200835-978272@events.unl.edu",
-      "source": "unl",
-      "title": "Nebraska Nonprofit Management Institute - Understanding Nonprofit Financial Statements",
-      "start": "2026-11-01T15:00:00+00:00",
-      "end": "2026-11-01T15:00:00+00:00",
-      "location": "",
-      "org": "Kate Dean",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/01/200835/",
-      "description": "Virtual asynchronous course. Learn to read and interpret financial statements,\nread and analyze financial reports and case studies, develop foundational knowledge to prepare you for advanced courses.",
-      "units": [],
-      "occurrence_count": 6,
-      "other_dates": [
-        "2026-11-02T15:00:00+00:00",
-        "2026-11-03T15:00:00+00:00",
-        "2026-11-04T15:00:00+00:00",
-        "2026-11-05T15:00:00+00:00",
-        "2026-11-06T15:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:202547-980863@events.unl.edu",
-      "source": "unl",
-      "title": "NUFlex Annual Enrollment",
-      "start": "2026-11-01T23:00:00+00:00",
-      "end": "2026-11-01T23:00:00+00:00",
-      "location": "Firefly (https://firefly.nebraska.edu/)",
-      "org": "Benefits Office",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/01/202547/",
-      "description": "our benefits selection from the prior year will automatically roll over, with the exception of flexible spending accounts. You only need to change what you want to be different, or add new benefits. The health risk assessment and tobacco/nicotine designation need to be completed on a yearly basis.\n\nWhen you add or…",
-      "units": [],
-      "occurrence_count": 5,
-      "other_dates": [
-        "2026-11-02T23:00:00+00:00",
-        "2026-11-03T23:00:00+00:00",
-        "2026-11-04T23:00:00+00:00",
-        "2026-11-05T23:00:00+00:00"
-      ],
-      "noise_penalty": 3,
-      "noise_reason": "Internal staff benefits administration, not a student event"
-    },
-    {
       "id": "unl:199498@events.unl.edu",
       "source": "unl",
       "title": "Returning Student Application Opens",
@@ -9225,45 +9222,6 @@
       "noise_reason": null
     },
     {
-      "id": "unl:201917-980241@events.unl.edu",
-      "source": "unl",
-      "title": "Huskers Abroad 101",
-      "start": "2026-11-02T20:00:00+00:00",
-      "end": "2026-11-02T20:30:00+00:00",
-      "location": "Louise Pound Hall Room 105",
-      "org": "Renae Ninneman",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/02/201917/",
-      "description": "Join Global Experiences for a 30-minute interactive workshop to help you start planning your global experience. During the workshop, we'll discuss global experience types, funding, the timeline for planning your experience, and thinking through your goals to go abroad. Just show up, no registration is needed, and both…",
-      "units": [
-        "cehs"
-      ],
-      "occurrence_count": 3,
-      "other_dates": [
-        "2026-11-04T20:00:00+00:00",
-        "2026-11-06T20:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:202470-980789@events.unl.edu",
-      "source": "unl",
-      "title": "Mindfulness Meditation",
-      "start": "2026-11-02T21:30:00+00:00",
-      "end": "2026-11-02T22:30:00+00:00",
-      "location": "Kauffman Academic Residential Center Room 122",
-      "org": "Counseling and Psychological Services",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/02/202470/",
-      "description": "This group provides students with an introduction to mindfulness meditation through a structured, experiential curriculum delivered over the academic year. Sessions are educational and skills-based, focusing on the development of present-moment awareness, attention regulation, emotional awareness, and mindful…",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
       "id": "unl:201377@events.unl.edu",
       "source": "unl",
       "title": "SVMBS Seminar: Lindsey Crawford",
@@ -9283,40 +9241,6 @@
       "noise_reason": null
     },
     {
-      "id": "unl:201357@events.unl.edu",
-      "source": "unl",
-      "title": "Zine Making Workshop",
-      "start": "2026-11-03T21:00:00+00:00",
-      "end": "2026-11-03T23:00:00+00:00",
-      "location": "Love Library South Room 221 (Peterson Room)",
-      "org": "Meghan Otoupalik / Libraries",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/03/201357/",
-      "description": "Have you heard of Zines? Do you make Zines? Interested in learning more about Zines? Attend these workshops to create and learn about Zines! Materials provided. \n\nThe libraries will be hosting recurring zine workshops where you will learn about the history and significance of Zines, as well as have an opportunity to…",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:201412@events.unl.edu",
-      "source": "unl",
-      "title": "Prevent Suicide Open Training",
-      "start": "2026-11-03T22:00:00+00:00",
-      "end": "2026-11-03T23:00:00+00:00",
-      "location": "Nebraska Union Room Chimney Rock",
-      "org": "Counseling and Psychological Services (CAPS)",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/03/201412/",
-      "description": "PREVENT SUICIDE is a free 60-minute in-person training for University of Nebraska-Lincoln students, faculty and staff.\n\nAnyone can help. Know the risk factors and warning signs. Learn how to intervene. \n\nDuring the in-person session, you will:\n* Increase Your Knowledge: learn the warning signs associated with…",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
       "id": "unl:201627@events.unl.edu",
       "source": "unl",
       "title": "3-2-1 Quick Pitch",
@@ -9330,23 +9254,6 @@
       "units": [
         "cba"
       ],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:201508@events.unl.edu",
-      "source": "unl",
-      "title": "CAS Inquire",
-      "start": "2026-11-03T23:00:00+00:00",
-      "end": "2026-11-04T00:00:00+00:00",
-      "location": "Jackie Gaughan Multicultural Center Room Ubuntu Room/202, and online at zoom (https://unl.zoom.us/webinar/register/WN_bqIWqJteQ0y73vz2vFzJGg)",
-      "org": "Mary Klucas",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/03/201508/",
-      "description": "Drawing on the results of the Nebraska Roots Migration Survey, this talk will aim to dispel negative stereotypes associated with rural Nebraskans (e.g., they are 'left behind' or 'stuck') and the hollowing out of rural areas (i.e., 'brain drain') by showing staying as an active, intended, and deliberate choice made…",
-      "units": [],
       "occurrence_count": 1,
       "other_dates": [],
       "noise_penalty": 0,
@@ -9383,25 +9290,6 @@
       "url": "http://events.unl.edu/2026/11/04/202163/",
       "description": "Join Dr. Donna Anderson's HIST 115: And Justice For All class for a discussion with Dr. Giuliana Perrone (University of California, Santa Barbara) on her research about freedom, citizenship, and the Black family in the Reconstruction-Era courtroom.",
       "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:201189-978934@events.unl.edu",
-      "source": "unl",
-      "title": "CAS Career Drop-ins",
-      "start": "2026-11-04T19:00:00+00:00",
-      "end": "2026-11-04T21:00:00+00:00",
-      "location": "Oldfather Hall Room 107, and online at Zoom (https://unl.zoom.us/my/casadvising)",
-      "org": "CAS Career Development",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/04/201189/",
-      "description": "Stop by to ask any of your career questions and receive resume support from a College of Arts & Sciences (CAS) Career Coach. Drop-ins are great for completing career coach meeting assignments, too. Sessions last 15-20 minutes. Drop-ins are every Wednesday and Thursday from 1-3p in 107 OLDH and on Zoom. If you would…",
-      "units": [
-        "casnr"
-      ],
       "occurrence_count": 1,
       "other_dates": [],
       "noise_penalty": 0,
@@ -9455,78 +9343,6 @@
       "units": [
         "english"
       ],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:199588-976816@events.unl.edu",
-      "source": "unl",
-      "title": "ASUN Senate Meeting",
-      "start": "2026-11-05T00:30:00+00:00",
-      "end": "2026-11-05T00:30:00+00:00",
-      "location": "Nebraska Union Room Platte River Room",
-      "org": "ASUN Student Government",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/04/199588/",
-      "description": "Weekly meeting of ASUN Student Government to discuss campus issues, pass legislation, and approve outstanding business. Members of the campus community are welcome to attend.\n\nView agenda and details at https://asun.unl.edu/legislation/",
-      "units": [
-        "casnr"
-      ],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:201527@events.unl.edu",
-      "source": "unl",
-      "title": "Open House at the Student Observatory Fall 2026",
-      "start": "2026-11-05T01:00:00+00:00",
-      "end": "2026-11-05T03:00:00+00:00",
-      "location": "Stadium Drive Parking Garage Room Roof (4th floor)",
-      "org": "Evan Rich",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/04/201527/",
-      "description": "See the stars, planets, and moon on campus! Open to all who are interested in astronomy.\n\nOpen House events may be canceled due to rain, snow, or clouds. Please check our calendar or visit our Instagram page to see if we're open. https://www.instagram.com/unl_observatories/",
-      "units": [
-        "physics"
-      ],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:202280@events.unl.edu",
-      "source": "unl",
-      "title": "Friends of the Ross 45th Anniversary",
-      "start": "2026-11-05T01:15:00+00:00",
-      "end": "2026-11-05T01:15:00+00:00",
-      "location": "Mary Riepma Ross Media Arts Center-Van Brunt Visitors Center Room Ross Theater (Room 124)",
-      "org": "Mary Riepma Ross Media Arts Center",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/04/202280/",
-      "description": "Join us in celebrating the 45th anniversary of Friends of The Ross with special screenings of movies released in 1981. Admission for these screenings is FREE for current Friends of The Ross members, $10 for general admission, and $5 for UNL students. Visit theross.org for tickets, showtimes, and more…",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:202434@events.unl.edu",
-      "source": "unl",
-      "title": "CookWell Registration Deadline",
-      "start": "2026-11-05T05:55:00+00:00",
-      "end": "2026-11-05T05:55:00+00:00",
-      "location": "",
-      "org": "Erika Dreifurst",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/04/202434/",
-      "description": "Join the Nutrition Education team for an interactive cooking class to make Kraka Jota (Sauerkraut and Bean Soup), Tomato Salad with Pumpkin Seed Oil, and Buckwheat Dumplings with Walnut Filling. Register here: https://crec.unl.edu/cookwell/",
-      "units": [],
       "occurrence_count": 1,
       "other_dates": [],
       "noise_penalty": 0,
@@ -9588,25 +9404,6 @@
       "noise_reason": null
     },
     {
-      "id": "unl:202044@events.unl.edu",
-      "source": "unl",
-      "title": "Agronomy and Horticulture Seminar",
-      "start": "2026-11-05T17:00:00+00:00",
-      "end": "2026-11-05T17:00:00+00:00",
-      "location": "Keim Hall Room 150",
-      "org": "Tamara Sukhova",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/05/202044/",
-      "description": "Crop Improvement, Plant Breeding & Biotechnology",
-      "units": [
-        "casnr"
-      ],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
       "id": "unl:201355@events.unl.edu",
       "source": "unl",
       "title": "Prepare Now for Your Personal Digital Dark Age",
@@ -9618,28 +9415,6 @@
       "url": "http://events.unl.edu/2026/11/05/201355/",
       "description": "All digital files are vulnerable to decay and loss. Sometimes a hard drive fails or a file becomes corrupted. But we can also lose files due to bad data management habits, obsolete technology, or, paradoxically, because we have too many copies and too many storage options. It is easy to overlook the digital photos,…",
       "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:199457-976670@events.unl.edu",
-      "source": "unl",
-      "title": "Popcorn Pop-Up",
-      "start": "2026-11-05T21:00:00+00:00",
-      "end": "2026-11-05T22:00:00+00:00",
-      "location": "Nebraska Union Room The Crib",
-      "org": "Student Leadership, Involvement, & Community Engagement",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/05/199457/",
-      "description": "The best hour of the week! Every Thursday from 3 to 4 p.m. pop into The Crib for an afternoon social hour with 100s of other Huskers.\n\nIt's free and every student, staff, and faculty is welcome.\n\nSnack on fresh-popped popcorn directly from the kettle. Join in the activity while learning about campus organizations and…",
-      "units": [
-        "casnr",
-        "cba",
-        "finance",
-        "management"
-      ],
       "occurrence_count": 1,
       "other_dates": [],
       "noise_penalty": 0,
@@ -9680,42 +9455,6 @@
       "noise_reason": null
     },
     {
-      "id": "unl:201413@events.unl.edu",
-      "source": "unl",
-      "title": "Prevent Suicide Open Training",
-      "start": "2026-11-06T00:00:00+00:00",
-      "end": "2026-11-06T01:00:00+00:00",
-      "location": "Nebraska Union Room Platte River Room North",
-      "org": "Counseling and Psychological Services (CAPS)",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/05/201413/",
-      "description": "PREVENT SUICIDE is a free 60-minute in-person training for University of Nebraska-Lincoln students, faculty and staff.\n\nAnyone can help. Know the risk factors and warning signs. Learn how to intervene. \n\nDuring the in-person session, you will:\n* Increase Your Knowledge: learn the warning signs associated with…",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:199672-977181@events.unl.edu",
-      "source": "unl",
-      "title": "UNL Aspiring Educators Monthly Meeting",
-      "start": "2026-11-06T01:00:00+00:00",
-      "end": "2026-11-06T02:00:00+00:00",
-      "location": "Carolyn Pope Edwards Hall Room 130",
-      "org": "Jillian Harpster",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/05/199672/",
-      "description": "Aspiring Educators is a pre-professional club whose mission is to equip education majors with connections within the UNL and Lincoln communities. Any students who are education majors are invited to join the monthly meetings where the group provides students with tools and discusses topics relevant to the teaching…",
-      "units": [
-        "cehs"
-      ],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
       "id": "unl:199727@events.unl.edu",
       "source": "unl",
       "title": "Frederick Douglass! The Lion of Freedom",
@@ -9726,23 +9465,6 @@
       "category": null,
       "url": "http://events.unl.edu/2026/11/05/199727/",
       "description": "Experience the powerful story of Frederick Douglass in this gripping, one-man theatrical event performed by Darius Wallace. Through riveting storytelling and historic speeches, this performance brings Douglass' journey from enslavement to national leadership vividly to life. Both inspiring and deeply moving, this…",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:201989-980452@events.unl.edu",
-      "source": "unl",
-      "title": "Football Pick 'Em",
-      "start": "2026-11-06T06:05:00+00:00",
-      "end": "2026-11-07T01:00:00+00:00",
-      "location": "",
-      "org": "Aaron Dueker",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/06/201989/",
-      "description": "FREE ENTRY and a new pool every week! Sign up on IM Leagues and see if you can correctly predict the winner of each selected matchup. \nEntry Fee: FREE\n\nPlay Begins: Saturday, August 29\n\nLeagues: Open",
       "units": [],
       "occurrence_count": 1,
       "other_dates": [],
@@ -9769,40 +9491,6 @@
       "noise_reason": null
     },
     {
-      "id": "unl:196900@events.unl.edu",
-      "source": "unl",
-      "title": "Part 107 Remote Pilot Exam Prep Course",
-      "start": "2026-11-06T15:00:00+00:00",
-      "end": "2026-11-06T23:00:00+00:00",
-      "location": "Lancaster County Extension Room",
-      "org": "Dirk Charlson",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/06/196900/",
-      "description": "This 1-day (8-hour) course prepares students to pass the FAA Part 107 Aeronautical Knowledge Exam required to receive a remote pilot certificate (aka drone license). Covers aviation topics such as regulations, airspace, radio communication, weather, aircraft performance, and other basic aviation concepts necessary to…",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:202335-980686@events.unl.edu",
-      "source": "unl",
-      "title": "Pre-Health Drop-In Advising",
-      "start": "2026-11-06T16:30:00+00:00",
-      "end": "2026-11-06T18:30:00+00:00",
-      "location": "Louise Pound Hall Room Atrium - First Floor",
-      "org": "Global Experiences Office",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/06/202335/",
-      "description": "Are you a pre-health student looking to go abroad? This is meant for you. Meet with Rebecca and discuss program options and first steps. Each Friday in LPH 130.",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
       "id": "unl:201740@events.unl.edu",
       "source": "unl",
       "title": "Supporting Carbon Pricing Markets with Probabilistic Cash Rebates",
@@ -9823,16 +9511,16 @@
       "noise_reason": null
     },
     {
-      "id": "unl:202432-980774@events.unl.edu",
+      "id": "unl:202500@events.unl.edu",
       "source": "unl",
-      "title": "First Friday at The Eloise Kruger Gallery of Miniatures",
-      "start": "2026-11-06T21:00:00+00:00",
-      "end": "2026-11-07T00:00:00+00:00",
-      "location": "Oldfather Hall Room Room 831",
-      "org": "Linda Kohlstaedt/Kruger Gallery",
+      "title": "November First Friday at Sheldon Museum of Art",
+      "start": "2026-11-06T23:00:00+00:00",
+      "end": "2026-11-07T01:00:00+00:00",
+      "location": "Sheldon Museum of Art Room",
+      "org": "Sheldon Museum",
       "category": null,
-      "url": "http://events.unl.edu/2026/11/06/202432/",
-      "description": "Step into a World in Miniature!\n\nJoin us for First Friday in the Gallery, our monthly open house at The Eloise Kruger Gallery of Miniatures. Wander through tiny worlds, discover remarkable craftsmanship, and enjoy an afternoon of big imagination in small scale. Admission is always free and open to the public. Stop by…",
+      "url": "http://events.unl.edu/2026/11/06/202500/",
+      "description": "Start your weekend at Sheldon Museum of Art. UNL graduate student poets will read their original poetry, inspired by art on view, in the galleries starting at 6 p.m. \n \nBefore the poetry readings, join a tour of \"Remembering Modern Art\" at 5:30 p.m. Admission is always free and everyone is welcome. \n \nFunding was…",
       "units": [],
       "occurrence_count": 1,
       "other_dates": [],
@@ -9840,16 +9528,16 @@
       "noise_reason": null
     },
     {
-      "id": "unl:202471-980805@events.unl.edu",
+      "id": "unl:199728@events.unl.edu",
       "source": "unl",
-      "title": "Well-Being Discussions",
-      "start": "2026-11-06T21:30:00+00:00",
-      "end": "2026-11-06T22:30:00+00:00",
-      "location": "Kauffman Academic Residential Center Room 122",
-      "org": "Counseling and Psychological Services",
+      "title": "Stars of 'Rent' Adam Pascal and Anthony Rapp",
+      "start": "2026-11-07T01:30:00+00:00",
+      "end": "2026-11-07T01:30:00+00:00",
+      "location": "Lied Center for Performing Arts Room Lied Center Main Stage",
+      "org": "Andrea Fabiano",
       "category": null,
-      "url": "http://events.unl.edu/2026/11/06/202471/",
-      "description": "A supportive, low-intensity space for Raikes School students to explore a variety of wellbeing-related topics, pause, and reset. We engage in discussion for 20 to 30 minutes, followed by 10 to 15 minutes of guided meditation, and wrap up with 10 to 15 minutes of Q&A or additional discussion. Participants can direct…",
+      "url": "http://events.unl.edu/2026/11/06/199728/",
+      "description": "Adam Pascal and Anthony Rapp, original stars of RENT, team up in a brand-new duo show featuring musical highlights from their legendary careers, songs that influenced their lives, and the iconic hits from where it all began - meeting at RENT.",
       "units": [],
       "occurrence_count": 1,
       "other_dates": [],

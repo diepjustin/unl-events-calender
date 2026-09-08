@@ -31,11 +31,16 @@ import urllib.request
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
+
+# Campus local time. Used only for grouping recurring series by
+# time-of-day -- see collapse_recurrence() for why UTC is the wrong clock.
+CAMPUS_TZ = ZoneInfo("America/Chicago")
 
 UNL_ICS_URL = "https://events.unl.edu/upcoming/?format=ics&limit=-1"
 ENGAGE_RSS_URL = "https://unl.campuslabs.com/engage/events.rss"
@@ -380,6 +385,13 @@ def dedupe_cross_listing(events: list[dict]) -> list[dict]:
             if org and org not in orgs:
                 orgs.append(org)
         head["org"] = " / ".join(orgs)
+        # Union unit tags across the copies. Otherwise the Engage copy
+        # winning on description length (Engage events never have units)
+        # would overwrite the UNL copy's tag with []. Defensive: when this
+        # was added on 2026-09-08 the 6 live cross-listed rows happened to
+        # have no unit tag on either side, so nothing was actually being
+        # lost that day -- but the code path was real.
+        head["units"] = union_units(group)
         sources = sorted({ev["source"] for ev in group})
         if len(sources) > 1:
             head["cross_listed_sources"] = sources
@@ -387,15 +399,30 @@ def dedupe_cross_listing(events: list[dict]) -> list[dict]:
     return deduped
 
 
+def union_units(events: list[dict]) -> list[str]:
+    units: list[str] = []
+    for ev in events:
+        for u in ev.get("units") or []:
+            if u not in units:
+                units.append(u)
+    return units
+
+
 def collapse_recurrence(events: list[dict]) -> list[dict]:
     """Same title + same source + same time-of-day, on different dates, is
     almost always one series (a weekly meeting, a "daily 9-5" sale, etc).
     The feeds don't give us a recurrence id to group by (see fetch job
     docstring / MAINTAINING notes), so we group on that heuristic instead
-    and keep the soonest occurrence as the representative row."""
+    and keep the soonest occurrence as the representative row.
+
+    Time-of-day is taken in campus local time (CAMPUS_TZ), NOT UTC. A weekly
+    9am Central meeting is 14:00Z until the clocks fall back and 15:00Z
+    after, so grouping on UTC hour split every recurring series in two at
+    the DST boundary -- confirmed live on 2026-09-08 with four series
+    breaking at Nov 1 ("CAS Inquire", "Zine Making Workshop", ...)."""
     groups: dict[tuple, list[dict]] = {}
     for ev in events:
-        start = datetime.fromisoformat(ev["start"])
+        start = datetime.fromisoformat(ev["start"]).astimezone(CAMPUS_TZ)
         key = (ev["source"], normalize_title_for_grouping(ev["title"]), start.hour, start.minute)
         groups.setdefault(key, []).append(ev)
 
@@ -403,6 +430,7 @@ def collapse_recurrence(events: list[dict]) -> list[dict]:
     for group in groups.values():
         group.sort(key=lambda e: e["start"])
         head = dict(group[0])
+        head["units"] = union_units(group)  # a later occurrence may be the one a unit feed listed
         if len(group) > 1:
             head["occurrence_count"] = len(group)
             head["other_dates"] = [e["start"] for e in group[1:6]]
