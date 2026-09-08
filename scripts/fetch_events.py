@@ -27,6 +27,7 @@ import re
 import sys
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
@@ -54,15 +55,55 @@ WINDOW_DAYS = 60
 
 USER_AGENT = "unl-events-demo/0.1 (student project; contact via github.com/diepjustin)"
 
-FETCH_RETRIES = 3
-FETCH_BACKOFF_SECONDS = 2  # doubles each retry: 2s, 4s
+# Retries for the two feeds the job cannot publish without. Deliberately
+# patient: 30s/60s/120s/240s of backoff on top of five 30s timeouts, so a
+# server that's unreachable for several minutes is survivable. The previous
+# 3-attempt/2s-backoff version spanned only ~96 seconds end to end and lost
+# two consecutive nightly runs (7 and 8 Sep 2026) to exactly that -- UNL was
+# healthy from a residential connection both times; the runners just
+# couldn't open a TCP connection for a few minutes.
+FETCH_RETRIES = 5
+FETCH_BACKOFF_SECONDS = 30  # doubles each retry: 30s, 60s, 120s, 240s
+
+# Unit calendars are enrichment, not load-bearing -- a missing one costs
+# some ranking precision for one night. They get a single attempt so that a
+# broad UNL outage can't burn the whole job's time budget 23 times over.
+FETCH_RETRIES_OPTIONAL = 1
+
+# Wall-clock ceiling for the whole unit-tagging phase. A healthy run spends
+# roughly 23 x (5s crawl delay + ~1s transfer) here, so ~2.5 minutes; this
+# leaves generous headroom while still capping a bad night well short of
+# the workflow's 20-minute timeout.
+UNIT_PHASE_BUDGET_SECONDS = 360
+
+# events.unl.edu/robots.txt asks `Crawl-delay: 5` of `User-agent: *`, which
+# includes this job. One run touches events.unl.edu 24 times (the site-wide
+# feed plus each unit calendar), so without this they'd go out back to back.
+# Honoring it costs ~2 minutes per run and is simply what the site asked
+# for -- the same reason this project stays off Engage's private API.
+CRAWL_DELAY_SECONDS = {"events.unl.edu": 5.0}
+_last_request_at: dict[str, float] = {}
 
 
-def fetch(url: str) -> bytes:
-    """GET url, retrying transient failures with exponential backoff. A
-    nightly job failing on a single dropped connection produces a noisy,
-    misleading "the feed is broken" alert for something that would have
-    succeeded a few seconds later -- see MAINTAINING.md.
+def _wait_for_crawl_delay(url: str) -> None:
+    host = urllib.parse.urlsplit(url).netloc
+    delay = CRAWL_DELAY_SECONDS.get(host)
+    if not delay:
+        return
+    last = _last_request_at.get(host)
+    if last is not None:
+        remaining = delay - (time.monotonic() - last)
+        if remaining > 0:
+            time.sleep(remaining)
+    _last_request_at[host] = time.monotonic()
+
+
+def fetch(url: str, retries: int = FETCH_RETRIES) -> bytes:
+    """GET url, honoring the host's crawl-delay and retrying transient
+    failures with exponential backoff. A nightly job failing on a single
+    dropped connection produces a noisy, misleading "the feed is broken"
+    alert for something that would have succeeded a minute later -- see
+    MAINTAINING.md.
 
     Catches OSError (not just urllib.error.URLError): a connection reset
     or aborted mid-`resp.read()` -- after urlopen() already succeeded --
@@ -73,16 +114,17 @@ def fetch(url: str) -> bytes:
     connection time."""
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     last_error: Exception | None = None
-    for attempt in range(1, FETCH_RETRIES + 1):
+    for attempt in range(1, retries + 1):
         try:
+            _wait_for_crawl_delay(url)
             with urllib.request.urlopen(req, timeout=30) as resp:
                 return resp.read()
         except (urllib.error.URLError, OSError, TimeoutError) as exc:
             last_error = exc
-            if attempt < FETCH_RETRIES:
+            if attempt < retries:
                 delay = FETCH_BACKOFF_SECONDS * (2 ** (attempt - 1))
                 print(f"  fetch failed ({exc}), retrying in {delay}s "
-                      f"(attempt {attempt}/{FETCH_RETRIES})", file=sys.stderr)
+                      f"(attempt {attempt}/{retries})", file=sys.stderr)
                 time.sleep(delay)
     raise last_error  # all retries exhausted
 
@@ -242,18 +284,36 @@ def tag_events_with_units(events: list[dict]) -> None:
     """Mutates each UNL event's `units` list in place. A unit feed that
     fails to fetch is skipped with a warning rather than failing the whole
     job -- one department's calendar being briefly down shouldn't take the
-    rest of the site's tagging with it."""
+    rest of the site's tagging with it.
+
+    Bounded two ways, because this phase is enrichment and must never be
+    the reason a run doesn't publish: each calendar gets a single attempt
+    (FETCH_RETRIES_OPTIONAL), and the whole phase gives up once it passes
+    UNIT_PHASE_BUDGET_SECONDS. Without the budget, a UNL-wide outage would
+    spend 23 x 30s of timeouts here and eat the workflow's 20-minute
+    ceiling before the load-bearing feeds even got their turn."""
     uid_to_units: dict[str, list[str]] = {}
+    started = time.monotonic()
+    skipped_for_budget = 0
     for slug in UNIT_SLUGS:
+        if time.monotonic() - started > UNIT_PHASE_BUDGET_SECONDS:
+            skipped_for_budget += 1
+            continue
         url = UNIT_ICS_URL_TEMPLATE.format(slug=slug)
         try:
-            uids = extract_uids(fetch(url))
+            uids = extract_uids(fetch(url, retries=FETCH_RETRIES_OPTIONAL))
         except Exception as exc:  # noqa: BLE001 -- deliberately broad, see docstring
             print(f"  WARNING: couldn't fetch unit calendar '{slug}' ({exc}), "
                   f"skipping its tagging this run", file=sys.stderr)
             continue
         for uid in uids:
             uid_to_units.setdefault(uid, []).append(slug)
+
+    if skipped_for_budget:
+        print(f"  WARNING: unit tagging hit its {UNIT_PHASE_BUDGET_SECONDS}s budget; "
+              f"{skipped_for_budget} calendar(s) not checked this run. Ranking still "
+              f"works, it just falls back to organizer-name matching for those.",
+              file=sys.stderr)
 
     tagged = 0
     for ev in events:
