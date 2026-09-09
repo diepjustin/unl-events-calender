@@ -1,742 +1,15 @@
 {
-  "generated_at": "2026-09-08T14:12:20.911196+00:00",
+  "generated_at": "2026-09-09T13:15:56.679474+00:00",
   "window_days": 60,
   "sources": {
     "unl": {
-      "raw_count": 1196
+      "raw_count": 1211
     },
     "engage": {
-      "raw_count": 432
+      "raw_count": 450
     }
   },
   "events": [
-    {
-      "id": "unl:200958@events.unl.edu",
-      "source": "unl",
-      "title": "HCC Fall Kickstart",
-      "start": "2026-09-08T15:00:00+00:00",
-      "end": "2026-09-08T20:00:00+00:00",
-      "location": "Nebraska Hall Room 213, and online at Zoom (http://go.unl.edu/HCChelp)",
-      "org": "Holland Computing Center",
-      "category": null,
-      "url": "http://events.unl.edu/2026/09/08/200958/",
-      "description": "HCC Kickstart is a series of workshops that will give new users a hands-on introduction to accessing and using the high performance computing (HPC) resources provided by the Holland Computing Center (HCC). These lessons are tailored for beginners and require no previous experience. No account required.",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:201763@events.unl.edu",
-      "source": "unl",
-      "title": "Leadership Presentation",
-      "start": "2026-09-08T15:15:00+00:00",
-      "end": "2026-09-08T16:15:00+00:00",
-      "location": "Nebraska Union Room Chimney Rock Room",
-      "org": "Lorey Wheeler",
-      "category": null,
-      "url": "http://events.unl.edu/2026/09/08/201763/",
-      "description": "Alex Mason, professor, CYFS and UNL's Department of Child, Youth and Family Studies, will give a leadership presentation.\n\nThe event is free and open to the public.\n\nIn the presentation, titled \"Adapt-Advance-Advocate: A Vision for the Future of CYFS,\" Mason will discuss his leadership experience as a research center…",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12600890",
-      "source": "engage",
-      "title": "MRC Attendance",
-      "start": "2026-09-08T17:30:00+00:00",
-      "end": "2026-09-09T01:30:00+00:00",
-      "location": "Avery 13",
-      "org": "Math Resource Center",
-      "category": "ThoughtfulLearning",
-      "url": "https://unl.campuslabs.com/engage/event/12600890",
-      "description": "QR Code Attendance",
-      "units": [],
-      "occurrence_count": 9,
-      "other_dates": [
-        "2026-09-09T17:30:00+00:00",
-        "2026-09-10T17:30:00+00:00",
-        "2026-09-11T17:30:00+00:00",
-        "2026-09-14T17:30:00+00:00",
-        "2026-09-15T17:30:00+00:00"
-      ],
-      "noise_penalty": 3,
-      "noise_reason": "A QR-code attendance placeholder, not a real event listing"
-    },
-    {
-      "id": "unl:202420@events.unl.edu",
-      "source": "unl",
-      "title": "Gilman Scholarship Info Session",
-      "start": "2026-09-08T19:00:00+00:00",
-      "end": "2026-09-08T20:00:00+00:00",
-      "location": "Louise Pound Hall Room 137",
-      "org": "Renae Ninneman",
-      "category": null,
-      "url": "http://events.unl.edu/2026/09/08/202420/",
-      "description": "Interested in studying or interning abroad, but not sure how you'll fund it? The Gilman Scholarship Program provides awards of up to $5,000 for students receiving Pell Grants to study or intern abroad on credit-bearing programs. Come to this in-person info session to learn more.\n\nZoom Info Session: Monday, September…",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:201356@events.unl.edu",
-      "source": "unl",
-      "title": "Zine Making Workshop",
-      "start": "2026-09-08T20:00:00+00:00",
-      "end": "2026-09-08T22:00:00+00:00",
-      "location": "Love Library South Room 221 (Peterson Room)",
-      "org": "Meghan Otoupalik / Libraries",
-      "category": null,
-      "url": "http://events.unl.edu/2026/09/08/201356/",
-      "description": "Have you heard of Zines? Do you make Zines? Interested in learning more about Zines? Attend these workshops to create and learn about Zines! Materials provided. \n\nThe libraries will be hosting recurring zine workshops where you will learn about the history and significance of Zines, as well as have an opportunity to…",
-      "units": [],
-      "occurrence_count": 2,
-      "other_dates": [
-        "2026-11-03T21:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:201144@events.unl.edu",
-      "source": "unl",
-      "title": "Department of Biochemistry and Redox Biology Center Seminar Series",
-      "start": "2026-09-08T21:00:00+00:00",
-      "end": "2026-09-08T22:00:00+00:00",
-      "location": "Beadle Center Room E103",
-      "org": "Samantha DeGrave Madderom",
-      "category": null,
-      "url": "http://events.unl.edu/2026/09/08/201144/",
-      "description": "\"Nuclear Receptors and Protein Neddylation: Unveiling Novel Cardiovascular Signaling Axes\"",
-      "units": [
-        "casnr"
-      ],
-      "occurrence_count": 6,
-      "other_dates": [
-        "2026-09-15T21:00:00+00:00",
-        "2026-09-22T21:00:00+00:00",
-        "2026-09-29T21:00:00+00:00",
-        "2026-10-13T21:00:00+00:00",
-        "2026-10-27T21:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:201506@events.unl.edu",
-      "source": "unl",
-      "title": "CAS Inquire",
-      "start": "2026-09-08T22:00:00+00:00",
-      "end": "2026-09-08T23:00:00+00:00",
-      "location": "Jackie Gaughan Multicultural Center Room Ubuntu Room/202, and online at zoom (https://unl.zoom.us/webinar/register/WN_MdC_JOqdSQSHbqlpOX9IYg)",
-      "org": "Mary Klucas",
-      "category": null,
-      "url": "http://events.unl.edu/2026/09/08/201506/",
-      "description": "The Invention of Afterlife and Its Alternatives in Ancient Judaism and Early Christianity\n\nWhat happens when people who lived a good life die, especially if their deaths are seen as unjust or underserved? This question has animated and perplexed religious and philosophical thinkers for millennia.\n\nThis talk will…",
-      "units": [],
-      "occurrence_count": 3,
-      "other_dates": [
-        "2026-10-06T22:00:00+00:00",
-        "2026-11-03T23:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:190707@events.unl.edu",
-      "source": "unl",
-      "title": "Homecoming Competition Information Meetings",
-      "start": "2026-09-08T22:00:00+00:00",
-      "end": "2026-09-08T23:00:00+00:00",
-      "location": "Nebraska Union Room Regency B/C",
-      "org": "Homecoming Committee",
-      "category": null,
-      "url": "http://events.unl.edu/2026/09/08/190707/",
-      "description": "Recognized Student Organizations, fraternities, sororities and residence halls are invited to participate in the annual Homecoming competitions. Any group considering or planning to participate should have at least one representative attend each of the 3 meetings to review competition rules and information.…",
-      "units": [],
-      "occurrence_count": 3,
-      "other_dates": [
-        "2026-09-15T22:00:00+00:00",
-        "2026-09-22T22:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:202513@events.unl.edu",
-      "source": "unl",
-      "title": "So Surreal: Behind the Masks",
-      "start": "2026-09-08T22:00:00+00:00",
-      "end": "2026-09-08T22:00:00+00:00",
-      "location": "Mary Riepma Ross Media Arts Center-Van Brunt Visitors Center Room Ross Theaters (123 & 124)",
-      "org": "Mary Riepma Ross Media Arts Center",
-      "category": null,
-      "url": "http://events.unl.edu/2026/09/08/202513/",
-      "description": "So Surreal: Behind the Masks is a feature documentary that traces the storied journey of Indigenous masks from the far reaches of Turtle Island (North America) into the hands of European Surrealists, influencing the work and worldview of some of the most well-known modern artists and writers of all time including Max…",
-      "units": [],
-      "occurrence_count": 3,
-      "other_dates": [
-        "2026-09-09T22:00:00+00:00",
-        "2026-09-10T22:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12554789",
-      "source": "engage",
-      "title": "CAS Inquire: What Happens to Those Who Lived a “Good Life”?",
-      "start": "2026-09-08T22:00:00+00:00",
-      "end": "2026-09-08T23:00:00+00:00",
-      "location": "Jackie Gaughan Multicultural Center: Ubuntu Room 202",
-      "org": "College of Arts and Sciences",
-      "category": "ThoughtfulLearning",
-      "url": "https://unl.campuslabs.com/engage/event/12554789",
-      "description": "What happens when people who lived a good life die, especially if their deaths are seen as unjust or underserved? This question has animated and perplexed religious and philosophical thinkers for millennia. In this talk, we will explore the development of afterlife in Jewish religious thought and the legacy of this…",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12674830",
-      "source": "engage",
-      "title": "National Society of Black Engineers General Meeting",
-      "start": "2026-09-08T22:00:00+00:00",
-      "end": "2026-09-08T23:00:00+00:00",
-      "location": "Kiewit Hall",
-      "org": "National Society of Black Engineers",
-      "category": "Social",
-      "url": "https://unl.campuslabs.com/engage/event/12674830",
-      "description": "Join us for the National Society of Black Engineers (NSBE) General Meeting! This is your opportunity to connect with fellow students and professionals passionate about advancing diversity, equity, and inclusion in STEM. We meet every other Tuesday at 5 pm in Kiewit Hall. Here is our tentative event calendar: 09/08:…",
-      "units": [],
-      "occurrence_count": 2,
-      "other_dates": [
-        "2026-09-22T22:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12702328",
-      "source": "engage",
-      "title": "Monday Mocktails",
-      "start": "2026-09-08T22:00:00+00:00",
-      "end": "2026-09-08T23:00:00+00:00",
-      "location": "HLH 018 - or similar room, basement preferred",
-      "org": "Delta Sigma Pi",
-      "category": "Social",
-      "url": "https://unl.campuslabs.com/engage/event/12702328",
-      "description": "Join Delta Sigma Pi for a night of networking! Talk to active members about their experience and learn more about the application process. Applications due 9/11!",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12616145",
-      "source": "engage",
-      "title": "DBF General Meeting",
-      "start": "2026-09-08T22:00:00+00:00",
-      "end": "2026-09-09T00:00:00+00:00",
-      "location": "Nebraska Hall - W183",
-      "org": "Aerospace Club",
-      "category": "ThoughtfulLearning",
-      "url": "https://unl.campuslabs.com/engage/event/12616145",
-      "description": "Design, Build, Fly will be using this time to discuss and work on the design, fabrication, and assembly of their competitive RC plane project.",
-      "units": [],
-      "occurrence_count": 5,
-      "other_dates": [
-        "2026-09-15T22:00:00+00:00",
-        "2026-09-22T22:00:00+00:00",
-        "2026-09-29T22:00:00+00:00",
-        "2026-10-06T22:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12654642",
-      "source": "engage",
-      "title": "WHT x TSS: Fantasy Football Draft Night",
-      "start": "2026-09-08T22:00:00+00:00",
-      "end": "2026-09-09T00:00:00+00:00",
-      "location": "OASIS Lounge, JGMC",
-      "org": "Thompson Scholar Society",
-      "category": "Social",
-      "url": "https://unl.campuslabs.com/engage/event/12654642",
-      "description": "we will be partnering with WHT to draft teams for fantasy football",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12581289",
-      "source": "engage",
-      "title": "Sigma Carnival",
-      "start": "2026-09-08T22:00:00+00:00",
-      "end": "2026-09-09T01:00:00+00:00",
-      "location": "Sigma Chi Fraternity House",
-      "org": "Sigma Chi",
-      "category": "Fundraising",
-      "url": "https://unl.campuslabs.com/engage/event/12581289",
-      "description": "Sigma Carnival is a philanthropy fundraising event organized by our organization to raise money for the Huntsman Cancer Institute and support its mission of advancing cancer research, patient care, and cancer-related programs. The event will feature a variety of fun and interactive activities as well as treats,…",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:202519@events.unl.edu",
-      "source": "unl",
-      "title": "Awake, My Soul",
-      "start": "2026-09-08T22:10:00+00:00",
-      "end": "2026-09-08T22:10:00+00:00",
-      "location": "Mary Riepma Ross Media Arts Center-Van Brunt Visitors Center Room Ross Theaters (123 & 124)",
-      "org": "Mary Riepma Ross Media Arts Center",
-      "category": null,
-      "url": "http://events.unl.edu/2026/09/08/202519/",
-      "description": "Awake, My Soul explores the history, music, and traditions of Sacred Harp singing, the oldest distinctively American form of music, kept alive for over 200 years in the rural deep South. Originally shown nationwide on PBS in 2008, this documentary has been remastered and re-edited for a new audience. \n\nShowing at The…",
-      "units": [],
-      "occurrence_count": 3,
-      "other_dates": [
-        "2026-09-09T22:10:00+00:00",
-        "2026-09-10T22:10:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:202391-980745@events.unl.edu",
-      "source": "unl",
-      "title": "Flag Football Officials Training",
-      "start": "2026-09-08T22:30:00+00:00",
-      "end": "2026-09-08T22:30:00+00:00",
-      "location": "",
-      "org": "Aaron",
-      "category": null,
-      "url": "http://events.unl.edu/2026/09/08/202391/",
-      "description": "* Must attend one date of each session to complete training.\nContact the Intramural Sports Office for up-to-date details. If you have questions, contact Aaron Dueker or Gabe Sandoval.\n\nFor additional information concerning officiating, contact the Intramural Sports Office at 402-472-8383.",
-      "units": [],
-      "occurrence_count": 2,
-      "other_dates": [
-        "2026-09-09T22:30:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12687631",
-      "source": "engage",
-      "title": "Shaddeh Social",
-      "start": "2026-09-08T22:30:00+00:00",
-      "end": "2026-09-08T23:30:00+00:00",
-      "location": "Willa Cather Dining Center",
-      "org": "Students Organize for Syria",
-      "category": "Social",
-      "url": "https://unl.campuslabs.com/engage/event/12687631",
-      "description": "Join us for games, great company, and a look at what Students Organize for Syria has planned this semester.",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12432941",
-      "source": "engage",
-      "title": "Shotokan Ohshima Karate-do & Self-Defense",
-      "start": "2026-09-08T22:45:00+00:00",
-      "end": "2026-09-09T00:30:00+00:00",
-      "location": "Nebraska Union",
-      "org": "Shotokan Karate of America Club",
-      "category": "Athletics",
-      "url": "https://unl.campuslabs.com/engage/event/12432941",
-      "description": "Please see our website and Google calendar for the most up-to-date practice schedule: https://unl.ska.org/karate-class-schedule/ Shotokan Ohshima is a very traditional style and differs from many martial arts schools. Comprehensive, challenging exercise is only one of the many benefits of karate practice. Teaching…",
-      "units": [],
-      "occurrence_count": 2,
-      "other_dates": [
-        "2026-09-29T22:45:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:201248@events.unl.edu",
-      "source": "unl",
-      "title": "Lincoln Bike and Ice Cream Ride",
-      "start": "2026-09-08T23:00:00+00:00",
-      "end": "2026-09-09T01:00:00+00:00",
-      "location": "Outdoor Adventures Center Room",
-      "org": "Audrey Krimm",
-      "category": null,
-      "url": "http://events.unl.edu/2026/09/08/201248/",
-      "description": "Join Outdoor Adventures for a casual bike ride to a local business for a drink or bite to eat with fellow UNL community members. Along the way, you'll get to explore Lincoln by bike and connect with new people in a relaxed, social setting. Routes will include a mix of recreational trails and city streets shared with…",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12498329",
-      "source": "engage",
-      "title": "Allies in Action",
-      "start": "2026-09-08T23:00:00+00:00",
-      "end": "2026-09-09T00:00:00+00:00",
-      "location": "City Campus",
-      "org": "Delta Phi Lambda",
-      "category": "GroupBusiness",
-      "url": "https://unl.campuslabs.com/engage/event/12498329",
-      "description": "Sisterhood recruitment event.",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12646557",
-      "source": "engage",
-      "title": "Weekly Meeting",
-      "start": "2026-09-08T23:00:00+00:00",
-      "end": "2026-09-09T00:00:00+00:00",
-      "location": "City Union",
-      "org": "Young Americans for Freedom",
-      "category": "GroupBusiness",
-      "url": "https://unl.campuslabs.com/engage/event/12646557",
-      "description": "Weekly discussion and planning meeting",
-      "units": [],
-      "occurrence_count": 5,
-      "other_dates": [
-        "2026-09-15T23:00:00+00:00",
-        "2026-09-22T23:00:00+00:00",
-        "2026-09-29T23:00:00+00:00",
-        "2026-10-06T23:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12672561",
-      "source": "engage",
-      "title": "Bryan Volunteering",
-      "start": "2026-09-08T23:00:00+00:00",
-      "end": "2026-09-09T00:00:00+00:00",
-      "location": "Beadle Center",
-      "org": "Biochemistry Club",
-      "category": "CommunityService",
-      "url": "https://unl.campuslabs.com/engage/event/12672561",
-      "description": "Ann Bauer from Bryan Volunteering will be joining us for the meeting to share about the many areas where biochemistry students can get involved in volunteering and the process for becoming a Bryan Volunteer.",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12702365",
-      "source": "engage",
-      "title": "Agronomy Club Resume Lab",
-      "start": "2026-09-08T23:00:00+00:00",
-      "end": "2026-09-09T00:00:00+00:00",
-      "location": "PLAS 199",
-      "org": "Agronomy Club",
-      "category": "ThoughtfulLearning",
-      "url": "https://unl.campuslabs.com/engage/event/12702365",
-      "description": "The Agronomy Club's Resume Lab serves as a great way for members to strengthen their resumes and learn more about what employers are looking at on those resumes. It is also serves as a great way to connect with other students who are also trying to build their resume and stand out at the career fair and in job…",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12571386",
-      "source": "engage",
-      "title": "outdoor soccer practice",
-      "start": "2026-09-08T23:00:00+00:00",
-      "end": "2026-09-09T01:00:00+00:00",
-      "location": "Mabel Lee Fields",
-      "org": "UNL Women's Soccer Club",
-      "category": "Athletics",
-      "url": "https://unl.campuslabs.com/engage/event/12571386",
-      "description": "Outdoor soccer practice from 6-8pm on September 8th",
-      "units": [],
-      "occurrence_count": 9,
-      "other_dates": [
-        "2026-09-10T23:00:00+00:00",
-        "2026-09-15T23:00:00+00:00",
-        "2026-09-17T23:00:00+00:00",
-        "2026-09-22T23:00:00+00:00",
-        "2026-09-24T23:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12664180",
-      "source": "engage",
-      "title": "Totes and Tunes",
-      "start": "2026-09-08T23:00:00+00:00",
-      "end": "2026-09-09T01:00:00+00:00",
-      "location": "Trago Park",
-      "org": "Lambda Theta Nu Sorority Inc.",
-      "category": "Social",
-      "url": "https://unl.campuslabs.com/engage/event/12664180",
-      "description": "Come paint and customize your own tote bag!",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12654170",
-      "source": "engage",
-      "title": "Fall Kickoff Meeting",
-      "start": "2026-09-08T23:00:00+00:00",
-      "end": "2026-09-09T02:30:00+00:00",
-      "location": "Massengale Court Yard",
-      "org": "UNL Collegiate Farm Bureau",
-      "category": "Social",
-      "url": "https://unl.campuslabs.com/engage/event/12654170",
-      "description": "Collegiate Farm Bureau is hosting a fall kickoff meeting on September 8th to current and potential members. The meetings purpose is to inform members about Collegiate Farm Bureau, hear from Farm Bureau's president, Mark McHargue, and enjoy games and smores in the Massengale courtyard.",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12554096",
-      "source": "engage",
-      "title": "Engineering Student Advisory Board (eSAB) General Meeting",
-      "start": "2026-09-08T23:30:00+00:00",
-      "end": "2026-09-09T00:30:00+00:00",
-      "location": "Kiewit Hall A249",
-      "org": "Engineering Student Advisory Board",
-      "category": "GroupBusiness",
-      "url": "https://unl.campuslabs.com/engage/event/12554096",
-      "description": "Members of the board meet in alternating cycles of general and committee meetings. These meetings facilitate event planning and student program funding. They also provide updates on registered student organizations current happenings.",
-      "units": [],
-      "occurrence_count": 5,
-      "other_dates": [
-        "2026-09-15T23:30:00+00:00",
-        "2026-09-22T23:30:00+00:00",
-        "2026-09-29T23:30:00+00:00",
-        "2026-10-06T23:30:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12562781",
-      "source": "engage",
-      "title": "Letters of Love Meeting",
-      "start": "2026-09-08T23:30:00+00:00",
-      "end": "2026-09-09T00:30:00+00:00",
-      "location": "Union",
-      "org": "Letters of Love",
-      "category": "CommunityService",
-      "url": "https://unl.campuslabs.com/engage/event/12562781",
-      "description": "Providing emotional support through making handwritten cards for children battling serious illnesses, aiming to build a community of love & kindness one card at a time",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12569012",
-      "source": "engage",
-      "title": "Returner Meeting",
-      "start": "2026-09-08T23:30:00+00:00",
-      "end": "2026-09-09T01:30:00+00:00",
-      "location": "Jackie Gaughan Center",
-      "org": "University of Nebraska-Lincoln Mock Trial Organization",
-      "category": "GroupBusiness",
-      "url": "https://unl.campuslabs.com/engage/event/12569012",
-      "description": "This is the first meeting of the year for returners to our team to learn about what to expect for the upcoming year.",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12671366",
-      "source": "engage",
-      "title": "Theme Park Design Group Weekly Meeting",
-      "start": "2026-09-08T23:30:00+00:00",
-      "end": "2026-09-09T01:30:00+00:00",
-      "location": "KH A549",
-      "org": "UNL Theme Park Design Group",
-      "category": "ThoughtfulLearning",
-      "url": "https://unl.campuslabs.com/engage/event/12671366",
-      "description": "Theme Park Design Group holds weekly general meetings to discuss aspects of the themed entertainment industry, hold group activities, work on industry-related projects, and prepare for team competitions.",
-      "units": [],
-      "occurrence_count": 5,
-      "other_dates": [
-        "2026-09-15T23:30:00+00:00",
-        "2026-09-22T23:30:00+00:00",
-        "2026-09-29T23:30:00+00:00",
-        "2026-10-06T23:30:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12646819",
-      "source": "engage",
-      "title": "Rotaract",
-      "start": "2026-09-09T00:00:00+00:00",
-      "end": "2026-09-09T01:00:00+00:00",
-      "location": "Ubuntu room, Nebraska Union",
-      "org": "Rotaract Club of University of Nebraska-Lincoln",
-      "category": "CommunityService",
-      "url": "https://unl.campuslabs.com/engage/event/12646819",
-      "description": "Weekly Rotaract meeting.",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12511338",
-      "source": "engage",
-      "title": "RHA General Assembly",
-      "start": "2026-09-09T00:00:00+00:00",
-      "end": "2026-09-09T02:00:00+00:00",
-      "location": "Red Cloud A",
-      "org": "Residence Hall Association",
-      "category": "GroupBusiness",
-      "url": "https://unl.campuslabs.com/engage/event/12511338",
-      "description": "RHA serves as the student government of the University of Nebraska-Lincoln residence halls, recognized as the voice of students living in on-campus housing by University Housing and Residence Life. The Association is focused on enhancing the living and learning environment of the halls and is made up of elected…",
-      "units": [],
-      "occurrence_count": 5,
-      "other_dates": [
-        "2026-09-16T00:00:00+00:00",
-        "2026-09-23T00:00:00+00:00",
-        "2026-09-30T00:00:00+00:00",
-        "2026-10-07T00:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12639433",
-      "source": "engage",
-      "title": "Film Club General Meeting",
-      "start": "2026-09-09T00:00:00+00:00",
-      "end": "2026-09-09T03:00:00+00:00",
-      "location": "UNL City Campus Union",
-      "org": "UNL Film Club",
-      "category": "Social",
-      "url": "https://unl.campuslabs.com/engage/event/12639433",
-      "description": "Meet to discuss the latest movies and get to know other club members.",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12514690",
-      "source": "engage",
-      "title": "Sigma Psi Zeta: Blooming Connections",
-      "start": "2026-09-09T00:30:00+00:00",
-      "end": "2026-09-09T02:30:00+00:00",
-      "location": "Nebraska City Union",
-      "org": "Sigma Psi Zeta Sorority, Inc.",
-      "category": "Social",
-      "url": "https://unl.campuslabs.com/engage/event/12514690",
-      "description": "Learn about Sigma Psi Zeta Sorority, Inc.'s philanthropy, which is to combat violence against womxn in its varied forms while creating pipe cleaner flowers to be donated. Meet our sisters, give back to the community, and make a meaningful impact through a fun, hands-on activity.",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12606323",
-      "source": "engage",
-      "title": "Ballroom Club Nights Fall 2026",
-      "start": "2026-09-09T01:30:00+00:00",
-      "end": "2026-09-09T03:30:00+00:00",
-      "location": "Union Ballroom",
-      "org": "Ballroom Dance Club",
-      "category": "Arts",
-      "url": "https://unl.campuslabs.com/engage/event/12606323",
-      "description": "Every Tuesday night, the Ballroom Club hosts free dance lessons for students and community members.",
-      "units": [],
-      "occurrence_count": 5,
-      "other_dates": [
-        "2026-09-16T01:30:00+00:00",
-        "2026-09-23T01:30:00+00:00",
-        "2026-09-30T01:30:00+00:00",
-        "2026-10-07T01:30:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12702150",
-      "source": "engage",
-      "title": "Hip Hop Club Practice (Tuesdays)",
-      "start": "2026-09-09T02:00:00+00:00",
-      "end": "2026-09-09T03:00:00+00:00",
-      "location": "Fitness Room in City Campus Rec Center",
-      "org": "Hip Hop Dance Club",
-      "category": "Arts",
-      "url": "https://unl.campuslabs.com/engage/event/12702150",
-      "description": "A place for dancers of all levels to learn various styles of street dance!",
-      "units": [],
-      "occurrence_count": 5,
-      "other_dates": [
-        "2026-09-16T02:00:00+00:00",
-        "2026-09-23T02:00:00+00:00",
-        "2026-09-30T02:00:00+00:00",
-        "2026-10-07T02:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:202308-980560@events.unl.edu",
-      "source": "unl",
-      "title": "The Glories of Nature art exhibition",
-      "start": "2026-09-09T12:00:00+00:00",
-      "end": "2026-09-09T12:00:00+00:00",
-      "location": "Nebraska East Union Room Loft Gallery (on the 3rd Level)",
-      "org": "Veronica Riepe",
-      "category": null,
-      "url": "http://events.unl.edu/2026/09/09/202308/",
-      "description": "Loft Gallery is open 7 a.m. to midnight Monday-Friday, as well as 9 a.m. to midnight Saturday & Sunday.\n\nAbout the exhibition: The Glories of Nature\n\nThe works shown in this exhibit are done by members of the Great Plains Chapter of the Guild of Natural Science Illustrators (GNSI, Inc., www.gnsi.org). The GNSI is an…",
-      "units": [],
-      "occurrence_count": 22,
-      "other_dates": [
-        "2026-09-10T12:00:00+00:00",
-        "2026-09-11T12:00:00+00:00",
-        "2026-09-12T12:00:00+00:00",
-        "2026-09-13T12:00:00+00:00",
-        "2026-09-14T12:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
     {
       "id": "unl:201474@events.unl.edu",
       "source": "unl",
@@ -804,7 +77,7 @@
       "url": "http://events.unl.edu/2026/09/09/200835/",
       "description": "Virtual asynchronous course. Learn to read and interpret financial statements,\nread and analyze financial reports and case studies, develop foundational knowledge to prepare you for advanced courses.",
       "units": [],
-      "occurrence_count": 59,
+      "occurrence_count": 60,
       "other_dates": [
         "2026-09-10T14:00:00+00:00",
         "2026-09-11T14:00:00+00:00",
@@ -873,6 +146,23 @@
       "noise_reason": null
     },
     {
+      "id": "engage:12718722",
+      "source": "engage",
+      "title": "STAC Tabling Event",
+      "start": "2026-09-09T16:30:00+00:00",
+      "end": "2026-09-09T19:00:00+00:00",
+      "location": "Nebraska Union",
+      "org": "Students Together Against Cancer",
+      "category": "Social",
+      "url": "https://unl.campuslabs.com/engage/event/12718722",
+      "description": "Tabling event to spread awareness about our club and hopefully gain some new members.",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
       "id": "unl:201347@events.unl.edu",
       "source": "unl",
       "title": "Big Red Pawp-Up",
@@ -907,6 +197,29 @@
       "other_dates": [],
       "noise_penalty": 0,
       "noise_reason": null
+    },
+    {
+      "id": "engage:12600891",
+      "source": "engage",
+      "title": "MRC Attendance",
+      "start": "2026-09-09T17:30:00+00:00",
+      "end": "2026-09-10T01:30:00+00:00",
+      "location": "Avery 13",
+      "org": "Math Resource Center",
+      "category": "ThoughtfulLearning",
+      "url": "https://unl.campuslabs.com/engage/event/12600891",
+      "description": "QR Code Attendance",
+      "units": [],
+      "occurrence_count": 8,
+      "other_dates": [
+        "2026-09-10T17:30:00+00:00",
+        "2026-09-11T17:30:00+00:00",
+        "2026-09-14T17:30:00+00:00",
+        "2026-09-15T17:30:00+00:00",
+        "2026-09-16T17:30:00+00:00"
+      ],
+      "noise_penalty": 3,
+      "noise_reason": "A QR-code attendance placeholder, not a real event listing"
     },
     {
       "id": "unl:201189-978926@events.unl.edu",
@@ -1044,6 +357,29 @@
       "units": [],
       "occurrence_count": 1,
       "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "engage:12720730",
+      "source": "engage",
+      "title": "SGEC Practice",
+      "start": "2026-09-09T20:00:00+00:00",
+      "end": "2026-09-09T21:00:00+00:00",
+      "location": "Sandhills Global Event Center",
+      "org": "University of Nebraska Rodeo Association",
+      "category": "Athletics",
+      "url": "https://unl.campuslabs.com/engage/event/12720730",
+      "description": "The Rodeo team will be practicing at the event center.",
+      "units": [],
+      "occurrence_count": 10,
+      "other_dates": [
+        "2026-09-10T20:00:00+00:00",
+        "2026-09-14T20:00:00+00:00",
+        "2026-09-15T20:00:00+00:00",
+        "2026-09-16T20:00:00+00:00",
+        "2026-09-17T20:00:00+00:00"
+      ],
       "noise_penalty": 0,
       "noise_reason": null
     },
@@ -1205,6 +541,23 @@
       "noise_reason": null
     },
     {
+      "id": "engage:12719172",
+      "source": "engage",
+      "title": "Delta Sigma Pi Community Service Night",
+      "start": "2026-09-09T21:30:00+00:00",
+      "end": "2026-09-09T23:00:00+00:00",
+      "location": "HLH 112 - or similar room",
+      "org": "Delta Sigma Pi",
+      "category": "Social",
+      "url": "https://unl.campuslabs.com/engage/event/12719172",
+      "description": "Join Delta Sigma Pi in creating tie blankets! In addition, talk to active members about their experience and learn more about the application process. Applications due 9/11!",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
       "id": "unl:201249@events.unl.edu",
       "source": "unl",
       "title": "Bike Maintenance Clinic",
@@ -1253,6 +606,25 @@
       "occurrence_count": 2,
       "other_dates": [
         "2026-09-16T22:00:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:202514@events.unl.edu",
+      "source": "unl",
+      "title": "So Surreal: Behind the Masks",
+      "start": "2026-09-09T22:00:00+00:00",
+      "end": "2026-09-09T22:00:00+00:00",
+      "location": "Mary Riepma Ross Media Arts Center-Van Brunt Visitors Center Room Ross Theaters (123 & 124)",
+      "org": "Mary Riepma Ross Media Arts Center",
+      "category": null,
+      "url": "http://events.unl.edu/2026/09/09/202514/",
+      "description": "So Surreal: Behind the Masks is a feature documentary that traces the storied journey of Indigenous masks from the far reaches of Turtle Island (North America) into the hands of European Surrealists, influencing the work and worldview of some of the most well-known modern artists and writers of all time including Max…",
+      "units": [],
+      "occurrence_count": 2,
+      "other_dates": [
+        "2026-09-10T22:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -1358,6 +730,25 @@
       "noise_reason": null
     },
     {
+      "id": "unl:202520@events.unl.edu",
+      "source": "unl",
+      "title": "Awake, My Soul",
+      "start": "2026-09-09T22:10:00+00:00",
+      "end": "2026-09-09T22:10:00+00:00",
+      "location": "Mary Riepma Ross Media Arts Center-Van Brunt Visitors Center Room Ross Theaters (123 & 124)",
+      "org": "Mary Riepma Ross Media Arts Center",
+      "category": null,
+      "url": "http://events.unl.edu/2026/09/09/202520/",
+      "description": "Awake, My Soul explores the history, music, and traditions of Sacred Harp singing, the oldest distinctively American form of music, kept alive for over 200 years in the rural deep South. Originally shown nationwide on PBS in 2008, this documentary has been remastered and re-edited for a new audience. \n\nShowing at The…",
+      "units": [],
+      "occurrence_count": 2,
+      "other_dates": [
+        "2026-09-10T22:10:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
       "id": "engage:12703178",
       "source": "engage",
       "title": "ASLA Executive Meeting | September 9 | 2026-2027",
@@ -1368,6 +759,23 @@
       "category": "GroupBusiness",
       "url": "https://unl.campuslabs.com/engage/event/12703178",
       "description": "The ASLA executive team is hosting its weekly meeting to discuss future opportunities for the club, plan for future events, and other related group business.",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:202391-980746@events.unl.edu",
+      "source": "unl",
+      "title": "Flag Football Officials Training",
+      "start": "2026-09-09T22:30:00+00:00",
+      "end": "2026-09-09T22:30:00+00:00",
+      "location": "",
+      "org": "Aaron",
+      "category": null,
+      "url": "http://events.unl.edu/2026/09/09/202391/",
+      "description": "* Must attend one date of each session to complete training.\nContact the Intramural Sports Office for up-to-date details. If you have questions, contact Aaron Dueker or Gabe Sandoval.\n\nFor additional information concerning officiating, contact the Intramural Sports Office at 402-472-8383.",
       "units": [],
       "occurrence_count": 1,
       "other_dates": [],
@@ -1409,6 +817,23 @@
       "noise_reason": null
     },
     {
+      "id": "engage:12718551",
+      "source": "engage",
+      "title": "GradSWE Welcome",
+      "start": "2026-09-09T22:30:00+00:00",
+      "end": "2026-09-10T00:00:00+00:00",
+      "location": "Trago Park",
+      "org": "Society of Women Engineers Graduate Chapter",
+      "category": "Social",
+      "url": "https://unl.campuslabs.com/engage/event/12718551",
+      "description": "Welcome event for the new academic year",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
       "id": "engage:12553077",
       "source": "engage",
       "title": "SLG Study Session",
@@ -1437,8 +862,10 @@
       "url": "https://unl.campuslabs.com/engage/event/12479087",
       "description": "This event will serve as an opportunity for students who are interested in Divine 9 Greek Life to learn more about the organizations, the chapters we have here on campus, the requirements it takes to join, and ask questions to a panel of Greek Life members. This event will happen on September 9th and October 8th.",
       "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
+      "occurrence_count": 2,
+      "other_dates": [
+        "2026-10-08T23:00:00+00:00"
+      ],
       "noise_penalty": 0,
       "noise_reason": null
     },
@@ -1870,6 +1297,29 @@
       "noise_reason": null
     },
     {
+      "id": "unl:202308-980561@events.unl.edu",
+      "source": "unl",
+      "title": "The Glories of Nature art exhibition",
+      "start": "2026-09-10T12:00:00+00:00",
+      "end": "2026-09-10T12:00:00+00:00",
+      "location": "Nebraska East Union Room Loft Gallery (on the 3rd Level)",
+      "org": "Veronica Riepe",
+      "category": null,
+      "url": "http://events.unl.edu/2026/09/10/202308/",
+      "description": "Loft Gallery is open 7 a.m. to midnight Monday-Friday, as well as 9 a.m. to midnight Saturday & Sunday.\n\nAbout the exhibition: The Glories of Nature\n\nThe works shown in this exhibit are done by members of the Great Plains Chapter of the Guild of Natural Science Illustrators (GNSI, Inc., www.gnsi.org). The GNSI is an…",
+      "units": [],
+      "occurrence_count": 21,
+      "other_dates": [
+        "2026-09-11T12:00:00+00:00",
+        "2026-09-12T12:00:00+00:00",
+        "2026-09-13T12:00:00+00:00",
+        "2026-09-14T12:00:00+00:00",
+        "2026-09-15T12:00:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
       "id": "unl:202035@events.unl.edu",
       "source": "unl",
       "title": "Agronomy and Horticulture Seminar",
@@ -1966,6 +1416,23 @@
       "category": null,
       "url": "http://events.unl.edu/2026/09/10/196085/",
       "description": "Navigating a U.S. career fair can feel exciting and a little overwhelming - especially if it's your first one. Don't worry - we've got you covered!\n\nJoin us for an interactive workshop designed just for international students. You'll learn how to:\n\n- Research companies and tailor your resume\n- Introduce yourself with…",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "engage:12715531",
+      "source": "engage",
+      "title": "Pizza in the Lobby",
+      "start": "2026-09-10T18:00:00+00:00",
+      "end": "2026-09-10T20:00:00+00:00",
+      "location": "Westbrook Music Building Lobby",
+      "org": "Phi Mu Alpha Sinfonia Fraternity of America",
+      "category": "Fundraising",
+      "url": "https://unl.campuslabs.com/engage/event/12715531",
+      "description": "Phi Mu Alpha Sinfonia is selling pizza in Westbrook's lobby for $2 per slice!",
       "units": [],
       "occurrence_count": 1,
       "other_dates": [],
@@ -2143,11 +1610,12 @@
       "url": "https://unl.campuslabs.com/engage/event/12604427",
       "description": "General body meeting for the Sheldon Student Advisory Board.",
       "units": [],
-      "occurrence_count": 4,
+      "occurrence_count": 5,
       "other_dates": [
         "2026-09-17T21:45:00+00:00",
         "2026-09-24T21:45:00+00:00",
-        "2026-10-01T21:45:00+00:00"
+        "2026-10-01T21:45:00+00:00",
+        "2026-10-08T21:45:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -2181,11 +1649,12 @@
       "url": "https://unl.campuslabs.com/engage/event/12665179",
       "description": "Weekly Meeting for general business.",
       "units": [],
-      "occurrence_count": 4,
+      "occurrence_count": 5,
       "other_dates": [
         "2026-09-17T22:00:00+00:00",
         "2026-09-24T22:00:00+00:00",
-        "2026-10-01T22:00:00+00:00"
+        "2026-10-01T22:00:00+00:00",
+        "2026-10-08T22:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -2219,12 +1688,30 @@
       "url": "https://unl.campuslabs.com/engage/event/12619845",
       "description": "Unmanned Aerial Vehicles will have their weekly general meeting where they discuss the design, fabrication, and assembly of their competitive drone project.",
       "units": [],
-      "occurrence_count": 4,
+      "occurrence_count": 5,
       "other_dates": [
         "2026-09-17T22:00:00+00:00",
         "2026-09-24T22:00:00+00:00",
-        "2026-10-01T22:00:00+00:00"
+        "2026-10-01T22:00:00+00:00",
+        "2026-10-08T22:00:00+00:00"
       ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "engage:12718534",
+      "source": "engage",
+      "title": "Multicultural Welcome Back",
+      "start": "2026-09-10T22:00:00+00:00",
+      "end": "2026-09-11T00:30:00+00:00",
+      "location": "Ubuntu Room, JGMC",
+      "org": "African Student Association",
+      "category": "Social",
+      "url": "https://unl.campuslabs.com/engage/event/12718534",
+      "description": "This will be the fourth Multicultural Welcome Back. We would like to invite all multicultural organizations to promote their clubs and invite all new students to attend. Each organization can present a slide explaining its organization, all will collaborate on an activity, and we are also planning to provide a light…",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
       "noise_penalty": 0,
       "noise_reason": null
     },
@@ -2327,11 +1814,12 @@
       "url": "https://unl.campuslabs.com/engage/event/12628408",
       "description": "Our recreational pickleball practices are a fun, laid-back way for University of Nebraska–Lincoln students of all skill levels to play, improve their game, meet new people, and enjoy pickleball. No competitive experience is required.",
       "units": [],
-      "occurrence_count": 4,
+      "occurrence_count": 5,
       "other_dates": [
         "2026-09-17T23:00:00+00:00",
         "2026-09-24T23:00:00+00:00",
-        "2026-10-01T23:00:00+00:00"
+        "2026-10-01T23:00:00+00:00",
+        "2026-10-08T23:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -2350,6 +1838,29 @@
       "units": [],
       "occurrence_count": 1,
       "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "engage:12571347",
+      "source": "engage",
+      "title": "Outdoor Soccer Practice",
+      "start": "2026-09-10T23:00:00+00:00",
+      "end": "2026-09-11T01:00:00+00:00",
+      "location": "Mabel Lee fields",
+      "org": "UNL Women's Soccer Club",
+      "category": "Athletics",
+      "url": "https://unl.campuslabs.com/engage/event/12571347",
+      "description": "Outdoor soccer practice from 6-8pm on September 10th",
+      "units": [],
+      "occurrence_count": 9,
+      "other_dates": [
+        "2026-09-15T23:00:00+00:00",
+        "2026-09-17T23:00:00+00:00",
+        "2026-09-22T23:00:00+00:00",
+        "2026-09-24T23:00:00+00:00",
+        "2026-09-29T23:00:00+00:00"
+      ],
       "noise_penalty": 0,
       "noise_reason": null
     },
@@ -2416,9 +1927,10 @@
       "url": "https://unl.campuslabs.com/engage/event/12575460",
       "description": "Come join us for a fun night with fellow nerds! We're happy to talk all things pop culture while we play games, do trivia, and have other fun activities!",
       "units": [],
-      "occurrence_count": 2,
+      "occurrence_count": 3,
       "other_dates": [
-        "2026-09-24T23:30:00+00:00"
+        "2026-09-24T23:30:00+00:00",
+        "2026-10-08T23:30:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -2486,11 +1998,12 @@
       "url": "https://unl.campuslabs.com/engage/event/12450326",
       "description": "SustainUNL holds weekly meetings every Thursday from 7-8 PM in the Nebraska Union. We use this time to organize community volunteering and activism as well as to facilitate conversations about sustainability and how we can be eco-friendly in our own lives. Everyone is welcome to attend--we love to see new faces!",
       "units": [],
-      "occurrence_count": 4,
+      "occurrence_count": 5,
       "other_dates": [
         "2026-09-18T00:00:00+00:00",
         "2026-09-25T00:00:00+00:00",
-        "2026-10-02T00:00:00+00:00"
+        "2026-10-02T00:00:00+00:00",
+        "2026-10-09T00:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -2541,11 +2054,12 @@
       "url": "https://unl.campuslabs.com/engage/event/12553191",
       "description": "A weekly night for students to come together, play games, dive into God's Word, and worship our Heavenly Father. There is a sermon, discussion, and music. All UNL students are welcome!",
       "units": [],
-      "occurrence_count": 4,
+      "occurrence_count": 5,
       "other_dates": [
         "2026-09-18T00:00:00+00:00",
         "2026-09-25T00:00:00+00:00",
-        "2026-10-02T00:00:00+00:00"
+        "2026-10-02T00:00:00+00:00",
+        "2026-10-09T00:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -2562,11 +2076,12 @@
       "url": "https://unl.campuslabs.com/engage/event/12622494",
       "description": "Lunabotics will have their weekly general meeting to discuss the design, fabrication, and assembly of their competitive lunar rover project for the NASA Lunabotics Challenge.",
       "units": [],
-      "occurrence_count": 4,
+      "occurrence_count": 5,
       "other_dates": [
         "2026-09-18T00:00:00+00:00",
         "2026-09-25T00:00:00+00:00",
-        "2026-10-02T00:00:00+00:00"
+        "2026-10-02T00:00:00+00:00",
+        "2026-10-09T00:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -2600,7 +2115,7 @@
       "url": "https://unl.campuslabs.com/engage/event/12712290",
       "description": "Team practice for the fall semester",
       "units": [],
-      "occurrence_count": 11,
+      "occurrence_count": 12,
       "other_dates": [
         "2026-09-14T00:00:00+00:00",
         "2026-09-16T00:00:00+00:00",
@@ -2831,6 +2346,23 @@
       "noise_reason": null
     },
     {
+      "id": "unl:202647@events.unl.edu",
+      "source": "unl",
+      "title": "Forest Festival Family Fun Night",
+      "start": "2026-09-11T21:00:00+00:00",
+      "end": "2026-09-12T01:00:00+00:00",
+      "location": "",
+      "org": "Benjamin Bohall",
+      "category": null,
+      "url": "http://events.unl.edu/2026/09/11/202647/",
+      "description": "Looking for a fun way to spend a September evening outdoors? Forest Festival Family Fun Night is back Sept. 11, and the best part is that it's entirely free. Folks from across Nebraska are invited to Horning State Farm Demonstration Forest near Plattsmouth from 4 to 8 p.m. for an evening of tree climbing, archery,…",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
       "id": "engage:12690059",
       "source": "engage",
       "title": "Judo Practice",
@@ -2847,6 +2379,28 @@
         "2026-09-18T21:00:00+00:00",
         "2026-09-25T21:00:00+00:00",
         "2026-10-02T21:00:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:202633@events.unl.edu",
+      "source": "unl",
+      "title": "Camp Miasma",
+      "start": "2026-09-11T22:00:00+00:00",
+      "end": "2026-09-11T22:00:00+00:00",
+      "location": "Mary Riepma Ross Media Arts Center-Van Brunt Visitors Center Room Ross Theaters (123 & 124)",
+      "org": "Mary Riepma Ross Media Arts Center",
+      "category": null,
+      "url": "http://events.unl.edu/2026/09/11/202633/",
+      "description": "A new kind of horror remake from Jane Schoenbrun (I Saw the TV Glow), starring Hannah Einbinder and Gillian Anderson. After years of slapdash sequels and waning fandom, the Camp Miasma slasher franchise is handed over to an enthusiastic young director for resurrection. But when she visits the original movie's star, a…",
+      "units": [],
+      "occurrence_count": 5,
+      "other_dates": [
+        "2026-09-14T22:00:00+00:00",
+        "2026-09-15T22:00:00+00:00",
+        "2026-09-16T22:00:00+00:00",
+        "2026-09-17T22:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -2873,6 +2427,28 @@
       "noise_reason": null
     },
     {
+      "id": "unl:202639@events.unl.edu",
+      "source": "unl",
+      "title": "So Surreal: Behind the Masks",
+      "start": "2026-09-11T22:10:00+00:00",
+      "end": "2026-09-11T22:10:00+00:00",
+      "location": "Mary Riepma Ross Media Arts Center-Van Brunt Visitors Center Room Ross Theaters (123 & 124)",
+      "org": "Mary Riepma Ross Media Arts Center",
+      "category": null,
+      "url": "http://events.unl.edu/2026/09/11/202639/",
+      "description": "So Surreal: Behind the Masks is a feature documentary that traces the storied journey of Indigenous masks from the far reaches of Turtle Island (North America) into the hands of European Surrealists, influencing the work and worldview of some of the most well-known modern artists and writers of all time including Max…",
+      "units": [],
+      "occurrence_count": 5,
+      "other_dates": [
+        "2026-09-13T22:10:00+00:00",
+        "2026-09-14T22:10:00+00:00",
+        "2026-09-15T22:10:00+00:00",
+        "2026-09-17T22:10:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
       "id": "engage:12507720",
       "source": "engage",
       "title": "Life in Lincoln: Outdoor Challenge Course",
@@ -2883,6 +2459,23 @@
       "category": "Social",
       "url": "https://unl.campuslabs.com/engage/event/12507720",
       "description": "Challenge Course Connections: Play, Problem-Solve, and Push Your Limits—Together In order to participate, please fill out this form: Challenge Course Waiver Ready to meet other UNL students, be outside, and have some serious fun? At the UNL Challenge Course, you’ll jump into a series of engaging, ground‑based group…",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "engage:12715338",
+      "source": "engage",
+      "title": "Music Bingo",
+      "start": "2026-09-11T23:00:00+00:00",
+      "end": "2026-09-12T00:00:00+00:00",
+      "location": "Suites Multipurpose Room",
+      "org": "Residence Hall Association",
+      "category": "Social",
+      "url": "https://unl.campuslabs.com/engage/event/12715338",
+      "description": "This event will be Bingo but revolving around music, with a playlist of songs on the bingo cards. This event will also feature mocktails with Jon Gayer, as well as prizes that anyone is able to win.",
       "units": [],
       "occurrence_count": 1,
       "other_dates": [],
@@ -2918,7 +2511,7 @@
       "url": "https://unl.campuslabs.com/engage/event/12616610",
       "description": "General Meeting for Games Guild! Come play Dungeons and Dragons, Magic the Gathering, or some board and card games with other students at the end of a long week!",
       "units": [],
-      "occurrence_count": 7,
+      "occurrence_count": 8,
       "other_dates": [
         "2026-09-17T23:00:00+00:00",
         "2026-09-18T23:00:00+00:00",
@@ -3044,6 +2637,23 @@
       "noise_reason": null
     },
     {
+      "id": "unl:202630@events.unl.edu",
+      "source": "unl",
+      "title": "Glow Skate Night",
+      "start": "2026-09-12T01:00:00+00:00",
+      "end": "2026-09-12T04:00:00+00:00",
+      "location": "Breslow Hockey Center Room",
+      "org": "Scott Wagner",
+      "category": null,
+      "url": "http://events.unl.edu/2026/09/11/202630/",
+      "description": "The skate nights are free for any University of Nebraska-Lincoln student with a valid NCard. The public can also skate during the events for $6 per person. Skate rental is available for $3 per pair.",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
       "id": "engage:12571310",
       "source": "engage",
       "title": "Sunflower Showdown",
@@ -3135,6 +2745,23 @@
         "2026-09-27T17:00:00+00:00",
         "2026-10-04T17:00:00+00:00"
       ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:202634@events.unl.edu",
+      "source": "unl",
+      "title": "Camp Miasma",
+      "start": "2026-09-13T17:20:00+00:00",
+      "end": "2026-09-13T17:20:00+00:00",
+      "location": "Mary Riepma Ross Media Arts Center-Van Brunt Visitors Center Room Ross Theaters (123 & 124)",
+      "org": "Mary Riepma Ross Media Arts Center",
+      "category": null,
+      "url": "http://events.unl.edu/2026/09/13/202634/",
+      "description": "A new kind of horror remake from Jane Schoenbrun (I Saw the TV Glow), starring Hannah Einbinder and Gillian Anderson. After years of slapdash sequels and waning fandom, the Camp Miasma slasher franchise is handed over to an enthusiastic young director for resurrection. But when she visits the original movie's star, a…",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
       "noise_penalty": 0,
       "noise_reason": null
     },
@@ -3712,6 +3339,43 @@
       "noise_reason": null
     },
     {
+      "id": "engage:12720978",
+      "source": "engage",
+      "title": "Fall Weekly Practices",
+      "start": "2026-09-15T02:00:00+00:00",
+      "end": "2026-09-15T04:00:00+00:00",
+      "location": "Kinetic Sports Complex",
+      "org": "UNL Men's Volleyball Club",
+      "category": "Athletics",
+      "url": "https://unl.campuslabs.com/engage/event/12720978",
+      "description": "Weekly Monday and Wednesday Practice from 9-11pm off campus at Kinetic Sports Complex",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:202651-980887@events.unl.edu",
+      "source": "unl",
+      "title": "Husker Harvest Days",
+      "start": "2026-09-15T14:00:00+00:00",
+      "end": "2026-09-15T21:00:00+00:00",
+      "location": "Husker Harvest Days Room",
+      "org": "Farm Progress",
+      "category": null,
+      "url": "http://events.unl.edu/2026/09/15/202651/",
+      "description": "Husker Harvest Days, one of the nation's largest working farm shows, brings producers, ag businesses and industry experts together for three days of field demonstrations, equipment displays, educational opportunities and the latest in agricultural technology. Visit Nebraska Extension at the Big Red Building and…",
+      "units": [],
+      "occurrence_count": 3,
+      "other_dates": [
+        "2026-09-16T14:00:00+00:00",
+        "2026-09-17T14:00:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
       "id": "unl:201992@events.unl.edu",
       "source": "unl",
       "title": "Pickleball Singles",
@@ -3910,6 +3574,70 @@
       "noise_reason": null
     },
     {
+      "id": "unl:201145@events.unl.edu",
+      "source": "unl",
+      "title": "Department of Biochemistry and Redox Biology Center Seminar Series",
+      "start": "2026-09-15T21:00:00+00:00",
+      "end": "2026-09-15T22:00:00+00:00",
+      "location": "Beadle Center Room e103",
+      "org": "Samantha DeGrave Madderom",
+      "category": null,
+      "url": "http://events.unl.edu/2026/09/15/201145/",
+      "description": "Thrombosis is a key component of cardiovascular diseases and is the underlying cause of one in four deaths worldwide. I study the scavenger clearance receptor, stabilin-2, whose deficiency is associated with an increased risk of venous thrombosis. I identified novel ligands for this receptor including proteins with…",
+      "units": [
+        "casnr"
+      ],
+      "occurrence_count": 5,
+      "other_dates": [
+        "2026-09-22T21:00:00+00:00",
+        "2026-09-29T21:00:00+00:00",
+        "2026-10-13T21:00:00+00:00",
+        "2026-10-27T21:00:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:190705@events.unl.edu",
+      "source": "unl",
+      "title": "Homecoming Competition Information Meetings",
+      "start": "2026-09-15T22:00:00+00:00",
+      "end": "2026-09-15T23:00:00+00:00",
+      "location": "Nebraska Union Room Chimney Rock",
+      "org": "Homecoming Committee",
+      "category": null,
+      "url": "http://events.unl.edu/2026/09/15/190705/",
+      "description": "Recognized Student Organizations, fraternities, sororities and residence halls are invited to participate in the annual Homecoming competitions. Any group considering or planning to participate should have at least one representative attend each of the 3 meetings to review competition rules and information.…",
+      "units": [],
+      "occurrence_count": 2,
+      "other_dates": [
+        "2026-09-22T22:00:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "engage:12616146",
+      "source": "engage",
+      "title": "DBF General Meeting",
+      "start": "2026-09-15T22:00:00+00:00",
+      "end": "2026-09-16T00:00:00+00:00",
+      "location": "Nebraska Hall - W183",
+      "org": "Aerospace Club",
+      "category": "ThoughtfulLearning",
+      "url": "https://unl.campuslabs.com/engage/event/12616146",
+      "description": "Design, Build, Fly will be using this time to discuss and work on the design, fabrication, and assembly of their competitive RC plane project.",
+      "units": [],
+      "occurrence_count": 4,
+      "other_dates": [
+        "2026-09-22T22:00:00+00:00",
+        "2026-09-29T22:00:00+00:00",
+        "2026-10-06T22:00:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
       "id": "unl:200661@events.unl.edu",
       "source": "unl",
       "title": "Great Plains Talk: Caleb Gayle",
@@ -3942,6 +3670,23 @@
       "other_dates": [
         "2026-09-16T22:30:00+00:00"
       ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:202596@events.unl.edu",
+      "source": "unl",
+      "title": "Skills Workshop",
+      "start": "2026-09-15T22:30:00+00:00",
+      "end": "2026-09-15T23:30:00+00:00",
+      "location": "Nebraska Innovation Studio Room",
+      "org": "Nebraska Innovation Studio",
+      "category": null,
+      "url": "http://events.unl.edu/2026/09/15/202596/",
+      "description": "Cost:\n$25 with active membership\n$35 for non-members\n\nLearn 3D modeling using Blender - a totally free, industry standard software. You'll learn all the basic tools and techniques for modeling a simple form. 3D print them later or add them to your online collections.\n\nTaught by Michael Burton, former professor and…",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
       "noise_penalty": 0,
       "noise_reason": null
     },
@@ -4001,6 +3746,27 @@
       "noise_reason": null
     },
     {
+      "id": "engage:12646558",
+      "source": "engage",
+      "title": "Weekly Meeting",
+      "start": "2026-09-15T23:00:00+00:00",
+      "end": "2026-09-16T00:00:00+00:00",
+      "location": "City Union",
+      "org": "Young Americans for Freedom",
+      "category": "GroupBusiness",
+      "url": "https://unl.campuslabs.com/engage/event/12646558",
+      "description": "Weekly discussion and planning meeting",
+      "units": [],
+      "occurrence_count": 4,
+      "other_dates": [
+        "2026-09-22T23:00:00+00:00",
+        "2026-09-29T23:00:00+00:00",
+        "2026-10-06T23:00:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
       "id": "engage:12664953",
       "source": "engage",
       "title": "Explore Finance Bootcamp",
@@ -4022,6 +3788,48 @@
       "noise_reason": null
     },
     {
+      "id": "engage:12554097",
+      "source": "engage",
+      "title": "Engineering Student Advisory Board (eSAB) General Meeting",
+      "start": "2026-09-15T23:30:00+00:00",
+      "end": "2026-09-16T00:30:00+00:00",
+      "location": "Kiewit Hall A249",
+      "org": "Engineering Student Advisory Board",
+      "category": "GroupBusiness",
+      "url": "https://unl.campuslabs.com/engage/event/12554097",
+      "description": "Members of the board meet in alternating cycles of general and committee meetings. These meetings facilitate event planning and student program funding. They also provide updates on registered student organizations current happenings.",
+      "units": [],
+      "occurrence_count": 4,
+      "other_dates": [
+        "2026-09-22T23:30:00+00:00",
+        "2026-09-29T23:30:00+00:00",
+        "2026-10-06T23:30:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "engage:12671367",
+      "source": "engage",
+      "title": "Theme Park Design Group Weekly Meeting",
+      "start": "2026-09-15T23:30:00+00:00",
+      "end": "2026-09-16T01:30:00+00:00",
+      "location": "KH A549",
+      "org": "UNL Theme Park Design Group",
+      "category": "ThoughtfulLearning",
+      "url": "https://unl.campuslabs.com/engage/event/12671367",
+      "description": "Theme Park Design Group holds weekly general meetings to discuss aspects of the themed entertainment industry, hold group activities, work on industry-related projects, and prepare for team competitions.",
+      "units": [],
+      "occurrence_count": 4,
+      "other_dates": [
+        "2026-09-22T23:30:00+00:00",
+        "2026-09-29T23:30:00+00:00",
+        "2026-10-06T23:30:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
       "id": "engage:12623232",
       "source": "engage",
       "title": "UNL Block and Bridle Meeting",
@@ -4036,6 +3844,69 @@
       "occurrence_count": 2,
       "other_dates": [
         "2026-09-30T00:00:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "engage:12511339",
+      "source": "engage",
+      "title": "RHA General Assembly",
+      "start": "2026-09-16T00:00:00+00:00",
+      "end": "2026-09-16T02:00:00+00:00",
+      "location": "Red Cloud A",
+      "org": "Residence Hall Association",
+      "category": "GroupBusiness",
+      "url": "https://unl.campuslabs.com/engage/event/12511339",
+      "description": "RHA serves as the student government of the University of Nebraska-Lincoln residence halls, recognized as the voice of students living in on-campus housing by University Housing and Residence Life. The Association is focused on enhancing the living and learning environment of the halls and is made up of elected…",
+      "units": [],
+      "occurrence_count": 4,
+      "other_dates": [
+        "2026-09-23T00:00:00+00:00",
+        "2026-09-30T00:00:00+00:00",
+        "2026-10-07T00:00:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "engage:12606324",
+      "source": "engage",
+      "title": "Ballroom Club Nights Fall 2026",
+      "start": "2026-09-16T01:30:00+00:00",
+      "end": "2026-09-16T03:30:00+00:00",
+      "location": "Union Ballroom",
+      "org": "Ballroom Dance Club",
+      "category": "Arts",
+      "url": "https://unl.campuslabs.com/engage/event/12606324",
+      "description": "Every Tuesday night, the Ballroom Club hosts free dance lessons for students and community members.",
+      "units": [],
+      "occurrence_count": 4,
+      "other_dates": [
+        "2026-09-23T01:30:00+00:00",
+        "2026-09-30T01:30:00+00:00",
+        "2026-10-07T01:30:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "engage:12702151",
+      "source": "engage",
+      "title": "Hip Hop Club Practice (Tuesdays)",
+      "start": "2026-09-16T02:00:00+00:00",
+      "end": "2026-09-16T03:00:00+00:00",
+      "location": "Fitness Room in City Campus Rec Center",
+      "org": "Hip Hop Dance Club",
+      "category": "Arts",
+      "url": "https://unl.campuslabs.com/engage/event/12702151",
+      "description": "A place for dancers of all levels to learn various styles of street dance!",
+      "units": [],
+      "occurrence_count": 4,
+      "other_dates": [
+        "2026-09-23T02:00:00+00:00",
+        "2026-09-30T02:00:00+00:00",
+        "2026-10-07T02:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -4423,6 +4294,26 @@
       "noise_reason": null
     },
     {
+      "id": "engage:12616326",
+      "source": "engage",
+      "title": "General Meeting",
+      "start": "2026-09-16T23:30:00+00:00",
+      "end": "2026-09-17T02:30:00+00:00",
+      "location": "CPEH 313",
+      "org": "Presentation Club",
+      "category": "Social",
+      "url": "https://unl.campuslabs.com/engage/event/12616326",
+      "description": "Members will use their personal electronic devices to create, share, and present presentations on various topics through the classroom projector.",
+      "units": [],
+      "occurrence_count": 3,
+      "other_dates": [
+        "2026-09-23T23:30:00+00:00",
+        "2026-09-30T23:30:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
       "id": "engage:12552904",
       "source": "engage",
       "title": "College of Business Student Advisory Board Meeting",
@@ -4452,6 +4343,23 @@
       "category": "GroupBusiness",
       "url": "https://unl.campuslabs.com/engage/event/12670055",
       "description": "Join us for our welcome meeting to get our first year started off right!",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:202641@events.unl.edu",
+      "source": "unl",
+      "title": "So Surreal: Behind the Masks",
+      "start": "2026-09-17T00:10:00+00:00",
+      "end": "2026-09-17T00:10:00+00:00",
+      "location": "Mary Riepma Ross Media Arts Center-Van Brunt Visitors Center Room Ross Theaters (123 & 124)",
+      "org": "Mary Riepma Ross Media Arts Center",
+      "category": null,
+      "url": "http://events.unl.edu/2026/09/16/202641/",
+      "description": "So Surreal: Behind the Masks is a feature documentary that traces the storied journey of Indigenous masks from the far reaches of Turtle Island (North America) into the hands of European Surrealists, influencing the work and worldview of some of the most well-known modern artists and writers of all time including Max…",
       "units": [],
       "occurrence_count": 1,
       "other_dates": [],
@@ -4586,6 +4494,23 @@
       "category": "CommunityService",
       "url": "https://unl.campuslabs.com/engage/event/12490039",
       "description": "Popcorn Pop-Up is the best hour of the week. An afternoon social hour with fellow Huskers. It’s free for every student, staff, and faculty with NCard. Snack on fresh-popped popcorn directly from the kettle. Join in the activity while learning about campus organizations and departments. Mingle with friends and new…",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "engage:12721012",
+      "source": "engage",
+      "title": "9/17/2026 Practice",
+      "start": "2026-09-17T20:00:00+00:00",
+      "end": "2026-09-18T00:00:00+00:00",
+      "location": "Lincoln Trap and Skeet",
+      "org": "Nebraska Shotgun Sports Club",
+      "category": "Athletics",
+      "url": "https://unl.campuslabs.com/engage/event/12721012",
+      "description": "We will be holding practice at Lincoln Trap and Skeet on 9/17/2026 from 3 pm to 7 pm. We will be practicing Trap, Skeet, and Sporting Clays.",
       "units": [],
       "occurrence_count": 1,
       "other_dates": [],
@@ -4815,10 +4740,11 @@
       "url": "https://unl.campuslabs.com/engage/event/12632219",
       "description": "Join us every Thursday at 6pm in Union 234 to hang out, talk, and have a good time. Following social hour, we have weekly meetings at 7pm to discuss varying topics related to the LGBTQA+ community and do fun activities. Check our Instagram Page for more details!",
       "units": [],
-      "occurrence_count": 3,
+      "occurrence_count": 4,
       "other_dates": [
         "2026-09-25T00:00:00+00:00",
-        "2026-10-02T00:00:00+00:00"
+        "2026-10-02T00:00:00+00:00",
+        "2026-10-09T00:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -5029,6 +4955,23 @@
       "noise_reason": null
     },
     {
+      "id": "engage:12719924",
+      "source": "engage",
+      "title": "BSA Soccer Tournament",
+      "start": "2026-09-18T23:30:00+00:00",
+      "end": "2026-09-19T02:30:00+00:00",
+      "location": "Vine Street Recreational Fields",
+      "org": "Bangladesh Students Association",
+      "category": "Athletics",
+      "url": "https://unl.campuslabs.com/engage/event/12719924",
+      "description": "We are attempting to arrange our annual soccer tournament for the Bangladeshi community. The community plays soccer very often and this tournament is in high demand. We have all the equipment required such as goal posts, balls, and jerseys.",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
       "id": "unl:201990@events.unl.edu",
       "source": "unl",
       "title": "Tennis - Doubles Tournament",
@@ -5118,6 +5061,25 @@
       "noise_reason": null
     },
     {
+      "id": "unl:202628@events.unl.edu",
+      "source": "unl",
+      "title": "East Campus IANR Tailgate",
+      "start": "2026-09-19T19:15:00+00:00",
+      "end": "2026-09-19T22:15:00+00:00",
+      "location": "Nebraska East Union Room Great Plains Room",
+      "org": "Jordan Slagle",
+      "category": null,
+      "url": "http://events.unl.edu/2026/09/19/202628/",
+      "description": "Join the Department of Agronomy and Horticulture at an East Campus Tailgate Sept. 19!\n\nFree Food, Football, and Fun!\nEveryone is invited to attend; no RSVP is required!\n\nSeptember 19, 2026\nNebraska vs North Dakota\nTailgate: 2:15 to 5:15 pm | Kickoff: 6:15 pm\n\nNebraska East Union, Great Plains Room\n1705 Arbor…",
+      "units": [
+        "casnr"
+      ],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
       "id": "unl:201253@events.unl.edu",
       "source": "unl",
       "title": "River Surfing Trip",
@@ -5162,6 +5124,23 @@
       "category": "Athletics",
       "url": "https://unl.campuslabs.com/engage/event/12706269",
       "description": "UNL annual Dodgeball Club tournament.",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "engage:12719925",
+      "source": "engage",
+      "title": "BSA Soccer Tournament",
+      "start": "2026-09-20T15:00:00+00:00",
+      "end": "2026-09-20T18:00:00+00:00",
+      "location": "Vine Street Recreational Fields",
+      "org": "Bangladesh Students Association",
+      "category": "Athletics",
+      "url": "https://unl.campuslabs.com/engage/event/12719925",
+      "description": "We are attempting to arrange our annual soccer tournament for the Bangladeshi community. The community plays soccer very often and this tournament is in high demand. We have all the equipment required such as goal posts, balls, and jerseys.",
       "units": [],
       "occurrence_count": 1,
       "other_dates": [],
@@ -5291,6 +5270,23 @@
       "noise_reason": null
     },
     {
+      "id": "engage:12721021",
+      "source": "engage",
+      "title": "9/21/2026 Practice",
+      "start": "2026-09-21T21:00:00+00:00",
+      "end": "2026-09-22T00:00:00+00:00",
+      "location": "Lincoln Trap and Skeet",
+      "org": "Nebraska Shotgun Sports Club",
+      "category": "Athletics",
+      "url": "https://unl.campuslabs.com/engage/event/12721021",
+      "description": "We will be holding practice at Lincoln Trap and Skeet on 9/21/2026 from 4 pm to 7 pm. We will be practicing Trap, Skeet, and Sporting Clays.",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
       "id": "engage:12559515",
       "source": "engage",
       "title": "Freshman Action Team Meetings",
@@ -5333,11 +5329,11 @@
       "title": "Research Presentation",
       "start": "2026-09-22T14:00:00+00:00",
       "end": "2026-09-22T15:00:00+00:00",
-      "location": "Nebraska Union Room Chimney Rock Room",
+      "location": "Nebraska Union Room Platte River Room",
       "org": "Lorey Wheeler",
       "category": null,
       "url": "http://events.unl.edu/2026/09/22/201713/",
-      "description": "Lisa Knoche, director of the Nebraska Academy for Early Childhood Research, will conduct a research presentation.\n\nMore details coming soon.\n\nThe presentation is free and open to the public.\n\nLearn more:",
+      "description": "Lisa Knoche, director of the Nebraska Academy for Early Childhood Research, will conduct a research presentation.\n\nPlease note: The room location has been changed to the Platte River Room. More details coming soon.\n\nThe presentation is free and open to the public.\n\nLearn more:",
       "units": [
         "cehs"
       ],
@@ -5420,11 +5416,11 @@
       "title": "Leadership Presentation",
       "start": "2026-09-22T19:00:00+00:00",
       "end": "2026-09-22T20:00:00+00:00",
-      "location": "Nebraska Union Room Chimney Rock Room",
+      "location": "Nebraska Union Room Platte River Room",
       "org": "Lorey Wheeler",
       "category": null,
       "url": "http://events.unl.edu/2026/09/22/201764/",
-      "description": "Lisa Knoche, director of the Nebraska Academy for Early Childhood Research, will conduct a leadership presentation.\n\nMore details coming soon.\n\nThe presentation is free and open to the public.\n\nLearn more:",
+      "description": "Lisa Knoche, director of the Nebraska Academy for Early Childhood Research, will conduct a leadership presentation.\n\nPlease note: the room location has been changed to the Platte River Room.\n\nMore details coming soon.\n\nThe presentation is free and open to the public.\n\nLearn more:",
       "units": [],
       "occurrence_count": 1,
       "other_dates": [],
@@ -5485,6 +5481,23 @@
       "noise_reason": null
     },
     {
+      "id": "engage:12674831",
+      "source": "engage",
+      "title": "National Society of Black Engineers General Meeting",
+      "start": "2026-09-22T22:00:00+00:00",
+      "end": "2026-09-22T23:00:00+00:00",
+      "location": "Kiewit Hall",
+      "org": "National Society of Black Engineers",
+      "category": "Social",
+      "url": "https://unl.campuslabs.com/engage/event/12674831",
+      "description": "Join us for the National Society of Black Engineers (NSBE) General Meeting! This is your opportunity to connect with fellow students and professionals passionate about advancing diversity, equity, and inclusion in STEM. We meet every other Tuesday at 5 pm in Kiewit Hall. Here is our tentative event calendar: 09/08:…",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
       "id": "unl:200843@events.unl.edu",
       "source": "unl",
       "title": "A World History of the American Revolution: A Conversation with Sarah M.S. Pearsall",
@@ -5519,6 +5532,42 @@
       ],
       "occurrence_count": 1,
       "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:202645@events.unl.edu",
+      "source": "unl",
+      "title": "Basics Yoga",
+      "start": "2026-09-22T23:00:00+00:00",
+      "end": "2026-09-22T23:50:00+00:00",
+      "location": "Campus Recreation Center Room",
+      "org": "Hattie Roberts",
+      "category": null,
+      "url": "http://events.unl.edu/2026/09/22/202645/",
+      "description": "This is a free beginners yoga class. Allow your body and mind to connect through the practice of yoga poses. This is a great opportunity for individuals who are new to the practice, but yogis from all levels are welcome to join.",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "engage:12718611",
+      "source": "engage",
+      "title": "Psych Club Meeting",
+      "start": "2026-09-22T23:30:00+00:00",
+      "end": "2026-09-23T00:30:00+00:00",
+      "location": "Burnett 80",
+      "org": "Psychology Club",
+      "category": "ThoughtfulLearning",
+      "url": "https://unl.campuslabs.com/engage/event/12718611",
+      "description": "Psych club weekly meeting covering various topics! See our instagram for more information regarding each individual meeting.",
+      "units": [],
+      "occurrence_count": 2,
+      "other_dates": [
+        "2026-10-06T23:30:00+00:00"
+      ],
       "noise_penalty": 0,
       "noise_reason": null
     },
@@ -5595,6 +5644,40 @@
       "noise_reason": null
     },
     {
+      "id": "unl:202588@events.unl.edu",
+      "source": "unl",
+      "title": "AFRI Revise and Resubmit Workshop",
+      "start": "2026-09-23T19:30:00+00:00",
+      "end": "2026-09-23T21:00:00+00:00",
+      "location": "Zoom (https://research.unl.edu/events/event_nuramp.php?EMSEventUUID=e6b52fe2-c60c-458e-bada-a4cbbc061130)",
+      "org": "Deb Hamernik",
+      "category": null,
+      "url": "http://events.unl.edu/2026/09/23/202588/",
+      "description": "Faculty are invited to participate in a virtual workshop to learn more about strategies for revising and resubmitting applications to the USDA NIFA Agriculture and Food Research Initiative (AFRI) competitive grants program. This virtual workshop will be on Wednesday, September 23 from 2:30-4:00 p.m.\n\nA virtual panel…",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:202607@events.unl.edu",
+      "source": "unl",
+      "title": "Spotlight on Czechia",
+      "start": "2026-09-23T21:00:00+00:00",
+      "end": "2026-09-23T22:00:00+00:00",
+      "location": "Louise Pound Hall Room Atrium - First Floor",
+      "org": "Global Experiences Office",
+      "category": null,
+      "url": "http://events.unl.edu/2026/09/23/202607/",
+      "description": "Do you want to learn about programs in Czechia? Do you want to hear from students that studied abroad in Czechia? Visit with us on Wednesday, September 23!",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
       "id": "engage:12552913",
       "source": "engage",
       "title": "Student Mobilization meeting",
@@ -5658,6 +5741,23 @@
       "category": "Social",
       "url": "https://unl.campuslabs.com/engage/event/12490051",
       "description": "Popcorn Pop-Up is the best hour of the week. An afternoon social hour with fellow Huskers. It’s free for every student, staff, and faculty with NCard. Snack on fresh-popped popcorn directly from the kettle. Join in the activity while learning about campus organizations and departments. Mingle with friends and new…",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "engage:12721023",
+      "source": "engage",
+      "title": "9/24/2026 Practice",
+      "start": "2026-09-24T20:00:00+00:00",
+      "end": "2026-09-25T00:00:00+00:00",
+      "location": "Lincoln Trap and Skeet",
+      "org": "Nebraska Shotgun Sports Club",
+      "category": "Athletics",
+      "url": "https://unl.campuslabs.com/engage/event/12721023",
+      "description": "We will be holding practice at Lincoln Trap and Skeet on 9/24/2026 from 3 pm to 7 pm. We will be practicing Trap, Skeet, and Sporting Clays.",
       "units": [],
       "occurrence_count": 1,
       "other_dates": [],
@@ -6088,7 +6188,7 @@
       "org": "Strategic Events",
       "category": null,
       "url": "http://events.unl.edu/2026/09/26/202333/",
-      "description": "Registration is Open!\n\nGet a behind-the-scenes look at the home of Husker Football with an exclusive Family Weekend Guided Memorial Stadium/Osborne Legacy Complex Tour!\n\nA tour guide will lead you through a portion of the new Tom Osborne Legacy Complex. A special video presentation will also showcase areas of the…",
+      "description": "Event Registration is FULL - Join the waitlist\n\nGet a behind-the-scenes look at the home of Husker Football with an exclusive Family Weekend Guided Memorial Stadium/Osborne Legacy Complex Tour!\n\nA tour guide will lead you through a portion of the new Tom Osborne Legacy Complex. A special video presentation will also…",
       "units": [],
       "occurrence_count": 1,
       "other_dates": [],
@@ -6234,15 +6334,15 @@
       "noise_reason": null
     },
     {
-      "id": "unl:201487@events.unl.edu",
+      "id": "unl:202646@events.unl.edu",
       "source": "unl",
       "title": "Yoga at the Sheldon",
       "start": "2026-09-27T15:30:00+00:00",
       "end": "2026-09-27T16:30:00+00:00",
-      "location": "Sheldon Museum of Art Room",
+      "location": "Campus Recreation Center Room",
       "org": "Hattie Roberts",
       "category": null,
-      "url": "http://events.unl.edu/2026/09/27/201487/",
+      "url": "http://events.unl.edu/2026/09/27/202646/",
       "description": "Sheldon Museum of Art and Campus Recreation are partnering to offer an hour-long yoga class, appropriate for all levels, at the museum. Yoga is a spiritual practice that connects the mind, body, and breath through physical postures (asanas). Breathing exercises and meditation take place to promote mindfulness and…",
       "units": [],
       "occurrence_count": 1,
@@ -6703,6 +6803,23 @@
       "noise_reason": null
     },
     {
+      "id": "engage:12432942",
+      "source": "engage",
+      "title": "Shotokan Ohshima Karate-do & Self-Defense",
+      "start": "2026-09-29T22:45:00+00:00",
+      "end": "2026-09-30T00:30:00+00:00",
+      "location": "Nebraska Union",
+      "org": "Shotokan Karate of America Club",
+      "category": "Athletics",
+      "url": "https://unl.campuslabs.com/engage/event/12432942",
+      "description": "Please see our website and Google calendar for the most up-to-date practice schedule: https://unl.ska.org/karate-class-schedule/ Shotokan Ohshima is a very traditional style and differs from many martial arts schools. Comprehensive, challenging exercise is only one of the many benefits of karate practice. Teaching…",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
       "id": "unl:201255@events.unl.edu",
       "source": "unl",
       "title": "Lincoln Bike Trails and Ice Cream Ride",
@@ -6754,16 +6871,16 @@
       "noise_reason": null
     },
     {
-      "id": "unl:201488@events.unl.edu",
+      "id": "unl:202606@events.unl.edu",
       "source": "unl",
-      "title": "CosmixxedFit and Brownies",
+      "title": "CosmixxedFit",
       "start": "2026-09-30T01:00:00+00:00",
       "end": "2026-09-30T01:50:00+00:00",
-      "location": "17th Street Green Space Room",
+      "location": "18th & S Support Building Room 18th & S Courts",
       "org": "Hattie Roberts",
       "category": null,
-      "url": "http://events.unl.edu/2026/09/29/201488/",
-      "description": "Celebrate Homecoming by attending this CosmixxedFit & Brownies class. This people-inspired fitness program combines out of this world dance movement and boot camp toning with all genres of music, including hip-hop and pop. Dance along to intergalactic and familiar songs, utilizing repetitive and easy-to-follow moves.…",
+      "url": "http://events.unl.edu/2026/09/29/202606/",
+      "description": "Celebrate Homecoming by attending this CosmixxedFit class. This people-inspired fitness program combines out of this world dance movement and boot camp toning with all genres of music, including hip-hop and pop. Dance along to intergalactic and familiar songs, utilizing repetitive and easy-to-follow moves.",
       "units": [],
       "occurrence_count": 1,
       "other_dates": [],
@@ -6805,15 +6922,15 @@
       "noise_reason": null
     },
     {
-      "id": "unl:201489@events.unl.edu",
+      "id": "unl:202649@events.unl.edu",
       "source": "unl",
       "title": "SUP Yoga",
       "start": "2026-09-30T19:00:00+00:00",
       "end": "2026-09-30T19:50:00+00:00",
-      "location": "Recreation and Wellness Center Room Pool",
+      "location": "Campus Recreation Center Room CREC Pool",
       "org": "Hattie Roberts",
       "category": null,
-      "url": "http://events.unl.edu/2026/09/30/201489/",
+      "url": "http://events.unl.edu/2026/09/30/202649/",
       "description": "Celebrate National Women's Health & Fitness Day by attending Stand Up Paddleboard Yoga. Take your practice of Yoga to a new level: on the water in the CREC Pool! This class uses paddleboards to create a new twist to Yoga poses. Improve your strength, flexibility, and balance in this SUP Yoga class.",
       "units": [],
       "occurrence_count": 1,
@@ -6866,6 +6983,23 @@
       "category": null,
       "url": "http://events.unl.edu/2026/09/30/201257/",
       "description": "Discover the freedom and convenience of traveling by bike! This free, two-hour class is designed for UNL community members who want to learn or re-learn how to ride a bicycle in a supportive and welcoming environment. Participants will build confidence while learning essential skills such as balancing, steering,…",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:202652@events.unl.edu",
+      "source": "unl",
+      "title": "Outdoor Pop Pilates",
+      "start": "2026-09-30T23:00:00+00:00",
+      "end": "2026-09-30T23:50:00+00:00",
+      "location": "17th Street Green Space Room",
+      "org": "Hattie Roberts",
+      "category": null,
+      "url": "http://events.unl.edu/2026/09/30/202652/",
+      "description": "Pilates is a form of low-impact exercise that uses controlled movements to strengthen muscles, improve flexibility, and center the mind. The six Pilates principles are at the forefront of each movement throughout class: centering, concentration, control, precision, breath, and flow. This class will take place outdoors…",
       "units": [],
       "occurrence_count": 1,
       "other_dates": [],
@@ -7763,6 +7897,27 @@
       "noise_reason": null
     },
     {
+      "id": "unl:201507@events.unl.edu",
+      "source": "unl",
+      "title": "CAS Inquire",
+      "start": "2026-10-06T22:00:00+00:00",
+      "end": "2026-10-06T23:00:00+00:00",
+      "location": "Jackie Gaughan Multicultural Center Room Ubuntu Room/202, and online at zoom (https://unl.zoom.us/webinar/register/WN_c94a9JnbSki2UThis4QdwA)",
+      "org": "Mary Klucas",
+      "category": null,
+      "url": "http://events.unl.edu/2026/10/06/201507/",
+      "description": "This lecture will explore the parallels between the chaos of societal conflicts and microbial-scale conflicts which promote chronic inflammation and cancer.\n\nAnalogous to societal conflicts, dysbiosis of the microbiome can cause disruption of cellular communication, cellular homeostasis, and resistance to disease.…",
+      "units": [
+        "math"
+      ],
+      "occurrence_count": 2,
+      "other_dates": [
+        "2026-11-03T23:00:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
       "id": "unl:202586@events.unl.edu",
       "source": "unl",
       "title": "Two-Part Ceramic Workshop",
@@ -8013,6 +8168,23 @@
       "noise_reason": null
     },
     {
+      "id": "engage:12490098",
+      "source": "engage",
+      "title": "Popcorn Pop-Up: Counseling & Psychological Services -AND- University Health Center",
+      "start": "2026-10-08T20:00:00+00:00",
+      "end": "2026-10-08T21:00:00+00:00",
+      "location": "Nebraska Union: The Crib",
+      "org": "Housing and Dining",
+      "category": "Social",
+      "url": "https://unl.campuslabs.com/engage/event/12490098",
+      "description": "Popcorn Pop-Up is the best hour of the week. An afternoon social hour with fellow Huskers. It’s free for every student, staff, and faculty with NCard. Snack on fresh-popped popcorn directly from the kettle. Join in the activity while learning about campus organizations and departments. Mingle with friends and new…",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
       "id": "unl:201336@events.unl.edu",
       "source": "unl",
       "title": "Piece Out: Puzzle Challenge",
@@ -8036,10 +8208,31 @@
       "start": "2026-10-08T21:30:00+00:00",
       "end": "2026-10-09T00:00:00+00:00",
       "location": "Nebraska Union Room",
-      "org": "Students for Justice in Palestine",
+      "org": "Students for Justice in Palestine / Students For Justice in Palestine",
       "category": null,
       "url": "http://events.unl.edu/2026/10/08/201228/",
       "description": "Joining us is human rights activist, Nida Abu Baker, who is the daughter of Shukri Abu Baker, a Palestinian political prisoner, where she will discuss her and her father's experiences and the experiences of Palestinian political prisoners in the U.S. and abroad. Additionally, we will provide supplies and directions…",
+      "units": [],
+      "cross_listed_sources": [
+        "engage",
+        "unl"
+      ],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "engage:12669971",
+      "source": "engage",
+      "title": "October General Meeting",
+      "start": "2026-10-08T22:00:00+00:00",
+      "end": "2026-10-08T23:00:00+00:00",
+      "location": "Architecture Hall Room 107",
+      "org": "American Institute of Architecture Students",
+      "category": "Social",
+      "url": "https://unl.campuslabs.com/engage/event/12669971",
+      "description": "Join us for this month's meeting to go over AIAS news and our upcoming Arch Hall-oween event!",
       "units": [],
       "occurrence_count": 1,
       "other_dates": [],
@@ -8060,6 +8253,23 @@
       "units": [
         "english"
       ],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "engage:12705560",
+      "source": "engage",
+      "title": "Hispanic/Latino Trivia night",
+      "start": "2026-10-08T23:30:00+00:00",
+      "end": "2026-10-09T01:30:00+00:00",
+      "location": "Nebraska Union Heritage Room",
+      "org": "Sigma Lambda Beta - Phi Alpha",
+      "category": "Cultural",
+      "url": "https://unl.campuslabs.com/engage/event/12705560",
+      "description": "Testing your cultural knowledge with trivia on different Latin and Hispanic cultures",
+      "units": [],
       "occurrence_count": 1,
       "other_dates": [],
       "noise_penalty": 0,
@@ -8640,6 +8850,23 @@
       "noise_reason": null
     },
     {
+      "id": "unl:202589@events.unl.edu",
+      "source": "unl",
+      "title": "PlantNebraska presents Plants and Pints",
+      "start": "2026-10-20T23:00:00+00:00",
+      "end": "2026-10-21T02:00:00+00:00",
+      "location": "Crete Carrier Riverview Lodge Room",
+      "org": "PlantNebraska",
+      "category": null,
+      "url": "http://events.unl.edu/2026/10/20/202589/",
+      "description": "PlantNebraska will hold its annual fall event, Plants and Pints, on Tuesday, October 20, from 6 to 9 p.m. at Crete Carrier Riverview Lodge at Mahoney State Park in Ashland. Benjamin Vogt, nationally recognized landscape designer and author, will be the keynote speaker.\n\nVogt is the author of \"Prairie Up: An…",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
       "id": "unl:199725@events.unl.edu",
       "source": "unl",
       "title": "World Ballet Company: Swan Lake",
@@ -9035,7 +9262,7 @@
       "url": "http://events.unl.edu/2026/10/26/202547/",
       "description": "our benefits selection from the prior year will automatically roll over, with the exception of flexible spending accounts. You only need to change what you want to be different, or add new benefits. The health risk assessment and tobacco/nicotine designation need to be completed on a yearly basis.\n\nWhen you add or…",
       "units": [],
-      "occurrence_count": 12,
+      "occurrence_count": 13,
       "other_dates": [
         "2026-10-27T22:00:00+00:00",
         "2026-10-28T22:00:00+00:00",
@@ -9208,7 +9435,7 @@
       "noise_reason": null
     },
     {
-      "id": "unl:202250@events.unl.edu",
+      "id": "unl:202254@events.unl.edu",
       "source": "unl",
       "title": "State of the Agency Lecture",
       "start": "2026-10-29T17:30:00+00:00",
@@ -9216,7 +9443,7 @@
       "location": "Nebraska Union Room Swanson Auditorium",
       "org": "Trisha Rhodes",
       "category": null,
-      "url": "http://events.unl.edu/2026/10/29/202250/",
+      "url": "http://events.unl.edu/2026/10/29/202254/",
       "description": "Lecture",
       "units": [],
       "occurrence_count": 1,
@@ -9308,6 +9535,23 @@
       "units": [
         "casnr"
       ],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:201357@events.unl.edu",
+      "source": "unl",
+      "title": "Zine Making Workshop",
+      "start": "2026-11-03T21:00:00+00:00",
+      "end": "2026-11-03T23:00:00+00:00",
+      "location": "Love Library South Room 221 (Peterson Room)",
+      "org": "Meghan Otoupalik / Libraries",
+      "category": null,
+      "url": "http://events.unl.edu/2026/11/03/201357/",
+      "description": "Have you heard of Zines? Do you make Zines? Interested in learning more about Zines? Attend these workshops to create and learn about Zines! Materials provided. \n\nThe libraries will be hosting recurring zine workshops where you will learn about the history and significance of Zines, as well as have an opportunity to…",
+      "units": [],
       "occurrence_count": 1,
       "other_dates": [],
       "noise_penalty": 0,
@@ -9611,6 +9855,23 @@
       "category": null,
       "url": "http://events.unl.edu/2026/11/06/199728/",
       "description": "Adam Pascal and Anthony Rapp, original stars of RENT, team up in a brand-new duo show featuring musical highlights from their legendary careers, songs that influenced their lives, and the iconic hits from where it all began - meeting at RENT.",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:202543@events.unl.edu",
+      "source": "unl",
+      "title": "Curator Tour: Precarious and Abstract Gestures",
+      "start": "2026-11-07T20:00:00+00:00",
+      "end": "2026-11-07T21:00:00+00:00",
+      "location": "Sheldon Museum of Art Room",
+      "org": "Sheldon Museum",
+      "category": null,
+      "url": "http://events.unl.edu/2026/11/07/202543/",
+      "description": "Gain new insights into two collection-based exhibitions with the curators who organized them. Abstract Gesturesexplores mid-century American abstraction which prioritized experimentation, expression, and process; it will bepresentedbySheldon's Chief Curator and Associate Director for Curatorial Affairs, Magdalena…",
       "units": [],
       "occurrence_count": 1,
       "other_dates": [],
