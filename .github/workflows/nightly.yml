@@ -1,0 +1,65 @@
+name: UNL events — nightly fetch
+
+# Refreshes data/*.json and data/ics/*.ics from the live UNL and Engage
+# feeds, and commits the result if it changed. GitHub Pages (branch-deploy)
+# republishes automatically on any push to main, so the live page updates
+# within a few minutes of this job finishing.
+#
+# If this job fails, nothing is committed and the site keeps serving
+# whatever was last committed -- which is exactly why index.html shows a
+# staleness banner after 36 hours: a failing job here would otherwise be
+# invisible to anyone who isn't watching the Actions tab. See
+# MAINTAINING.md for what to do when this fails.
+#
+# Deliberately simpler than ne-contracts-daily.yml's cache-restore dance:
+# that complexity exists there because its payload is hundreds of MB and
+# can't live in git history. This job's entire output is a few hundred KB,
+# so committing it directly is the boring, correct choice.
+
+on:
+  schedule:
+    # 09:00 UTC is ~4am Central (CDT) / ~3am Central (CST) -- overnight for
+    # the site's actual audience either way.
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: unl-events-nightly
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    # 23 unit calendars x 3 retries x 30s timeout is ~35 min worst case;
+    # anything past that is hung, not slow. GH's default ceiling is 6 hours.
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # Fails the job (and skips the commit below) if either feed is empty,
+      # unreachable, or unparseable -- see the "ERROR: zero events" check
+      # in fetch_events.py. That's this project's smoke test.
+      - name: Fetch and rebuild event data
+        run: python3 scripts/fetch_events.py
+
+      - name: Commit if data changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "no change in event data"
+          else
+            git commit -m "Nightly UNL events refresh"
+            git push
+          fi
