@@ -1,74 +1,15 @@
 {
-  "generated_at": "2026-09-12T15:09:02.998457+00:00",
+  "generated_at": "2026-09-13T13:40:49.355814+00:00",
   "window_days": 60,
   "sources": {
     "unl": {
-      "raw_count": 1165
+      "raw_count": 1161
     },
     "engage": {
-      "raw_count": 478
+      "raw_count": 493
     }
   },
   "events": [
-    {
-      "id": "unl:201387@events.unl.edu",
-      "source": "unl",
-      "title": "Quantum Approaches",
-      "start": "2026-09-12T18:00:00+00:00",
-      "end": "2026-09-12T21:10:00+00:00",
-      "location": "",
-      "org": "Ana Podariu",
-      "category": null,
-      "url": "http://events.unl.edu/2026/09/12/201387/",
-      "description": "This is a professional development workshop for undergraduate students in all STEM majors who are curious about potentially pursuing careers in Quantum Science and Engineering. The workshop will take place over Zoom on Saturday, September 12, 2026.\n\nWe will have researchers with experience in a variety of science,…",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:201251-978987@events.unl.edu",
-      "source": "unl",
-      "title": "Intro To Whitewater Kayaking Trip",
-      "start": "2026-09-12T20:00:00+00:00",
-      "end": "2026-09-12T20:00:00+00:00",
-      "location": "Outdoor Adventures Center Room",
-      "org": "Audrey Krimm",
-      "category": null,
-      "url": "http://events.unl.edu/2026/09/12/201251/",
-      "description": "Required Pre-Trip Meeting: 7:00-9:00pm Tuesday, Sept. 8\n\nCome learn and practice your whitewater kayaking and \"surfing\" skills at Norfolk's new whitewater park! You'll learn how to navigate rapids by boat and surfboard during the day and enjoy great meals and camping at a nearby state park in the evening.\n\nThe cost of…",
-      "units": [],
-      "occurrence_count": 2,
-      "other_dates": [
-        "2026-09-13T20:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:202308-980564@events.unl.edu",
-      "source": "unl",
-      "title": "The Glories of Nature art exhibition",
-      "start": "2026-09-13T12:00:00+00:00",
-      "end": "2026-09-13T12:00:00+00:00",
-      "location": "Nebraska East Union Room Loft Gallery (on the 3rd Level)",
-      "org": "Veronica Riepe",
-      "category": null,
-      "url": "http://events.unl.edu/2026/09/13/202308/",
-      "description": "Loft Gallery is open 7 a.m. to midnight Monday-Friday, as well as 9 a.m. to midnight Saturday & Sunday.\n\nAbout the exhibition: The Glories of Nature\n\nThe works shown in this exhibit are done by members of the Great Plains Chapter of the Guild of Natural Science Illustrators (GNSI, Inc., www.gnsi.org). The GNSI is an…",
-      "units": [],
-      "occurrence_count": 18,
-      "other_dates": [
-        "2026-09-14T12:00:00+00:00",
-        "2026-09-15T12:00:00+00:00",
-        "2026-09-16T12:00:00+00:00",
-        "2026-09-17T12:00:00+00:00",
-        "2026-09-18T12:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
     {
       "id": "unl:200835-978223@events.unl.edu",
       "source": "unl",
@@ -198,6 +139,23 @@
       "category": "Social",
       "url": "https://unl.campuslabs.com/engage/event/12737161",
       "description": "Sunday section of FYI meeting #1!",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:201251-978988@events.unl.edu",
+      "source": "unl",
+      "title": "Intro To Whitewater Kayaking Trip",
+      "start": "2026-09-13T20:00:00+00:00",
+      "end": "2026-09-13T20:00:00+00:00",
+      "location": "Outdoor Adventures Center Room",
+      "org": "Audrey Krimm",
+      "category": null,
+      "url": "http://events.unl.edu/2026/09/13/201251/",
+      "description": "Required Pre-Trip Meeting: 7:00-9:00pm Tuesday, Sept. 8\n\nCome learn and practice your whitewater kayaking and \"surfing\" skills at Norfolk's new whitewater park! You'll learn how to navigate rapids by boat and surfboard during the day and enjoy great meals and camping at a nearby state park in the evening.\n\nThe cost of…",
       "units": [],
       "occurrence_count": 1,
       "other_dates": [],
@@ -371,6 +329,29 @@
       "noise_reason": null
     },
     {
+      "id": "unl:202308-980565@events.unl.edu",
+      "source": "unl",
+      "title": "The Glories of Nature art exhibition",
+      "start": "2026-09-14T12:00:00+00:00",
+      "end": "2026-09-14T12:00:00+00:00",
+      "location": "Nebraska East Union Room Loft Gallery (on the 3rd Level)",
+      "org": "Veronica Riepe",
+      "category": null,
+      "url": "http://events.unl.edu/2026/09/14/202308/",
+      "description": "Loft Gallery is open 7 a.m. to midnight Monday-Friday, as well as 9 a.m. to midnight Saturday & Sunday.\n\nAbout the exhibition: The Glories of Nature\n\nThe works shown in this exhibit are done by members of the Great Plains Chapter of the Guild of Natural Science Illustrators (GNSI, Inc., www.gnsi.org). The GNSI is an…",
+      "units": [],
+      "occurrence_count": 17,
+      "other_dates": [
+        "2026-09-15T12:00:00+00:00",
+        "2026-09-16T12:00:00+00:00",
+        "2026-09-17T12:00:00+00:00",
+        "2026-09-18T12:00:00+00:00",
+        "2026-09-19T12:00:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
       "id": "unl:197504-975308@events.unl.edu",
       "source": "unl",
       "title": "Research Integrity Week",
@@ -457,8 +438,10 @@
       "url": "https://unl.campuslabs.com/engage/event/12680830",
       "description": "Spend your lunch with SJP every second Monday of the month! Grab a bite, relax in the Oasis Lounge, and enjoy a discussion with SJP and community members on topics related to politics, university culture, and more. We will feature and consume short material (like films, etc) and debrief, reflect, and chat on different…",
       "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
+      "occurrence_count": 2,
+      "other_dates": [
+        "2026-10-12T17:30:00+00:00"
+      ],
       "noise_penalty": 0,
       "noise_reason": null
     },
@@ -474,7 +457,7 @@
       "url": "https://unl.campuslabs.com/engage/event/12600894",
       "description": "QR Code Attendance",
       "units": [],
-      "occurrence_count": 20,
+      "occurrence_count": 21,
       "other_dates": [
         "2026-09-15T17:30:00+00:00",
         "2026-09-16T17:30:00+00:00",
@@ -499,7 +482,7 @@
       "units": [
         "cehs"
       ],
-      "occurrence_count": 25,
+      "occurrence_count": 26,
       "other_dates": [
         "2026-09-16T19:00:00+00:00",
         "2026-09-18T19:00:00+00:00",
@@ -522,7 +505,7 @@
       "url": "https://unl.campuslabs.com/engage/event/12720732",
       "description": "The Rodeo team will be practicing at the event center.",
       "units": [],
-      "occurrence_count": 8,
+      "occurrence_count": 9,
       "other_dates": [
         "2026-09-15T20:00:00+00:00",
         "2026-09-16T20:00:00+00:00",
@@ -644,11 +627,12 @@
       "url": "https://unl.campuslabs.com/engage/event/12432438",
       "description": "Every week we do a different craft together! Crafts range from anything from crochet to balloon animals, so check out our Instagram (@mindandcraftunl) or GroupMe to learn where and what we're doing this week! We provide all materials for the planned craft of the night for free, but feel free to bring your own supplies…",
       "units": [],
-      "occurrence_count": 4,
+      "occurrence_count": 5,
       "other_dates": [
         "2026-09-21T22:00:00+00:00",
         "2026-09-28T22:00:00+00:00",
-        "2026-10-05T22:00:00+00:00"
+        "2026-10-05T22:00:00+00:00",
+        "2026-10-12T22:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -686,11 +670,12 @@
       "url": "https://unl.campuslabs.com/engage/event/12603959",
       "description": "Join us for our weekly FLEX meeting where we check in on ongoing projects, share updates, and talk through next steps. Meetings are a mix of open discussion, design brainstorming, and planning future work, so whether you’re actively working on a project or just curious about what FLEX does, you’re welcome to come by.…",
       "units": [],
-      "occurrence_count": 4,
+      "occurrence_count": 5,
       "other_dates": [
         "2026-09-21T22:00:00+00:00",
         "2026-09-28T22:00:00+00:00",
-        "2026-10-05T22:00:00+00:00"
+        "2026-10-05T22:00:00+00:00",
+        "2026-10-12T22:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -728,9 +713,10 @@
       "url": "https://unl.campuslabs.com/engage/event/12621854",
       "description": "Going over chapter updates and making future plans",
       "units": [],
-      "occurrence_count": 2,
+      "occurrence_count": 3,
       "other_dates": [
-        "2026-09-28T22:30:00+00:00"
+        "2026-09-28T22:30:00+00:00",
+        "2026-10-12T22:30:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -764,9 +750,10 @@
       "url": "https://unl.campuslabs.com/engage/event/12687331",
       "description": "This is our general meeting where we will be educating, creating fun crafts, and meeting new people.",
       "units": [],
-      "occurrence_count": 2,
+      "occurrence_count": 3,
       "other_dates": [
-        "2026-09-28T22:30:00+00:00"
+        "2026-09-28T22:30:00+00:00",
+        "2026-10-12T22:30:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -837,11 +824,12 @@
       "url": "https://unl.campuslabs.com/engage/event/12616203",
       "description": "Aerospace Experimental Payloads weekly meeting to discuss and work on the design, fabrication, and assembly of their high altitude satellite project",
       "units": [],
-      "occurrence_count": 4,
+      "occurrence_count": 5,
       "other_dates": [
         "2026-09-21T23:00:00+00:00",
         "2026-09-28T23:00:00+00:00",
-        "2026-10-05T23:00:00+00:00"
+        "2026-10-05T23:00:00+00:00",
+        "2026-10-12T23:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -858,11 +846,12 @@
       "url": "https://unl.campuslabs.com/engage/event/12534688",
       "description": "Come watch Dr. Jill Morstad teach dog owners how to train their dogs' basic commands, and also help participate in some exercises by petting and holding the dogs.",
       "units": [],
-      "occurrence_count": 4,
+      "occurrence_count": 5,
       "other_dates": [
         "2026-09-21T23:15:00+00:00",
         "2026-09-28T23:15:00+00:00",
-        "2026-10-05T23:15:00+00:00"
+        "2026-10-05T23:15:00+00:00",
+        "2026-10-12T23:15:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -879,11 +868,12 @@
       "url": "https://unl.campuslabs.com/engage/event/12559454",
       "description": "The Afrikan Peoples Union meets every Monday @ 6:30 PM in the Ubuntu Room. We will conduct different activities, learning opportunities, invite speakers, or occasionally have food.",
       "units": [],
-      "occurrence_count": 4,
+      "occurrence_count": 5,
       "other_dates": [
         "2026-09-21T23:30:00+00:00",
         "2026-09-28T23:30:00+00:00",
-        "2026-10-05T23:30:00+00:00"
+        "2026-10-05T23:30:00+00:00",
+        "2026-10-12T23:30:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -900,11 +890,12 @@
       "url": "https://unl.campuslabs.com/engage/event/12571118",
       "description": "Come play with us 6:30 to 8:30 PM Mondays",
       "units": [],
-      "occurrence_count": 4,
+      "occurrence_count": 5,
       "other_dates": [
         "2026-09-21T23:30:00+00:00",
         "2026-09-28T23:30:00+00:00",
-        "2026-10-05T23:30:00+00:00"
+        "2026-10-05T23:30:00+00:00",
+        "2026-10-12T23:30:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -921,11 +912,12 @@
       "url": "https://unl.campuslabs.com/engage/event/12645908",
       "description": "Each meeting will consist of 30 minutes of learning GeoGuessr strategies, clues, and metas, followed by 30 minutes of playing GeoGuessr games and challenges to practice what we learned.",
       "units": [],
-      "occurrence_count": 4,
+      "occurrence_count": 5,
       "other_dates": [
         "2026-09-22T00:00:00+00:00",
         "2026-09-29T00:00:00+00:00",
-        "2026-10-06T00:00:00+00:00"
+        "2026-10-06T00:00:00+00:00",
+        "2026-10-13T00:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -959,11 +951,12 @@
       "url": "https://unl.campuslabs.com/engage/event/12737581",
       "description": "Weekly meetings where members gather to discuss chapter business, plan upcoming events, review goals, and uphold the values and mission of Lambda Theta Nu Sorority, Inc. Attendance is required to ensure consistent communication, accountability, and sisterhood engagement.",
       "units": [],
-      "occurrence_count": 4,
+      "occurrence_count": 5,
       "other_dates": [
         "2026-09-22T00:00:00+00:00",
         "2026-09-29T00:00:00+00:00",
-        "2026-10-06T00:00:00+00:00"
+        "2026-10-06T00:00:00+00:00",
+        "2026-10-13T00:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -980,11 +973,12 @@
       "url": "https://unl.campuslabs.com/engage/event/12622809",
       "description": "Cru will be holding a weekly manhood study to prepare young guys into men, both in character and spiritually. In a world with conflicting temptations pushing and pulling young men into struggles with sin, this study is great for guys looking to take a firm foundation in Jesus Christ.",
       "units": [],
-      "occurrence_count": 4,
+      "occurrence_count": 5,
       "other_dates": [
         "2026-09-22T01:30:00+00:00",
         "2026-09-29T01:30:00+00:00",
-        "2026-10-06T01:30:00+00:00"
+        "2026-10-06T01:30:00+00:00",
+        "2026-10-13T01:30:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -1023,7 +1017,7 @@
       "url": "https://unl.campuslabs.com/engage/event/12733878",
       "description": "UNL Women's Club Volleyball practice at Kinetic Sports Complex from 9 p.m. to 11 p.m.",
       "units": [],
-      "occurrence_count": 8,
+      "occurrence_count": 9,
       "other_dates": [
         "2026-09-17T02:00:00+00:00",
         "2026-09-22T02:00:00+00:00",
@@ -1206,7 +1200,7 @@
       "noise_reason": null
     },
     {
-      "id": "unl:202604@events.unl.edu",
+      "id": "unl:201485@events.unl.edu",
       "source": "unl",
       "title": "Kiewit Green Space Yoga",
       "start": "2026-09-15T19:30:00+00:00",
@@ -1214,7 +1208,7 @@
       "location": "Kiewit Hall Room Kiewit Green Space",
       "org": "Hattie Roberts",
       "category": null,
-      "url": "http://events.unl.edu/2026/09/15/202604/",
+      "url": "http://events.unl.edu/2026/09/15/201485/",
       "description": "Yoga is a spiritual practice that connects the mind, body, and breath through physical postures (asanas). Breathing exercises and meditation take place to promote mindfulness and listening to the body. This class will take place outdoors on the Kiewit Hall Green Space. Please bring your own mat or towel.",
       "units": [],
       "occurrence_count": 1,
@@ -1893,7 +1887,7 @@
       "units": [
         "casnr"
       ],
-      "occurrence_count": 8,
+      "occurrence_count": 9,
       "other_dates": [
         "2026-09-23T18:00:00+00:00",
         "2026-09-30T18:00:00+00:00",
@@ -2390,7 +2384,7 @@
       "units": [
         "casnr"
       ],
-      "occurrence_count": 8,
+      "occurrence_count": 9,
       "other_dates": [
         "2026-09-23T23:30:00+00:00",
         "2026-09-30T23:30:00+00:00",
@@ -4395,10 +4389,11 @@
       "url": "https://unl.campuslabs.com/engage/event/12559515",
       "description": "The Freshman Action Team will meet at 5:30 pm in the Ubuntu Room before every APU meeting.",
       "units": [],
-      "occurrence_count": 3,
+      "occurrence_count": 4,
       "other_dates": [
         "2026-09-28T22:30:00+00:00",
-        "2026-10-05T22:30:00+00:00"
+        "2026-10-05T22:30:00+00:00",
+        "2026-10-12T22:30:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -4650,15 +4645,15 @@
       "noise_reason": null
     },
     {
-      "id": "unl:202605@events.unl.edu",
+      "id": "unl:202645@events.unl.edu",
       "source": "unl",
       "title": "Basics Yoga",
       "start": "2026-09-22T23:00:00+00:00",
       "end": "2026-09-22T23:50:00+00:00",
-      "location": "Campus Recreation Center Room Multipurpose Room",
+      "location": "Campus Recreation Center Room",
       "org": "Hattie Roberts",
       "category": null,
-      "url": "http://events.unl.edu/2026/09/22/202605/",
+      "url": "http://events.unl.edu/2026/09/22/202645/",
       "description": "This is a free beginners yoga class. Allow your body and mind to connect through the practice of yoga poses. This is a great opportunity for individuals who are new to the practice, but yogis from all levels are welcome to join.",
       "units": [],
       "occurrence_count": 1,
@@ -8020,6 +8015,23 @@
       "noise_reason": null
     },
     {
+      "id": "engage:12682271",
+      "source": "engage",
+      "title": "Hot Pilates at Lotus House of Yoga",
+      "start": "2026-10-13T01:30:00+00:00",
+      "end": "2026-10-13T02:30:00+00:00",
+      "location": "Lotus House of Yoga",
+      "org": "University Program Council",
+      "category": "Athletics",
+      "url": "https://unl.campuslabs.com/engage/event/12682271",
+      "description": "Join UPC for Hot Pilates at Lotus House of Yoga! This class combines classic Pilates movements with the added intensity of heat, targeting core strength, flexibility, and endurance. Expect a low-impact but high-intensity workout that leaves you stronger and more centered. All levels welcome, so just bring a mat,…",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
       "id": "unl:202113@events.unl.edu",
       "source": "unl",
       "title": "CE-CERT Training for Student-Facing Professionals",
@@ -8086,8 +8098,10 @@
       "url": "http://events.unl.edu/2026/10/14/201348/",
       "description": "Take a paws from your day and spend some time with certified therapy dog teams at Love Library! Students, faculty, and staff are invited to relax, recharge, and enjoy time with furry friends. Big Red Pawp-Ups are hosted by Counseling and Psychological Services and University Libraries in compliance with the University…",
       "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
+      "occurrence_count": 2,
+      "other_dates": [
+        "2026-11-11T18:00:00+00:00"
+      ],
       "noise_penalty": 0,
       "noise_reason": null
     },
@@ -8887,7 +8901,7 @@
       "url": "http://events.unl.edu/2026/10/26/202547/",
       "description": "our benefits selection from the prior year will automatically roll over, with the exception of flexible spending accounts. You only need to change what you want to be different, or add new benefits. The health risk assessment and tobacco/nicotine designation need to be completed on a yearly basis.\n\nWhen you add or…",
       "units": [],
-      "occurrence_count": 16,
+      "occurrence_count": 17,
       "other_dates": [
         "2026-10-27T22:00:00+00:00",
         "2026-10-28T22:00:00+00:00",
@@ -9069,9 +9083,10 @@
       "units": [
         "physics"
       ],
-      "occurrence_count": 2,
+      "occurrence_count": 3,
       "other_dates": [
-        "2026-11-05T01:00:00+00:00"
+        "2026-11-05T01:00:00+00:00",
+        "2026-11-12T01:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -9323,7 +9338,7 @@
       "noise_reason": null
     },
     {
-      "id": "unl:200364@events.unl.edu",
+      "id": "unl:200366@events.unl.edu",
       "source": "unl",
       "title": "Hyde Lecture - Valerie Stahl",
       "start": "2026-11-04T22:00:00+00:00",
@@ -9331,7 +9346,7 @@
       "location": "Architecture Hall West Room Room 127",
       "org": "Kerry McCullough Vondrak",
       "category": null,
-      "url": "http://events.unl.edu/2026/11/04/200364/",
+      "url": "http://events.unl.edu/2026/11/04/200366/",
       "description": "The Hyde Lecture Series is a long-standing endowed program within UNL's College of Architecture. Each year the College hosts experts in the disciplines of Architecture, Interior Design, Landscape Architecture and Planning that enrich the ongoing dialog around agendas which are paramount to the professions and our…",
       "units": [],
       "occurrence_count": 1,
@@ -9676,6 +9691,42 @@
       "description": "Michael Lowenthal will discuss his new book, PLACE ENVY: ESSAYS IN SEARCH OF ORIENTATION, and Scott Heim will discuss the reissue of his classic novel of gay literature, MYSTERIOUS SKIN. \n\nGrowing up in places where his family had no past, and met mostly by silence from his Holocaust-refugee grandparents, Michael…",
       "units": [
         "english"
+      ],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:201545@events.unl.edu",
+      "source": "unl",
+      "title": "Managing Anxiety in High Enrollment Courses",
+      "start": "2026-11-11T20:00:00+00:00",
+      "end": "2026-11-11T21:00:00+00:00",
+      "location": "Century Club Managing Anxiety in High Enrollment Courses (https://unl.zoom.us/j/93904092396)",
+      "org": "Yulia Levchenko",
+      "category": null,
+      "url": "http://events.unl.edu/2026/11/11/201545/",
+      "description": "In high-enrollment courses, large classroom sizes, fast-paced instruction, and limited opportunities for personal interactions can contribute to increased anxiety in students. Anxiety can negatively affect academic performance and slow down their academic progress.\n\nThis Century Club workshop will offer practical,…",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:201173@events.unl.edu",
+      "source": "unl",
+      "title": "Nebraska Research Days Faculty Research and Creative Activity Slam",
+      "start": "2026-11-11T22:00:00+00:00",
+      "end": "2026-11-12T00:00:00+00:00",
+      "location": "Wick Alumni Center Room",
+      "org": "Lisa Kinkaid",
+      "category": null,
+      "url": "http://events.unl.edu/2026/11/11/201173/",
+      "description": "Join the Office of Research and Innovation for the Faculty Research and Creative Activity Slam. This event is a part of Nebraska Research Days activities. The Slam will highlight faculty sharing their research ideas and vision. \n\nFaculty selected to present during the Slam will have five minutes to speak. A panel of…",
+      "units": [
+        "cehs"
       ],
       "occurrence_count": 1,
       "other_dates": [],
