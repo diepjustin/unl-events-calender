@@ -1,264 +1,15 @@
 {
-  "generated_at": "2026-09-19T12:53:39.801859+00:00",
+  "generated_at": "2026-09-20T13:28:23.895625+00:00",
   "window_days": 60,
   "sources": {
     "unl": {
-      "raw_count": 1283
+      "raw_count": 1277
     },
     "engage": {
-      "raw_count": 478
+      "raw_count": 475
     }
   },
   "events": [
-    {
-      "id": "unl:202907-981060@events.unl.edu",
-      "source": "unl",
-      "title": "Nebraska Innovation Studio Maker Showcase",
-      "start": "2026-09-19T13:00:00+00:00",
-      "end": "2026-09-20T01:00:00+00:00",
-      "location": "Nebraska Innovation Campus Room The Link, 2nd Floor",
-      "org": "Brooke Goedert",
-      "category": null,
-      "url": "http://events.unl.edu/2026/09/19/202907/",
-      "description": "Stop by the Nebraska Innovation Campus Art Gallery to experience the creativity and craftsmanship of Nebraska Innovation Studio makers. This captivating exhibition features more than 50 works across a variety of media, including ceramics, woodworking, painting, 3D printing, metalworking, textiles and more.\n\nThis…",
-      "units": [],
-      "occurrence_count": 41,
-      "other_dates": [
-        "2026-09-20T13:00:00+00:00",
-        "2026-09-21T13:00:00+00:00",
-        "2026-09-22T13:00:00+00:00",
-        "2026-09-23T13:00:00+00:00",
-        "2026-09-24T13:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:11363438",
-      "source": "engage",
-      "title": "Woody Greeno Invitational",
-      "start": "2026-09-19T13:00:00+00:00",
-      "end": "2026-09-19T14:00:00+00:00",
-      "location": "Mahoney Golf Course",
-      "org": "UNL Running Club",
-      "category": "Athletics",
-      "url": "https://unl.campuslabs.com/engage/event/11363438",
-      "description": "We will be competing at the Greeno/Dirksen Invitational hosted by UNL and NWU at the Mahoney Golf Course on September 20th. The men will run and 8k and the women will run a 6k.",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12667769",
-      "source": "engage",
-      "title": "Midland Warrior Invitational",
-      "start": "2026-09-19T13:00:00+00:00",
-      "end": "2026-09-20T22:00:00+00:00",
-      "location": "Lincoln Trap and Skeet",
-      "org": "Nebraska Shotgun Sports Club",
-      "category": "Athletics",
-      "url": "https://unl.campuslabs.com/engage/event/12667769",
-      "description": "We will be shooting the Midland Warrior Invitational on 9/19 and 9/20 at Lincoln Trap and Skeet. We will be shooting trap, skeet, sporting, and super sporting.",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:200835-978229@events.unl.edu",
-      "source": "unl",
-      "title": "Nebraska Nonprofit Management Institute - Understanding Nonprofit Financial Statements",
-      "start": "2026-09-19T14:00:00+00:00",
-      "end": "2026-09-19T14:00:00+00:00",
-      "location": "",
-      "org": "Kate Dean",
-      "category": null,
-      "url": "http://events.unl.edu/2026/09/19/200835/",
-      "description": "Virtual asynchronous course. Learn to read and interpret financial statements,\nread and analyze financial reports and case studies, develop foundational knowledge to prepare you for advanced courses.",
-      "units": [],
-      "occurrence_count": 60,
-      "other_dates": [
-        "2026-09-20T14:00:00+00:00",
-        "2026-09-21T14:00:00+00:00",
-        "2026-09-22T14:00:00+00:00",
-        "2026-09-23T14:00:00+00:00",
-        "2026-09-24T14:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:201309@events.unl.edu",
-      "source": "unl",
-      "title": "PlantNebraska Fall Plant Sale",
-      "start": "2026-09-19T14:00:00+00:00",
-      "end": "2026-09-19T17:00:00+00:00",
-      "location": "Nebraska Statewide Arboretum Greenhouse Room",
-      "org": "PlantNebraska",
-      "category": null,
-      "url": "http://events.unl.edu/2026/09/19/201309/",
-      "description": "PlantNebraska will host a fall plant sale on Saturday, September 19, from 9 a.m. to 12 noon at its greenhouses on UNL's East Campus (2150 N. 38th St.). Native and well-adapted plants suited to Nebraska's climate and growing conditions will be available for purchase, including trees, shrubs, perennial flowers, grasses…",
-      "units": [],
-      "occurrence_count": 4,
-      "other_dates": [
-        "2026-09-26T14:00:00+00:00",
-        "2026-10-03T14:00:00+00:00",
-        "2026-10-10T14:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12771633",
-      "source": "engage",
-      "title": "AppleFest",
-      "start": "2026-09-19T14:00:00+00:00",
-      "end": "2026-09-19T22:00:00+00:00",
-      "location": "Kimmel Orchard",
-      "org": "Insect Science Club",
-      "category": "CommunityService",
-      "url": "https://unl.campuslabs.com/engage/event/12771633",
-      "description": "We will be hosting an educational booth at the Kimmel Orchard to teach the public about orchard insects.",
-      "units": [],
-      "occurrence_count": 2,
-      "other_dates": [
-        "2026-09-20T14:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12771587",
-      "source": "engage",
-      "title": "Food Science Club: Ice Cream Fundraiser",
-      "start": "2026-09-19T15:00:00+00:00",
-      "end": "2026-09-19T22:00:00+00:00",
-      "location": "Kimmel Orchard & Vineyard",
-      "org": "Food Science Club",
-      "category": "Fundraising",
-      "url": "https://unl.campuslabs.com/engage/event/12771587",
-      "description": "Join us at Kimmel Orchard's Apple Jack Festival at Nebraska City, where the Food Science Club will be selling ice cream to raise funds for club activities and events. Stop by, grab a sweet treat, and support the club!",
-      "units": [],
-      "occurrence_count": 2,
-      "other_dates": [
-        "2026-09-20T15:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12542863",
-      "source": "engage",
-      "title": "Life in Lincoln: Zoo Fun!",
-      "start": "2026-09-19T15:30:00+00:00",
-      "end": "2026-09-19T20:30:00+00:00",
-      "location": "Lincoln Children's Zoo",
-      "org": "",
-      "category": "Social",
-      "url": "https://unl.campuslabs.com/engage/event/12542863",
-      "description": "Get ready to explore one of Lincoln’s most exciting attractions—the Lincoln Children’s Zoo! Join Life in Lincoln and Students with Children for a fun and relaxed outing where you’ll have the freedom to wander, discover, and experience the zoo at your own pace. Whether you want to see your favorite animals, check out…",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12730008",
-      "source": "engage",
-      "title": "UNL Men's Rugby Club vs KSU",
-      "start": "2026-09-19T16:00:00+00:00",
-      "end": "2026-09-19T18:00:00+00:00",
-      "location": "Fleming Fields",
-      "org": "Men's Rugby Club",
-      "category": "Athletics",
-      "url": "https://unl.campuslabs.com/engage/event/12730008",
-      "description": "UNL Men's Rugby club will be hosting Kansas State University for a rugby match on September 19th at Fleming Fields.",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12735842",
-      "source": "engage",
-      "title": "Star of the Court",
-      "start": "2026-09-19T16:00:00+00:00",
-      "end": "2026-09-19T21:00:00+00:00",
-      "location": "Pentzar Park",
-      "org": "Starfish",
-      "category": "Fundraising",
-      "url": "https://unl.campuslabs.com/engage/event/12735842",
-      "description": "Star of the Court is a volleyball fundraiser with champion driven teams playing with confidence, good sportsmanship, and teamwork. The competition will consist of the minimum of 8 teams with the goal of 10 teams total. The fundraising event is open to the public and will be located at the local Pentzer Park on…",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:202628@events.unl.edu",
-      "source": "unl",
-      "title": "East Campus IANR Tailgate",
-      "start": "2026-09-19T19:15:00+00:00",
-      "end": "2026-09-19T22:15:00+00:00",
-      "location": "Nebraska East Union Room Great Plains Room",
-      "org": "Jordan Slagle",
-      "category": null,
-      "url": "http://events.unl.edu/2026/09/19/202628/",
-      "description": "Join the Department of Agronomy and Horticulture at an East Campus Tailgate Sept. 19!\n\nFree Food, Football, and Fun!\nEveryone is invited to attend; no RSVP is required!\n\nSeptember 19, 2026\nNebraska vs North Dakota\nTailgate: 2:15 to 5:15 pm | Kickoff: 6:15 pm\n\nNebraska East Union, Great Plains Room\n1705 Arbor…",
-      "units": [
-        "casnr"
-      ],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:202308-980571@events.unl.edu",
-      "source": "unl",
-      "title": "The Glories of Nature art exhibition",
-      "start": "2026-09-20T12:00:00+00:00",
-      "end": "2026-09-20T12:00:00+00:00",
-      "location": "Nebraska East Union Room Loft Gallery (on the 3rd Level)",
-      "org": "Veronica Riepe",
-      "category": null,
-      "url": "http://events.unl.edu/2026/09/20/202308/",
-      "description": "Loft Gallery is open 7 a.m. to midnight Monday-Friday, as well as 9 a.m. to midnight Saturday & Sunday.\n\nAbout the exhibition: The Glories of Nature\n\nThe works shown in this exhibit are done by members of the Great Plains Chapter of the Guild of Natural Science Illustrators (GNSI, Inc., www.gnsi.org). The GNSI is an…",
-      "units": [],
-      "occurrence_count": 11,
-      "other_dates": [
-        "2026-09-21T12:00:00+00:00",
-        "2026-09-22T12:00:00+00:00",
-        "2026-09-23T12:00:00+00:00",
-        "2026-09-24T12:00:00+00:00",
-        "2026-09-25T12:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:201253@events.unl.edu",
-      "source": "unl",
-      "title": "River Surfing Trip",
-      "start": "2026-09-20T13:00:00+00:00",
-      "end": "2026-09-20T23:00:00+00:00",
-      "location": "Outdoor Adventures Center Room",
-      "org": "Audrey Krimm",
-      "category": null,
-      "url": "http://events.unl.edu/2026/09/20/201253/",
-      "description": "When you think of surfing destinations, Nebraska probably isn't the first place that comes to mind...but that's about to change! Join Outdoor Adventures at Norfolk's new whitewater park to try your hand at river surfing, one of Nebraska's newest and most exciting adventure sports.\n\nNo experience is necessary as you…",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
     {
       "id": "engage:12712303",
       "source": "engage",
@@ -270,6 +21,46 @@
       "category": "ThoughtfulLearning",
       "url": "https://unl.campuslabs.com/engage/event/12712303",
       "description": "UNL Mock Trial's big day of learning. We help teach our members all about mock trial and what mock trial really is.",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:200835-978230@events.unl.edu",
+      "source": "unl",
+      "title": "Nebraska Nonprofit Management Institute - Understanding Nonprofit Financial Statements",
+      "start": "2026-09-20T14:00:00+00:00",
+      "end": "2026-09-20T14:00:00+00:00",
+      "location": "",
+      "org": "Kate Dean",
+      "category": null,
+      "url": "http://events.unl.edu/2026/09/20/200835/",
+      "description": "Virtual asynchronous course. Learn to read and interpret financial statements,\nread and analyze financial reports and case studies, develop foundational knowledge to prepare you for advanced courses.",
+      "units": [],
+      "occurrence_count": 60,
+      "other_dates": [
+        "2026-09-21T14:00:00+00:00",
+        "2026-09-22T14:00:00+00:00",
+        "2026-09-23T14:00:00+00:00",
+        "2026-09-24T14:00:00+00:00",
+        "2026-09-25T14:00:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "engage:12771634",
+      "source": "engage",
+      "title": "AppleFest",
+      "start": "2026-09-20T14:00:00+00:00",
+      "end": "2026-09-20T20:00:00+00:00",
+      "location": "Kimmel Orchard",
+      "org": "Insect Science Club",
+      "category": "CommunityService",
+      "url": "https://unl.campuslabs.com/engage/event/12771634",
+      "description": "We will be hosting an educational booth at the Kimmel Orchard to teach the public about orchard insects.",
       "units": [],
       "occurrence_count": 1,
       "other_dates": [],
@@ -304,6 +95,23 @@
       "category": "Athletics",
       "url": "https://unl.campuslabs.com/engage/event/12719925",
       "description": "We are attempting to arrange our annual soccer tournament for the Bangladeshi community. The community plays soccer very often and this tournament is in high demand. We have all the equipment required such as goal posts, balls, and jerseys.",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "engage:12771588",
+      "source": "engage",
+      "title": "Food Science Club: Ice Cream Fundraiser",
+      "start": "2026-09-20T15:00:00+00:00",
+      "end": "2026-09-20T22:00:00+00:00",
+      "location": "Kimmel Orchard & Vineyard",
+      "org": "Food Science Club",
+      "category": "Fundraising",
+      "url": "https://unl.campuslabs.com/engage/event/12771588",
+      "description": "Join us at Kimmel Orchard's Apple Jack Festival at Nebraska City, where the Food Science Club will be selling ice cream to raise funds for club activities and events. Stop by, grab a sweet treat, and support the club!",
       "units": [],
       "occurrence_count": 1,
       "other_dates": [],
@@ -631,6 +439,52 @@
       "noise_reason": null
     },
     {
+      "id": "unl:202308-980572@events.unl.edu",
+      "source": "unl",
+      "title": "The Glories of Nature art exhibition",
+      "start": "2026-09-21T12:00:00+00:00",
+      "end": "2026-09-21T12:00:00+00:00",
+      "location": "Nebraska East Union Room Loft Gallery (on the 3rd Level)",
+      "org": "Veronica Riepe",
+      "category": null,
+      "url": "http://events.unl.edu/2026/09/21/202308/",
+      "description": "Loft Gallery is open 7 a.m. to midnight Monday-Friday, as well as 9 a.m. to midnight Saturday & Sunday.\n\nAbout the exhibition: The Glories of Nature\n\nThe works shown in this exhibit are done by members of the Great Plains Chapter of the Guild of Natural Science Illustrators (GNSI, Inc., www.gnsi.org). The GNSI is an…",
+      "units": [],
+      "occurrence_count": 10,
+      "other_dates": [
+        "2026-09-22T12:00:00+00:00",
+        "2026-09-23T12:00:00+00:00",
+        "2026-09-24T12:00:00+00:00",
+        "2026-09-25T12:00:00+00:00",
+        "2026-09-26T12:00:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:202907-981062@events.unl.edu",
+      "source": "unl",
+      "title": "Nebraska Innovation Studio Maker Showcase",
+      "start": "2026-09-21T13:00:00+00:00",
+      "end": "2026-09-22T01:00:00+00:00",
+      "location": "Nebraska Innovation Campus Room The Link, 2nd Floor",
+      "org": "Brooke Goedert",
+      "category": null,
+      "url": "http://events.unl.edu/2026/09/21/202907/",
+      "description": "Stop by the Nebraska Innovation Campus Art Gallery to experience the creativity and craftsmanship of Nebraska Innovation Studio makers. This captivating exhibition features more than 50 works across a variety of media, including ceramics, woodworking, painting, 3D printing, metalworking, textiles and more.\n\nThis…",
+      "units": [],
+      "occurrence_count": 39,
+      "other_dates": [
+        "2026-09-22T13:00:00+00:00",
+        "2026-09-23T13:00:00+00:00",
+        "2026-09-24T13:00:00+00:00",
+        "2026-09-25T13:00:00+00:00",
+        "2026-09-26T13:00:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
       "id": "engage:12522109",
       "source": "engage",
       "title": "Engage Lincoln: Center for People",
@@ -735,7 +589,7 @@
       "units": [
         "cehs"
       ],
-      "occurrence_count": 25,
+      "occurrence_count": 26,
       "other_dates": [
         "2026-09-23T19:00:00+00:00",
         "2026-09-25T19:00:00+00:00",
@@ -1011,11 +865,12 @@
       "url": "https://unl.campuslabs.com/engage/event/12616204",
       "description": "Aerospace Experimental Payloads weekly meeting to discuss and work on the design, fabrication, and assembly of their high altitude satellite project",
       "units": [],
-      "occurrence_count": 4,
+      "occurrence_count": 5,
       "other_dates": [
         "2026-09-28T23:00:00+00:00",
         "2026-10-05T23:00:00+00:00",
-        "2026-10-12T23:00:00+00:00"
+        "2026-10-12T23:00:00+00:00",
+        "2026-10-19T23:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -1032,11 +887,12 @@
       "url": "https://unl.campuslabs.com/engage/event/12534689",
       "description": "Come watch Dr. Jill Morstad teach dog owners how to train their dogs' basic commands, and also help participate in some exercises by petting and holding the dogs.",
       "units": [],
-      "occurrence_count": 4,
+      "occurrence_count": 5,
       "other_dates": [
         "2026-09-28T23:15:00+00:00",
         "2026-10-05T23:15:00+00:00",
-        "2026-10-12T23:15:00+00:00"
+        "2026-10-12T23:15:00+00:00",
+        "2026-10-19T23:15:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -1070,11 +926,12 @@
       "url": "https://unl.campuslabs.com/engage/event/12571119",
       "description": "Come play with us 6:30 to 8:30 PM Mondays",
       "units": [],
-      "occurrence_count": 4,
+      "occurrence_count": 5,
       "other_dates": [
         "2026-09-28T23:30:00+00:00",
         "2026-10-05T23:30:00+00:00",
-        "2026-10-12T23:30:00+00:00"
+        "2026-10-12T23:30:00+00:00",
+        "2026-10-19T23:30:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -1209,7 +1066,7 @@
       "url": "https://unl.campuslabs.com/engage/event/12733880",
       "description": "UNL Women's Club Volleyball practice at Kinetic Sports Complex from 9 p.m. to 11 p.m.",
       "units": [],
-      "occurrence_count": 8,
+      "occurrence_count": 9,
       "other_dates": [
         "2026-09-24T02:00:00+00:00",
         "2026-09-29T02:00:00+00:00",
@@ -2002,7 +1859,7 @@
       "units": [
         "casnr"
       ],
-      "occurrence_count": 8,
+      "occurrence_count": 9,
       "other_dates": [
         "2026-09-30T18:00:00+00:00",
         "2026-10-07T18:00:00+00:00",
@@ -2308,7 +2165,7 @@
       "units": [
         "casnr"
       ],
-      "occurrence_count": 8,
+      "occurrence_count": 9,
       "other_dates": [
         "2026-09-30T23:30:00+00:00",
         "2026-10-07T23:30:00+00:00",
@@ -3848,6 +3705,26 @@
       "noise_reason": null
     },
     {
+      "id": "unl:201310@events.unl.edu",
+      "source": "unl",
+      "title": "PlantNebraska Fall Plant Sale",
+      "start": "2026-09-26T14:00:00+00:00",
+      "end": "2026-09-26T17:00:00+00:00",
+      "location": "Nebraska Statewide Arboretum Greenhouse Room",
+      "org": "PlantNebraska",
+      "category": null,
+      "url": "http://events.unl.edu/2026/09/26/201310/",
+      "description": "PlantNebraska will host a fall plant sale on Saturday, September 26, from 9 a.m. to 12 noon at its greenhouses on UNL's East Campus (2150 N. 38th St.). Native and well-adapted plants suited to Nebraska's climate and growing conditions will be available for purchase, including trees, shrubs, perennial flowers, grasses…",
+      "units": [],
+      "occurrence_count": 3,
+      "other_dates": [
+        "2026-10-03T14:00:00+00:00",
+        "2026-10-10T14:00:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
       "id": "unl:201165@events.unl.edu",
       "source": "unl",
       "title": "Family Weekend Picnic",
@@ -4003,15 +3880,15 @@
       "noise_reason": null
     },
     {
-      "id": "unl:201162@events.unl.edu",
+      "id": "unl:202454@events.unl.edu",
       "source": "unl",
       "title": "Husker Football Watch Party | Nebraska vs. Michigan State",
       "start": "2026-09-26T21:00:00+00:00",
       "end": "2026-09-26T21:00:00+00:00",
-      "location": "",
-      "org": "Strategic Events / Addy Pethoud",
+      "location": "Memorial Stadium Room",
+      "org": "Addy Pethoud / Strategic Events",
       "category": null,
-      "url": "http://events.unl.edu/2026/09/26/201162/",
+      "url": "http://events.unl.edu/2026/09/26/202454/",
       "description": "Watch your Nebraska Husker football team tackle the Michigan State Spartans, live on the stadium's big screen. Students, families, faculty, and staff will have the full stadium experience; sit right on the field or in the stadium seats, concessions are open, photo booth, and more.\n\nEvent Details:\n- Gate opens at 3…",
       "units": [],
       "occurrence_count": 1,
@@ -4418,7 +4295,7 @@
       "url": "https://unl.campuslabs.com/engage/event/12720736",
       "description": "The Rodeo team will be practicing at the event center.",
       "units": [],
-      "occurrence_count": 7,
+      "occurrence_count": 8,
       "other_dates": [
         "2026-09-29T20:00:00+00:00",
         "2026-09-30T20:00:00+00:00",
@@ -8369,8 +8246,10 @@
       "url": "http://events.unl.edu/2026/10/21/201448/",
       "description": "Nebraska Extension's Regional Food System Initiative (NERFSI) invites you to the 2026-2027 Food System Speaker Series! Please join us on the third Wednesday, September - May, from 2-3pm CST to learn about exciting research and education happening at the University of Nebraska and partner organizations making an impact…",
       "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
+      "occurrence_count": 2,
+      "other_dates": [
+        "2026-11-18T20:00:00+00:00"
+      ],
       "noise_penalty": 0,
       "noise_reason": null
     },
@@ -8958,10 +8837,11 @@
       "units": [
         "physics"
       ],
-      "occurrence_count": 3,
+      "occurrence_count": 4,
       "other_dates": [
         "2026-11-05T01:00:00+00:00",
-        "2026-11-12T01:00:00+00:00"
+        "2026-11-12T01:00:00+00:00",
+        "2026-11-19T01:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -9266,7 +9146,7 @@
       "noise_reason": null
     },
     {
-      "id": "unl:200364@events.unl.edu",
+      "id": "unl:200366@events.unl.edu",
       "source": "unl",
       "title": "Hyde Lecture - Valerie Stahl",
       "start": "2026-11-04T22:00:00+00:00",
@@ -9274,7 +9154,7 @@
       "location": "Architecture Hall West Room Room 127",
       "org": "Kerry McCullough Vondrak",
       "category": null,
-      "url": "http://events.unl.edu/2026/11/04/200364/",
+      "url": "http://events.unl.edu/2026/11/04/200366/",
       "description": "The Hyde Lecture Series is a long-standing endowed program within UNL's College of Architecture. Each year the College hosts experts in the disciplines of Architecture, Interior Design, Landscape Architecture and Planning that enrich the ongoing dialog around agendas which are paramount to the professions and our…",
       "units": [],
       "occurrence_count": 1,
@@ -9977,8 +9857,10 @@
       "url": "http://events.unl.edu/2026/11/17/200838/",
       "description": "This program offers nonprofit professionals the opportunity to learn about the mechanics of the operating budget, allocation resources to strategic priorities, managing budget performance, how to prepare a cash budget, using the operating and cash budget as management tools. Completion of Understanding Nonprofit…",
       "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
+      "occurrence_count": 2,
+      "other_dates": [
+        "2026-11-18T15:00:00+00:00"
+      ],
       "noise_penalty": 0,
       "noise_reason": null
     },
@@ -10044,6 +9926,91 @@
       "category": null,
       "url": "http://events.unl.edu/2026/11/17/201654/",
       "description": "Have you started thinking about how to choose and afford a health profession program?\n\nUnderstanding how to research schools and plan for the financial investment is an important part of the application process. This workshop will help you explore both selecting programs that fit your goals and identifying ways to…",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:202692@events.unl.edu",
+      "source": "unl",
+      "title": "Pilates and Lattes",
+      "start": "2026-11-18T14:00:00+00:00",
+      "end": "2026-11-18T14:50:00+00:00",
+      "location": "Campus Recreation Center Room",
+      "org": "Hattie Roberts",
+      "category": null,
+      "url": "http://events.unl.edu/2026/11/18/202692/",
+      "description": "This Pilates & Lattes class uses controlled movements to strengthen muscles, improve flexibility, and center the mind. This class is taught to the beat of the music and utilizes various pieces of equipment: resistance bands, light-weight dumbbells, gliders, and more. Coffee will be brewed up by the Nutrition Education…",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:202436@events.unl.edu",
+      "source": "unl",
+      "title": "NSPIRE: Setting Priorities with your Team",
+      "start": "2026-11-18T19:30:00+00:00",
+      "end": "2026-11-18T21:00:00+00:00",
+      "location": "Zoom (https://nebraska.bridgeapp.com/learner/training/77c36a7d/sessions/8290/enroll)",
+      "org": "Celeste Spier",
+      "category": null,
+      "url": "http://events.unl.edu/2026/11/18/202436/",
+      "description": "High-performing teams don't just complete tasks-they take ownership of results, relationships, and shared purpose. This interactive session explores what true ownership looks like and how leaders can cultivate it within their teams. Participants will examine the core elements that fuel a culture of ownership,…",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:201703@events.unl.edu",
+      "source": "unl",
+      "title": "School of Natural Resources Seminar: Caro Córdova",
+      "start": "2026-11-18T21:30:00+00:00",
+      "end": "2026-11-18T22:30:00+00:00",
+      "location": "Hardin Hall Room 107 South (Platte River Auditorium), and online at View SNR Seminars in Zoom (https://go.unl.edu/viewsnrseminars)",
+      "org": "Matt Joeckel",
+      "category": null,
+      "url": "http://events.unl.edu/2026/11/18/201703/",
+      "description": "Abstract\nWildfire is an important ecological process in the Nebraska Sandhills, but its effects on soil recovery depend strongly on vegetation type. Following the 2022 Bovee Fire, we tracked microbial communities, enzyme activity, respiration, and nitrogen mineralization across native grasslands, ponderosa pine, and…",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:201655@events.unl.edu",
+      "source": "unl",
+      "title": "Bridge, Not a Break: Making the Most of Your Pre-Health Gap Year",
+      "start": "2026-11-18T22:00:00+00:00",
+      "end": "2026-11-18T23:00:00+00:00",
+      "location": "Love Library South Room 221",
+      "org": "Explore Center",
+      "category": null,
+      "url": "http://events.unl.edu/2026/11/18/201655/",
+      "description": "Are you considering a gap year before applying to a professional health program-but not sure what that time should look like or how to use it effectively?\n\nA gap year can be a valuable and intentional part of your pre-health journey when planned well. This workshop will help you think strategically about how to use…",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:201334@events.unl.edu",
+      "source": "unl",
+      "title": "Unplug and Unwind",
+      "start": "2026-11-18T22:00:00+00:00",
+      "end": "2026-11-19T00:00:00+00:00",
+      "location": "Dinsdale Family Learning Commons Room 235 Stock Seed Farms Classroom",
+      "org": "Regina Flowers/University Libraries",
+      "category": null,
+      "url": "http://events.unl.edu/2026/11/18/201334/",
+      "description": "Take a break from screens and academic demands with a drop-in program designed to help you pause and recharge. Enjoy puzzles, board games, reading for fun, creative hobbies, and more. Come alone or bring friends for screen-free, stress-free library time. Popcorn bar will be provided!",
       "units": [],
       "occurrence_count": 1,
       "other_dates": [],
