@@ -1,251 +1,57 @@
 {
-  "generated_at": "2026-10-17T12:42:57.018105+00:00",
+  "generated_at": "2026-10-18T12:59:41.172104+00:00",
   "window_days": 60,
   "sources": {
     "unl": {
-      "raw_count": 1030
+      "raw_count": 1017
     },
     "engage": {
-      "raw_count": 447
+      "raw_count": 461
     }
   },
   "events": [
     {
-      "id": "unl:202907-981088@events.unl.edu",
+      "id": "unl:202907-981089@events.unl.edu",
       "source": "unl",
       "title": "Nebraska Innovation Studio Maker Showcase",
-      "start": "2026-10-17T13:00:00+00:00",
-      "end": "2026-10-18T01:00:00+00:00",
+      "start": "2026-10-18T13:00:00+00:00",
+      "end": "2026-10-19T01:00:00+00:00",
       "location": "Nebraska Innovation Campus Room The Link, 2nd Floor",
       "org": "Brooke Goedert",
       "category": null,
-      "url": "http://events.unl.edu/2026/10/17/202907/",
+      "url": "http://events.unl.edu/2026/10/18/202907/",
       "description": "Stop by the Nebraska Innovation Campus Art Gallery to experience the creativity and craftsmanship of Nebraska Innovation Studio makers. This captivating exhibition features more than 50 works across a variety of media, including ceramics, woodworking, painting, 3D printing, metalworking, textiles and more.\n\nThis…",
       "units": [],
-      "occurrence_count": 13,
+      "occurrence_count": 12,
       "other_dates": [
-        "2026-10-18T13:00:00+00:00",
         "2026-10-19T13:00:00+00:00",
         "2026-10-20T13:00:00+00:00",
         "2026-10-21T13:00:00+00:00",
-        "2026-10-22T13:00:00+00:00"
+        "2026-10-22T13:00:00+00:00",
+        "2026-10-23T13:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
     },
     {
-      "id": "unl:200835-978257@events.unl.edu",
+      "id": "unl:200835-978258@events.unl.edu",
       "source": "unl",
       "title": "Nebraska Nonprofit Management Institute - Understanding Nonprofit Financial Statements",
-      "start": "2026-10-17T14:00:00+00:00",
-      "end": "2026-10-17T14:00:00+00:00",
+      "start": "2026-10-18T14:00:00+00:00",
+      "end": "2026-10-18T14:00:00+00:00",
       "location": "",
       "org": "Kate Dean",
       "category": null,
-      "url": "http://events.unl.edu/2026/10/17/200835/",
+      "url": "http://events.unl.edu/2026/10/18/200835/",
       "description": "Virtual asynchronous course. Learn to read and interpret financial statements,\nread and analyze financial reports and case studies, develop foundational knowledge to prepare you for advanced courses.",
       "units": [],
       "occurrence_count": 60,
       "other_dates": [
-        "2026-10-18T14:00:00+00:00",
         "2026-10-19T14:00:00+00:00",
         "2026-10-20T14:00:00+00:00",
         "2026-10-21T14:00:00+00:00",
-        "2026-10-22T14:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:201266-978995@events.unl.edu",
-      "source": "unl",
-      "title": "Fall Break Caves and Crystal Waters Canoe Trip",
-      "start": "2026-10-17T17:00:00+00:00",
-      "end": "2026-10-17T17:00:00+00:00",
-      "location": "Outdoor Adventures Center Room",
-      "org": "Audrey Krimm",
-      "category": null,
-      "url": "http://events.unl.edu/2026/10/17/201266/",
-      "description": "Required Pre-Trip Meetings: 8:00-10:00pm Tuesdays, Oct. 6 & Oct. 13\n\nSpend your Fall Break canoeing the crystal-clear waters of the Current River! We will teach you the basics of canoeing and camping while we explore one of Missouri's most famous wild and scenic rivers. Along the way you'll enjoy beautiful fall…",
-      "units": [],
-      "occurrence_count": 4,
-      "other_dates": [
-        "2026-10-18T17:00:00+00:00",
-        "2026-10-19T17:00:00+00:00",
-        "2026-10-20T17:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:201268-979000@events.unl.edu",
-      "source": "unl",
-      "title": "Fall Break Horseshoe Canyon Climbing Trip",
-      "start": "2026-10-17T17:00:00+00:00",
-      "end": "2026-10-17T17:00:00+00:00",
-      "location": "Outdoor Adventures Center Room",
-      "org": "Audrey Krimm",
-      "category": null,
-      "url": "http://events.unl.edu/2026/10/17/201268/",
-      "description": "Required Pre-Trip Meeting: 7:00-9:00pm Monday, Oct. 12\n\nWant to expand your climbing capabilities and have an amazing Fall Break? Join us in Arkansas at Horseshoe Canyon Ranch! Home to hundreds of sandstone climbing routes, this world-class destination offers something for everyone. Spend your days climbing stunning…",
-      "units": [],
-      "occurrence_count": 4,
-      "other_dates": [
-        "2026-10-18T17:00:00+00:00",
-        "2026-10-19T17:00:00+00:00",
-        "2026-10-20T17:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:201264-978990@events.unl.edu",
-      "source": "unl",
-      "title": "Fall Break Ozark Mountains Backpacking Trip",
-      "start": "2026-10-17T17:00:00+00:00",
-      "end": "2026-10-17T17:00:00+00:00",
-      "location": "Outdoor Adventures Center Room",
-      "org": "Audrey Krimm",
-      "category": null,
-      "url": "http://events.unl.edu/2026/10/17/201264/",
-      "description": "Required Pre-Trip Meetings: 6:00-8:00pm Tuesdays, Oct. 6 & Oct. 13\n\nExperience the beauty of the Ozark Mountains this Fall Break on a four-day backpacking adventure along Arkansas' Buffalo River Trail. You'll get a full backcountry experience with days of hiking, gourmet camp cooking, and creating new friendships…",
-      "units": [],
-      "occurrence_count": 4,
-      "other_dates": [
-        "2026-10-18T17:00:00+00:00",
-        "2026-10-19T17:00:00+00:00",
-        "2026-10-20T17:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:201269-979005@events.unl.edu",
-      "source": "unl",
-      "title": "Fall Break South Dakota National Parks Hiking Tour",
-      "start": "2026-10-17T17:00:00+00:00",
-      "end": "2026-10-17T17:00:00+00:00",
-      "location": "Outdoor Adventures Center Room",
-      "org": "Audrey Krimm",
-      "category": null,
-      "url": "http://events.unl.edu/2026/10/17/201269/",
-      "description": "Required Pre-Trip Meetings: 7:00-9:00pm Wednesdays, Oct. 7 & Oct. 14\n\nJoin us for a four-day Fall Break adventure exploring the breathtaking landscapes and rich cultural history of South Dakota's National Parks through the lens of place-based education! We will spend our days on scenic trails, taking in prairie views,…",
-      "units": [],
-      "occurrence_count": 4,
-      "other_dates": [
-        "2026-10-18T17:00:00+00:00",
-        "2026-10-19T17:00:00+00:00",
-        "2026-10-20T17:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:203062@events.unl.edu",
-      "source": "unl",
-      "title": "Macbeth (The Met: Live in HD)",
-      "start": "2026-10-17T17:00:00+00:00",
-      "end": "2026-10-17T17:00:00+00:00",
-      "location": "Mary Riepma Ross Media Arts Center-Van Brunt Visitors Center Room Ross Theaters (123 & 124)",
-      "org": "Mary Riepma Ross Media Arts Center",
-      "category": null,
-      "url": "http://events.unl.edu/2026/10/17/203062/",
-      "description": "Showing at The Ross Saturday, October 17 (12pm) and Sunday, October 25 (12pm). Visit theross.org for tickets, showtimes, and more information. \n\nTwo of opera's most extraordinary artists return to The Met: Live in HD for Verdi's thrilling take on the immortal Shakespearean tale of the scheming couple determined to…",
-      "units": [],
-      "occurrence_count": 2,
-      "other_dates": [
-        "2026-10-25T17:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:203464@events.unl.edu",
-      "source": "unl",
-      "title": "The History of Concrete",
-      "start": "2026-10-17T17:50:00+00:00",
-      "end": "2026-10-17T17:50:00+00:00",
-      "location": "Mary Riepma Ross Media Arts Center-Van Brunt Visitors Center Room Ross Theaters (123 & 124)",
-      "org": "Mary Riepma Ross Media Arts Center",
-      "category": null,
-      "url": "http://events.unl.edu/2026/10/17/203464/",
-      "description": "Showing at The Ross October 16-22. Visit theross.org for tickets, showtimes, and more information. \n\nFollowing the finale of his TV series, filmmaker John Wilson looks to the bedrock of his beloved New York City for inspiration and structure. Concrete, the world's most widely used building material, appears as an…",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:203457@events.unl.edu",
-      "source": "unl",
-      "title": "The Scout",
-      "start": "2026-10-17T20:00:00+00:00",
-      "end": "2026-10-17T20:00:00+00:00",
-      "location": "Mary Riepma Ross Media Arts Center-Van Brunt Visitors Center Room Ross Theaters (123 & 124)",
-      "org": "Mary Riepma Ross Media Arts Center",
-      "category": null,
-      "url": "http://events.unl.edu/2026/10/17/203457/",
-      "description": "Showing at The Ross October 16-22. Visit theross.org for tickets, showtimes, and more information. \n\nSofia works as a location scout for a TV pilot filming in New York City. It's her job to find the homes, businesses, and exteriors where the show will be filmed. Driving around the city's different neighborhoods, she…",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:203042@events.unl.edu",
-      "source": "unl",
-      "title": "Hereditary",
-      "start": "2026-10-17T23:30:00+00:00",
-      "end": "2026-10-17T23:30:00+00:00",
-      "location": "Mary Riepma Ross Media Arts Center-Van Brunt Visitors Center Room Ross Theater (Room 124)",
-      "org": "Mary Riepma Ross Media Arts Center",
-      "category": null,
-      "url": "http://events.unl.edu/2026/10/17/203042/",
-      "description": "The fourth annual Ross Fright Fest returns with a month of horror films on the big screen!\n\nWhen Ellen, the matriarch of the Graham family, passes away, her daughter's family begins to unravel cryptic and increasingly terrifying secrets about their ancestry. The more they discover, the more they find themselves trying…",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:203041@events.unl.edu",
-      "source": "unl",
-      "title": "Cemetery Man (4K Restoration)",
-      "start": "2026-10-18T02:15:00+00:00",
-      "end": "2026-10-18T02:15:00+00:00",
-      "location": "Mary Riepma Ross Media Arts Center-Van Brunt Visitors Center Room Ross Theater (Room 124)",
-      "org": "Mary Riepma Ross Media Arts Center",
-      "category": null,
-      "url": "http://events.unl.edu/2026/10/17/203041/",
-      "description": "The fourth annual Ross Fright Fest returns with a month of horror films on the big screen!\n\nFrancesco Dellamorte (Rupert Everett) is the groundskeeper at a cemetery where the dead just won't stay dead-and it's up to him to deal with those who come back to life with a hunger for human flesh. But Dellamorte's job soon…",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:202791-980967@events.unl.edu",
-      "source": "unl",
-      "title": "Captured on Canvas art exhibition",
-      "start": "2026-10-18T12:00:00+00:00",
-      "end": "2026-10-18T12:00:00+00:00",
-      "location": "Nebraska East Union Room Loft Gallery (on the 3rd Level)",
-      "org": "Veronica Riepe",
-      "category": null,
-      "url": "http://events.unl.edu/2026/10/18/202791/",
-      "description": "Loft Gallery is open 7 a.m. to midnight Monday-Friday, as well as 9 a.m. to midnight Saturday & Sunday.\n\nAbout the exhibition and artist:\n\nTammy Miller is a local artist who works out of Studio 11 in The Burkholder Project. (719 P. ST, Lincoln, NE. 68508). She has a background in Commercial Art. She loves to…",
-      "units": [],
-      "occurrence_count": 14,
-      "other_dates": [
-        "2026-10-19T12:00:00+00:00",
-        "2026-10-20T12:00:00+00:00",
-        "2026-10-21T12:00:00+00:00",
-        "2026-10-22T12:00:00+00:00",
-        "2026-10-23T12:00:00+00:00"
+        "2026-10-22T14:00:00+00:00",
+        "2026-10-23T14:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -281,6 +87,86 @@
       "units": [],
       "occurrence_count": 1,
       "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:201266-978996@events.unl.edu",
+      "source": "unl",
+      "title": "Fall Break Caves and Crystal Waters Canoe Trip",
+      "start": "2026-10-18T17:00:00+00:00",
+      "end": "2026-10-18T17:00:00+00:00",
+      "location": "Outdoor Adventures Center Room",
+      "org": "Audrey Krimm",
+      "category": null,
+      "url": "http://events.unl.edu/2026/10/18/201266/",
+      "description": "Required Pre-Trip Meetings: 8:00-10:00pm Tuesdays, Oct. 6 & Oct. 13\n\nSpend your Fall Break canoeing the crystal-clear waters of the Current River! We will teach you the basics of canoeing and camping while we explore one of Missouri's most famous wild and scenic rivers. Along the way you'll enjoy beautiful fall…",
+      "units": [],
+      "occurrence_count": 3,
+      "other_dates": [
+        "2026-10-19T17:00:00+00:00",
+        "2026-10-20T17:00:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:201268-979001@events.unl.edu",
+      "source": "unl",
+      "title": "Fall Break Horseshoe Canyon Climbing Trip",
+      "start": "2026-10-18T17:00:00+00:00",
+      "end": "2026-10-18T17:00:00+00:00",
+      "location": "Outdoor Adventures Center Room",
+      "org": "Audrey Krimm",
+      "category": null,
+      "url": "http://events.unl.edu/2026/10/18/201268/",
+      "description": "Required Pre-Trip Meeting: 7:00-9:00pm Monday, Oct. 12\n\nWant to expand your climbing capabilities and have an amazing Fall Break? Join us in Arkansas at Horseshoe Canyon Ranch! Home to hundreds of sandstone climbing routes, this world-class destination offers something for everyone. Spend your days climbing stunning…",
+      "units": [],
+      "occurrence_count": 3,
+      "other_dates": [
+        "2026-10-19T17:00:00+00:00",
+        "2026-10-20T17:00:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:201264-978991@events.unl.edu",
+      "source": "unl",
+      "title": "Fall Break Ozark Mountains Backpacking Trip",
+      "start": "2026-10-18T17:00:00+00:00",
+      "end": "2026-10-18T17:00:00+00:00",
+      "location": "Outdoor Adventures Center Room",
+      "org": "Audrey Krimm",
+      "category": null,
+      "url": "http://events.unl.edu/2026/10/18/201264/",
+      "description": "Required Pre-Trip Meetings: 6:00-8:00pm Tuesdays, Oct. 6 & Oct. 13\n\nExperience the beauty of the Ozark Mountains this Fall Break on a four-day backpacking adventure along Arkansas' Buffalo River Trail. You'll get a full backcountry experience with days of hiking, gourmet camp cooking, and creating new friendships…",
+      "units": [],
+      "occurrence_count": 3,
+      "other_dates": [
+        "2026-10-19T17:00:00+00:00",
+        "2026-10-20T17:00:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:201269-979006@events.unl.edu",
+      "source": "unl",
+      "title": "Fall Break South Dakota National Parks Hiking Tour",
+      "start": "2026-10-18T17:00:00+00:00",
+      "end": "2026-10-18T17:00:00+00:00",
+      "location": "Outdoor Adventures Center Room",
+      "org": "Audrey Krimm",
+      "category": null,
+      "url": "http://events.unl.edu/2026/10/18/201269/",
+      "description": "Required Pre-Trip Meetings: 7:00-9:00pm Wednesdays, Oct. 7 & Oct. 14\n\nJoin us for a four-day Fall Break adventure exploring the breathtaking landscapes and rich cultural history of South Dakota's National Parks through the lens of place-based education! We will spend our days on scenic trails, taking in prairie views,…",
+      "units": [],
+      "occurrence_count": 3,
+      "other_dates": [
+        "2026-10-19T17:00:00+00:00",
+        "2026-10-20T17:00:00+00:00"
+      ],
       "noise_penalty": 0,
       "noise_reason": null
     },
@@ -371,6 +257,29 @@
       "units": [],
       "occurrence_count": 1,
       "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:202791-980968@events.unl.edu",
+      "source": "unl",
+      "title": "Captured on Canvas art exhibition",
+      "start": "2026-10-19T12:00:00+00:00",
+      "end": "2026-10-19T12:00:00+00:00",
+      "location": "Nebraska East Union Room Loft Gallery (on the 3rd Level)",
+      "org": "Veronica Riepe",
+      "category": null,
+      "url": "http://events.unl.edu/2026/10/19/202791/",
+      "description": "Loft Gallery is open 7 a.m. to midnight Monday-Friday, as well as 9 a.m. to midnight Saturday & Sunday.\n\nAbout the exhibition and artist:\n\nTammy Miller is a local artist who works out of Studio 11 in The Burkholder Project. (719 P. ST, Lincoln, NE. 68508). She has a background in Commercial Art. She loves to…",
+      "units": [],
+      "occurrence_count": 13,
+      "other_dates": [
+        "2026-10-20T12:00:00+00:00",
+        "2026-10-21T12:00:00+00:00",
+        "2026-10-22T12:00:00+00:00",
+        "2026-10-23T12:00:00+00:00",
+        "2026-10-24T12:00:00+00:00"
+      ],
       "noise_penalty": 0,
       "noise_reason": null
     },
@@ -548,11 +457,12 @@
       "url": "https://unl.campuslabs.com/engage/event/12616208",
       "description": "Aerospace Experimental Payloads weekly meeting to discuss and work on the design, fabrication, and assembly of their high altitude satellite project",
       "units": [],
-      "occurrence_count": 4,
+      "occurrence_count": 5,
       "other_dates": [
         "2026-10-26T23:00:00+00:00",
         "2026-11-03T00:00:00+00:00",
-        "2026-11-10T00:00:00+00:00"
+        "2026-11-10T00:00:00+00:00",
+        "2026-11-17T00:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -588,11 +498,12 @@
       "url": "https://unl.campuslabs.com/engage/event/12571123",
       "description": "Come play with us 6:30 to 8:30 PM Mondays",
       "units": [],
-      "occurrence_count": 4,
+      "occurrence_count": 5,
       "other_dates": [
         "2026-10-26T23:30:00+00:00",
         "2026-11-03T00:30:00+00:00",
-        "2026-11-10T00:30:00+00:00"
+        "2026-11-10T00:30:00+00:00",
+        "2026-11-17T00:30:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -632,11 +543,12 @@
       "url": "https://unl.campuslabs.com/engage/event/12859336",
       "description": "Team practices are designed to prepare players for collegiate pickleball competition. Practices include drills, match play, strategy, teamwork, and skill development in a structured and competitive environment.",
       "units": [],
-      "occurrence_count": 4,
+      "occurrence_count": 5,
       "other_dates": [
         "2026-10-27T00:30:00+00:00",
         "2026-11-03T01:30:00+00:00",
-        "2026-11-10T01:30:00+00:00"
+        "2026-11-10T01:30:00+00:00",
+        "2026-11-17T01:30:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -1213,9 +1125,10 @@
       "url": "http://events.unl.edu/2026/10/21/202985/",
       "description": "Trails in rural Nebraska are used for recreation opportunities for both residents and visitors. Though the prevalence of trails has typically been concentrated in certain areas, many communities continue to develop trail systems in their area. In addition, Nebraska has nearly 950,000 acres of forestland, with over 1.2…",
       "units": [],
-      "occurrence_count": 2,
+      "occurrence_count": 3,
       "other_dates": [
-        "2026-11-18T18:00:00+00:00"
+        "2026-11-18T18:00:00+00:00",
+        "2026-12-16T18:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -1253,7 +1166,7 @@
       "url": "https://unl.campuslabs.com/engage/event/12809184",
       "description": "QR code attendace",
       "units": [],
-      "occurrence_count": 18,
+      "occurrence_count": 19,
       "other_dates": [
         "2026-10-22T17:30:00+00:00",
         "2026-10-23T17:30:00+00:00",
@@ -1278,7 +1191,7 @@
       "units": [
         "casnr"
       ],
-      "occurrence_count": 7,
+      "occurrence_count": 8,
       "other_dates": [
         "2026-10-28T18:00:00+00:00",
         "2026-11-04T19:00:00+00:00",
@@ -1341,9 +1254,10 @@
       "url": "http://events.unl.edu/2026/10/21/201448/",
       "description": "Nebraska Extension's Regional Food System Initiative (NERFSI) invites you to the 2026-2027 Food System Speaker Series! Please join us on the third Wednesday, September - May, from 2-3pm CST to learn about exciting research and education happening at the University of Nebraska and partner organizations making an impact…",
       "units": [],
-      "occurrence_count": 2,
+      "occurrence_count": 3,
       "other_dates": [
-        "2026-11-18T20:00:00+00:00"
+        "2026-11-18T20:00:00+00:00",
+        "2026-12-16T20:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -3483,6 +3397,23 @@
       "noise_reason": null
     },
     {
+      "id": "unl:203063@events.unl.edu",
+      "source": "unl",
+      "title": "Macbeth (The Met: Live in HD)",
+      "start": "2026-10-25T17:00:00+00:00",
+      "end": "2026-10-25T17:00:00+00:00",
+      "location": "Mary Riepma Ross Media Arts Center-Van Brunt Visitors Center Room Ross Theaters (123 & 124)",
+      "org": "Mary Riepma Ross Media Arts Center",
+      "category": null,
+      "url": "http://events.unl.edu/2026/10/25/203063/",
+      "description": "Showing at The Ross Saturday, October 17 (12pm) and Sunday, October 25 (12pm). Visit theross.org for tickets, showtimes, and more information. \n\nTwo of opera's most extraordinary artists return to The Met: Live in HD for Verdi's thrilling take on the immortal Shakespearean tale of the scheming couple determined to…",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
       "id": "engage:12616872",
       "source": "engage",
       "title": "sunday gaming",
@@ -3924,10 +3855,11 @@
       "url": "https://unl.campuslabs.com/engage/event/12432449",
       "description": "Every week we do a different craft together! Crafts range from anything from crochet to balloon animals, so check out our Instagram (@mindandcraftunl) or GroupMe to learn where and what we're doing this week! We provide all materials for the planned craft of the night for free, but feel free to bring your own supplies…",
       "units": [],
-      "occurrence_count": 3,
+      "occurrence_count": 4,
       "other_dates": [
         "2026-11-02T23:00:00+00:00",
-        "2026-11-09T23:00:00+00:00"
+        "2026-11-09T23:00:00+00:00",
+        "2026-11-16T23:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -3944,10 +3876,11 @@
       "url": "https://unl.campuslabs.com/engage/event/12587043",
       "description": "Discuss fraternity business weekly and go over annual budget.",
       "units": [],
-      "occurrence_count": 3,
+      "occurrence_count": 4,
       "other_dates": [
         "2026-11-02T23:00:00+00:00",
-        "2026-11-09T23:00:00+00:00"
+        "2026-11-09T23:00:00+00:00",
+        "2026-11-16T23:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -3964,10 +3897,11 @@
       "url": "https://unl.campuslabs.com/engage/event/12496944",
       "description": "Weekly chapter meeting of the Gamma Beta Zeta Chapter of Lambda Chi Alpha at the University of Nebraska–Lincoln. These meetings provide an opportunity for members to conduct chapter business, foster brotherhood, promote academic and leadership development, and coordinate philanthropic, social, and service activities…",
       "units": [],
-      "occurrence_count": 3,
+      "occurrence_count": 4,
       "other_dates": [
         "2026-11-02T23:00:00+00:00",
-        "2026-11-09T23:00:00+00:00"
+        "2026-11-09T23:00:00+00:00",
+        "2026-11-16T23:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -3984,10 +3918,11 @@
       "url": "https://unl.campuslabs.com/engage/event/12559519",
       "description": "The Freshman Action Team will meet at 5:30 pm in the Ubuntu Room before every APU meeting.",
       "units": [],
-      "occurrence_count": 3,
+      "occurrence_count": 4,
       "other_dates": [
         "2026-11-02T23:30:00+00:00",
-        "2026-11-09T23:30:00+00:00"
+        "2026-11-09T23:30:00+00:00",
+        "2026-11-16T23:30:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -4076,9 +4011,10 @@
       "url": "https://unl.campuslabs.com/engage/event/12486979",
       "description": "Weekly chapter meeting",
       "units": [],
-      "occurrence_count": 2,
+      "occurrence_count": 3,
       "other_dates": [
-        "2026-11-03T00:00:00+00:00"
+        "2026-11-03T00:00:00+00:00",
+        "2026-11-17T00:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -4095,10 +4031,11 @@
       "url": "https://unl.campuslabs.com/engage/event/12559459",
       "description": "The Afrikan Peoples Union meets every Monday @ 6:30 PM in the Ubuntu Room. We will conduct different activities, learning opportunities, invite speakers, or occasionally have food.",
       "units": [],
-      "occurrence_count": 3,
+      "occurrence_count": 4,
       "other_dates": [
         "2026-11-03T00:30:00+00:00",
-        "2026-11-10T00:30:00+00:00"
+        "2026-11-10T00:30:00+00:00",
+        "2026-11-17T00:30:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -4115,10 +4052,11 @@
       "url": "https://unl.campuslabs.com/engage/event/12645914",
       "description": "Each meeting will consist of 30 minutes of learning GeoGuessr strategies, clues, and metas, followed by 30 minutes of playing GeoGuessr games and challenges to practice what we learned.",
       "units": [],
-      "occurrence_count": 3,
+      "occurrence_count": 4,
       "other_dates": [
         "2026-11-03T01:00:00+00:00",
-        "2026-11-10T01:00:00+00:00"
+        "2026-11-10T01:00:00+00:00",
+        "2026-11-17T01:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -4152,10 +4090,11 @@
       "url": "https://unl.campuslabs.com/engage/event/12737586",
       "description": "Weekly meetings where members gather to discuss chapter business, plan upcoming events, review goals, and uphold the values and mission of Lambda Theta Nu Sorority, Inc. Attendance is required to ensure consistent communication, accountability, and sisterhood engagement.",
       "units": [],
-      "occurrence_count": 3,
+      "occurrence_count": 4,
       "other_dates": [
         "2026-11-03T01:00:00+00:00",
-        "2026-11-10T01:00:00+00:00"
+        "2026-11-10T01:00:00+00:00",
+        "2026-11-17T01:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -4189,10 +4128,11 @@
       "url": "https://unl.campuslabs.com/engage/event/12622814",
       "description": "Cru will be holding a weekly manhood study to prepare young guys into men, both in character and spiritually. In a world with conflicting temptations pushing and pulling young men into struggles with sin, this study is great for guys looking to take a firm foundation in Jesus Christ.",
       "units": [],
-      "occurrence_count": 3,
+      "occurrence_count": 4,
       "other_dates": [
         "2026-11-03T02:30:00+00:00",
-        "2026-11-10T02:30:00+00:00"
+        "2026-11-10T02:30:00+00:00",
+        "2026-11-17T02:30:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -6020,9 +5960,10 @@
       "url": "https://unl.campuslabs.com/engage/event/12892442",
       "description": "Interested in competing in AKC Beginner Novice Obedience or simply learning more about obedience training? Join us for some training classes to learn about canine obedience and prepare for an AKC competition! Students are welcome to observe or register their dog to participate!",
       "units": [],
-      "occurrence_count": 2,
+      "occurrence_count": 3,
       "other_dates": [
-        "2026-11-10T00:30:00+00:00"
+        "2026-11-10T00:30:00+00:00",
+        "2026-11-17T00:30:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -6342,7 +6283,7 @@
       "noise_reason": null
     },
     {
-      "id": "unl:200366@events.unl.edu",
+      "id": "unl:200364@events.unl.edu",
       "source": "unl",
       "title": "Hyde Lecture - Valerie Stahl",
       "start": "2026-11-04T22:00:00+00:00",
@@ -6350,7 +6291,7 @@
       "location": "Architecture Hall West Room Room 127",
       "org": "Kerry McCullough Vondrak",
       "category": null,
-      "url": "http://events.unl.edu/2026/11/04/200366/",
+      "url": "http://events.unl.edu/2026/11/04/200364/",
       "description": "The Hyde Lecture Series is a long-standing endowed program within UNL's College of Architecture. Each year the College hosts experts in the disciplines of Architecture, Interior Design, Landscape Architecture and Planning that enrich the ongoing dialog around agendas which are paramount to the professions and our…",
       "units": [],
       "occurrence_count": 1,
@@ -9188,6 +9129,25 @@
       "category": null,
       "url": "http://events.unl.edu/2026/12/15/199740/",
       "description": "A mother. A daughter. 3 possible dads. \nAnd a trip down the aisleyou'll never forget! \n\nSet on a Greek island paradise where the sun always shines, a tale of love, friendship, and identity is beautifully told through the timeless hits of ABBA. On the eve of her wedding, a daughter's quest to discover the father she's…",
+      "units": [],
+      "occurrence_count": 2,
+      "other_dates": [
+        "2026-12-17T01:30:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:192117@events.unl.edu",
+      "source": "unl",
+      "title": "International Student Graduation Reception",
+      "start": "2026-12-16T22:00:00+00:00",
+      "end": "2026-12-16T23:00:00+00:00",
+      "location": "Louise Pound Hall Room Atrium",
+      "org": "International Student & Scholar Office",
+      "category": null,
+      "url": "http://events.unl.edu/2026/12/16/192117/",
+      "description": "Join us as we celebrate the accomplishments of our graduating international students at the International Student Graduation Reception! This special event honors the hard work, resilience, and achievements of students from around the world who are completing their academic journey at our university.",
       "units": [],
       "occurrence_count": 1,
       "other_dates": [],
