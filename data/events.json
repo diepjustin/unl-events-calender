@@ -1,61 +1,15 @@
 {
-  "generated_at": "2026-10-31T15:05:20.687992+00:00",
+  "generated_at": "2026-11-01T15:48:18.354045+00:00",
   "window_days": 60,
   "sources": {
     "unl": {
-      "raw_count": 910
+      "raw_count": 907
     },
     "engage": {
-      "raw_count": 396
+      "raw_count": 413
     }
   },
   "events": [
-    {
-      "id": "unl:202547-980862@events.unl.edu",
-      "source": "unl",
-      "title": "NUFlex Annual Enrollment",
-      "start": "2026-10-31T22:00:00+00:00",
-      "end": "2026-10-31T22:00:00+00:00",
-      "location": "Firefly (https://firefly.nebraska.edu/)",
-      "org": "Benefits Office",
-      "category": null,
-      "url": "http://events.unl.edu/2026/10/31/202547/",
-      "description": "our benefits selection from the prior year will automatically roll over, with the exception of flexible spending accounts. You only need to change what you want to be different, or add new benefits. The health risk assessment and tobacco/nicotine designation need to be completed on a yearly basis.\n\nWhen you add or…",
-      "units": [],
-      "occurrence_count": 14,
-      "other_dates": [
-        "2026-11-01T23:00:00+00:00",
-        "2026-11-02T23:00:00+00:00",
-        "2026-11-03T23:00:00+00:00",
-        "2026-11-04T23:00:00+00:00",
-        "2026-11-05T23:00:00+00:00"
-      ],
-      "noise_penalty": 3,
-      "noise_reason": "Internal staff benefits administration, not a student event"
-    },
-    {
-      "id": "unl:200835-978272@events.unl.edu",
-      "source": "unl",
-      "title": "Nebraska Nonprofit Management Institute - Understanding Nonprofit Financial Statements",
-      "start": "2026-11-01T15:00:00+00:00",
-      "end": "2026-11-01T15:00:00+00:00",
-      "location": "",
-      "org": "Kate Dean",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/01/200835/",
-      "description": "Virtual asynchronous course. Learn to read and interpret financial statements,\nread and analyze financial reports and case studies, develop foundational knowledge to prepare you for advanced courses.",
-      "units": [],
-      "occurrence_count": 60,
-      "other_dates": [
-        "2026-11-02T15:00:00+00:00",
-        "2026-11-03T15:00:00+00:00",
-        "2026-11-04T15:00:00+00:00",
-        "2026-11-05T15:00:00+00:00",
-        "2026-11-06T15:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
     {
       "id": "engage:12939976",
       "source": "engage",
@@ -224,6 +178,29 @@
       "noise_reason": null
     },
     {
+      "id": "unl:202547-980863@events.unl.edu",
+      "source": "unl",
+      "title": "NUFlex Annual Enrollment",
+      "start": "2026-11-01T23:00:00+00:00",
+      "end": "2026-11-01T23:00:00+00:00",
+      "location": "Firefly (https://firefly.nebraska.edu/)",
+      "org": "Benefits Office",
+      "category": null,
+      "url": "http://events.unl.edu/2026/11/01/202547/",
+      "description": "our benefits selection from the prior year will automatically roll over, with the exception of flexible spending accounts. You only need to change what you want to be different, or add new benefits. The health risk assessment and tobacco/nicotine designation need to be completed on a yearly basis.\n\nWhen you add or…",
+      "units": [],
+      "occurrence_count": 13,
+      "other_dates": [
+        "2026-11-02T23:00:00+00:00",
+        "2026-11-03T23:00:00+00:00",
+        "2026-11-04T23:00:00+00:00",
+        "2026-11-05T23:00:00+00:00",
+        "2026-11-06T23:00:00+00:00"
+      ],
+      "noise_penalty": 3,
+      "noise_reason": "Internal staff benefits administration, not a student event"
+    },
+    {
       "id": "engage:12757850",
       "source": "engage",
       "title": "Broomball Game",
@@ -299,6 +276,29 @@
       "units": [],
       "occurrence_count": 1,
       "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:200835-978273@events.unl.edu",
+      "source": "unl",
+      "title": "Nebraska Nonprofit Management Institute - Understanding Nonprofit Financial Statements",
+      "start": "2026-11-02T15:00:00+00:00",
+      "end": "2026-11-02T15:00:00+00:00",
+      "location": "",
+      "org": "Kate Dean",
+      "category": null,
+      "url": "http://events.unl.edu/2026/11/02/200835/",
+      "description": "Virtual asynchronous course. Learn to read and interpret financial statements,\nread and analyze financial reports and case studies, develop foundational knowledge to prepare you for advanced courses.",
+      "units": [],
+      "occurrence_count": 60,
+      "other_dates": [
+        "2026-11-03T15:00:00+00:00",
+        "2026-11-04T15:00:00+00:00",
+        "2026-11-05T15:00:00+00:00",
+        "2026-11-06T15:00:00+00:00",
+        "2026-11-07T15:00:00+00:00"
+      ],
       "noise_penalty": 0,
       "noise_reason": null
     },
@@ -418,7 +418,7 @@
       "url": "https://unl.campuslabs.com/engage/event/12809192",
       "description": "QR code attendace",
       "units": [],
-      "occurrence_count": 17,
+      "occurrence_count": 18,
       "other_dates": [
         "2026-11-03T18:30:00+00:00",
         "2026-11-04T18:30:00+00:00",
@@ -562,11 +562,12 @@
       "url": "https://unl.campuslabs.com/engage/event/12432443",
       "description": "Every week we do a different craft together! Crafts range from anything from crochet to balloon animals, so check out our Instagram (@mindandcraftunl) or GroupMe to learn where and what we're doing this week! We provide all materials for the planned craft of the night for free, but feel free to bring your own supplies…",
       "units": [],
-      "occurrence_count": 4,
+      "occurrence_count": 5,
       "other_dates": [
         "2026-11-09T23:00:00+00:00",
         "2026-11-16T23:00:00+00:00",
-        "2026-11-23T23:00:00+00:00"
+        "2026-11-23T23:00:00+00:00",
+        "2026-11-30T23:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -583,11 +584,12 @@
       "url": "https://unl.campuslabs.com/engage/event/12587044",
       "description": "Discuss fraternity business weekly and go over annual budget.",
       "units": [],
-      "occurrence_count": 4,
+      "occurrence_count": 5,
       "other_dates": [
         "2026-11-09T23:00:00+00:00",
         "2026-11-16T23:00:00+00:00",
-        "2026-11-23T23:00:00+00:00"
+        "2026-11-23T23:00:00+00:00",
+        "2026-11-30T23:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -621,11 +623,12 @@
       "url": "https://unl.campuslabs.com/engage/event/12496945",
       "description": "Weekly chapter meeting of the Gamma Beta Zeta Chapter of Lambda Chi Alpha at the University of Nebraska–Lincoln. These meetings provide an opportunity for members to conduct chapter business, foster brotherhood, promote academic and leadership development, and coordinate philanthropic, social, and service activities…",
       "units": [],
-      "occurrence_count": 4,
+      "occurrence_count": 5,
       "other_dates": [
         "2026-11-09T23:00:00+00:00",
         "2026-11-16T23:00:00+00:00",
-        "2026-11-23T23:00:00+00:00"
+        "2026-11-23T23:00:00+00:00",
+        "2026-11-30T23:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -663,11 +666,12 @@
       "url": "https://unl.campuslabs.com/engage/event/12559520",
       "description": "The Freshman Action Team will meet at 5:30 pm in the Ubuntu Room before every APU meeting.",
       "units": [],
-      "occurrence_count": 4,
+      "occurrence_count": 5,
       "other_dates": [
         "2026-11-09T23:30:00+00:00",
         "2026-11-16T23:30:00+00:00",
-        "2026-11-23T23:30:00+00:00"
+        "2026-11-23T23:30:00+00:00",
+        "2026-11-30T23:30:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -684,10 +688,11 @@
       "url": "https://unl.campuslabs.com/engage/event/12486980",
       "description": "Weekly chapter meeting",
       "units": [],
-      "occurrence_count": 3,
+      "occurrence_count": 4,
       "other_dates": [
         "2026-11-17T00:00:00+00:00",
-        "2026-11-24T00:00:00+00:00"
+        "2026-11-24T00:00:00+00:00",
+        "2026-12-01T00:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -704,11 +709,12 @@
       "url": "https://unl.campuslabs.com/engage/event/12616210",
       "description": "Aerospace Experimental Payloads weekly meeting to discuss and work on the design, fabrication, and assembly of their high altitude satellite project",
       "units": [],
-      "occurrence_count": 4,
+      "occurrence_count": 5,
       "other_dates": [
         "2026-11-10T00:00:00+00:00",
         "2026-11-17T00:00:00+00:00",
-        "2026-11-24T00:00:00+00:00"
+        "2026-11-24T00:00:00+00:00",
+        "2026-12-01T00:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -742,11 +748,12 @@
       "url": "https://unl.campuslabs.com/engage/event/12571125",
       "description": "Come play with us 6:30 to 8:30 PM Mondays",
       "units": [],
-      "occurrence_count": 4,
+      "occurrence_count": 5,
       "other_dates": [
         "2026-11-10T00:30:00+00:00",
         "2026-11-17T00:30:00+00:00",
-        "2026-11-24T00:30:00+00:00"
+        "2026-11-24T00:30:00+00:00",
+        "2026-12-01T00:30:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -763,10 +770,11 @@
       "url": "https://unl.campuslabs.com/engage/event/12892442",
       "description": "Interested in competing in AKC Beginner Novice Obedience or simply learning more about obedience training? Join us for some training classes to learn about canine obedience and prepare for an AKC competition! Students are welcome to observe or register their dog to participate!",
       "units": [],
-      "occurrence_count": 3,
+      "occurrence_count": 4,
       "other_dates": [
         "2026-11-10T00:30:00+00:00",
-        "2026-11-17T00:30:00+00:00"
+        "2026-11-17T00:30:00+00:00",
+        "2026-12-01T00:30:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -783,11 +791,12 @@
       "url": "https://unl.campuslabs.com/engage/event/12559460",
       "description": "The Afrikan Peoples Union meets every Monday @ 6:30 PM in the Ubuntu Room. We will conduct different activities, learning opportunities, invite speakers, or occasionally have food.",
       "units": [],
-      "occurrence_count": 4,
+      "occurrence_count": 5,
       "other_dates": [
         "2026-11-10T00:30:00+00:00",
         "2026-11-17T00:30:00+00:00",
-        "2026-11-24T00:30:00+00:00"
+        "2026-11-24T00:30:00+00:00",
+        "2026-12-01T00:30:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -827,11 +836,12 @@
       "url": "https://unl.campuslabs.com/engage/event/12645915",
       "description": "Each meeting will consist of 30 minutes of learning GeoGuessr strategies, clues, and metas, followed by 30 minutes of playing GeoGuessr games and challenges to practice what we learned.",
       "units": [],
-      "occurrence_count": 4,
+      "occurrence_count": 5,
       "other_dates": [
         "2026-11-10T01:00:00+00:00",
         "2026-11-17T01:00:00+00:00",
-        "2026-11-24T01:00:00+00:00"
+        "2026-11-24T01:00:00+00:00",
+        "2026-12-01T01:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -865,11 +875,12 @@
       "url": "https://unl.campuslabs.com/engage/event/12737588",
       "description": "Weekly meetings where members gather to discuss chapter business, plan upcoming events, review goals, and uphold the values and mission of Lambda Theta Nu Sorority, Inc. Attendance is required to ensure consistent communication, accountability, and sisterhood engagement.",
       "units": [],
-      "occurrence_count": 4,
+      "occurrence_count": 5,
       "other_dates": [
         "2026-11-10T01:00:00+00:00",
         "2026-11-17T01:00:00+00:00",
-        "2026-11-24T01:00:00+00:00"
+        "2026-11-24T01:00:00+00:00",
+        "2026-12-01T01:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -886,11 +897,12 @@
       "url": "https://unl.campuslabs.com/engage/event/12859338",
       "description": "Team practices are designed to prepare players for collegiate pickleball competition. Practices include drills, match play, strategy, teamwork, and skill development in a structured and competitive environment.",
       "units": [],
-      "occurrence_count": 4,
+      "occurrence_count": 5,
       "other_dates": [
         "2026-11-10T01:30:00+00:00",
         "2026-11-17T01:30:00+00:00",
-        "2026-11-24T01:30:00+00:00"
+        "2026-11-24T01:30:00+00:00",
+        "2026-12-01T01:30:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -907,11 +919,12 @@
       "url": "https://unl.campuslabs.com/engage/event/12622815",
       "description": "Cru will be holding a weekly manhood study to prepare young guys into men, both in character and spiritually. In a world with conflicting temptations pushing and pulling young men into struggles with sin, this study is great for guys looking to take a firm foundation in Jesus Christ.",
       "units": [],
-      "occurrence_count": 4,
+      "occurrence_count": 5,
       "other_dates": [
         "2026-11-10T02:30:00+00:00",
         "2026-11-17T02:30:00+00:00",
-        "2026-11-24T02:30:00+00:00"
+        "2026-11-24T02:30:00+00:00",
+        "2026-12-01T02:30:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -4091,9 +4104,10 @@
       "url": "https://unl.campuslabs.com/engage/event/12740632",
       "description": "These will be our monthly meetings",
       "units": [],
-      "occurrence_count": 2,
+      "occurrence_count": 3,
       "other_dates": [
-        "2026-11-11T23:30:00+00:00"
+        "2026-11-11T23:30:00+00:00",
+        "2026-11-30T23:30:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -6827,8 +6841,10 @@
       "url": "https://unl.campuslabs.com/engage/event/12603969",
       "description": "Join us for our weekly FLEX meeting where we check in on ongoing projects, share updates, and talk through next steps. Meetings are a mix of open discussion, design brainstorming, and planning future work, so whether you’re actively working on a project or just curious about what FLEX does, you’re welcome to come by.…",
       "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
+      "occurrence_count": 2,
+      "other_dates": [
+        "2026-11-30T23:00:00+00:00"
+      ],
       "noise_penalty": 0,
       "noise_reason": null
     },
@@ -6945,6 +6961,40 @@
       "category": null,
       "url": "http://events.unl.edu/2026/11/30/203790/",
       "description": "Join us for this free webinar with Dr. Denise Bulling focused on Psychological First Aid for Schools in the context of school safety and identifying roles in mitigating distress.\n\n1. Describe the role of Psychological First Aid for Schools (PFA-S) in school safety.\n2. Identify proactive and reactive roles for PFA-S in…",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "engage:12522914",
+      "source": "engage",
+      "title": "Kendall Ross Art Exhibition",
+      "start": "2026-11-30T18:00:00+00:00",
+      "end": "2026-12-05T01:00:00+00:00",
+      "location": "Eisentrager-Howard Gallery",
+      "org": "University Program Council",
+      "category": "Arts",
+      "url": "https://unl.campuslabs.com/engage/event/12522914",
+      "description": "later",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "engage:12522421",
+      "source": "engage",
+      "title": "SCC Meeting",
+      "start": "2026-12-01T01:30:00+00:00",
+      "end": "2026-12-01T02:30:00+00:00",
+      "location": "Campus Recreation - Room 230C",
+      "org": "University of Nebraska Sport Clubs Council",
+      "category": "Athletics",
+      "url": "https://unl.campuslabs.com/engage/event/12522421",
+      "description": "Mandatory meeting for all Campus Recreation Sport Clubs.",
       "units": [],
       "occurrence_count": 1,
       "other_dates": [],
