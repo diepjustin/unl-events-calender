@@ -1,400 +1,15 @@
 {
-  "generated_at": "2026-11-14T15:35:34.248877+00:00",
+  "generated_at": "2026-11-15T16:05:48.833884+00:00",
   "window_days": 60,
   "sources": {
     "unl": {
-      "raw_count": 812
+      "raw_count": 801
     },
     "engage": {
-      "raw_count": 387
+      "raw_count": 373
     }
   },
   "events": [
-    {
-      "id": "unl:204143@events.unl.edu",
-      "source": "unl",
-      "title": "Turkey Trot for the Brave",
-      "start": "2026-11-14T16:00:00+00:00",
-      "end": "2026-11-14T20:00:00+00:00",
-      "location": "Nebraska Union Room Meier Commons",
-      "org": "National Residence Hall Honorary",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/14/204143/",
-      "description": "Join the Residence Hall Association (RHA), National Residence Hall Honorary (NRHH), and UNL Running Club for the annual Turkey Trot for the Brave! This event raises funds for the St. Baldrick's Foundation which is a non-profit dedicated to fighting childhood cancer. \n\nFor just $10 for students or $15 for…",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12961743",
-      "source": "engage",
-      "title": "November Event",
-      "start": "2026-11-14T16:00:00+00:00",
-      "end": "2026-11-14T18:00:00+00:00",
-      "location": "Salt Creek Senior Living",
-      "org": "Room to Bloom",
-      "category": "CommunityService",
-      "url": "https://unl.campuslabs.com/engage/event/12961743",
-      "description": "We will be attending Salt Creek Nursing Home for a service event where we will make thanksgiving themed crafts and play thanksgiving themed games with residents! There will be snacks and prizes!",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12930019",
-      "source": "engage",
-      "title": "Lambda Phi Epsilon Volleyball Tournament",
-      "start": "2026-11-14T17:30:00+00:00",
-      "end": "2026-11-14T23:30:00+00:00",
-      "location": "UNL City Rec",
-      "org": "Lambda Phi Epsilon",
-      "category": "Fundraising",
-      "url": "https://unl.campuslabs.com/engage/event/12930019",
-      "description": "Lambda Phi Epsilon will be hosting a volleyball tournament to raise funds for our chapter and our philanthropy. It will be a 6v6 single elimination tournament indoors with a $60 entrance fee and a $120 prize for the first place team.",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:203278@events.unl.edu",
-      "source": "unl",
-      "title": "Leatherworking, Beginner Workshop",
-      "start": "2026-11-14T18:00:00+00:00",
-      "end": "2026-11-14T22:00:00+00:00",
-      "location": "Nebraska Innovation Studio Room",
-      "org": "Nebraska Innovation Studio",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/14/203278/",
-      "description": "Workshop for existing NIS members AND non-members\n\nIf you want to take other workshops or simply work at the studio on your own projects then enroll in an NIS Orientation to become a member today\n\nCost: $65.00\n\nIn this 4-hour workshop, you will learn the basics of leatherworking as you make and customize a leather…",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:203065@events.unl.edu",
-      "source": "unl",
-      "title": "Quilted Holiday Bow Workshop",
-      "start": "2026-11-14T18:00:00+00:00",
-      "end": "2026-11-14T21:00:00+00:00",
-      "location": "Nebraska Innovation Studio Room",
-      "org": "Nebraska Innovation Studio",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/14/203065/",
-      "description": "Workshop for existing NIS members only\n\nEnroll in an NIS Orientation to become a member today\n\nCost: $65.00\n\nCreate a festive holiday bow from vintage quilts. Learn simple sewing and construction techniques while giving old textiles new life. All materials included.",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12620525",
-      "source": "engage",
-      "title": "Scrimmage against KSU @ Home",
-      "start": "2026-11-14T18:00:00+00:00",
-      "end": "2026-11-14T21:00:00+00:00",
-      "location": "Cook Pavilion",
-      "org": "University of Nebraska Women's Club Lacrosse",
-      "category": "Athletics",
-      "url": "https://unl.campuslabs.com/engage/event/12620525",
-      "description": "Final scrimmage of the fall season! KSU will travel to us and play in Lincoln!",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12961080",
-      "source": "engage",
-      "title": "UNL vs Kansas State Club Tennis Duel",
-      "start": "2026-11-14T18:00:00+00:00",
-      "end": "2026-11-14T23:00:00+00:00",
-      "location": "Vine St Tennis Courts",
-      "org": "UNL Tennis Club",
-      "category": "Athletics",
-      "url": "https://unl.campuslabs.com/engage/event/12961080",
-      "description": "Tennis tournament between the UNL Club Tennis team and K State's Club Tennis team.",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12959030",
-      "source": "engage",
-      "title": "Presentation day",
-      "start": "2026-11-14T18:00:00+00:00",
-      "end": "2026-11-15T00:00:00+00:00",
-      "location": "UNL",
-      "org": "Lincoln Fantasy And Science Fiction Club",
-      "category": "Social",
-      "url": "https://unl.campuslabs.com/engage/event/12959030",
-      "description": "You ever wanted to talk about something for an hour? well come to this event where we can guarantee a captive audience for whatever it is you want to talk about.",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:204091@events.unl.edu",
-      "source": "unl",
-      "title": "Fjord",
-      "start": "2026-11-14T18:30:00+00:00",
-      "end": "2026-11-14T18:30:00+00:00",
-      "location": "Mary Riepma Ross Media Arts Center-Van Brunt Visitors Center Room Ross Theaters (123 & 124)",
-      "org": "Mary Riepma Ross Media Arts Center",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/14/204091/",
-      "description": "Showing at The Ross November 13-25. Visit theross.org for tickets, showtimes, and more information. \n\nFrom two-time Palme d'Or winner Cristian Mungiu, a Norwegian woman and her devout Romanian husband relocate with their five children to a remote, close-knit, coastal town. Their teenage children form a fast bond with…",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:204084@events.unl.edu",
-      "source": "unl",
-      "title": "Fatherland",
-      "start": "2026-11-14T19:10:00+00:00",
-      "end": "2026-11-14T19:10:00+00:00",
-      "location": "Mary Riepma Ross Media Arts Center-Van Brunt Visitors Center Room Ross Theaters (123 & 124)",
-      "org": "Mary Riepma Ross Media Arts Center",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/14/204084/",
-      "description": "Showing at The Ross November 13-25. Visit theross.org for tickets, showtimes, and more information. \n\nFATHERLAND centres on the relationship between the Nobel Prize-winning writer Thomas Mann (Hanns Zischler) and his daughter Erika (Sandra Hüller) - actress, writer and rally driver. In the summer of 1949, at the…",
-      "units": [],
-      "occurrence_count": 2,
-      "other_dates": [
-        "2026-11-15T19:10:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:202552@events.unl.edu",
-      "source": "unl",
-      "title": "Drop-In Tour at Sheldon Museum of Art",
-      "start": "2026-11-14T20:00:00+00:00",
-      "end": "2026-11-14T21:00:00+00:00",
-      "location": "Sheldon Museum of Art Room",
-      "org": "Sheldon Museum",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/14/202552/",
-      "description": "Explore the many forms of abstract art on view at Sheldon Museum of Art with a Sheldon educator. Through guided looking and conversation, discover how artists express ideas beyond representation. \nTours at Sheldon are free, but space is limited. Advanced registration is encouraged.",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:201373-979183@events.unl.edu",
-      "source": "unl",
-      "title": "Indian Caves Backpacking Trip",
-      "start": "2026-11-14T21:00:00+00:00",
-      "end": "2026-11-14T21:00:00+00:00",
-      "location": "Outdoor Adventures Center Room",
-      "org": "Audrey Krimm",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/14/201373/",
-      "description": "Required Pre-Trip Meeting: 7:00-9:00pm Tuesday, Nov. 10\n\nExperience scenery you won't find from Nebraska's highways on a weekend trip to Indian Cave State Park. Enjoy late autum colors, sweeping views of the Missouri River, and an exploration of the park's namesake sandstone cave.\n\nAlong the way, our instructors will…",
-      "units": [],
-      "occurrence_count": 2,
-      "other_dates": [
-        "2026-11-15T21:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12978607",
-      "source": "engage",
-      "title": "Diwali Night 2026",
-      "start": "2026-11-14T23:00:00+00:00",
-      "end": "2026-11-15T05:45:00+00:00",
-      "location": "Nebraska City Union",
-      "org": "Indian Students Association",
-      "category": "Cultural",
-      "url": "https://unl.campuslabs.com/engage/event/12978607",
-      "description": "Diwali is the most significant and famous festival of the India which is being celebrated every year all over the country as well as outside the country. It spiritually signifies the victory of light over darkness, good over evil, knowledge over ignorance, and hope over despair. This Diwali, come join us for a night…",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12976189",
-      "source": "engage",
-      "title": "Waterski Banquet",
-      "start": "2026-11-14T23:30:00+00:00",
-      "end": "2026-11-15T03:30:00+00:00",
-      "location": "Championship Lake Estates",
-      "org": "UNL Waterski",
-      "category": "Athletics",
-      "url": "https://unl.campuslabs.com/engage/event/12976189",
-      "description": "The team will host a banquet to celebrate the past season and share our accomplishments with our friends and family.",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12484419",
-      "source": "engage",
-      "title": "Pitch Please Family/Friends Night!",
-      "start": "2026-11-15T00:00:00+00:00",
-      "end": "2026-11-15T04:00:00+00:00",
-      "location": "The Crib",
-      "org": "Pitch Please",
-      "category": "Arts",
-      "url": "https://unl.campuslabs.com/engage/event/12484419",
-      "description": "On Friday, November 14th, Pitch Please is hosting a quick performance to showcase what we've been working on this semester! Consider it a little sneak peek before our Fall Show :) Come to the UNL Crib at 7pm to this FREE performance, free will donation only. We look forward to seeing you there! When: Friday, November…",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:203744-981407@events.unl.edu",
-      "source": "unl",
-      "title": "Arcadia",
-      "start": "2026-11-15T01:30:00+00:00",
-      "end": "2026-11-15T01:30:00+00:00",
-      "location": "Temple Building Room Howell Theater",
-      "org": "Robbie Exstrom",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/14/203744/",
-      "description": "Moving fluidly between the early 19th century and the present day, Arcadia intertwines mathematics, science, romantic entanglements, and literary inquiry in a richly layered exploration of time, knowledge, and the pursuit of truth. At once intellectually rigorous and deeply human, it is a play that delights in…",
-      "units": [],
-      "occurrence_count": 9,
-      "other_dates": [
-        "2026-11-16T01:30:00+00:00",
-        "2026-11-17T01:30:00+00:00",
-        "2026-11-18T01:30:00+00:00",
-        "2026-11-19T01:30:00+00:00",
-        "2026-11-20T01:30:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:203815@events.unl.edu",
-      "source": "unl",
-      "title": "Nebraska Rep: Arcadia",
-      "start": "2026-11-15T01:30:00+00:00",
-      "end": "2026-11-15T01:30:00+00:00",
-      "location": "Temple Building Room Howell Theatre",
-      "org": "Robbie Exstrom",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/14/203815/",
-      "description": "The Nebraska Repertory Theatre presents Tom Stoppard's \"Arcadia.\" Acclaimed guest director Michael Matthews leads a production of one of the most celebrated plays of the modern era. Moving fluidly between the early 19th century and the present day, Arcadia intertwines mathematics, science, romantic entanglements, and…",
-      "units": [
-        "casnr"
-      ],
-      "occurrence_count": 4,
-      "other_dates": [
-        "2026-11-19T01:30:00+00:00",
-        "2026-11-20T01:30:00+00:00",
-        "2026-11-21T01:30:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:204198-981537@events.unl.edu",
-      "source": "unl",
-      "title": "It's All About Nature: Photography by Chuck Starr",
-      "start": "2026-11-15T14:00:00+00:00",
-      "end": "2026-11-16T02:00:00+00:00",
-      "location": "Nebraska Innovation Campus, 2nd Floor Link Room",
-      "org": "Brooke Goedert",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/15/204198/",
-      "description": "It's All About Nature showcases the work of professional photographer Chuck Starr, a lifelong Nebraska resident whose passion for photography began in his youth with film cameras. As photography evolved into the digital age, Starr embraced new technology while continuing to capture the natural beauty of the…",
-      "units": [],
-      "occurrence_count": 45,
-      "other_dates": [
-        "2026-11-16T14:00:00+00:00",
-        "2026-11-17T14:00:00+00:00",
-        "2026-11-18T14:00:00+00:00",
-        "2026-11-19T14:00:00+00:00",
-        "2026-11-20T14:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12980025",
-      "source": "engage",
-      "title": "Western Home Show",
-      "start": "2026-11-15T14:00:00+00:00",
-      "end": "2026-11-15T23:00:00+00:00",
-      "location": "RB Warren Arena",
-      "org": "UNL Equestrian Team",
-      "category": "Athletics",
-      "url": "https://unl.campuslabs.com/engage/event/12980025",
-      "description": "The UNL Equestrian Team will host a regional IHSA competition. Exhibitors will compete in specific classes based on experience and ability. Exhibitors and spectators will have a chance to watch the event, have concessions, and buy apparel. Home team members will help to coordinate the event. This encompasses all…",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:200835-978286@events.unl.edu",
-      "source": "unl",
-      "title": "Nebraska Nonprofit Management Institute - Understanding Nonprofit Financial Statements",
-      "start": "2026-11-15T15:00:00+00:00",
-      "end": "2026-11-15T15:00:00+00:00",
-      "location": "",
-      "org": "Kate Dean",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/15/200835/",
-      "description": "Virtual asynchronous course. Learn to read and interpret financial statements,\nread and analyze financial reports and case studies, develop foundational knowledge to prepare you for advanced courses.",
-      "units": [],
-      "occurrence_count": 60,
-      "other_dates": [
-        "2026-11-16T15:00:00+00:00",
-        "2026-11-17T15:00:00+00:00",
-        "2026-11-18T15:00:00+00:00",
-        "2026-11-19T15:00:00+00:00",
-        "2026-11-20T15:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12964687",
-      "source": "engage",
-      "title": "Women's Basketball Club Away Game at Creighton",
-      "start": "2026-11-15T16:00:00+00:00",
-      "end": "2026-11-15T18:15:00+00:00",
-      "location": "Kiewit Physical Fitness Center - Creighton University",
-      "org": "UNL Women's Basketball Club",
-      "category": "Athletics",
-      "url": "https://unl.campuslabs.com/engage/event/12964687",
-      "description": "Women's Basketball Club first game of the season/conference against Creighton at Creighton, starting at 10 a.m. in the morning. Warmups begin at 9 a.m.",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
     {
       "id": "engage:12616875",
       "source": "engage",
@@ -412,6 +27,23 @@
         "2026-11-22T18:00:00+00:00",
         "2026-12-06T18:00:00+00:00"
       ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:204085@events.unl.edu",
+      "source": "unl",
+      "title": "Fatherland",
+      "start": "2026-11-15T19:10:00+00:00",
+      "end": "2026-11-15T19:10:00+00:00",
+      "location": "Mary Riepma Ross Media Arts Center-Van Brunt Visitors Center Room Ross Theaters (123 & 124)",
+      "org": "Mary Riepma Ross Media Arts Center",
+      "category": null,
+      "url": "http://events.unl.edu/2026/11/15/204085/",
+      "description": "Showing at The Ross November 13-25. Visit theross.org for tickets, showtimes, and more information. \n\nFATHERLAND centres on the relationship between the Nobel Prize-winning writer Thomas Mann (Hanns Zischler) and his daughter Erika (Sandra Hüller) - actress, writer and rally driver. In the summer of 1949, at the…",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
       "noise_penalty": 0,
       "noise_reason": null
     },
@@ -470,6 +102,23 @@
         "2026-11-22T20:00:00+00:00",
         "2026-12-06T20:00:00+00:00"
       ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:201373-979184@events.unl.edu",
+      "source": "unl",
+      "title": "Indian Caves Backpacking Trip",
+      "start": "2026-11-15T21:00:00+00:00",
+      "end": "2026-11-15T21:00:00+00:00",
+      "location": "Outdoor Adventures Center Room",
+      "org": "Audrey Krimm",
+      "category": null,
+      "url": "http://events.unl.edu/2026/11/15/201373/",
+      "description": "Required Pre-Trip Meeting: 7:00-9:00pm Tuesday, Nov. 10\n\nExperience scenery you won't find from Nebraska's highways on a weekend trip to Indian Cave State Park. Enjoy late autum colors, sweeping views of the Missouri River, and an exploration of the park's namesake sandstone cave.\n\nAlong the way, our instructors will…",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
       "noise_penalty": 0,
       "noise_reason": null
     },
@@ -582,6 +231,52 @@
       "noise_reason": null
     },
     {
+      "id": "unl:203744-981408@events.unl.edu",
+      "source": "unl",
+      "title": "Arcadia",
+      "start": "2026-11-16T01:30:00+00:00",
+      "end": "2026-11-16T01:30:00+00:00",
+      "location": "Temple Building Room Howell Theater",
+      "org": "Robbie Exstrom",
+      "category": null,
+      "url": "http://events.unl.edu/2026/11/15/203744/",
+      "description": "Moving fluidly between the early 19th century and the present day, Arcadia intertwines mathematics, science, romantic entanglements, and literary inquiry in a richly layered exploration of time, knowledge, and the pursuit of truth. At once intellectually rigorous and deeply human, it is a play that delights in…",
+      "units": [],
+      "occurrence_count": 8,
+      "other_dates": [
+        "2026-11-17T01:30:00+00:00",
+        "2026-11-18T01:30:00+00:00",
+        "2026-11-19T01:30:00+00:00",
+        "2026-11-20T01:30:00+00:00",
+        "2026-11-21T01:30:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:204198-981538@events.unl.edu",
+      "source": "unl",
+      "title": "It's All About Nature: Photography by Chuck Starr",
+      "start": "2026-11-16T14:00:00+00:00",
+      "end": "2026-11-17T02:00:00+00:00",
+      "location": "Nebraska Innovation Campus, 2nd Floor Link Room",
+      "org": "Brooke Goedert",
+      "category": null,
+      "url": "http://events.unl.edu/2026/11/16/204198/",
+      "description": "It's All About Nature showcases the work of professional photographer Chuck Starr, a lifelong Nebraska resident whose passion for photography began in his youth with film cameras. As photography evolved into the digital age, Starr embraced new technology while continuing to capture the natural beauty of the…",
+      "units": [],
+      "occurrence_count": 44,
+      "other_dates": [
+        "2026-11-17T14:00:00+00:00",
+        "2026-11-18T14:00:00+00:00",
+        "2026-11-19T14:00:00+00:00",
+        "2026-11-20T14:00:00+00:00",
+        "2026-11-21T14:00:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
       "id": "unl:204064-981484@events.unl.edu",
       "source": "unl",
       "title": "Nebraska Innovation Campus Food Drive",
@@ -600,6 +295,29 @@
         "2026-11-19T14:00:00+00:00",
         "2026-11-20T14:00:00+00:00",
         "2026-11-23T14:00:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:200835-978287@events.unl.edu",
+      "source": "unl",
+      "title": "Nebraska Nonprofit Management Institute - Understanding Nonprofit Financial Statements",
+      "start": "2026-11-16T15:00:00+00:00",
+      "end": "2026-11-16T15:00:00+00:00",
+      "location": "",
+      "org": "Kate Dean",
+      "category": null,
+      "url": "http://events.unl.edu/2026/11/16/200835/",
+      "description": "Virtual asynchronous course. Learn to read and interpret financial statements,\nread and analyze financial reports and case studies, develop foundational knowledge to prepare you for advanced courses.",
+      "units": [],
+      "occurrence_count": 60,
+      "other_dates": [
+        "2026-11-17T15:00:00+00:00",
+        "2026-11-18T15:00:00+00:00",
+        "2026-11-19T15:00:00+00:00",
+        "2026-11-20T15:00:00+00:00",
+        "2026-11-21T15:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -2356,9 +2074,10 @@
       "units": [
         "casnr"
       ],
-      "occurrence_count": 2,
+      "occurrence_count": 3,
       "other_dates": [
-        "2026-12-03T00:30:00+00:00"
+        "2026-12-03T00:30:00+00:00",
+        "2027-01-14T00:30:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -2533,6 +2252,28 @@
       "other_dates": [
         "2026-12-03T01:00:00+00:00",
         "2026-12-10T01:00:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:203817@events.unl.edu",
+      "source": "unl",
+      "title": "Nebraska Rep: Arcadia",
+      "start": "2026-11-19T01:30:00+00:00",
+      "end": "2026-11-19T01:30:00+00:00",
+      "location": "Temple Building Room Howell Theatre",
+      "org": "Robbie Exstrom",
+      "category": null,
+      "url": "http://events.unl.edu/2026/11/18/203817/",
+      "description": "The Nebraska Repertory Theatre presents Tom Stoppard's \"Arcadia.\" Acclaimed guest director Michael Matthews leads a production of one of the most celebrated plays of the modern era. Moving fluidly between the early 19th century and the present day, Arcadia intertwines mathematics, science, romantic entanglements, and…",
+      "units": [
+        "casnr"
+      ],
+      "occurrence_count": 3,
+      "other_dates": [
+        "2026-11-20T01:30:00+00:00",
+        "2026-11-21T01:30:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -4670,7 +4411,7 @@
       "noise_reason": null
     },
     {
-      "id": "unl:202252@events.unl.edu",
+      "id": "unl:202249@events.unl.edu",
       "source": "unl",
       "title": "State of the Agency Lecture",
       "start": "2026-12-01T18:30:00+00:00",
@@ -4678,7 +4419,7 @@
       "location": "Nebraska Union Room Swanson Auditorium",
       "org": "Kendra Clark",
       "category": null,
-      "url": "http://events.unl.edu/2026/12/01/202252/",
+      "url": "http://events.unl.edu/2026/12/01/202249/",
       "description": "Lecture",
       "units": [],
       "occurrence_count": 1,
@@ -6161,8 +5902,10 @@
       "url": "http://events.unl.edu/2026/12/09/203894/",
       "description": "Presented by Katja Koehler-Cole, Statewide Soil Health Extension Educator\nTopics include:\n-Making the case for living roots in the ground year round\n-Selecting the right cover crops for specialty crop production\n-Cover crop planting and termination considerations",
       "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
+      "occurrence_count": 2,
+      "other_dates": [
+        "2027-01-13T18:00:00+00:00"
+      ],
       "noise_penalty": 0,
       "noise_reason": null
     },
@@ -6790,9 +6533,10 @@
       "units": [
         "casnr"
       ],
-      "occurrence_count": 2,
+      "occurrence_count": 3,
       "other_dates": [
-        "2027-01-13T14:45:00+00:00"
+        "2027-01-13T14:45:00+00:00",
+        "2027-01-14T14:45:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -6808,6 +6552,40 @@
       "category": null,
       "url": "http://events.unl.edu/2027/01/13/199499/",
       "description": "The First-Year Housing Application for on-campus housing for the 2026-27 Academic Year (August 2027 to May 2028) is for incoming freshmen for Fall 2027.\n\nStarting January 13, 2027, students who have paid or deferred their enrollment deposit will gain access to the Housing Application and Roommate Finder in MyRED. For…",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:204124@events.unl.edu",
+      "source": "unl",
+      "title": "From Cold Call to Customer Webinar",
+      "start": "2027-01-13T18:00:00+00:00",
+      "end": "2027-01-13T19:00:00+00:00",
+      "location": "",
+      "org": "The Combine",
+      "category": null,
+      "url": "http://events.unl.edu/2027/01/13/204124/",
+      "description": "Join The Combine for a conversation with Patrick Flynn, Founding Partner at PF Partners, on how AgTech companies can move from scattered cold calls to a sales process that consistently turns prospects into customers.\n\nPF Partners is an advisory firm working with companies, venture funds, and corporations across…",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:200383@events.unl.edu",
+      "source": "unl",
+      "title": "1040 Workshop",
+      "start": "2027-01-14T14:30:00+00:00",
+      "end": "2027-01-14T22:40:00+00:00",
+      "location": "College of Business - Howard L. Hawks Hall Room 202",
+      "org": "CEPD",
+      "category": null,
+      "url": "http://events.unl.edu/2027/01/14/200383/",
+      "description": "Even the most seasoned tax professional benefits from reviewing changes on the 1040, the most important form in the IRS inventory. Our tax team will guide you step-by-step and provide case studies and context on various items throughout the 1040.",
       "units": [],
       "occurrence_count": 1,
       "other_dates": [],
