@@ -1,711 +1,15 @@
 {
-  "generated_at": "2026-11-20T17:33:51.628889+00:00",
+  "generated_at": "2026-11-22T16:54:47.165924+00:00",
   "window_days": 60,
   "sources": {
     "unl": {
-      "raw_count": 747
+      "raw_count": 724
     },
     "engage": {
-      "raw_count": 285
+      "raw_count": 260
     }
   },
   "events": [
-    {
-      "id": "unl:202445@events.unl.edu",
-      "source": "unl",
-      "title": "City Campus Lunch for Community-Engaged Faculty and Staff",
-      "start": "2026-11-20T18:00:00+00:00",
-      "end": "2026-11-20T19:00:00+00:00",
-      "location": "Selleck Quad Building L - Food Service Room",
-      "org": "Jentry Barrett",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/20/202445/",
-      "description": "Join other community-engaged faculty and staff for an informal lunch to build relationships. Lunch will be in the Selleck Dining Hall.",
-      "units": [
-        "cehs"
-      ],
-      "occurrence_count": 2,
-      "other_dates": [
-        "2026-12-18T18:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:203070@events.unl.edu",
-      "source": "unl",
-      "title": "Friday Update and Weather Outlook with Nebraska State Climate Office",
-      "start": "2026-11-20T18:00:00+00:00",
-      "end": "2026-11-20T19:00:00+00:00",
-      "location": "Hardin Hall Room 107 South (Platte River Auditorium), and online at Zoom Webinar (https://unl.zoom.us/j/96667851738)",
-      "org": "Eric Hunt",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/20/203070/",
-      "description": "monthly climate update from the Nebraska State Climate Office",
-      "units": [
-        "casnr"
-      ],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12935322",
-      "source": "engage",
-      "title": "UPC x Fly Fitness Cycling Class",
-      "start": "2026-11-20T18:00:00+00:00",
-      "end": "2026-11-20T18:40:00+00:00",
-      "location": "Fly Fitness",
-      "org": "University Program Council / UPC Nebraska",
-      "category": "Athletics",
-      "url": "https://unl.campuslabs.com/engage/event/12935322",
-      "description": "Join UPC for a Cycling class at Fly Fitness! 45 minutes of endurance-building riding unlike any other cycle class you’ve experienced. Grounded in research & delivered with the Fly Fitness philosophy in mind, their full cycle class will uplift you & have you achieving new heights. All levels welcome, so just bring a…",
-      "units": [],
-      "cross_listed_sources": [
-        "engage",
-        "unl"
-      ],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12951207",
-      "source": "engage",
-      "title": "Engage Lincoln: People City Mission",
-      "start": "2026-11-20T18:00:00+00:00",
-      "end": "2026-11-20T20:00:00+00:00",
-      "location": "Help Center - 6800 P St, Lincoln, NE 68510",
-      "org": "",
-      "category": "CommunityService",
-      "url": "https://unl.campuslabs.com/engage/event/12951207",
-      "description": "The People City Mission Help Center, opened in 1990, takes the donations our community gives us and distributes them to low-income families within the community for no cost. Here we collect and then distribute food, clothing, household items, furniture, toys, and personal care items. This volunteer opportunity will…",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12979325",
-      "source": "engage",
-      "title": "D3 at Chicago",
-      "start": "2026-11-20T18:00:00+00:00",
-      "end": "2026-11-22T19:00:00+00:00",
-      "location": "Rosemont ice center",
-      "org": "UNL Men's Ice Hockey Club",
-      "category": "Athletics",
-      "url": "https://unl.campuslabs.com/engage/event/12979325",
-      "description": "D3 will go and play in the B1G tournament in Chicago",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12567986",
-      "source": "engage",
-      "title": "Fall 2026 IGNITE",
-      "start": "2026-11-20T18:30:00+00:00",
-      "end": "2026-11-20T20:00:00+00:00",
-      "location": "Carson Center for Emerging Media Arts",
-      "org": "Johnny Carson Center for Emerging Media Arts",
-      "category": "ThoughtfulLearning",
-      "url": "https://unl.campuslabs.com/engage/event/12567986",
-      "description": "Our IGNITE Colloquium features guest artists and industry professionals, as well as screenings, workshops, and seminars around creative and professional development for students. Featuring speakers ranging from award-winning film and television producers and directors to leaders in immersive and interactive…",
-      "units": [],
-      "occurrence_count": 2,
-      "other_dates": [
-        "2026-12-04T18:30:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12809330",
-      "source": "engage",
-      "title": "MRC Attendance",
-      "start": "2026-11-20T18:30:00+00:00",
-      "end": "2026-11-21T02:30:00+00:00",
-      "location": "Avery 13",
-      "org": "Math Resource Center",
-      "category": "ThoughtfulLearning",
-      "url": "https://unl.campuslabs.com/engage/event/12809330",
-      "description": "QR code attendance",
-      "units": [],
-      "occurrence_count": 13,
-      "other_dates": [
-        "2026-11-23T18:30:00+00:00",
-        "2026-11-24T18:30:00+00:00",
-        "2026-11-30T18:30:00+00:00",
-        "2026-12-01T18:30:00+00:00",
-        "2026-12-02T18:30:00+00:00"
-      ],
-      "noise_penalty": 3,
-      "noise_reason": "A QR-code attendance placeholder, not a real event listing"
-    },
-    {
-      "id": "unl:201923-980276@events.unl.edu",
-      "source": "unl",
-      "title": "Huskers Abroad 101",
-      "start": "2026-11-20T20:00:00+00:00",
-      "end": "2026-11-20T20:30:00+00:00",
-      "location": "Louise Pound Hall Room LPH 141",
-      "org": "Renae Ninneman",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/20/201923/",
-      "description": "Join Global Experiences for a 30-minute interactive workshop to help you start planning your global experience. During the workshop, we'll discuss global experience types, funding, the timeline for planning your experience, and thinking through your goals to go abroad. Just show up, no registration is needed, and both…",
-      "units": [
-        "cehs"
-      ],
-      "occurrence_count": 10,
-      "other_dates": [
-        "2026-11-23T20:00:00+00:00",
-        "2026-11-25T20:00:00+00:00",
-        "2026-11-27T20:00:00+00:00",
-        "2026-11-30T20:00:00+00:00",
-        "2026-12-02T20:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:204354@events.unl.edu",
-      "source": "unl",
-      "title": "IGNITE: A Conversation with Richard Taylor",
-      "start": "2026-11-20T20:00:00+00:00",
-      "end": "2026-11-20T20:00:00+00:00",
-      "location": "Johnny Carson Center for Emerging Media Arts Room",
-      "org": "Megan McMasters",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/20/204354/",
-      "description": "Richard Taylor is the co-founder of the Weta companies and co-owner of Weta Workshop along with his wife Tania Rodger, who established their business in their home city of Wellington, New Zealand. \n\nRichard has won five Academy Awards across three disciplines: Special Effects Makeup; Visual Effects; and Costume…",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:202471-980807@events.unl.edu",
-      "source": "unl",
-      "title": "Well-Being Discussions",
-      "start": "2026-11-20T21:30:00+00:00",
-      "end": "2026-11-20T22:30:00+00:00",
-      "location": "Kauffman Academic Residential Center Room 122",
-      "org": "Counseling and Psychological Services",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/20/202471/",
-      "description": "A supportive, low-intensity space for Raikes School students to explore a variety of wellbeing-related topics, pause, and reset. We engage in discussion for 20 to 30 minutes, followed by 10 to 15 minutes of guided meditation, and wrap up with 10 to 15 minutes of Q&A or additional discussion. Participants can direct…",
-      "units": [],
-      "occurrence_count": 3,
-      "other_dates": [
-        "2026-12-04T21:30:00+00:00",
-        "2026-12-11T21:30:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:202875-981056@events.unl.edu",
-      "source": "unl",
-      "title": "Japanese Conversation Table",
-      "start": "2026-11-20T22:00:00+00:00",
-      "end": "2026-11-20T23:00:00+00:00",
-      "location": "Jackie Gaughan Multicultural Center Room Room 301",
-      "org": "Kawasaki Reading Room",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/20/202875/",
-      "description": "Interested in practicing your Japanese? Come Join us every Friday from 4 to 5 PM at Kawasaki Reading Room (JGMC Room 301).",
-      "units": [],
-      "occurrence_count": 4,
-      "other_dates": [
-        "2026-11-27T22:00:00+00:00",
-        "2026-12-04T22:00:00+00:00",
-        "2026-12-11T22:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12690070",
-      "source": "engage",
-      "title": "Judo Practice",
-      "start": "2026-11-20T22:00:00+00:00",
-      "end": "2026-11-20T23:30:00+00:00",
-      "location": "Combative Arts Room City Rec",
-      "org": "Judo Club",
-      "category": "Athletics",
-      "url": "https://unl.campuslabs.com/engage/event/12690070",
-      "description": "Judo is an Olympic sport that was founded in 1882 by Dr. Jigoro Kano in Japan. Derived from Japanese Jujitsu, judo is a mix of throwing, falling, pins and other martial arts skills. If you would like a fun, challenging workout, join us! We require you to either have a judo gi or bring workout clothes and a hoodie!",
-      "units": [],
-      "occurrence_count": 2,
-      "other_dates": [
-        "2026-12-04T22:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12877745",
-      "source": "engage",
-      "title": "Delta Phi Lambda Reveal",
-      "start": "2026-11-20T22:30:00+00:00",
-      "end": "2026-11-21T01:30:00+00:00",
-      "location": "Carolyn Pope Edwards Hall",
-      "org": "Delta Phi Lambda",
-      "category": "GroupBusiness",
-      "url": "https://unl.campuslabs.com/engage/event/12877745",
-      "description": "New member presentation for Delta Phi Lambda Sorority, Inc.",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12839310",
-      "source": "engage",
-      "title": "F.L.U.F.F. General Meet",
-      "start": "2026-11-20T22:45:00+00:00",
-      "end": "2026-11-21T00:30:00+00:00",
-      "location": "Southe Platte Room South",
-      "org": "Federation of Lincoln University Furry Fellows",
-      "category": "Social",
-      "url": "https://unl.campuslabs.com/engage/event/12839310",
-      "description": "F.L.U.F.F.'s weekly meets, where we get together, hang out, and provide a space for UNL's furry community",
-      "units": [],
-      "occurrence_count": 2,
-      "other_dates": [
-        "2026-12-04T22:45:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12712419",
-      "source": "engage",
-      "title": "WIA General Meeting",
-      "start": "2026-11-20T23:00:00+00:00",
-      "end": "2026-11-21T01:00:00+00:00",
-      "location": "Aerospace Club Lab: NH-127",
-      "org": "Aerospace Club",
-      "category": "ThoughtfulLearning",
-      "url": "https://unl.campuslabs.com/engage/event/12712419",
-      "description": "Welcome Into Aerospace will have their weekly general meeting where they work on professional advancement, engineering skills development, and host speaker events for Aerospace Club members interested in the aerospace industry.",
-      "units": [],
-      "occurrence_count": 3,
-      "other_dates": [
-        "2026-12-04T23:00:00+00:00",
-        "2026-12-11T23:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12983435",
-      "source": "engage",
-      "title": "Thanksgiving celebration",
-      "start": "2026-11-20T23:00:00+00:00",
-      "end": "2026-11-21T01:00:00+00:00",
-      "location": "A203 Kiewit Hall",
-      "org": "Mechanical and Materials Engineering Graduate Student Association",
-      "category": "Social",
-      "url": "https://unl.campuslabs.com/engage/event/12983435",
-      "description": "The MME Graduate Student Association (GSA) invites all students to join our Thanksgiving Social! This gathering aims to foster a sense of community, encourage social interaction, and strengthen connections among students in a relaxed and welcoming environment. Come enjoy food, conversations, and the spirit of…",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12864222",
-      "source": "engage",
-      "title": "Lazzi Improv Show",
-      "start": "2026-11-20T23:00:00+00:00",
-      "end": "2026-11-21T03:00:00+00:00",
-      "location": "Nebraska Union & Chimney Rock Room",
-      "org": "Lazzi: An Improv Troupe",
-      "category": "Arts",
-      "url": "https://unl.campuslabs.com/engage/event/12864222",
-      "description": "A free comedy improv show put on for the public!",
-      "units": [],
-      "occurrence_count": 2,
-      "other_dates": [
-        "2026-12-04T23:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:204278@events.unl.edu",
-      "source": "unl",
-      "title": "Fatherland",
-      "start": "2026-11-20T23:10:00+00:00",
-      "end": "2026-11-20T23:10:00+00:00",
-      "location": "Mary Riepma Ross Media Arts Center-Van Brunt Visitors Center Room Ross Theaters (123 & 124)",
-      "org": "Mary Riepma Ross Media Arts Center",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/20/204278/",
-      "description": "Showing at The Ross November 13-25. Visit theross.org for tickets, showtimes, and more information. \n\nFATHERLAND centres on the relationship between the Nobel Prize-winning writer Thomas Mann (Hanns Zischler) and his daughter Erika (Sandra Hüller) - actress, writer and rally driver. In the summer of 1949, at the…",
-      "units": [],
-      "occurrence_count": 4,
-      "other_dates": [
-        "2026-11-23T23:10:00+00:00",
-        "2026-11-24T23:10:00+00:00",
-        "2026-11-25T23:10:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12930016",
-      "source": "engage",
-      "title": "Hillel Friendsgiving",
-      "start": "2026-11-20T23:30:00+00:00",
-      "end": "2026-11-21T00:30:00+00:00",
-      "location": "Jackie Gaughan Multicultural Center",
-      "org": "Hillel /Jewish Student Association",
-      "category": "Cultural",
-      "url": "https://unl.campuslabs.com/engage/event/12930016",
-      "description": "Join Hillel for a Friendsgiving and Shabbat Dinner!",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:204284@events.unl.edu",
-      "source": "unl",
-      "title": "Fjord",
-      "start": "2026-11-21T00:00:00+00:00",
-      "end": "2026-11-21T00:00:00+00:00",
-      "location": "Mary Riepma Ross Media Arts Center-Van Brunt Visitors Center Room Ross Theaters (123 & 124)",
-      "org": "Mary Riepma Ross Media Arts Center",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/20/204284/",
-      "description": "Showing at The Ross November 13-25. Visit theross.org for tickets, showtimes, and more information. \n\nFrom two-time Palme d'Or winner Cristian Mungiu, a Norwegian woman and her devout Romanian husband relocate with their five children to a remote, close-knit, coastal town. Their teenage children form a fast bond with…",
-      "units": [],
-      "occurrence_count": 4,
-      "other_dates": [
-        "2026-11-24T00:00:00+00:00",
-        "2026-11-25T00:00:00+00:00",
-        "2026-11-26T00:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12973297",
-      "source": "engage",
-      "title": "Sigma Lambda Gamma  - New Member Presentation",
-      "start": "2026-11-21T00:00:00+00:00",
-      "end": "2026-11-21T03:00:00+00:00",
-      "location": "City Campus",
-      "org": "Sigma Lambda Gamma National Sorority, Inc. Associate Chapter",
-      "category": "Spirituality",
-      "url": "https://unl.campuslabs.com/engage/event/12973297",
-      "description": "Please join the UNL Associate Chapter of Sigma Lambda Gamma National Sorority, Inc. in welcoming our newest line to greek life! Doors open at 7pm and the presentation will begin at 7:30pm, see you there!",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12616619",
-      "source": "engage",
-      "title": "General Meeting",
-      "start": "2026-11-21T00:00:00+00:00",
-      "end": "2026-11-21T04:00:00+00:00",
-      "location": "Room A211",
-      "org": "Games Guild",
-      "category": "Social",
-      "url": "https://unl.campuslabs.com/engage/event/12616619",
-      "description": "General Meeting for Games Guild! Come play Dungeons and Dragons, Magic the Gathering, or some board and card games with other students at the end of a long week!",
-      "units": [],
-      "occurrence_count": 6,
-      "other_dates": [
-        "2026-12-04T00:00:00+00:00",
-        "2026-12-05T00:00:00+00:00",
-        "2026-12-11T00:00:00+00:00",
-        "2026-12-12T00:00:00+00:00",
-        "2026-12-18T00:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12681511",
-      "source": "engage",
-      "title": "Friday Night Devotional",
-      "start": "2026-11-21T00:30:00+00:00",
-      "end": "2026-11-21T03:30:00+00:00",
-      "location": "Jackie Gaughan Multicultural Center 211",
-      "org": "Simple Truth Campus Ministry",
-      "category": "Spirituality",
-      "url": "https://unl.campuslabs.com/engage/event/12681511",
-      "description": "Join us for Friday Night Devotional! We will spend some time together in fellowship with some fun icebreaker games or activities then listen to a short bible lesson.",
-      "units": [],
-      "occurrence_count": 3,
-      "other_dates": [
-        "2026-12-05T00:30:00+00:00",
-        "2026-12-12T00:30:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:201999@events.unl.edu",
-      "source": "unl",
-      "title": "Rocket League Tournament",
-      "start": "2026-11-21T01:00:00+00:00",
-      "end": "2026-11-21T01:00:00+00:00",
-      "location": "Campus Recreation Center Room",
-      "org": "Aaron Dueker",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/20/201999/",
-      "description": "Entry Fee: FREE\n\nPlay Begins: Friday, November 20\n\nLeagues: Open",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12538333",
-      "source": "engage",
-      "title": "Pitch Please & Take Note Combined Show!",
-      "start": "2026-11-21T01:00:00+00:00",
-      "end": "2026-11-21T03:00:00+00:00",
-      "location": "UNL Union Swanson Auditorium",
-      "org": "Pitch Please",
-      "category": "Arts",
-      "url": "https://unl.campuslabs.com/engage/event/12538333",
-      "description": "Pitch Please, all-gender A Cappella, and Take Note soprano/mezzo/alto A Cappella will be holding a joint show on Friday, November 20th, starting at 7 pm! At this show, both of the groups will be showcasing a wide range of music from their repertoires. For this performance, we are inviting all UNL students as well as…",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12604383",
-      "source": "engage",
-      "title": "Split Threads Rehearsal",
-      "start": "2026-11-21T01:00:00+00:00",
-      "end": "2026-11-21T03:00:00+00:00",
-      "location": "Union",
-      "org": "Split Threads: An Improvisational Comedy Troupe",
-      "category": "Arts",
-      "url": "https://unl.campuslabs.com/engage/event/12604383",
-      "description": "Come play some improv games! You can also come just to socialize and watch, no pressure!",
-      "units": [],
-      "occurrence_count": 3,
-      "other_dates": [
-        "2026-12-05T01:00:00+00:00",
-        "2026-12-12T01:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:203744-981413@events.unl.edu",
-      "source": "unl",
-      "title": "Arcadia",
-      "start": "2026-11-21T01:30:00+00:00",
-      "end": "2026-11-21T01:30:00+00:00",
-      "location": "Temple Building Room Howell Theater",
-      "org": "Robbie Exstrom",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/20/203744/",
-      "description": "Moving fluidly between the early 19th century and the present day, Arcadia intertwines mathematics, science, romantic entanglements, and literary inquiry in a richly layered exploration of time, knowledge, and the pursuit of truth. At once intellectually rigorous and deeply human, it is a play that delights in…",
-      "units": [],
-      "occurrence_count": 3,
-      "other_dates": [
-        "2026-11-22T01:30:00+00:00",
-        "2026-11-23T01:30:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:203819@events.unl.edu",
-      "source": "unl",
-      "title": "Nebraska Rep: Arcadia",
-      "start": "2026-11-21T01:30:00+00:00",
-      "end": "2026-11-21T01:30:00+00:00",
-      "location": "Temple Building Room Howell Theatre",
-      "org": "Robbie Exstrom",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/20/203819/",
-      "description": "The Nebraska Repertory Theatre presents Tom Stoppard's \"Arcadia.\" Acclaimed guest director Michael Matthews leads a production of one of the most celebrated plays of the modern era. Moving fluidly between the early 19th century and the present day, Arcadia intertwines mathematics, science, romantic entanglements, and…",
-      "units": [
-        "casnr"
-      ],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12697288",
-      "source": "engage",
-      "title": "Hip Hop Club Practice (Fridays)",
-      "start": "2026-11-21T01:30:00+00:00",
-      "end": "2026-11-21T02:30:00+00:00",
-      "location": "Fitness Room in City Campus Rec Center",
-      "org": "Hip Hop Dance Club",
-      "category": "Arts",
-      "url": "https://unl.campuslabs.com/engage/event/12697288",
-      "description": "A place for dancers of all levels to learn various styles of street dance!",
-      "units": [],
-      "occurrence_count": 3,
-      "other_dates": [
-        "2026-12-05T01:30:00+00:00",
-        "2026-12-12T01:30:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12920878",
-      "source": "engage",
-      "title": "Sigma Lambda Beta New Member Presentation",
-      "start": "2026-11-21T03:30:00+00:00",
-      "end": "2026-11-21T05:30:00+00:00",
-      "location": "Swanson Auditorium",
-      "org": "Sigma Lambda Beta - Phi Alpha",
-      "category": "Cultural",
-      "url": "https://unl.campuslabs.com/engage/event/12920878",
-      "description": "The Phi Alpha Chapter of Sigma Lambda Beta International Fraternity, Inc. will be having a new member presentation to to reveal the new members of our fraternity",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12982217",
-      "source": "engage",
-      "title": "Cyber Showdown VEX U Robotics Competition",
-      "start": "2026-11-21T09:00:00+00:00",
-      "end": "2026-11-22T05:45:00+00:00",
-      "location": "Iowa State University Student Innovation Center",
-      "org": "UNL VEX U Robotics Club",
-      "category": "ThoughtfulLearning",
-      "url": "https://unl.campuslabs.com/engage/event/12982217",
-      "description": "C yber Showdown 2026: Iowa State University's premier VEX U Robotics Competition hosted by the Cyber Robotics Club at Iowa State University.",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:204198-981543@events.unl.edu",
-      "source": "unl",
-      "title": "It's All About Nature: Photography by Chuck Starr",
-      "start": "2026-11-21T14:00:00+00:00",
-      "end": "2026-11-22T02:00:00+00:00",
-      "location": "Nebraska Innovation Campus, 2nd Floor Link Room",
-      "org": "Brooke Goedert",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/21/204198/",
-      "description": "It's All About Nature showcases the work of professional photographer Chuck Starr, a lifelong Nebraska resident whose passion for photography began in his youth with film cameras. As photography evolved into the digital age, Starr embraced new technology while continuing to capture the natural beauty of the…",
-      "units": [],
-      "occurrence_count": 39,
-      "other_dates": [
-        "2026-11-22T14:00:00+00:00",
-        "2026-11-23T14:00:00+00:00",
-        "2026-11-24T14:00:00+00:00",
-        "2026-11-25T14:00:00+00:00",
-        "2026-11-26T14:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12986231",
-      "source": "engage",
-      "title": "Jayhawk Classic",
-      "start": "2026-11-21T14:00:00+00:00",
-      "end": "2026-11-21T23:00:00+00:00",
-      "location": "Ambler Student Recreation Center",
-      "org": "UNL Men's Volleyball Club",
-      "category": "Athletics",
-      "url": "https://unl.campuslabs.com/engage/event/12986231",
-      "description": "We will be travelling to University of Kansas to compete in their home volleyball tournament",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:200835-978292@events.unl.edu",
-      "source": "unl",
-      "title": "Nebraska Nonprofit Management Institute - Understanding Nonprofit Financial Statements",
-      "start": "2026-11-21T15:00:00+00:00",
-      "end": "2026-11-21T15:00:00+00:00",
-      "location": "",
-      "org": "Kate Dean",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/21/200835/",
-      "description": "Virtual asynchronous course. Learn to read and interpret financial statements,\nread and analyze financial reports and case studies, develop foundational knowledge to prepare you for advanced courses.",
-      "units": [],
-      "occurrence_count": 60,
-      "other_dates": [
-        "2026-11-22T15:00:00+00:00",
-        "2026-11-23T15:00:00+00:00",
-        "2026-11-24T15:00:00+00:00",
-        "2026-11-25T15:00:00+00:00",
-        "2026-11-26T15:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12966536",
-      "source": "engage",
-      "title": "New Member Presentation",
-      "start": "2026-11-22T00:30:00+00:00",
-      "end": "2026-11-22T03:00:00+00:00",
-      "location": "Swanson Auditorium",
-      "org": "Arise",
-      "category": "Social",
-      "url": "https://unl.campuslabs.com/engage/event/12966536",
-      "description": "Showcasing our new members",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12780148",
-      "source": "engage",
-      "title": "Take Note Choreo Rehearsal",
-      "start": "2026-11-22T15:00:00+00:00",
-      "end": "2026-11-22T20:00:00+00:00",
-      "location": "Combative Arts Room Campus Recreation",
-      "org": "Take Note",
-      "category": "Arts",
-      "url": "https://unl.campuslabs.com/engage/event/12780148",
-      "description": "Take Note members will rehearse with music to prepare for the international championship of collegiate a cappella.",
-      "units": [],
-      "occurrence_count": 2,
-      "other_dates": [
-        "2026-12-05T15:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
     {
       "id": "unl:204127@events.unl.edu",
       "source": "unl",
@@ -1015,6 +319,46 @@
       "noise_reason": null
     },
     {
+      "id": "unl:203744-981415@events.unl.edu",
+      "source": "unl",
+      "title": "Arcadia",
+      "start": "2026-11-23T01:30:00+00:00",
+      "end": "2026-11-23T01:30:00+00:00",
+      "location": "Temple Building Room Howell Theater",
+      "org": "Robbie Exstrom",
+      "category": null,
+      "url": "http://events.unl.edu/2026/11/22/203744/",
+      "description": "Moving fluidly between the early 19th century and the present day, Arcadia intertwines mathematics, science, romantic entanglements, and literary inquiry in a richly layered exploration of time, knowledge, and the pursuit of truth. At once intellectually rigorous and deeply human, it is a play that delights in…",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:204198-981545@events.unl.edu",
+      "source": "unl",
+      "title": "It's All About Nature: Photography by Chuck Starr",
+      "start": "2026-11-23T14:00:00+00:00",
+      "end": "2026-11-24T02:00:00+00:00",
+      "location": "Nebraska Innovation Campus, 2nd Floor Link Room",
+      "org": "Brooke Goedert",
+      "category": null,
+      "url": "http://events.unl.edu/2026/11/23/204198/",
+      "description": "It's All About Nature showcases the work of professional photographer Chuck Starr, a lifelong Nebraska resident whose passion for photography began in his youth with film cameras. As photography evolved into the digital age, Starr embraced new technology while continuing to capture the natural beauty of the…",
+      "units": [],
+      "occurrence_count": 37,
+      "other_dates": [
+        "2026-11-24T14:00:00+00:00",
+        "2026-11-25T14:00:00+00:00",
+        "2026-11-26T14:00:00+00:00",
+        "2026-11-27T14:00:00+00:00",
+        "2026-11-28T14:00:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
       "id": "unl:204064-981491@events.unl.edu",
       "source": "unl",
       "title": "Nebraska Innovation Campus Food Drive",
@@ -1049,6 +393,29 @@
       "units": [],
       "occurrence_count": 1,
       "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:200835-978294@events.unl.edu",
+      "source": "unl",
+      "title": "Nebraska Nonprofit Management Institute - Understanding Nonprofit Financial Statements",
+      "start": "2026-11-23T15:00:00+00:00",
+      "end": "2026-11-23T15:00:00+00:00",
+      "location": "",
+      "org": "Kate Dean",
+      "category": null,
+      "url": "http://events.unl.edu/2026/11/23/200835/",
+      "description": "Virtual asynchronous course. Learn to read and interpret financial statements,\nread and analyze financial reports and case studies, develop foundational knowledge to prepare you for advanced courses.",
+      "units": [],
+      "occurrence_count": 60,
+      "other_dates": [
+        "2026-11-24T15:00:00+00:00",
+        "2026-11-25T15:00:00+00:00",
+        "2026-11-26T15:00:00+00:00",
+        "2026-11-27T15:00:00+00:00",
+        "2026-11-28T15:00:00+00:00"
+      ],
       "noise_penalty": 0,
       "noise_reason": null
     },
@@ -1108,6 +475,29 @@
       "noise_reason": null
     },
     {
+      "id": "engage:12809331",
+      "source": "engage",
+      "title": "MRC Attendance",
+      "start": "2026-11-23T18:30:00+00:00",
+      "end": "2026-11-24T02:30:00+00:00",
+      "location": "Avery 13",
+      "org": "Math Resource Center",
+      "category": "ThoughtfulLearning",
+      "url": "https://unl.campuslabs.com/engage/event/12809331",
+      "description": "QR code attendance",
+      "units": [],
+      "occurrence_count": 12,
+      "other_dates": [
+        "2026-11-24T18:30:00+00:00",
+        "2026-11-30T18:30:00+00:00",
+        "2026-12-01T18:30:00+00:00",
+        "2026-12-02T18:30:00+00:00",
+        "2026-12-03T18:30:00+00:00"
+      ],
+      "noise_penalty": 3,
+      "noise_reason": "A QR-code attendance placeholder, not a real event listing"
+    },
+    {
       "id": "unl:204169@events.unl.edu",
       "source": "unl",
       "title": "MS Thesis Defense - Rachel Williss",
@@ -1121,6 +511,31 @@
       "units": [],
       "occurrence_count": 1,
       "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:201917-980244@events.unl.edu",
+      "source": "unl",
+      "title": "Huskers Abroad 101",
+      "start": "2026-11-23T20:00:00+00:00",
+      "end": "2026-11-23T20:30:00+00:00",
+      "location": "Louise Pound Hall Room 105",
+      "org": "Renae Ninneman",
+      "category": null,
+      "url": "http://events.unl.edu/2026/11/23/201917/",
+      "description": "Join Global Experiences for a 30-minute interactive workshop to help you start planning your global experience. During the workshop, we'll discuss global experience types, funding, the timeline for planning your experience, and thinking through your goals to go abroad. Just show up, no registration is needed, and both…",
+      "units": [
+        "cehs"
+      ],
+      "occurrence_count": 9,
+      "other_dates": [
+        "2026-11-25T20:00:00+00:00",
+        "2026-11-27T20:00:00+00:00",
+        "2026-11-30T20:00:00+00:00",
+        "2026-12-02T20:00:00+00:00",
+        "2026-12-04T20:00:00+00:00"
+      ],
       "noise_penalty": 0,
       "noise_reason": null
     },
@@ -1294,21 +709,21 @@
       "noise_reason": null
     },
     {
-      "id": "engage:12559523",
-      "source": "engage",
-      "title": "Freshman Action Team Meetings",
-      "start": "2026-11-23T23:30:00+00:00",
-      "end": "2026-11-24T00:30:00+00:00",
-      "location": "Ubuntu Room (JGMC)",
-      "org": "Afrikan Peoples Union",
-      "category": "Cultural",
-      "url": "https://unl.campuslabs.com/engage/event/12559523",
-      "description": "The Freshman Action Team will meet at 5:30 pm in the Ubuntu Room before every APU meeting.",
+      "id": "unl:204281@events.unl.edu",
+      "source": "unl",
+      "title": "Fatherland",
+      "start": "2026-11-23T23:10:00+00:00",
+      "end": "2026-11-23T23:10:00+00:00",
+      "location": "Mary Riepma Ross Media Arts Center-Van Brunt Visitors Center Room Ross Theaters (123 & 124)",
+      "org": "Mary Riepma Ross Media Arts Center",
+      "category": null,
+      "url": "http://events.unl.edu/2026/11/23/204281/",
+      "description": "Showing at The Ross November 13-25. Visit theross.org for tickets, showtimes, and more information. \n\nFATHERLAND centres on the relationship between the Nobel Prize-winning writer Thomas Mann (Hanns Zischler) and his daughter Erika (Sandra Hüller) - actress, writer and rally driver. In the summer of 1949, at the…",
       "units": [],
       "occurrence_count": 3,
       "other_dates": [
-        "2026-11-30T23:30:00+00:00",
-        "2026-12-07T23:30:00+00:00"
+        "2026-11-24T23:10:00+00:00",
+        "2026-11-25T23:10:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -1347,6 +762,26 @@
       "occurrence_count": 2,
       "other_dates": [
         "2026-12-07T23:30:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:204287@events.unl.edu",
+      "source": "unl",
+      "title": "Fjord",
+      "start": "2026-11-24T00:00:00+00:00",
+      "end": "2026-11-24T00:00:00+00:00",
+      "location": "Mary Riepma Ross Media Arts Center-Van Brunt Visitors Center Room Ross Theaters (123 & 124)",
+      "org": "Mary Riepma Ross Media Arts Center",
+      "category": null,
+      "url": "http://events.unl.edu/2026/11/23/204287/",
+      "description": "Showing at The Ross November 13-25. Visit theross.org for tickets, showtimes, and more information. \n\nFrom two-time Palme d'Or winner Cristian Mungiu, a Norwegian woman and her devout Romanian husband relocate with their five children to a remote, close-knit, coastal town. Their teenage children form a fast bond with…",
+      "units": [],
+      "occurrence_count": 3,
+      "other_dates": [
+        "2026-11-25T00:00:00+00:00",
+        "2026-11-26T00:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -2025,6 +1460,26 @@
       "noise_reason": null
     },
     {
+      "id": "unl:202875-981057@events.unl.edu",
+      "source": "unl",
+      "title": "Japanese Conversation Table",
+      "start": "2026-11-27T22:00:00+00:00",
+      "end": "2026-11-27T23:00:00+00:00",
+      "location": "Jackie Gaughan Multicultural Center Room Room 301",
+      "org": "Kawasaki Reading Room",
+      "category": null,
+      "url": "http://events.unl.edu/2026/11/27/202875/",
+      "description": "Interested in practicing your Japanese? Come Join us every Friday from 4 to 5 PM at Kawasaki Reading Room (JGMC Room 301).",
+      "units": [],
+      "occurrence_count": 3,
+      "other_dates": [
+        "2026-12-04T22:00:00+00:00",
+        "2026-12-11T22:00:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
       "id": "unl:203101@events.unl.edu",
       "source": "unl",
       "title": "Curated Chapters Book Club",
@@ -2106,6 +1561,25 @@
       "units": [],
       "occurrence_count": 1,
       "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "engage:12559524",
+      "source": "engage",
+      "title": "Freshman Action Team Meetings",
+      "start": "2026-11-30T23:30:00+00:00",
+      "end": "2026-12-01T00:30:00+00:00",
+      "location": "Ubuntu Room (JGMC)",
+      "org": "Afrikan Peoples Union",
+      "category": "Cultural",
+      "url": "https://unl.campuslabs.com/engage/event/12559524",
+      "description": "The Freshman Action Team will meet at 5:30 pm in the Ubuntu Room before every APU meeting.",
+      "units": [],
+      "occurrence_count": 2,
+      "other_dates": [
+        "2026-12-07T23:30:00+00:00"
+      ],
       "noise_penalty": 0,
       "noise_reason": null
     },
@@ -3044,9 +2518,10 @@
       "units": [
         "casnr"
       ],
-      "occurrence_count": 2,
+      "occurrence_count": 3,
       "other_dates": [
-        "2027-01-14T00:30:00+00:00"
+        "2027-01-14T00:30:00+00:00",
+        "2027-01-21T00:30:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -3699,6 +3174,28 @@
       "noise_reason": null
     },
     {
+      "id": "engage:12577892",
+      "source": "engage",
+      "title": "General Meeting",
+      "start": "2026-12-04T00:00:00+00:00",
+      "end": "2026-12-04T02:00:00+00:00",
+      "location": "UNL College of Business",
+      "org": "Alpha Kappa Psi - Professional Business Fraternity",
+      "category": "GroupBusiness",
+      "url": "https://unl.campuslabs.com/engage/event/12577892",
+      "description": "AKPsi General Meeting",
+      "units": [],
+      "occurrence_count": 5,
+      "other_dates": [
+        "2026-12-05T00:00:00+00:00",
+        "2026-12-11T00:00:00+00:00",
+        "2026-12-12T00:00:00+00:00",
+        "2026-12-18T00:00:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
       "id": "engage:12725635",
       "source": "engage",
       "title": "FoMSF General Member Meeting",
@@ -3948,6 +3445,23 @@
       "noise_reason": null
     },
     {
+      "id": "engage:12567987",
+      "source": "engage",
+      "title": "Fall 2026 IGNITE",
+      "start": "2026-12-04T18:30:00+00:00",
+      "end": "2026-12-04T20:00:00+00:00",
+      "location": "Carson Center for Emerging Media Arts",
+      "org": "Johnny Carson Center for Emerging Media Arts",
+      "category": "ThoughtfulLearning",
+      "url": "https://unl.campuslabs.com/engage/event/12567987",
+      "description": "Our IGNITE Colloquium features guest artists and industry professionals, as well as screenings, workshops, and seminars around creative and professional development for students. Featuring speakers ranging from award-winning film and television producers and directors to leaders in immersive and interactive…",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
       "id": "unl:202819@events.unl.edu",
       "source": "unl",
       "title": "Graduate Student Coffee Hours",
@@ -4018,6 +3532,25 @@
       "noise_reason": null
     },
     {
+      "id": "unl:202471-980809@events.unl.edu",
+      "source": "unl",
+      "title": "Well-Being Discussions",
+      "start": "2026-12-04T21:30:00+00:00",
+      "end": "2026-12-04T22:30:00+00:00",
+      "location": "Kauffman Academic Residential Center Room 122",
+      "org": "Counseling and Psychological Services",
+      "category": null,
+      "url": "http://events.unl.edu/2026/12/04/202471/",
+      "description": "A supportive, low-intensity space for Raikes School students to explore a variety of wellbeing-related topics, pause, and reset. We engage in discussion for 20 to 30 minutes, followed by 10 to 15 minutes of guided meditation, and wrap up with 10 to 15 minutes of Q&A or additional discussion. Participants can direct…",
+      "units": [],
+      "occurrence_count": 2,
+      "other_dates": [
+        "2026-12-11T21:30:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
       "id": "unl:203922@events.unl.edu",
       "source": "unl",
       "title": "First Friday: 'Material Nation' gallery talk with Jamie Swartz",
@@ -4052,6 +3585,23 @@
       "noise_reason": null
     },
     {
+      "id": "engage:12690071",
+      "source": "engage",
+      "title": "Judo Practice",
+      "start": "2026-12-04T22:00:00+00:00",
+      "end": "2026-12-04T23:30:00+00:00",
+      "location": "Combative Arts Room City Rec",
+      "org": "Judo Club",
+      "category": "Athletics",
+      "url": "https://unl.campuslabs.com/engage/event/12690071",
+      "description": "Judo is an Olympic sport that was founded in 1882 by Dr. Jigoro Kano in Japan. Derived from Japanese Jujitsu, judo is a mix of throwing, falling, pins and other martial arts skills. If you would like a fun, challenging workout, join us! We require you to either have a judo gi or bring workout clothes and a hoodie!",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
       "id": "engage:12927469",
       "source": "engage",
       "title": "MCLA: Open Fishbowl Discussion",
@@ -4062,6 +3612,23 @@
       "category": "Social",
       "url": "https://unl.campuslabs.com/engage/event/12927469",
       "description": "Join the Muslim Community Learning Association (MCLA) for an interactive, student-led Fishbowl discussion on faith, purpose, and navigating college life.",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "engage:12839311",
+      "source": "engage",
+      "title": "F.L.U.F.F. General Meet",
+      "start": "2026-12-04T22:45:00+00:00",
+      "end": "2026-12-05T00:30:00+00:00",
+      "location": "Southe Platte Room South",
+      "org": "Federation of Lincoln University Furry Fellows",
+      "category": "Social",
+      "url": "https://unl.campuslabs.com/engage/event/12839311",
+      "description": "F.L.U.F.F.'s weekly meets, where we get together, hang out, and provide a space for UNL's furry community",
       "units": [],
       "occurrence_count": 1,
       "other_dates": [],
@@ -4082,6 +3649,61 @@
       "units": [],
       "occurrence_count": 1,
       "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "engage:12712420",
+      "source": "engage",
+      "title": "WIA General Meeting",
+      "start": "2026-12-04T23:00:00+00:00",
+      "end": "2026-12-05T01:00:00+00:00",
+      "location": "Aerospace Club Lab: NH-127",
+      "org": "Aerospace Club",
+      "category": "ThoughtfulLearning",
+      "url": "https://unl.campuslabs.com/engage/event/12712420",
+      "description": "Welcome Into Aerospace will have their weekly general meeting where they work on professional advancement, engineering skills development, and host speaker events for Aerospace Club members interested in the aerospace industry.",
+      "units": [],
+      "occurrence_count": 2,
+      "other_dates": [
+        "2026-12-11T23:00:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "engage:12864225",
+      "source": "engage",
+      "title": "Lazzi Improv Show",
+      "start": "2026-12-04T23:00:00+00:00",
+      "end": "2026-12-05T03:00:00+00:00",
+      "location": "Nebraska Union & Platte River Room",
+      "org": "Lazzi: An Improv Troupe",
+      "category": "Arts",
+      "url": "https://unl.campuslabs.com/engage/event/12864225",
+      "description": "A free comedy improv show put on for the public!",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "engage:12681512",
+      "source": "engage",
+      "title": "Friday Night Devotional",
+      "start": "2026-12-05T00:30:00+00:00",
+      "end": "2026-12-05T03:30:00+00:00",
+      "location": "Jackie Gaughan Multicultural Center 211",
+      "org": "Simple Truth Campus Ministry",
+      "category": "Spirituality",
+      "url": "https://unl.campuslabs.com/engage/event/12681512",
+      "description": "Join us for Friday Night Devotional! We will spend some time together in fellowship with some fun icebreaker games or activities then listen to a short bible lesson.",
+      "units": [],
+      "occurrence_count": 2,
+      "other_dates": [
+        "2026-12-12T00:30:00+00:00"
+      ],
       "noise_penalty": 0,
       "noise_reason": null
     },
@@ -4120,6 +3742,25 @@
       "noise_reason": null
     },
     {
+      "id": "engage:12604384",
+      "source": "engage",
+      "title": "Split Threads Rehearsal",
+      "start": "2026-12-05T01:00:00+00:00",
+      "end": "2026-12-05T03:00:00+00:00",
+      "location": "Union",
+      "org": "Split Threads: An Improvisational Comedy Troupe",
+      "category": "Arts",
+      "url": "https://unl.campuslabs.com/engage/event/12604384",
+      "description": "Come play some improv games! You can also come just to socialize and watch, no pressure!",
+      "units": [],
+      "occurrence_count": 2,
+      "other_dates": [
+        "2026-12-12T01:00:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
       "id": "unl:199732@events.unl.edu",
       "source": "unl",
       "title": "The Swingles: Together for the Holidays",
@@ -4133,6 +3774,25 @@
       "units": [],
       "occurrence_count": 1,
       "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "engage:12697289",
+      "source": "engage",
+      "title": "Hip Hop Club Practice (Fridays)",
+      "start": "2026-12-05T01:30:00+00:00",
+      "end": "2026-12-05T02:30:00+00:00",
+      "location": "Fitness Room in City Campus Rec Center",
+      "org": "Hip Hop Dance Club",
+      "category": "Arts",
+      "url": "https://unl.campuslabs.com/engage/event/12697289",
+      "description": "A place for dancers of all levels to learn various styles of street dance!",
+      "units": [],
+      "occurrence_count": 2,
+      "other_dates": [
+        "2026-12-12T01:30:00+00:00"
+      ],
       "noise_penalty": 0,
       "noise_reason": null
     },
@@ -4181,6 +3841,23 @@
       "category": null,
       "url": "http://events.unl.edu/2026/12/05/204114/",
       "description": "Mark your calendars for the Holiday Maker Market - Saturday, December 5 from 9:00 a.m. to 12:00 p.m. at Nebraska Innovation Studio.\n \nEnjoy a festive morning of holiday shopping while supporting local makers and discovering unique, handcrafted gifts created by Nebraska Innovation Studio makers! Find that perfect…",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "engage:12780149",
+      "source": "engage",
+      "title": "Take Note Choreo Rehearsal",
+      "start": "2026-12-05T15:00:00+00:00",
+      "end": "2026-12-05T20:00:00+00:00",
+      "location": "Combative Arts Room Campus Recreation",
+      "org": "Take Note",
+      "category": "Arts",
+      "url": "https://unl.campuslabs.com/engage/event/12780149",
+      "description": "Take Note members will rehearse with music to prepare for the international championship of collegiate a cappella.",
       "units": [],
       "occurrence_count": 1,
       "other_dates": [],
@@ -4530,6 +4207,23 @@
       "category": "ThoughtfulLearning",
       "url": "https://unl.campuslabs.com/engage/event/12979240",
       "description": "Are you a computing student and want to talk to real recruiters about being a competitive candidate for internships and entry-level roles? Come to the recruitment panel on December 8 from 12:00 pm to 1:00 pm! You will get a chance to hear from real recruiters who are computing students out of UNL about what they look…",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "engage:12995575",
+      "source": "engage",
+      "title": "CoE Dead Week Pawp-Up",
+      "start": "2026-12-08T18:00:00+00:00",
+      "end": "2026-12-08T20:00:00+00:00",
+      "location": "Kiewit Hall",
+      "org": "Engineering Student Advisory Board",
+      "category": "Social",
+      "url": "https://unl.campuslabs.com/engage/event/12995575",
+      "description": "De-stress from upcoming exams with therapy dogs! Stop by the back of the 2nd floor lobby of Kiewit Hall near the tunnel to Othmer from 12-2pm on Tuesday, December 8th!",
       "units": [],
       "occurrence_count": 1,
       "other_dates": [],
@@ -5470,8 +5164,10 @@
       "url": "http://events.unl.edu/2026/12/16/201450/",
       "description": "Nebraska Extension's Regional Food System Initiative (NERFSI) invites you to the 2026-2027 Food System Speaker Series! Please join us on the third Wednesday, September - May, from 2-3pm CST to learn about exciting research and education happening at the University of Nebraska and partner organizations making an impact…",
       "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
+      "occurrence_count": 2,
+      "other_dates": [
+        "2027-01-20T20:00:00+00:00"
+      ],
       "noise_penalty": 0,
       "noise_reason": null
     },
@@ -5508,6 +5204,25 @@
       "other_dates": [
         "2026-12-18T15:00:00+00:00"
       ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:202446@events.unl.edu",
+      "source": "unl",
+      "title": "City Campus Lunch for Community-Engaged Faculty and Staff",
+      "start": "2026-12-18T18:00:00+00:00",
+      "end": "2026-12-18T19:00:00+00:00",
+      "location": "Selleck Quad Building L - Food Service Room",
+      "org": "Jentry Barrett",
+      "category": null,
+      "url": "http://events.unl.edu/2026/12/18/202446/",
+      "description": "Join other community-engaged faculty and staff for an informal lunch to build relationships. Lunch will be in the Selleck Dining Hall.",
+      "units": [
+        "cehs"
+      ],
+      "occurrence_count": 1,
+      "other_dates": [],
       "noise_penalty": 0,
       "noise_reason": null
     },
@@ -5597,10 +5312,12 @@
       "units": [
         "casnr"
       ],
-      "occurrence_count": 3,
+      "occurrence_count": 5,
       "other_dates": [
         "2027-01-13T14:45:00+00:00",
-        "2027-01-14T14:45:00+00:00"
+        "2027-01-14T14:45:00+00:00",
+        "2027-01-20T14:45:00+00:00",
+        "2027-01-21T14:45:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -5760,6 +5477,23 @@
       "units": [
         "casnr"
       ],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:200117@events.unl.edu",
+      "source": "unl",
+      "title": "Chancellor's University Safety Committee",
+      "start": "2027-01-19T21:00:00+00:00",
+      "end": "2027-01-19T22:00:00+00:00",
+      "location": "Warehouse 1 Room 134 EHS Training Room",
+      "org": "Elizabeth (Betsy) Howe",
+      "category": null,
+      "url": "http://events.unl.edu/2027/01/19/200117/",
+      "description": "The Chancellor's University Safety Committee (CUSC) meets every two months to review potential safety and health concerns as well as progress toward the CUSC annual goal. The committee's charge is to advise University of Nebraska-Lincoln administration on methods and means of minimizing safety and health hazards at…",
+      "units": [],
       "occurrence_count": 1,
       "other_dates": [],
       "noise_penalty": 0,
