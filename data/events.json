@@ -1,214 +1,15 @@
 {
-  "generated_at": "2026-11-25T18:58:57.205750+00:00",
+  "generated_at": "2026-11-26T18:50:34.778539+00:00",
   "window_days": 60,
   "sources": {
     "unl": {
-      "raw_count": 709
+      "raw_count": 702
     },
     "engage": {
-      "raw_count": 230
+      "raw_count": 228
     }
   },
   "events": [
-    {
-      "id": "unl:201920-980703@events.unl.edu",
-      "source": "unl",
-      "title": "Huskers Abroad 101",
-      "start": "2026-11-25T20:00:00+00:00",
-      "end": "2026-11-25T20:30:00+00:00",
-      "location": "Louise Pound Hall Room 141",
-      "org": "Renae Ninneman",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/25/201920/",
-      "description": "Join Global Experiences for a 30-minute interactive workshop to help you start planning your global experience. During the workshop, we'll discuss global experience types, funding, the timeline for planning your experience, and thinking through your goals to go abroad. Just show up, no registration is needed, and both…",
-      "units": [
-        "cehs"
-      ],
-      "occurrence_count": 8,
-      "other_dates": [
-        "2026-11-27T20:00:00+00:00",
-        "2026-11-30T20:00:00+00:00",
-        "2026-12-02T20:00:00+00:00",
-        "2026-12-04T20:00:00+00:00",
-        "2026-12-07T20:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:204283@events.unl.edu",
-      "source": "unl",
-      "title": "Fatherland",
-      "start": "2026-11-25T23:10:00+00:00",
-      "end": "2026-11-25T23:10:00+00:00",
-      "location": "Mary Riepma Ross Media Arts Center-Van Brunt Visitors Center Room Ross Theaters (123 & 124)",
-      "org": "Mary Riepma Ross Media Arts Center",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/25/204283/",
-      "description": "Showing at The Ross November 13-25. Visit theross.org for tickets, showtimes, and more information. \n\nFATHERLAND centres on the relationship between the Nobel Prize-winning writer Thomas Mann (Hanns Zischler) and his daughter Erika (Sandra Hüller) - actress, writer and rally driver. In the summer of 1949, at the…",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:204289@events.unl.edu",
-      "source": "unl",
-      "title": "Fjord",
-      "start": "2026-11-26T00:00:00+00:00",
-      "end": "2026-11-26T00:00:00+00:00",
-      "location": "Mary Riepma Ross Media Arts Center-Van Brunt Visitors Center Room Ross Theaters (123 & 124)",
-      "org": "Mary Riepma Ross Media Arts Center",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/25/204289/",
-      "description": "Showing at The Ross November 13-25. Visit theross.org for tickets, showtimes, and more information. \n\nFrom two-time Palme d'Or winner Cristian Mungiu, a Norwegian woman and her devout Romanian husband relocate with their five children to a remote, close-knit, coastal town. Their teenage children form a fast bond with…",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12664427",
-      "source": "engage",
-      "title": "General Creative Writing Club Meeting",
-      "start": "2026-11-26T00:00:00+00:00",
-      "end": "2026-11-26T01:00:00+00:00",
-      "location": "Bailey Library, 2nd floor of Andrews Hall",
-      "org": "Creative Writing Club",
-      "category": "Arts",
-      "url": "https://unl.campuslabs.com/engage/event/12664427",
-      "description": "We meet every Wednesday from 6 -7 PM in the Bailey Library on the second floor of Andrews Hall to socialize and write together! We'd love for you to join us!",
-      "units": [],
-      "occurrence_count": 2,
-      "other_dates": [
-        "2026-12-10T00:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:203490@events.unl.edu",
-      "source": "unl",
-      "title": "Women on the Verge of a Nervous Breakdown",
-      "start": "2026-11-26T01:15:00+00:00",
-      "end": "2026-11-26T01:15:00+00:00",
-      "location": "Mary Riepma Ross Media Arts Center-Van Brunt Visitors Center Room Ross Theater (Room 124)",
-      "org": "Mary Riepma Ross Media Arts Center",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/25/203490/",
-      "description": "Pedro Almodóvar's BITTER CHRISTMAS opens at The Ross on November 27 and we're celebrating the Spanish auteur's singular filmography with special screenings of THE SKIN I LIVE IN (Nov 22), ALL ABOUT MY MOTHER (Nov 23), VOLVER (Nov 24), and WOMEN ON THE VERGE OF A NERVOUS BREAKDOWN (Nov 25). All screenings begin at…",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12654507",
-      "source": "engage",
-      "title": "Club Meeting",
-      "start": "2026-11-26T01:30:00+00:00",
-      "end": "2026-11-26T03:00:00+00:00",
-      "location": "College of Business",
-      "org": "Nebraska Supply Chain Club",
-      "category": "ThoughtfulLearning",
-      "url": "https://unl.campuslabs.com/engage/event/12654507",
-      "description": "The Nebraska Supply Chain Club (NSCC) is a student organization open to all majors that helps students explore careers, build professional connections, and gain real-world business experience through the world of supply chain. Supply chain touches nearly every area of business — including management, finance,…",
-      "units": [],
-      "occurrence_count": 3,
-      "other_dates": [
-        "2026-12-03T01:30:00+00:00",
-        "2026-12-10T01:30:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:204121-981518@events.unl.edu",
-      "source": "unl",
-      "title": "The Mill Coffee and Bistro Thanksgiving Hours",
-      "start": "2026-11-26T13:00:00+00:00",
-      "end": "2026-11-27T00:00:00+00:00",
-      "location": "The Mill Coffee & Bistro Room",
-      "org": "The Mill Coffee & Bistro",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/26/204121/",
-      "description": "The Mill Coffee & Bistro's adjusted hours over Thanksgiving are as follows:\nNov. 25: CLOSED\nNov. 26: CLOSED\nNov. 27: 7 a.m. - 6 p.m. \nNov. 28: 9 a.m. - 2 p.m. \nNov. 29: 9 a.m. - 2 p.m.",
-      "units": [],
-      "occurrence_count": 4,
-      "other_dates": [
-        "2026-11-27T13:00:00+00:00",
-        "2026-11-28T13:00:00+00:00",
-        "2026-11-29T13:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:204198-981548@events.unl.edu",
-      "source": "unl",
-      "title": "It's All About Nature: Photography by Chuck Starr",
-      "start": "2026-11-26T14:00:00+00:00",
-      "end": "2026-11-27T02:00:00+00:00",
-      "location": "Nebraska Innovation Campus, 2nd Floor Link Room",
-      "org": "Brooke Goedert",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/26/204198/",
-      "description": "It's All About Nature showcases the work of professional photographer Chuck Starr, a lifelong Nebraska resident whose passion for photography began in his youth with film cameras. As photography evolved into the digital age, Starr embraced new technology while continuing to capture the natural beauty of the…",
-      "units": [],
-      "occurrence_count": 34,
-      "other_dates": [
-        "2026-11-27T14:00:00+00:00",
-        "2026-11-28T14:00:00+00:00",
-        "2026-11-29T14:00:00+00:00",
-        "2026-11-30T14:00:00+00:00",
-        "2026-12-01T14:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:200835-978297@events.unl.edu",
-      "source": "unl",
-      "title": "Nebraska Nonprofit Management Institute - Understanding Nonprofit Financial Statements",
-      "start": "2026-11-26T15:00:00+00:00",
-      "end": "2026-11-26T15:00:00+00:00",
-      "location": "",
-      "org": "Kate Dean",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/26/200835/",
-      "description": "Virtual asynchronous course. Learn to read and interpret financial statements,\nread and analyze financial reports and case studies, develop foundational knowledge to prepare you for advanced courses.",
-      "units": [],
-      "occurrence_count": 60,
-      "other_dates": [
-        "2026-11-27T15:00:00+00:00",
-        "2026-11-28T15:00:00+00:00",
-        "2026-11-29T15:00:00+00:00",
-        "2026-11-30T15:00:00+00:00",
-        "2026-12-01T15:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:204120@events.unl.edu",
-      "source": "unl",
-      "title": "Thanksgiving Buffet at The Scarlet Hotel",
-      "start": "2026-11-26T17:00:00+00:00",
-      "end": "2026-11-26T21:00:00+00:00",
-      "location": "The Scarlet Hotel Room",
-      "org": "The Scarlet Hotel",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/26/204120/",
-      "description": "Celebrate Thanksgiving at Well & Good located inside The Scarlet Hotel!\n\nGather your family and friends for a festive Thanksgiving buffet featuring a delicious selection of holiday favorites. Let us take care of the cooking and cleanup while you enjoy quality time with the people who matter most.\n\nNovember 26 | 11:00…",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
     {
       "id": "engage:12822289",
       "source": "engage",
@@ -309,6 +110,72 @@
       "noise_reason": null
     },
     {
+      "id": "unl:204121-981519@events.unl.edu",
+      "source": "unl",
+      "title": "The Mill Coffee and Bistro Thanksgiving Hours",
+      "start": "2026-11-27T13:00:00+00:00",
+      "end": "2026-11-28T00:00:00+00:00",
+      "location": "The Mill Coffee & Bistro Room",
+      "org": "The Mill Coffee & Bistro",
+      "category": null,
+      "url": "http://events.unl.edu/2026/11/27/204121/",
+      "description": "The Mill Coffee & Bistro's adjusted hours over Thanksgiving are as follows:\nNov. 25: CLOSED\nNov. 26: CLOSED\nNov. 27: 7 a.m. - 6 p.m. \nNov. 28: 9 a.m. - 2 p.m. \nNov. 29: 9 a.m. - 2 p.m.",
+      "units": [],
+      "occurrence_count": 3,
+      "other_dates": [
+        "2026-11-28T13:00:00+00:00",
+        "2026-11-29T13:00:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:204198-981549@events.unl.edu",
+      "source": "unl",
+      "title": "It's All About Nature: Photography by Chuck Starr",
+      "start": "2026-11-27T14:00:00+00:00",
+      "end": "2026-11-28T02:00:00+00:00",
+      "location": "Nebraska Innovation Campus, 2nd Floor Link Room",
+      "org": "Brooke Goedert",
+      "category": null,
+      "url": "http://events.unl.edu/2026/11/27/204198/",
+      "description": "It's All About Nature showcases the work of professional photographer Chuck Starr, a lifelong Nebraska resident whose passion for photography began in his youth with film cameras. As photography evolved into the digital age, Starr embraced new technology while continuing to capture the natural beauty of the…",
+      "units": [],
+      "occurrence_count": 33,
+      "other_dates": [
+        "2026-11-28T14:00:00+00:00",
+        "2026-11-29T14:00:00+00:00",
+        "2026-11-30T14:00:00+00:00",
+        "2026-12-01T14:00:00+00:00",
+        "2026-12-02T14:00:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:200835-978298@events.unl.edu",
+      "source": "unl",
+      "title": "Nebraska Nonprofit Management Institute - Understanding Nonprofit Financial Statements",
+      "start": "2026-11-27T15:00:00+00:00",
+      "end": "2026-11-27T15:00:00+00:00",
+      "location": "",
+      "org": "Kate Dean",
+      "category": null,
+      "url": "http://events.unl.edu/2026/11/27/200835/",
+      "description": "Virtual asynchronous course. Learn to read and interpret financial statements,\nread and analyze financial reports and case studies, develop foundational knowledge to prepare you for advanced courses.",
+      "units": [],
+      "occurrence_count": 60,
+      "other_dates": [
+        "2026-11-28T15:00:00+00:00",
+        "2026-11-29T15:00:00+00:00",
+        "2026-11-30T15:00:00+00:00",
+        "2026-12-01T15:00:00+00:00",
+        "2026-12-02T15:00:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
       "id": "unl:203256-981288@events.unl.edu",
       "source": "unl",
       "title": "Fall 2026 Tea Time",
@@ -325,6 +192,31 @@
         "2026-12-04T17:00:00+00:00",
         "2026-12-11T17:00:00+00:00",
         "2026-12-18T17:00:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:201923-980277@events.unl.edu",
+      "source": "unl",
+      "title": "Huskers Abroad 101",
+      "start": "2026-11-27T20:00:00+00:00",
+      "end": "2026-11-27T20:30:00+00:00",
+      "location": "Louise Pound Hall Room LPH 141",
+      "org": "Renae Ninneman",
+      "category": null,
+      "url": "http://events.unl.edu/2026/11/27/201923/",
+      "description": "Join Global Experiences for a 30-minute interactive workshop to help you start planning your global experience. During the workshop, we'll discuss global experience types, funding, the timeline for planning your experience, and thinking through your goals to go abroad. Just show up, no registration is needed, and both…",
+      "units": [
+        "cehs"
+      ],
+      "occurrence_count": 7,
+      "other_dates": [
+        "2026-11-30T20:00:00+00:00",
+        "2026-12-02T20:00:00+00:00",
+        "2026-12-04T20:00:00+00:00",
+        "2026-12-07T20:00:00+00:00",
+        "2026-12-09T20:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -2203,6 +2095,25 @@
       "noise_reason": null
     },
     {
+      "id": "engage:12654508",
+      "source": "engage",
+      "title": "Club Meeting",
+      "start": "2026-12-03T01:30:00+00:00",
+      "end": "2026-12-03T03:00:00+00:00",
+      "location": "College of Business",
+      "org": "Nebraska Supply Chain Club",
+      "category": "ThoughtfulLearning",
+      "url": "https://unl.campuslabs.com/engage/event/12654508",
+      "description": "The Nebraska Supply Chain Club (NSCC) is a student organization open to all majors that helps students explore careers, build professional connections, and gain real-world business experience through the world of supply chain. Supply chain touches nearly every area of business — including management, finance,…",
+      "units": [],
+      "occurrence_count": 2,
+      "other_dates": [
+        "2026-12-10T01:30:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
       "id": "engage:12479166",
       "source": "engage",
       "title": "Club Meeting",
@@ -2864,6 +2775,23 @@
       "category": "Fundraising",
       "url": "https://unl.campuslabs.com/engage/event/12988582",
       "description": "SJP has created a memorial using Canvas material, join us in writing the names of Palestinians who were killed by Israel. This is an act of solidarity with Palestinian martyrs and with Palestinian students in Birzeit University who were imprisoned by Israel for memorial. This is also a great opportunity to stop by and…",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:204445@events.unl.edu",
+      "source": "unl",
+      "title": "IGNITE featuring Nolan Tredway, artist/experience designer",
+      "start": "2026-12-04T18:30:00+00:00",
+      "end": "2026-12-04T18:30:00+00:00",
+      "location": "Johnny Carson Center for Emerging Media Arts Room",
+      "org": "Megan McMasters",
+      "category": null,
+      "url": "http://events.unl.edu/2026/12/04/204445/",
+      "description": "TALK: \"Curious Futures\" A look at how wandering, chance, and moving slowly allows us to create more meaningful connections and possibilities. \n\nBIO: \nNolan Tredway is an artist and designer whose work spans painting, sculpture, animation, and immersive installation. Tredway is the co-director of Tugboat Gallery in…",
       "units": [],
       "occurrence_count": 1,
       "other_dates": [],
@@ -4249,6 +4177,23 @@
       "noise_reason": null
     },
     {
+      "id": "engage:12664428",
+      "source": "engage",
+      "title": "General Creative Writing Club Meeting",
+      "start": "2026-12-10T00:00:00+00:00",
+      "end": "2026-12-10T01:00:00+00:00",
+      "location": "Bailey Library, 2nd floor of Andrews Hall",
+      "org": "Creative Writing Club",
+      "category": "Arts",
+      "url": "https://unl.campuslabs.com/engage/event/12664428",
+      "description": "We meet every Wednesday from 6 -7 PM in the Bailey Library on the second floor of Andrews Hall to socialize and write together! We'd love for you to join us!",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
       "id": "engage:12913575",
       "source": "engage",
       "title": "General Meeting #6",
@@ -5342,6 +5287,40 @@
       "other_dates": [
         "2027-01-24T01:30:00+00:00"
       ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:203864@events.unl.edu",
+      "source": "unl",
+      "title": "Food Science Scholarship Challenge",
+      "start": "2027-01-25T15:00:00+00:00",
+      "end": "2027-01-25T21:00:00+00:00",
+      "location": "Food Innovation Center Room",
+      "org": "Silvana Martini",
+      "category": null,
+      "url": "http://events.unl.edu/2027/01/25/203864/",
+      "description": "Calling all high school juniors and seniors to join us at the University of Nebraska-Lincoln for an exciting day of hands-on experiments, creative challenges, and behind-the-scenes experiences at the Food Innovation Center.\n\nGet ready to turn ideas into food products, put your creations to the test, and tackle…",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:202739@events.unl.edu",
+      "source": "unl",
+      "title": "Navigating Tensions Between Personal and Institutional Values and Goals in Community-Engaged Scholarship",
+      "start": "2027-01-25T18:00:00+00:00",
+      "end": "2027-01-25T19:00:00+00:00",
+      "location": "",
+      "org": "Jentry Barrett",
+      "category": null,
+      "url": "http://events.unl.edu/2027/01/25/202739/",
+      "description": "Community-engaged scholars often pursue their work with commitments to relationship building, responsiveness to community priorities, reciprocity, and meaningful community impact. At the same time, universities operate within systems that emphasize individual initiative, productivity, efficiency, and metrics that…",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
       "noise_penalty": 0,
       "noise_reason": null
     }
