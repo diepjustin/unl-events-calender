@@ -1,201 +1,15 @@
 {
-  "generated_at": "2026-11-26T18:50:34.778539+00:00",
+  "generated_at": "2026-11-27T18:41:58.073627+00:00",
   "window_days": 60,
   "sources": {
     "unl": {
-      "raw_count": 702
+      "raw_count": 698
     },
     "engage": {
-      "raw_count": 228
+      "raw_count": 224
     }
   },
   "events": [
-    {
-      "id": "engage:12822289",
-      "source": "engage",
-      "title": "WIA Leads Meetings",
-      "start": "2026-11-26T22:00:00+00:00",
-      "end": "2026-11-26T23:00:00+00:00",
-      "location": "KH A079",
-      "org": "Aerospace Club",
-      "category": "Social",
-      "url": "https://unl.campuslabs.com/engage/event/12822289",
-      "description": "Welcome Into Aerospace leads will be meeting on a weekly basis to discuss budget, events, sponsorships, grants, and conferences for the club.",
-      "units": [],
-      "occurrence_count": 3,
-      "other_dates": [
-        "2026-12-03T22:00:00+00:00",
-        "2026-12-10T22:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12665190",
-      "source": "engage",
-      "title": "College of Business Student Ethics Board Meeting",
-      "start": "2026-11-26T23:00:00+00:00",
-      "end": "2026-11-27T00:00:00+00:00",
-      "location": "UNL College of Business",
-      "org": "College of Business Student Ethics Board",
-      "category": "GroupBusiness",
-      "url": "https://unl.campuslabs.com/engage/event/12665190",
-      "description": "Weekly Meeting for general business.",
-      "units": [],
-      "occurrence_count": 3,
-      "other_dates": [
-        "2026-12-03T23:00:00+00:00",
-        "2026-12-10T23:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12628419",
-      "source": "engage",
-      "title": "Recreational Pickleball Club Practice",
-      "start": "2026-11-27T00:00:00+00:00",
-      "end": "2026-11-27T01:30:00+00:00",
-      "location": "Harper Tennis/ Pickleball Courts",
-      "org": "Pickleball Club UNL",
-      "category": "Athletics",
-      "url": "https://unl.campuslabs.com/engage/event/12628419",
-      "description": "Our recreational pickleball practices are a fun, laid-back way for University of Nebraska–Lincoln students of all skill levels to play, improve their game, meet new people, and enjoy pickleball. No competitive experience is required.",
-      "units": [],
-      "occurrence_count": 1,
-      "other_dates": [],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "engage:12954950",
-      "source": "engage",
-      "title": "Creative night",
-      "start": "2026-11-27T01:00:00+00:00",
-      "end": "2026-11-27T04:00:00+00:00",
-      "location": "Avery 110",
-      "org": "Lincoln Fantasy And Science Fiction Club",
-      "category": "Social",
-      "url": "https://unl.campuslabs.com/engage/event/12954950",
-      "description": "Creative night is to work on creative projects together",
-      "units": [],
-      "occurrence_count": 2,
-      "other_dates": [
-        "2026-12-11T01:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:201989-980458@events.unl.edu",
-      "source": "unl",
-      "title": "Football Pick 'Em",
-      "start": "2026-11-27T06:05:00+00:00",
-      "end": "2026-11-28T01:00:00+00:00",
-      "location": "",
-      "org": "Aaron Dueker",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/27/201989/",
-      "description": "FREE ENTRY and a new pool every week! Sign up on IM Leagues and see if you can correctly predict the winner of each selected matchup. \nEntry Fee: FREE\n\nPlay Begins: Saturday, August 29\n\nLeagues: Open",
-      "units": [],
-      "occurrence_count": 7,
-      "other_dates": [
-        "2026-12-04T06:05:00+00:00",
-        "2026-12-11T06:05:00+00:00",
-        "2026-12-18T06:05:00+00:00",
-        "2026-12-25T06:05:00+00:00",
-        "2027-01-01T06:05:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:204121-981519@events.unl.edu",
-      "source": "unl",
-      "title": "The Mill Coffee and Bistro Thanksgiving Hours",
-      "start": "2026-11-27T13:00:00+00:00",
-      "end": "2026-11-28T00:00:00+00:00",
-      "location": "The Mill Coffee & Bistro Room",
-      "org": "The Mill Coffee & Bistro",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/27/204121/",
-      "description": "The Mill Coffee & Bistro's adjusted hours over Thanksgiving are as follows:\nNov. 25: CLOSED\nNov. 26: CLOSED\nNov. 27: 7 a.m. - 6 p.m. \nNov. 28: 9 a.m. - 2 p.m. \nNov. 29: 9 a.m. - 2 p.m.",
-      "units": [],
-      "occurrence_count": 3,
-      "other_dates": [
-        "2026-11-28T13:00:00+00:00",
-        "2026-11-29T13:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:204198-981549@events.unl.edu",
-      "source": "unl",
-      "title": "It's All About Nature: Photography by Chuck Starr",
-      "start": "2026-11-27T14:00:00+00:00",
-      "end": "2026-11-28T02:00:00+00:00",
-      "location": "Nebraska Innovation Campus, 2nd Floor Link Room",
-      "org": "Brooke Goedert",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/27/204198/",
-      "description": "It's All About Nature showcases the work of professional photographer Chuck Starr, a lifelong Nebraska resident whose passion for photography began in his youth with film cameras. As photography evolved into the digital age, Starr embraced new technology while continuing to capture the natural beauty of the…",
-      "units": [],
-      "occurrence_count": 33,
-      "other_dates": [
-        "2026-11-28T14:00:00+00:00",
-        "2026-11-29T14:00:00+00:00",
-        "2026-11-30T14:00:00+00:00",
-        "2026-12-01T14:00:00+00:00",
-        "2026-12-02T14:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:200835-978298@events.unl.edu",
-      "source": "unl",
-      "title": "Nebraska Nonprofit Management Institute - Understanding Nonprofit Financial Statements",
-      "start": "2026-11-27T15:00:00+00:00",
-      "end": "2026-11-27T15:00:00+00:00",
-      "location": "",
-      "org": "Kate Dean",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/27/200835/",
-      "description": "Virtual asynchronous course. Learn to read and interpret financial statements,\nread and analyze financial reports and case studies, develop foundational knowledge to prepare you for advanced courses.",
-      "units": [],
-      "occurrence_count": 60,
-      "other_dates": [
-        "2026-11-28T15:00:00+00:00",
-        "2026-11-29T15:00:00+00:00",
-        "2026-11-30T15:00:00+00:00",
-        "2026-12-01T15:00:00+00:00",
-        "2026-12-02T15:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
-    {
-      "id": "unl:203256-981288@events.unl.edu",
-      "source": "unl",
-      "title": "Fall 2026 Tea Time",
-      "start": "2026-11-27T17:00:00+00:00",
-      "end": "2026-11-27T23:00:00+00:00",
-      "location": "Jackie Gaughan Multicultural Center Room 302",
-      "org": "So Murakami",
-      "category": null,
-      "url": "http://events.unl.edu/2026/11/27/203256/",
-      "description": "Stop by the Kawasaki Reading Room on the 3rd floor of the Jackie Gaughan Multicultural Center every Friday from 11am to 4pm, starting August 28th and running through December 15th.",
-      "units": [],
-      "occurrence_count": 4,
-      "other_dates": [
-        "2026-12-04T17:00:00+00:00",
-        "2026-12-11T17:00:00+00:00",
-        "2026-12-18T17:00:00+00:00"
-      ],
-      "noise_penalty": 0,
-      "noise_reason": null
-    },
     {
       "id": "unl:201923-980277@events.unl.edu",
       "source": "unl",
@@ -237,6 +51,71 @@
       "other_dates": [
         "2026-12-04T22:00:00+00:00",
         "2026-12-11T22:00:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:204121-981520@events.unl.edu",
+      "source": "unl",
+      "title": "The Mill Coffee and Bistro Thanksgiving Hours",
+      "start": "2026-11-28T13:00:00+00:00",
+      "end": "2026-11-29T00:00:00+00:00",
+      "location": "The Mill Coffee & Bistro Room",
+      "org": "The Mill Coffee & Bistro",
+      "category": null,
+      "url": "http://events.unl.edu/2026/11/28/204121/",
+      "description": "The Mill Coffee & Bistro's adjusted hours over Thanksgiving are as follows:\nNov. 25: CLOSED\nNov. 26: CLOSED\nNov. 27: 7 a.m. - 6 p.m. \nNov. 28: 9 a.m. - 2 p.m. \nNov. 29: 9 a.m. - 2 p.m.",
+      "units": [],
+      "occurrence_count": 2,
+      "other_dates": [
+        "2026-11-29T13:00:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:204198-981550@events.unl.edu",
+      "source": "unl",
+      "title": "It's All About Nature: Photography by Chuck Starr",
+      "start": "2026-11-28T14:00:00+00:00",
+      "end": "2026-11-29T02:00:00+00:00",
+      "location": "Nebraska Innovation Campus, 2nd Floor Link Room",
+      "org": "Brooke Goedert",
+      "category": null,
+      "url": "http://events.unl.edu/2026/11/28/204198/",
+      "description": "It's All About Nature showcases the work of professional photographer Chuck Starr, a lifelong Nebraska resident whose passion for photography began in his youth with film cameras. As photography evolved into the digital age, Starr embraced new technology while continuing to capture the natural beauty of the…",
+      "units": [],
+      "occurrence_count": 32,
+      "other_dates": [
+        "2026-11-29T14:00:00+00:00",
+        "2026-11-30T14:00:00+00:00",
+        "2026-12-01T14:00:00+00:00",
+        "2026-12-02T14:00:00+00:00",
+        "2026-12-03T14:00:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:200835-978299@events.unl.edu",
+      "source": "unl",
+      "title": "Nebraska Nonprofit Management Institute - Understanding Nonprofit Financial Statements",
+      "start": "2026-11-28T15:00:00+00:00",
+      "end": "2026-11-28T15:00:00+00:00",
+      "location": "",
+      "org": "Kate Dean",
+      "category": null,
+      "url": "http://events.unl.edu/2026/11/28/200835/",
+      "description": "Virtual asynchronous course. Learn to read and interpret financial statements,\nread and analyze financial reports and case studies, develop foundational knowledge to prepare you for advanced courses.",
+      "units": [],
+      "occurrence_count": 60,
+      "other_dates": [
+        "2026-11-29T15:00:00+00:00",
+        "2026-11-30T15:00:00+00:00",
+        "2026-12-01T15:00:00+00:00",
+        "2026-12-02T15:00:00+00:00",
+        "2026-12-03T15:00:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -654,7 +533,7 @@
       "url": "http://events.unl.edu/2026/11/30/202858/",
       "description": "Monday nights just got smarter!\n\nJoin us at Barred Owl every Monday at 7 p.m. for weekly trivia! Gather your smartest friends, build your team of up to 6 people, and put your knowledge to the test.\n* Prizes for the winning teams\n* Teams of up to 6\n* One phone per team\n* Every Monday at 7 p.m.\n\nGrab your crew and make…",
       "units": [],
-      "occurrence_count": 8,
+      "occurrence_count": 9,
       "other_dates": [
         "2026-12-08T01:00:00+00:00",
         "2026-12-15T01:00:00+00:00",
@@ -2390,6 +2269,25 @@
       "noise_reason": null
     },
     {
+      "id": "engage:12822290",
+      "source": "engage",
+      "title": "WIA Leads Meetings",
+      "start": "2026-12-03T22:00:00+00:00",
+      "end": "2026-12-03T23:00:00+00:00",
+      "location": "KH A079",
+      "org": "Aerospace Club",
+      "category": "Social",
+      "url": "https://unl.campuslabs.com/engage/event/12822290",
+      "description": "Welcome Into Aerospace leads will be meeting on a weekly basis to discuss budget, events, sponsorships, grants, and conferences for the club.",
+      "units": [],
+      "occurrence_count": 2,
+      "other_dates": [
+        "2026-12-10T22:00:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
       "id": "engage:12604438",
       "source": "engage",
       "title": "SSAB General Meeting",
@@ -2403,6 +2301,25 @@
       "units": [],
       "occurrence_count": 1,
       "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "engage:12665191",
+      "source": "engage",
+      "title": "College of Business Student Ethics Board Meeting",
+      "start": "2026-12-03T23:00:00+00:00",
+      "end": "2026-12-04T00:00:00+00:00",
+      "location": "UNL College of Business",
+      "org": "College of Business Student Ethics Board",
+      "category": "GroupBusiness",
+      "url": "https://unl.campuslabs.com/engage/event/12665191",
+      "description": "Weekly Meeting for general business.",
+      "units": [],
+      "occurrence_count": 2,
+      "other_dates": [
+        "2026-12-10T23:00:00+00:00"
+      ],
       "noise_penalty": 0,
       "noise_reason": null
     },
@@ -2729,6 +2646,29 @@
       "noise_reason": null
     },
     {
+      "id": "unl:201989-980460@events.unl.edu",
+      "source": "unl",
+      "title": "Football Pick 'Em",
+      "start": "2026-12-04T06:05:00+00:00",
+      "end": "2026-12-05T01:00:00+00:00",
+      "location": "",
+      "org": "Aaron Dueker",
+      "category": null,
+      "url": "http://events.unl.edu/2026/12/04/201989/",
+      "description": "FREE ENTRY and a new pool every week! Sign up on IM Leagues and see if you can correctly predict the winner of each selected matchup. \nEntry Fee: FREE\n\nPlay Begins: Saturday, August 29\n\nLeagues: Open",
+      "units": [],
+      "occurrence_count": 6,
+      "other_dates": [
+        "2026-12-11T06:05:00+00:00",
+        "2026-12-18T06:05:00+00:00",
+        "2026-12-25T06:05:00+00:00",
+        "2027-01-01T06:05:00+00:00",
+        "2027-01-08T06:05:00+00:00"
+      ],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
       "id": "unl:204355@events.unl.edu",
       "source": "unl",
       "title": "First Friday at the Great Plains Art Museum",
@@ -2778,6 +2718,26 @@
       "units": [],
       "occurrence_count": 1,
       "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:203256-981289@events.unl.edu",
+      "source": "unl",
+      "title": "Fall 2026 Tea Time",
+      "start": "2026-12-04T17:00:00+00:00",
+      "end": "2026-12-04T23:00:00+00:00",
+      "location": "Jackie Gaughan Multicultural Center Room 302",
+      "org": "So Murakami",
+      "category": null,
+      "url": "http://events.unl.edu/2026/12/04/203256/",
+      "description": "Stop by the Kawasaki Reading Room on the 3rd floor of the Jackie Gaughan Multicultural Center every Friday from 11am to 4pm, starting August 28th and running through December 15th.",
+      "units": [],
+      "occurrence_count": 3,
+      "other_dates": [
+        "2026-12-11T17:00:00+00:00",
+        "2026-12-18T17:00:00+00:00"
+      ],
       "noise_penalty": 0,
       "noise_reason": null
     },
@@ -4453,6 +4413,23 @@
       "noise_reason": null
     },
     {
+      "id": "engage:12954951",
+      "source": "engage",
+      "title": "Creative night",
+      "start": "2026-12-11T01:00:00+00:00",
+      "end": "2026-12-11T04:00:00+00:00",
+      "location": "Avery 110",
+      "org": "Lincoln Fantasy And Science Fiction Club",
+      "category": "Social",
+      "url": "https://unl.campuslabs.com/engage/event/12954951",
+      "description": "Creative night is to work on creative projects together",
+      "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
       "id": "engage:12990078",
       "source": "engage",
       "title": "Breakfast for Dinner",
@@ -5065,12 +5042,13 @@
       "units": [
         "casnr"
       ],
-      "occurrence_count": 5,
+      "occurrence_count": 6,
       "other_dates": [
         "2027-01-13T14:45:00+00:00",
         "2027-01-14T14:45:00+00:00",
         "2027-01-20T14:45:00+00:00",
-        "2027-01-21T14:45:00+00:00"
+        "2027-01-21T14:45:00+00:00",
+        "2027-01-26T14:45:00+00:00"
       ],
       "noise_penalty": 0,
       "noise_reason": null
@@ -5319,6 +5297,25 @@
       "url": "http://events.unl.edu/2027/01/25/202739/",
       "description": "Community-engaged scholars often pursue their work with commitments to relationship building, responsiveness to community priorities, reciprocity, and meaningful community impact. At the same time, universities operate within systems that emphasize individual initiative, productivity, efficiency, and metrics that…",
       "units": [],
+      "occurrence_count": 1,
+      "other_dates": [],
+      "noise_penalty": 0,
+      "noise_reason": null
+    },
+    {
+      "id": "unl:202055@events.unl.edu",
+      "source": "unl",
+      "title": "Initial Pesticide Training - Omaha",
+      "start": "2027-01-26T14:30:00+00:00",
+      "end": "2027-01-26T23:00:00+00:00",
+      "location": "Douglas-Sarpy County Extension Room",
+      "org": "Pesticide Safety Education Department",
+      "category": null,
+      "url": "http://events.unl.edu/2027/01/26/202055/",
+      "description": "Initial Training for commercial/noncommercial applicators.",
+      "units": [
+        "casnr"
+      ],
       "occurrence_count": 1,
       "other_dates": [],
       "noise_penalty": 0,
